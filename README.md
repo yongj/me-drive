@@ -4,9 +4,9 @@ Interview experiences & prep materials collected from [一亩三分地 (1point3a
 
 ## Focus
 
-- **SWE** — especially distributed storage / cloud storage background
-- **AI Engineer** — agent direction
-- **AI coding in interviews** — how companies assess candidates' use of AI coding tools
+- **SWE** — especially distributed storage / cloud storage background → [focus/swe-distributed-storage.md](focus/swe-distributed-storage.md)
+- **AI Engineer** — agent direction → [focus/ai-engineer.md](focus/ai-engineer.md)
+- **AI coding in interviews** — how companies assess candidates' use of AI coding tools → [focus/ai-coding-in-interviews.md](focus/ai-coding-in-interviews.md)
 - **Companies**: Google, Meta, OpenAI, Snowflake, Anthropic, Nvidia, … (expanding)
 
 ## Collected threads
@@ -20,4 +20,5 @@ Interview experiences & prep materials collected from [一亩三分地 (1point3a
 
 ## Layout
 
-- `interviews/` — one markdown file per thread, with original post link, interview rounds, useful replies, and prep notes.
+- `threads/` — one markdown file per thread, with original post link, interview rounds, useful replies, and prep notes.
+- `focus/` — per-focus-area summaries: reference materials and prep notes distilled across threads.
