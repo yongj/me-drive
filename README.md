@@ -17,3 +17,4 @@ Interview experiences & prep materials collected from [一亩三分地 (1point3a
 ## Layout
 
 - `interviews/` — one markdown file per thread, with original post link, interview rounds, useful replies, and prep notes.
+| 2026-09-25 | [雪花 AI Engineer 昂赛特](https://www.1point3acres.com/home/thread/1190471) | Snowflake | AI Engineer（偏 agent） | Onsite 三轮：AI Augmented coding（rate limiter）、Expertise（agent skill pipeline + agent memory）、Behavior；Pass 未接 |
