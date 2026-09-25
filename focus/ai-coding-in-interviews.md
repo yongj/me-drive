@@ -16,6 +16,22 @@
   4. **怎么写测试**验证
 - 楼主（codex + claude 双 max 用户）评价：平时 AI native 的人会比较轻松愉快
 
+## 公司政策对比：允许 / 要求 / 禁用
+
+（截至 2026-09-24；政策变化快，备考前以 recruiter 给的最新说明为准）
+
+| 公司 | 政策档 | 形式 / 说明 | 出处 |
+| --- | --- | --- | --- |
+| Meta | 允许（已上线） | 2025-10 上线的 AI-enabled coding 轮，替代两轮 onsite coding 中的一轮：60 分钟 CoderPad，会话内置 AI（可选 GPT-4o mini、GPT-5、Claude Sonnet 4/4.5、Gemini 2.5 Pro、Llama 4 Maverick 等）。有 AI 之后题目反而更难：偏向模糊需求、系统级思考，AI 能搭脚手架但做不完。2026 年向所有后端 / 运维岗位铺开 | [mlq.ai（2025-08 试点报道）](https://mlq.ai/news/meta-pilots-ai-assisted-coding-interviews-letting-candidates-use-ai-tools-in-technical-assessments/)、[Montes（2026-03 rollout 细节）](https://medium.com/@montes.makes/meta-gave-candidates-gpt-5-and-claude-during-interviews-the-questions-got-harder-ca11b34774c1) |
+| Google | 允许（试点） | 2026 下半年起的试点：美国部分团队（Cloud、Platforms & Devices）初中级 SWE 岗位新增"代码理解"（code comprehension）轮，可用 Google 指定的 AI 助手（Gemini），内容是读 / 调试 / 优化现有代码库。考核明确包含"AI 熟练度"：prompt、输出验证、debug。试点成功再全球推广 | [webpronews（BI 内部文件报道，2026-05）](https://www.webpronews.com/google-lets-candidates-bring-ai-to-interviews-inside-the-pilot-reshaping-tech-hiring/)、[Exponent 2026 指南](https://www.tryexponent.com/blog/google-ai-coding-interview) |
+| LinkedIn | 允许（已成标配） | AI-enabled 轮已成标准：两轮 coding 中的一轮，在 CoderPad 上带 AI 聊天面板（Claude/Opus 级）。AI 不能直接改代码——你负责粘贴和验证。4 分制，3 分过，按相对排名打分；写出能跑的代码之后，追问才是真正的门槛（并发 / 线程安全、扩展性、脏输入、生产就绪） | [coding-interview-questions（2026 年 FAANG 政策表）](https://github.com/shanmukhdatta/coding-interview-questions/blob/HEAD/FAANG-Recent-Questions.md) |
+| Snowflake | 要求 | "AI Augmented coding" 轮：要求**自带电脑**，可提前预装任何 AI（也可用面试官的电脑）。详见上面"公司怎么考" | [thread-1190471](../threads/thread-1190471-snowflake-ai-engineer.md) |
+| Amazon | 禁用 | 严格禁 AI：从 OA 到终面全程"零辅助"。面试官会盯异常停顿、瞟屏幕、答案过于完美等信号 | [ITPro 2025-03 报道，经 Medium 整理](https://medium.com/@the_tiredman/ai-in-interviews-why-meta-allows-it-and-amazon-bans-it-and-what-it-means-for-job-seekers-7019ac6b5565) |
+| Anthropic | 分情况 | take-home 可用 AI；live 面试严格禁用 | [coding-interview-questions（2026 年 FAANG 政策表）](https://github.com/shanmukhdatta/coding-interview-questions/blob/HEAD/FAANG-Recent-Questions.md) |
+| ByteDance / Palantir | 禁用 | 明确禁用 AI | [同上](https://github.com/shanmukhdatta/coding-interview-questions/blob/HEAD/FAANG-Recent-Questions.md) |
+
+新政策帖按上表加一行即可：公司、政策档（允许 / 要求 / 禁用 / 分情况）、形式说明、带链接的出处。
+
 ## 考核维度提炼
 
 1. **AI 协作能力**：能不能高效地跟 AI 交流、迭代出正确的代码
@@ -31,7 +47,7 @@
 
 ## 待补充
 
-- 其他公司的 AI-augmented coding 轮样本：允许 / 要求 / 禁用 AI 的政策差异
+- 继续加行：Apple、Microsoft、OpenAI、DoorDash 等的政策（按上表格式）
 - take-home、OA 中对 AI 使用的规定
 
 ## 相关帖子
