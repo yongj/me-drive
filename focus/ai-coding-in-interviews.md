@@ -18,7 +18,7 @@
 
 ## 公司政策对比：允许 / 要求 / 禁用
 
-（截至 2026-10-01；政策变化快，备考前以 recruiter 给的最新说明为准）
+（截至 2026-10-02；政策变化快，备考前以 recruiter 给的最新说明为准）
 
 | 公司 | 政策档 | 形式 / 说明 | 出处 |
 | --- | --- | --- | --- |
@@ -30,6 +30,7 @@
 | Amazon | 禁用 | 严格禁 AI：从 OA 到终面全程"零辅助"。面试官会盯异常停顿、瞟屏幕、答案过于完美等信号 | [ITPro 2025-03 报道，经 Medium 整理](https://medium.com/@the_tiredman/ai-in-interviews-why-meta-allows-it-and-amazon-bans-it-and-what-it-means-for-job-seekers-7019ac6b5565) |
 | Anthropic | 分情况 | take-home 可用 AI；live 面试严格禁用 | [coding-interview-questions（2026 年 FAANG 政策表）](https://github.com/shanmukhdatta/coding-interview-questions/blob/HEAD/FAANG-Recent-Questions.md) |
 | ByteDance / Palantir | 禁用 | 明确禁用 AI | [同上](https://github.com/shanmukhdatta/coding-interview-questions/blob/HEAD/FAANG-Recent-Questions.md) |
+| OpenAI | 允许（公开信息汇编，待一手验证） | 楼主整理称 OpenAI 明确面试中可用 AI 生成辅助代码并解释；出处为公开信息汇编帖、非一手面经，备考前以 recruiter 说明为准 | [thread-1190956](../threads/thread-1190956-ai-rewriting-sde-interviews.md) |
 
 新政策帖按上表加一行即可：公司、政策档（允许 / 要求 / 禁用 / 分情况）、形式说明、带链接的出处。
 
@@ -48,9 +49,10 @@
 
 ## 待补充
 
-- 继续加行：Apple、Microsoft、OpenAI、DoorDash 等的政策（按上表格式）
+- 继续加行：Apple、Microsoft、DoorDash 等的政策（按上表格式）
 - take-home、OA 中对 AI 使用的规定
 
 ## 相关帖子
 
 - [thread-1190471-snowflake-ai-engineer.md](../threads/thread-1190471-snowflake-ai-engineer.md)
+- [thread-1190956-ai-rewriting-sde-interviews.md](../threads/thread-1190956-ai-rewriting-sde-interviews.md)（2025-2026 面试政策变化汇编：OA 防作弊、Meta/Google/OpenAI 允许 AI 辅助、AI 原生场景题）
