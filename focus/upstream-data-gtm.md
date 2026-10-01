@@ -139,3 +139,39 @@
 - [thread-1178971-ats-job-scraping.md](../threads/thread-1178971-ats-job-scraping.md)——ATS 招聘数据案例（2.4w 浏览的注意力验证）。
 - [thread-1186353-upstream-info-job-hunting.md](../threads/thread-1186353-upstream-info-job-hunting.md)——种子帖：万能钥匙与五步流程。
 - 小样本试点数据：`~/workspace/upstream-samples/jobs_pilot.csv`（4013 个近三个月职位，2026-10-02）。
+
+## E. 需求 / 项目发布平台清单（2026-10-02 整理）
+
+说明：客户主动发布需求 / RFP / 项目的平台。价格信息来自 2026-10-02 公开网页搜索的第三方对比文章（rfphawk.com、cleat.ai、sourceforge 等），非官网实时报价，仅供参考。官网链接已逐一核验。
+
+### 政府采购 / RFP 平台
+
+- SAM.gov（https://sam.gov）——美国联邦官方招标站，免费，基准线。
+- GovWin IQ / Deltek（https://www.govwin.com）——联邦＋州地方＋预测，企业级，五位数/年。
+- Bloomberg Government——政策＋采购，约 $6,000+/年/席位。
+- BidNet Direct（https://www.bidnetdirect.com）——州/地方政府招标聚合，约 $1,000–2,000/年。
+- GovTribe（https://govtribe.com）——联邦＋部分州地方，约 $2,000–3,000/年。
+- RFPHawk（https://www.rfphawk.com）——免费档＋Pro $20/月。
+- GovBidWire（https://govbidwire.com）——免费档，付费 $39–149/月，带 AI 标书分析。
+- HigherGov——Starter $500/年起。
+- 免费数据源：USASpending.gov（历史中标）、Grants.gov（联邦 grants）、GSA eBuy。
+- 国际：TED（欧盟）、MERX（加拿大）、Contracts Finder（英国）。
+
+### 自由职业 / 项目外包平台
+
+- Upwork（https://www.upwork.com）——量最大，抽成 5–20% 阶梯。
+- Fiverr（https://www.fiverr.com）——gig 模式，抽 20%。
+- Toptal（https://www.toptal.com）——只收前 3%，高端路线。
+- Freelancer.com（https://www.freelancer.com）——竞标制，项目量极大。
+- Guru（https://www.guru.com）、PeoplePerHour（https://www.peopleperhour.com）、Contra（https://contra.com）。
+- 开发者垂直：Gun.io、Lemon.io（审核制，$60–200/小时）。
+
+### 国内平台
+
+- 猪八戒网（https://zbj.com）——量最大，抽成高、需保证金。
+- 程序员客栈（https://www.proginn.com）——程序员/产品/设计垂直。
+- 开源众包（https://zb.oschina.net）——开源中国旗下。
+- CODING 码市（https://mart.coding.net）——软件外包。
+- 开发邦（https://www.kaifabang.com）、猿急送（https://www.yuanjisong.com）。
+
+观察（2026-10-02）：GovCon 已出现"便宜版 GovWin"（RFPHawk $20/月、GovBidWire $39/月，对标 GovWin 五位数/年），印证 D 部分"被定价挡住的长尾"缝隙真实存在。
