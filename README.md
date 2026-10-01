@@ -26,4 +26,4 @@ Interview experiences & prep materials collected from [一亩三分地 (1point3a
 
 - `threads/` — one markdown file per thread, with original post link, interview rounds, useful replies, and prep notes.
 - `focus/` — per-focus summaries distilled from collected threads.
-- `jobs/` — positions actively being prepared: one file per role with posting link, key facts, and interview prep notes.
+- `drive/` — positions actively being prepared: one file per role with posting link, key facts, and interview prep notes.
