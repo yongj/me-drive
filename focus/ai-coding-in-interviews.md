@@ -18,14 +18,15 @@
 
 ## 公司政策对比：允许 / 要求 / 禁用
 
-（截至 2026-09-24；政策变化快，备考前以 recruiter 给的最新说明为准）
+（截至 2026-10-01；政策变化快，备考前以 recruiter 给的最新说明为准）
 
 | 公司 | 政策档 | 形式 / 说明 | 出处 |
 | --- | --- | --- | --- |
 | Meta | 允许（已上线） | 2025-10 上线的 AI-enabled coding 轮，替代两轮 onsite coding 中的一轮：60 分钟 CoderPad，会话内置 AI（可选 GPT-4o mini、GPT-5、Claude Sonnet 4/4.5、Gemini 2.5 Pro、Llama 4 Maverick 等）。有 AI 之后题目反而更难：偏向模糊需求、系统级思考，AI 能搭脚手架但做不完。2026 年向所有后端 / 运维岗位铺开 | [mlq.ai（2025-08 试点报道）](https://mlq.ai/news/meta-pilots-ai-assisted-coding-interviews-letting-candidates-use-ai-tools-in-technical-assessments/)、[Montes（2026-03 rollout 细节）](https://medium.com/@montes.makes/meta-gave-candidates-gpt-5-and-claude-during-interviews-the-questions-got-harder-ca11b34774c1) |
-| Google | 允许（试点） | 2026 下半年起的试点：美国部分团队（Cloud、Platforms & Devices）初中级 SWE 岗位新增"代码理解"（code comprehension）轮，可用 Google 指定的 AI 助手（Gemini），内容是读 / 调试 / 优化现有代码库。考核明确包含"AI 熟练度"：prompt、输出验证、debug。试点成功再全球推广 | [webpronews（BI 内部文件报道，2026-05）](https://www.webpronews.com/google-lets-candidates-bring-ai-to-interviews-inside-the-pilot-reshaping-tech-hiring/)、[Exponent 2026 指南](https://www.tryexponent.com/blog/google-ai-coding-interview) |
+| Google | 允许（试点） | 2026 下半年起的试点：美国部分团队（Cloud、Platforms & Devices）初中级 SWE 岗位新增"代码理解"（code comprehension）轮，可用 Google 指定的 AI 助手（Gemini），内容是读 / 调试 / 优化现有代码库。考核明确包含"AI 熟练度"：prompt、输出验证、debug。配套改动：Googleyness & Leadership 轮改为讨论候选人过往项目的技术细节，初级岗一轮传统技术轮换成开放式工程挑战。招聘 VP Brian Ong 对 BI 确认：试点是为"更贴近团队在 AI 时代的实际工作方式"（human-led, AI-assisted）。试点成功再全球推广 | [webpronews（BI 内部文件报道，2026-05）](https://www.webpronews.com/google-lets-candidates-bring-ai-to-interviews-inside-the-pilot-reshaping-tech-hiring/)、[thehrdigest（2026-05 报道）](https://www.thehrdigest.com/using-ai-assistants-during-job-interviews-google-embraces-a-new-era-of-hiring/)、[Exponent 2026 指南](https://www.tryexponent.com/blog/google-ai-coding-interview) |
 | LinkedIn | 允许（已成标配） | AI-enabled 轮已成标准：两轮 coding 中的一轮，在 CoderPad 上带 AI 聊天面板（Claude/Opus 级）。AI 不能直接改代码——你负责粘贴和验证。4 分制，3 分过，按相对排名打分；写出能跑的代码之后，追问才是真正的门槛（并发 / 线程安全、扩展性、脏输入、生产就绪） | [coding-interview-questions（2026 年 FAANG 政策表）](https://github.com/shanmukhdatta/coding-interview-questions/blob/HEAD/FAANG-Recent-Questions.md) |
 | Snowflake | 要求 | "AI Augmented coding" 轮：要求**自带电脑**，可提前预装任何 AI（也可用面试官的电脑）。详见上面"公司怎么考" | [thread-1190471](../threads/thread-1190471-snowflake-ai-engineer.md) |
+| Canva | 要求 | 2025 年 6 月起强制：传统 CS 基础轮换成"AI-Assisted Coding"轮，覆盖后端 / 前端 / ML 岗位。候选人用自带 AI 助手（Copilot、Cursor、Claude 均可），60 分钟内在脚手架项目里完成产品向任务（如实现模板系统），边做边讲清思路；考核的是指挥 AI、review 输出、抓 bug 和 edge case 的能力。官方原话："Yes, you can use AI in our interviews. In fact, we insist." | [The Register（2025-06 报道）](https://www.theregister.com/software/2025/06/11/canva-now-requires-use-of-ai-during-developer-job-interviews/)、[dig.watch（2025-06）](https://dig.watch/updates/canva-makes-ai-use-mandatory-in-coding-interviews)、[Final Round AI（2026 指南）](https://www.finalroundai.com/blog/canva-interview-process) |
 | Amazon | 禁用 | 严格禁 AI：从 OA 到终面全程"零辅助"。面试官会盯异常停顿、瞟屏幕、答案过于完美等信号 | [ITPro 2025-03 报道，经 Medium 整理](https://medium.com/@the_tiredman/ai-in-interviews-why-meta-allows-it-and-amazon-bans-it-and-what-it-means-for-job-seekers-7019ac6b5565) |
 | Anthropic | 分情况 | take-home 可用 AI；live 面试严格禁用 | [coding-interview-questions（2026 年 FAANG 政策表）](https://github.com/shanmukhdatta/coding-interview-questions/blob/HEAD/FAANG-Recent-Questions.md) |
 | ByteDance / Palantir | 禁用 | 明确禁用 AI | [同上](https://github.com/shanmukhdatta/coding-interview-questions/blob/HEAD/FAANG-Recent-Questions.md) |
