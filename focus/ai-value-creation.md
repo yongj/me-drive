@@ -45,6 +45,58 @@ AI 出现后信息差没有消失，反而在某些维度变大——因为 AI �
 
 **美国 tech 求职的迁移**：H-1B sponsor 名单（USCIS 数据）、PERM filing 数据——精确筛出"有担保资格 + 真在招人"的公司，替代 LinkedIn 盲投。
 
+## 上游数据源清单
+
+按领域整理的公开上游数据源。规律：凡是"需要政府批准才能干的事"（雇人、募资、卖药、开诊所、拿合同、游说），背后都有一个强制公示库。✅ 表示已实际拉取验证过。
+
+**移民 / 劳工**
+- ✅ USCIS H-1B Employer Data Hub —— 全美雇主 H-1B 初次批准/拒绝数（FY2009–FY2026Q2），可按公司/城市/州/NAICS 查询导出
+- ✅ DOL OFLC Performance Data —— PERM（绿卡劳工证）、LCA（H-1B 工资申报）、H-2A/H-2B 全量披露，含雇主、职位、工资、工作地
+- DOL prevailing wage 库 —— 各职位各地区的法定最低工资
+
+**公司 / 金融**
+- SEC EDGAR —— 上市公司 10-K/10-Q、13F（机构持仓）、Form D（私募融资披露）、内幕交易申报
+- 各州 Secretary of State 公司注册库 —— 公司状态、注册代理人、高管名单（Florida Sunbiz、Washington 等支持免费 bulk 下载）
+- IRS Form 990 —— 非营利组织财报
+- OpenCorporates —— 跨国公司实体图谱
+
+**许可 / 执照**
+- 各州职业执照库 —— 医生、律师、承包商、电工等，很多州直接提供全量 CSV 下载
+- FCC 执照库、FAA 航空器/飞行员注册库
+- 欧洲：ESMA Registers → 各国 NCA（MiFID 牌照，thread 1186353 案例）；英国 FCA Register；中国《烟草专卖零售许可证》库（thread 1186353 案例）
+
+**医药 / 健康**
+- openFDA —— 药品不良事件报告（1500 万+）、药品标签
+- ClinicalTrials.gov —— 40 万+ 临床试验
+- CMS data.cms.gov —— Medicare 支付、医院/医生数据；NPI Registry —— 全美医疗从业者注册
+
+**钱的流向**
+- USASpending.gov / SAM.gov —— 联邦政府采购合同全量（谁刚拿到政府 AI 合同 → 可能扩招）
+- FEC —— 竞选捐款、候选人、委员会，支持 bulk 下载
+
+**法规 / 立法 / 游说**
+- Federal Register API —— 联邦法规、拟议规则（1994 至今），免费免 key
+- regulations.gov —— 法规公众评论意见
+- Congress.gov API —— 法案、投票记录
+- Senate Lobbying Disclosure（LDA）—— 谁在为什么议题雇游说公司；FARA —— 外国代理人登记
+
+**法院**
+- CourtListener / RECAP —— 免费判例和案卷
+- PACER —— 联邦法院全量案卷（付费）
+
+**专利 / 商标**
+- USPTO bulk data —— 专利、商标申请全量
+- EUIPO 商标库、EPO Espacenet（thread 1186353：商标注册通常早于产品发布 6–18 个月，是产品先行指标）
+
+**房地产**
+- 各县 assessor / parcel 数据 —— 房主、估值、交易记录；NYC ACRIS 有 bulk 下载
+
+**统计**
+- Census（人口普查）、BLS（劳工统计）、BEA（经济分析）
+
+**总入口**
+- data.gov（美国）、data.gov.uk（英国）、data.gouv.fr（法国）、欧盟 open data portal
+
 ## 已见的商业机会形态
 
 - **免费数据包装成订阅**：网上大量订阅站把 GOV.UK 的免费 CSV 包装成 £9.99/月的"独家数据库"——"上游数据 + 处理 + 呈现"本身就是一门生意，自己下载 + Excel 筛选功能完全一样，差的是包装和触达。
