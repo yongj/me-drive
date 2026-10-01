@@ -8,6 +8,7 @@ Interview experiences & prep materials collected from [一亩三分地 (1point3a
 - **AI Engineer** — agent direction
 - **AI coding in interviews** — how companies assess candidates' use of AI coding tools
 - **AI value creation** — AI 应用场景探索：用 AI + 上游数据创造价值和商业机会（不收面试内容）
+- **Upstream data GTM** — 上游数据的商业化：每类上游数据源卖给谁、卖什么形态、怎么触达客户
 - **Companies**: Google, Meta, OpenAI, Snowflake, Anthropic, Nvidia, … (expanding)
 
 ## Collected threads
