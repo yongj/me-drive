@@ -25,6 +25,8 @@
 
 **试点数据里现成的验证素材**：Accenture 近三个月 48 个 AI 相关岗（"AI Engineer / Agentic AI Engineer"、"Forward Deployed AI Engineer"），"AI Engineer" title 反而是咨询公司用得最成体系、Amazon 几乎不用；Wolters Kluwer 版面 442 个职位里 184 个是 30 天以上老帖。
 
+**已验证案例：jobuzzer.com（[thread-1178300](../threads/thread-1178300-jobuzzer.md)，2026-05-28，1.7w 浏览 / 316 收藏）**：独立开发者高频监控 7k→9k 家公司官网招聘页，"比 LinkedIn 更早看到职位"，免费搜索 + 付费邮件通知。验证了三点：①"卖 workflow 不卖数据"——用户买的是"更早知道"+被动通知；②求职者获客成立、付费天花板低——作者自述"收入还未能够支持开支"，与本节第 4 条排序一致；③成本纪律决定生死——工程化 diff 先行、有增量才用 AI 分类，数据源按 ATS API → 渲染浏览器 → LLM 三级走，成本递增。
+
 ## B. 上游数据源清单 × 客户触达矩阵
 
 *逐类格式：信号 → 谁付费 → 卖什么形态 → 怎么触达 → 最小验证实验。数据源出自 [ai-value-creation.md](ai-value-creation.md) 的"上游数据源清单"。*
