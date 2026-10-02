@@ -124,3 +124,59 @@ lighter and engineering-flavored (log parsing, top-N) rather than pure
 algorithm puzzles. Glassdoor's NVIDIA storage interview page was blocked by
 Cloudflare bot protection and could not be read; LeetCode CN had no
 NVIDIA-storage-specific writeups.
+
+## Background research: NVIDIA storage engineering (collected 2026-10-02)
+
+Note: NVIDIA has not publicly documented the internal object storage system
+itself (the JD describes an internal system: 10k+ nodes, exabytes, serving
+AI/ML research teams). The materials below cover the surrounding stack.
+
+### NVIDIA Technical Blog (developer.nvidia.com)
+
+- GPUDirect tag archive: https://developer.nvidia.com/blog/tag/gpudirect/
+- "ModelExpress: Distributing Model Artifacts at the Speed of Light"
+  (2026-07-24) — distributing model checkpoints (hundreds of GB to TB) at
+  speed; directly relevant to object storage for AI artifacts.
+- "Cut Checkpoint Costs with About 30 Lines of Python and NVIDIA nvCOMP"
+  (2026-04-09) — LLM checkpoint save/resume cost optimization.
+- "Accelerating AI Storage by up to 48% with NVIDIA Spectrum-X Networking
+  Platform and Partners" (2025-02-04) — storage fabric for AI factories.
+
+### Research paper
+
+- FMS 2025 paper "Advancing Memory and Storage Architectures for Next-Gen AI
+  Workloads" — introduces SCADA (Scaled Accelerated Data Access): GPUs
+  initiate and control storage IO directly, taking the control path off the
+  CPU (GPUDirect had only offloaded the data path). Summary:
+  https://www.blocksandfiles.com/ai-ml/2025/11/25/nvidia-scada-offloads-storage-control-path-to-the-gpu/1711995
+
+### Official docs / primers
+
+- NVIDIA GPUDirect Storage and Magnum IO documentation (docs.nvidia.com) —
+  the official answer to "performance at all levels" in the JD.
+- BeeGFS + GPUDirect Storage explainer (good GDS technical background):
+  https://www.beegfs.io/c/beegfs-now-supports-nvidia-magnum-io-gpu/
+
+### Ecosystem context
+
+- NVIDIA Eos supercomputer (4,608 H100) uses DDN EXAScaler: 48 AI400NVX2
+  appliances, 12 PB flash, 4.3 TB/s read, 3.1 TB/s write — NVIDIA's own
+  research clusters historically ran external parallel filesystems, so the
+  internal object storage in the JD is likely a newer DGX Cloud-era project.
+  Source: https://per3s.github.io/per3s.2024/material/2024_per3s_NCP_storage_architecture.pdf
+- NVIDIA-Certified Storage program (GTC 2026): Cloudian HyperStore 8.2.6
+  (S3-compatible, exabyte-scalable) certified — S3 API is the standard
+  interface for NVIDIA-validated AI storage.
+  Source: https://www.storagenewsletter.com/2026/03/18/nvidia-gtc-2026-cloudian-hyperstore-achieves-nvidia-certified-storage-designation/
+- MinIO AIStor on NVIDIA STX / BlueField DPUs with GPUDirect RDMA for
+  S3-compatible storage (tech preview) — object storage moving from capacity
+  tier to performance tier.
+  Source: https://www.storagenewsletter.com/2026/03/17/nvidia-gtc-2026-minio-aistor-brings-object-data-stores-for-the-nvidia-stx-reference-architecture/
+- NVIDIA Dynamo NIXL supports Amazon S3 for KV cache offload (GTC 2025) —
+  object storage entering the inference path.
+
+### Interview implication
+
+Since the internal system is not public, expect generic object storage design
+depth (S3 semantics, erasure coding, placement, consistency) plus NVIDIA
+flavor (GDS, checkpointing, AI workload IO patterns).
