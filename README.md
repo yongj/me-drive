@@ -22,6 +22,7 @@ Interview experiences & prep materials collected from [一亩三分地 (1point3a
 | 2026-10-01 | [2026 美国 AI Engineer & MLE 招聘数据 —— 自己抓的，2,400+ 岗位拆解](https://www.1point3acres.com/home/thread/1178971) | 无（数据系列：另有 SE 篇 thread-1178563、DE 篇 thread-1178666） | 招聘市场数据方法论 | ATS 公开职位抓取（Greenhouse/Lever/Workday/Workable）；SE 39,230 / DE 4,257 / AIE 2,434 / MLE 2,430 岗；方法论黑箱在公司名单未披露；ai-value-creation focus 新增 ATS 上游抓取案例 |
 | 2026-10-02 | [AI 正在重写 SDE 面试：从 OA 到 onsite 的 5 个变化](https://www.1point3acres.com/home/thread/1190956) | 多家（Meta/Google/OpenAI/Amazon） | SDE 面试政策整理（非面经） | 2025-2026 公开信息汇编：OA 防作弊升级、Meta/Google/OpenAI 面试允许 AI 编程助手、面试题转向 AI 原生场景；OpenAI「允许」行已并入 ai-coding-in-interviews 政策表（待一手验证） |
 | 2026-10-03 | [🍎苹果2026年度Review数字交流统计贴](https://www.1point3acres.com/home/thread/1190004) | Apple | 薪酬统计（非面经，归 `misc/`） | 仅 3 条完整数据：AIML ICT4 refresh 450K/4y、AIML ICT5 refresh 870K/4y、HWT ICT4 refresh 120K；评论区信号：AIML 内部分化极大、HW/ASE 约为 1/4、org 归属有争议；样本极小勿当基准 |
+| 2026-10-03 | [建了个网站，比 LinkedIn 更快看到职位](https://www.1point3acres.com/home/thread/1178300) | 无（自荐 jobuzzer.com） | 上游数据产品化案例（非面经） | 高频监控 7k→9k 家公司官网招聘页、比 LinkedIn 更早；免费搜索 + 付费通知；技术路线：ATS API → 渲染浏览器 → LLM 三级成本控制；1.7w 浏览/316 收藏但收入未覆盖开支；已并入 upstream-data-gtm 作验证案例 |
 
 ## Layout
 
