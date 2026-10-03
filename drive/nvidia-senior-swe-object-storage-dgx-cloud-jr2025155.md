@@ -1,6 +1,7 @@
 # NVIDIA — Senior Software Engineer, Object Storage - DGX Cloud
 
-- **Posting:** https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Object-Storage---DGX-Cloud_JR2025155
+- **Posting (original, dead as of 2026-10-03):** https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Object-Storage---DGX-Cloud_JR2025155
+- **Posting (LinkedIn mirror, added 2026-10-03):** https://www.linkedin.com/jobs/view/4463579039/
 - **Req ID:** JR2025155
 - **Location:** US-CA-Santa Clara
 - **Collected:** 2026-10-02
