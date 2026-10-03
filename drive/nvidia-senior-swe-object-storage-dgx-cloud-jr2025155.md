@@ -60,14 +60,65 @@ models. Stated scale: **10k+ nodes, exabytes of data**.
 
 1. Object storage internals: erasure coding vs replication tradeoffs, placement
    algorithms (consistent hashing / CRUSH-like), S3 consistency semantics
-2. Durability math: nines, MTTDL, failure domains, rebuild storms
-3. Concurrency: lock-free structures, event-loop architectures (Seastar-style),
+2. **Object storage scalability (JD: 10k+ nodes, exabytes —着重)**: metadata
+   scaling (centralized vs partitioned vs fully distributed), placement and
+   rebalancing at exabyte scale, failure-domain-aware layout, rebuild traffic
+   vs foreground IO under massive node counts, small-object problem, scaling
+   the control plane (placement/membership/heartbeat) independently of the
+   data plane
+3. Durability math: nines, MTTDL, failure domains, rebuild storms
+4. Concurrency: lock-free structures, event-loop architectures (Seastar-style),
    distributed coordination (Raft / etcd)
-4. Performance: tail latency, IO path optimization, SPDK / RDMA / kernel bypass
-5. AI workload storage: high-frequency checkpointing, large-scale training data
+5. Performance: tail latency, IO path optimization, SPDK / RDMA / kernel bypass
+6. AI workload storage: high-frequency checkpointing, large-scale training data
    ingest, GPU-direct paths
-6. Behavioral: end-to-end ownership story (inception → support) with a
+7. **KV cache / quantization (priority raised 2026-10-03)**: KV cache is
+   storage-adjacent (large, write-heavy, latency-sensitive state for inference)
+   and a hot topic — user discussed it with an NVIDIA contact on 2026-10-03.
+   Prep: KV cache layout and memory hierarchy (HBM → host → SSD tiering),
+   prefix caching / sharing, eviction and recompute tradeoffs, quantization
+   of KV cache (INT8/FP8, per-token vs per-channel scales), interplay with
+   paged attention
+8. Behavioral: end-to-end ownership story (inception → support) with a
    reliability incident at scale; cross-team work with research users
+
+## 1point3acres NVIDIA question bank (collected 2026-10-03)
+
+- Source: https://www.1point3acres.com/interview/problems/company/nvidia
+  (71 questions total, 50 coding; free preview shows 21, ~19 unique after
+  dedupe). Official intro: NVIDIA interviews are highly team-specific and far
+  less LeetCode-bank-driven than other large tech loops; System Software /
+  Linux / Tegra / DGX AI infra / Deep Learning roles lean toward engineering
+  scenarios (C/C++ debugging, graph validation, GPU/inference fundamentals,
+  small utility coding, project deep dives).
+- GPU/inference engineering: FP32 tensor → INT8 quantization (asymmetric
+  quantization follow-ups: zero point, how scale/zero-point shift under
+  non-symmetric distributions, numerical stability; appears twice); implement
+  a decoder KV cache.
+- C/C++ fundamentals: reference-counted smart pointer from scratch; C++
+  debugging and output prediction (pointers, inheritance, multithreading);
+  2D matrix transpose in C++ with memory/cache trade-off discussion.
+- Engineering-scenario coding (most NVIDIA-flavored): merge two sorted files
+  with bounded memory (appears twice); graph API insert/configure/validate
+  with cycle detection and structural constraints; computation graph pruning
+  to keep the optimal path; simulation-style coding with scaling follow-up
+  (mini system design); Python data processing (parse, aggregate, validate);
+  Linux shell text/log processing; aggregate logs by status code (count and
+  average latency); integrate a public GET API and transform results; OOP
+  key-value store (set/get/setAll); SQL aggregation across
+  country/state/city/zip tables.
+- Classic algorithms: Top K frequent elements in a data stream; Reaching
+  Points; longest/count substrings without repeating characters (appears
+  twice); Merge Intervals; Count Visible Towers; Excel-style string
+  compress/decompress; find any duplicate in [1, n-1] with O(1) extra space;
+  N×N matrix row/column swap transform; N-th prime; encode/decode string
+  list; validate parentheses; tree planting on a grid (no adjacent trees).
+- Implication for this role: the bank confirms the "engineering over
+  LeetCode" pattern — prioritize C++ fundamentals, engineering-scenario
+  coding (large-file merge, KV store, log processing), and distributed
+  system design (thin in the bank; cover via interview writeups instead).
+  Quantization/KV cache items are inference-leaning but worth prepping given
+  the storage-adjacent angle and current heat (see prep topic 7).
 
 ## Related interview experiences (collected 2026-10-02)
 
