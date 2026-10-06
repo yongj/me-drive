@@ -31,3 +31,4 @@ Interview experiences & prep materials collected from [一亩三分地 (1point3a
 - `misc/` — occasional non-interview threads (e.g. compensation stats), one file per thread.
 - `focus/` — per-focus summaries distilled from collected threads.
 - `drive/` — positions actively being prepared: one file per role with posting link, key facts, and interview prep notes.
+- `data/` — upstream data: company library (L1 500 tech companies with ATS status; no job postings).
