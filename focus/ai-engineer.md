@@ -32,6 +32,11 @@
 - 面试官想听的是 **tradeoff，不是工具列表**
 - 先定位目标公司考的是哪一层，再选资料，别眉毛胡子一把抓
 
+## 市场需求信号（2026-10）
+
+- Draup 独家给 CNBC 的分析（抓 LinkedIn 公开招聘，见 [misc/wall-street-ai-talent-demand-2026-draup.md](../misc/wall-street-ai-talent-demand-2026-draup.md)）：银行 AI 职位同比 +49%（约 139,819 个）；**Agent 编排工程师需求 +1,721%**——华尔街当前最热技能；**前沿部署工程师（forward-deployed engineers）**崛起（AI 直嵌交易/合规/运营场景，要求技术+业务领域知识）；LangGraph +679%、LlamaIndex +291%、RAG +259%；AI 治理类引用量约模型训练部署类的两倍
+- 解读：市场要的（agent 编排、多智能体协同、AI 落地业务）和面试考的（Agent 系统设计）是同一套能力；"forward-deployed"这个 title 值得在求职时重点关注
+
 ## 相关帖子
 
 - [thread-1190471-snowflake-ai-engineer.md](../threads/thread-1190471-snowflake-ai-engineer.md)
