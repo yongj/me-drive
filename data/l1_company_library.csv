@@ -24,9 +24,9 @@ Alpha Omega,AOSL,alpha-omega.dev,,,,
 Alphabet Inc. (Class A),GOOGL,careers.google.com,custom,,search-b0,Google self-built careers
 Alps Alpine,6770,alps.com,,,,
 Alteryx,AYX,alteryx.com,workday,alteryx.wd108,search-b0,
-Amadeus,AMS,,,,,
+Amadeus,AMS,,workday,amadeus,r3_search2,https://amadeus.wd3.myworkdayjobs.com/jobs/job/Irving-Texas/Software-Engineer-Intern_R22298 [high]
 Amazon,AMZN,amazon.jobs,custom,,search-b0,self-built hiring site (hiring.amazon.com / amazon.jobs)
-Ambarella,AMBA,,,,,
+Ambarella,AMBA,,workday,ambarella/Ambarella,r3_search2,https://ambarella.wd108.myworkdayjobs.com/en-US/Ambarella/job/Computer-Vision-Compiler-engineer_JR10 [high]
 Amdocs,DOX,jobs.amdocs.com,phenom,amdocs,search-b0,careers URL pattern matches Phenom (careers?pid=...&domain=...)
 Amkor Technology,AMKR,amkor.com,,,,
 Amphenol,APH,amphenol.com,,,,
@@ -39,16 +39,16 @@ AppDynamics,CSCO,appdynamics.com,phenom,phenompeople.com,script,ats found via jo
 AppFolio,APPF,appfolioinc.com,,,,
 AppLovin,APP,applovin.com,greenhouse,applovin,search-b0,
 Apple Inc.,AAPL,jobs.apple.com,custom,,search-b0,self-built jobs site
-Applied Materials,AMAT,appliedmaterials.com,,,,
+Applied Materials,AMAT,appliedmaterials.com,workday,amat/External,r3_search2,https://amat.wd1.myworkdayjobs.com/en-US/External/job/GloucesterMA/XMLNAME-2026-Spring-AI-ML-Co-op-B [high]
 Aptiv,APTV,aptiv.com,workday,aptiv.wd5,search-b0,
 Arista,ANET,aristarecordings.com,,,,
 Arista Networks,ANET,arista.com,,,,
 Arm Holdings,ARM,arm.com,icims,earlycareers-arm.icims.com,script,ats found at https://careers.arm.com/
-Arrow Electronics,ARW,arrow.com,,,,
-Asana,ASAN,,,,,
+Arrow Electronics,ARW,arrow.com,workday,arrow/AC,r3_search2,https://arrow.wd1.myworkdayjobs.com/en-US/AC/job/IN-KA-Bangalore-India-SKAV-Seethalakshmi-GESC/Appre [high]
+Asana,ASAN,,greenhouse,asana,r3_search2,https://boards.greenhouse.io/embed/job_app?for=asana&token=6174752 [high]
 AspenTech,AZPN,aspentech.com,workday,aspentech.wd5,search-b0,URL extracted verbatim from search result text
 Astera Labs,ALAB,asteralabs.com,greenhouse,asteralabs,r3_search,https://job-boards.greenhouse.io/asteralabs/jobs/4674439005 [high]
-Asus,2357,asus.com,,,,
+Asus,2357,asus.com,jobvite,asus,r3_search2,https://jobs.jobvite.com/careers/asus/job/omHNAfwa [high]
 Atlassian,TEAM,atlassian.com,icims,globalcareers-atlassian,search-b0,truncated URL globalcareers-atlassian.icims... in job-alert video description; full URL not verifiable from search text
 Atos,ATO,atos.net,,,,
 Autodesk,ADSK,autodesk.com,workday,autodesk.wd1,search-b0,
@@ -59,7 +59,7 @@ Axcelis Technologies,ACLS,axcelis.com,workday,axcelis.wd1.myworkdayjobs.com,scri
 Axon,AXON,,greenhouse,axon,r3_search,http://boards.greenhouse.io/axon/jobs/6302793003 [high]
 Azbil,6845,sg.azbil.com,custom,,search-b0,"regional careers page, email-based applications (careers@sg.azbil.com)"
 BE Semiconductor,BESIY,besi.kandidatenportal.eu,kandidatenportal,besi,search-b0,"third-party candidate portal, not one of the listed ATS platforms"
-Baidu,BIDU,,,,,
+Baidu,BIDU,,greenhouse,baidu,r3_search2,https://boards.greenhouse.io/baidu/jobs/5360432 [high]
 Bandai Namco,7832,,,,,
 Belden Inc.,BDC,belden.com,,,,
 Bentley Systems,BSY,bentley.com,workday,bentleysystems.wd5,search-b0,
@@ -67,11 +67,11 @@ BigBear.ai,BBAI,bigbear.ai,,,,
 Bill Holdings,BILL,,,,,
 BlackBerry,BB,blackberry.com,workday,bb.wd3.myworkdayjobs.com,script,ats found at https://blackberry.com/careers
 BlackLine,BL,,workday,blackline.wd108,search-b0,
-Block,SQ,,,,,
+Block,SQ,,greenhouse,block,r3_search2,https://boards.greenhouse.io/block/jobs/4130125008 [high]
 Booking Holdings,BKNG,bookingholdings.com,,,,
-Box,BOX,boxparish.org.uk,,,,
-Braze,BRZE,brazeyenplaine.fr,,,,
-Broadcom,AVGO,broadcom.com,,,,
+Box,BOX,boxparish.org.uk,greenhouse,boxinc,r3_search2,https://boards.greenhouse.io/boxinc/jobs/5652974 [high]
+Braze,BRZE,brazeyenplaine.fr,greenhouse,braze,r3_search2,https://boards.greenhouse.io/braze/jobs/6525133 [high]
+Broadcom,AVGO,broadcom.com,workday,broadcom/External_Career,r3_search2,https://broadcom.wd1.myworkdayjobs.com/External_Career [high]
 Broadridge,BR,,workday,broadridge.wd5,search-b0,
 Brother,6448,,,,,
 Bytes Technology,BYIT,,,,,
@@ -85,7 +85,7 @@ Cadence Design Systems,CDNS,cadence.com,workday,cadence.wd1,search-b0,same as Ca
 Camtek,CAMT,camtek.com,custom,,search-b0,careers page on camtek.com; no ATS platform identified
 Canon,7751,global.canon,,,,
 Capcom,9697,capcom.com,jobvite,capcomusa,search-b0,current job board at jobs.jobvite.com/capcomusa; legacy uscareers-capcom.icims.com links also appear (2017)
-Capgemini,CAP,capgemini.com,,,,
+Capgemini,CAP,capgemini.com,greenhouse,capgeminideutschlandgmbh,r3_search2,https://boards.greenhouse.io/capgeminideutschlandgmbh/jobs/4101778101 [medium]
 Celestica,CLS,celestica.com,custom,,search-b0,careers portal at careers.celestica.com; no ATS platform identified
 Cerence,CRNC,cerences.fr,,,,
 Ceridian,CDAY,ceridian.com,,,,
@@ -98,31 +98,31 @@ Cisco,CSCO,cisco.com,custom,,search-b0,careers portal at jobs.cisco.com; no thir
 Citrix Systems,CTXS,citrix.com,workday,tibco.wd5.myworkdayjobs.com,script,ats found at https://citrix.com/careers
 Clearwater Analytics,CWAN,clearwateranalytics.com,workday,clearwateranalytics.wd1,search-b0,clearwateranalytics.wd1.myworkdayjobs.com/Clearwater_Analytics_Careers
 Cloudflare,NET,cloudflare.com,greenhouse,careersday,search-b0,event-board URL seen on cloudflare.tv; main job board not confirmed
-CoStar Group,CSGP,costargroup.com,,,,
+CoStar Group,CSGP,costargroup.com,eightfold,costar,r3_search2,https://costar.eightfold.ai/careers/job/446702550305-associate-tenant-researcher-toronto-ontario-can [high]
 Cognex,CGNX,,,,,
 Cognizant,CTSH,cognizant.com,custom,,search-b0,careers portal at careers.cognizant.com; no third-party ATS identified
 Coherent Corp.,COHR,ii-vi.com,,,,
 Cohu,COHU,,,,,
 Coinbase,COIN,coinbase.com,greenhouse,,search-b0,coinbase.com/careers/positions/<id>?gh_jid=... — Greenhouse-backed board; board name not visible
 Comcast,CMCSA,comcast.com,workday,comcast.wd115,search-b0,comcast.wd115.myworkdayjobs.com/en-US/Comcast_Careers
-CommVault Systems,CVLT,commvault.com,,,,
+CommVault Systems,CVLT,commvault.com,greenhouse,commvault,r3_search2,https://job-boards.greenhouse.io/commvault/jobs/5362056008 [high]
 Concentrix,CNXC,concentrix.com,workday,cnx.wd1.myworkdayjobs.com,search-b1,workday hit
 Confluent,CFLT,,,,,
-CoreWeave,CRWV,,,,,
+CoreWeave,CRWV,,greenhouse,coreweave,r3_search2,https://boards.greenhouse.io/coreweave/jobs/4393460006 [high]
 Corning Inc.,GLW,corning.com,,,,
 Corpay,CPAY,fleetcor.com,workday,corpay.wd103.myworkdayjobs.com,script,ats found at https://fleetcor.com/careers
-Couchbase,BASE,couchbase.com,,,,
+Couchbase,BASE,couchbase.com,greenhouse,couchbaseinc,r3_search2,https://boards.greenhouse.io/couchbaseinc/jobs/4425609006?gh_jid=4425609006 [high]
 Coupa,COUP,coupa.com,lever,,search-b1,possible: Lever case study says Coupa uses LeverTRM; job board URL not confirmed; workday query returned Nasdaq false po
 Coupang,CPNG,,greenhouse,coupang,r3_search,https://boards.greenhouse.io/coupang/jobs/4382434 [high]
-Coursera,COUR,,,,,
+Coursera,COUR,,greenhouse,coursera,r3_search2,https://boards.greenhouse.io/coursera/jobs/5028914004 [high]
 Crane NXT,CXT,,,,,
 Credit Karma,INTU,,,,,
 CrowdStrike,CRWD,,workday,crowdstrike.wd5.myworkdayjobs.com,search-b1,workday hit
 CyberArk,CYBR,cyberark.com,workday,paloaltonetworks.wd5.myworkdayjobs.com,script,ats found via job link
 DXC Technology,DXC,dxc.com,workday,dxctechnology.wd1.myworkdayjobs.com,search-b1,workday hit
 Dassault Systemes,DASTY,3ds.com,,,,
-Datadog,DDOG,datadoghq.com,,,,
-Dayforce,DAY,ceridian.com,,,,
+Datadog,DDOG,datadoghq.com,greenhouse,datadog,r3_search2,https://boards.greenhouse.io/embed/job_app?for=datadog&token=5486716 [high]
+Dayforce,DAY,ceridian.com,dayforce,mydayforce,r3_search2,https://jobs.dayforcehcm.com/mydayforce/alljobs [medium]
 Delivery Hero,DHER,deliveryhero.com,,,,
 Dell Technologies,DELL,delltechnologies.com,,,,
 Delta Electronics,2308,deltaww.com,,,,
@@ -134,14 +134,14 @@ Diodes,DIOD,,,,,
 Disco,6146,discogs.com,,,,
 Docusign,DOCU,docusign.com,icims,www.icims.com,script,ats found at https://docusign.com/careers
 Dolby,DLB,dolby.com,eightfold,eightfold.ai,script,ats found via job link
-DoorDash,DASH,doordash.com,,,,
+DoorDash,DASH,doordash.com,greenhouse,doordashusa,r3_search2,https://boards.greenhouse.io/doordashusa/jobs/6455300 [high]
 Doximity,DOCS,doximity.com,,,,
 Dropbox,DBX,dropbox.com,,,,
 Duck Creek,DCT,,,,,
 Dun & Bradstreet,DNB,dnb.com,lever,dnb,script,ats found at https://dnb.com/jobs
-Duolingo,DUOL,en.duolingo.com,,,,
+Duolingo,DUOL,en.duolingo.com,greenhouse,duolingo,r3_search2,https://boards.greenhouse.io/duolingo/jobs/7638108002 [high]
 Dynatrace,DT,dynatrace.com,,,,
-E2open,ETWO,e2open.com,,,,
+E2open,ETWO,e2open.com,greenhouse,e2openllc,r3_search2,https://boards.greenhouse.io/e2openllc/jobs/4349909101 [high]
 EPAM Systems,EPAM,epam.com,,,,
 EXL Service,EXLS,exlservice.com,,,,
 EchoStar,ECHO,,,,,
@@ -152,9 +152,9 @@ Embracer,EMBRAC,embracer.com,,,,
 Endava,DAVA,endava.com,smartrecruiters,endava,r3_search,https://jobs.smartrecruiters.com/endava/744000081660685-senior-business-development-manager-payments [high]
 Entegris,ENTG,entegris.com,workday,entegris.wd1.myworkdayjobs.com,script,ats found at https://careers.entegris.com/
 Envestnet,ENV,envestnet.com,,,,
-Equifax,EFX,equifax.com,,,,
+Equifax,EFX,equifax.com,workday,equifax/UR_External,r3_search2,https://equifax.wd5.myworkdayjobs.com/UR_External [high]
 Ericsson,ERIC,ericsson.com,,,,
-Etsy,ETSY,etsy.com,,,,
+Etsy,ETSY,etsy.com,workday,etsy/Etsy_Careers,r3_search2,https://etsy.wd5.myworkdayjobs.com/Etsy_Careers/job/Brooklyn-New-York/Software-Engineer-I--Mobile_JR [high]
 Euronet,EEFT,euronetworldwide.com,,,,
 Everbridge,EVBG,everbridge.com,lever,everbridge,search-b1,combined search: Everbridge Security Operations Associate on jobs.lever.co/everbridge
 Everpure,P,,greenhouse,purestorage,r3_search,https://boards.greenhouse.io/purestorage/jobs/5729827 [medium]
@@ -164,13 +164,13 @@ F-Secure,FSC1V,f-secure.com,,,,
 "F5, Inc.",FFIV,f5.com,workday,ffive.wd5.myworkdayjobs.com,script,ats found at https://f5.com/careers
 FLIR,FLIR,flir.in,workday,flir.wd1.myworkdayjobs.com,script,ats found at https://flir.in/careers
 Fabrinet,FN,,,,,
-FactSet,FDS,factset.com,,,,
+FactSet,FDS,factset.com,workday,factset/FactSetCareers,r3_search2,https://factset.wd1.myworkdayjobs.com/FactSetCareers [high]
 Fair Isaac,FICO,fico.com,,,,
 Fanuc,6954,,,,,
 Faro,FARO,,,,,
-Fastly,FSLY,fastly.com,,,,
+Fastly,FSLY,fastly.com,greenhouse,fastly,r3_search2,https://boards.greenhouse.io/fastly/jobs/5873617 [high]
 First Solar,FSLR,firstsolar.com,,,,
-Fiserv,FI,fiserv.com,,,,
+Fiserv,FI,fiserv.com,workday,fiserv/wd5/EXT,r3_search2,https://fiserv.wd5.myworkdayjobs.com/en-US/EXT/job/Brookfield-Wisconsin/Security-Engineer-II_R-10210 [medium]
 Five9,FIVN,five9.com,greenhouse,embed,script,ats found at https://five9.com/jobs
 Fiverr,FVRR,fiverr.com,,,,
 Flex Ltd.,FLEX,flex.com,workday,flextronics.wd1.myworkdayjobs.com,script,ats found at https://flex.com/careers
@@ -178,57 +178,57 @@ Flywire,FLYW,flywire.com,smartrecruiters,Flywire1,r3_search,https://careers.smar
 FormFactor,FORM,formfactor.com,,,,
 Forrester,FORR,,,,,
 Fortinet,FTNT,fortinet.com,,,,
-Fox Corporation (Class A),FOXA,,,,,
+Fox Corporation (Class A),FOXA,,workday,fox/wd1/Domestic,r3_search2,https://fox.wd1.myworkdayjobs.com/en-US/Domestic/job/USA---IA---Remote/On-Campus-Video-Producer---Ed [medium]
 Freshworks,FRSH,freshworks.com,smartrecruiters,Freshworks,script,ats found at https://careers.freshworks.com/
 Frontier,FDEV,frontiersin.org,,,,
 Fujifilm,4901,fujifilm.com,icims,uscareers-fujifilm,r3_search,https://uscareers-fujifilm.icims.com/jobs/search?pr=2 [high]
 Fujitsu,6702,,,,,
 Garmin,GRMN,,workable,garmin-cluj,r3_search,https://apply.workable.com/garmin-cluj/j/5DB2CB3499/ [high]
-Gartner,IT,,,,,
-Gen Digital,GEN,,,,,
+Gartner,IT,,workday,gartner/wd5/EXT,r3_search2,https://gartner.wd5.myworkdayjobs.com/EXT/login?redirect=%2FEXT%2Fjob%2FGurgaon%2FManager--RES_79807 [medium]
+Gen Digital,GEN,,workday,gen/wd1/careers,r3_search2,https://gen.wd1.myworkdayjobs.com/en-US/careers [medium]
 Genpact,G,,workday,genpact/External_Careers,r3_search,https://genpact.wd108.myworkdayjobs.com/en-US/External_Careers/job/1401-G-India-Floor-1-to-12-Hafeez [high]
 Getty Images,GETY,,jobvite,gettyimages,r3_search,https://jobs.jobvite.com/gettyimages/jobs/alljobs [high]
-GitLab,GTLB,,,,,
+GitLab,GTLB,,greenhouse,gitlab,r3_search2,https://boards.greenhouse.io/gitlab/jobs/7419293002 [high]
 Global Payments,GPN,globalpayments.com,workday,tsys.wd1.myworkdayjobs.com,search-b1,workday hit; careers page Global Payments & Our Family of Brands on tsys tenant (TSYS acquired by Global Payments)
-Globant,GLOB,,,,,
-GoDaddy,GDDY,,,,,
+Globant,GLOB,,smartrecruiters,Globant2,r3_search2,https://careers.smartrecruiters.com/Globant2 [medium]
+GoDaddy,GDDY,,greenhouse,godaddy,r3_search2,https://boards.greenhouse.io/godaddy/jobs/5257574003?gh_jid=5257574003 [high]
 GoPro,GPRO,,,,,
-GoodRx,GDRX,,,,,
+GoodRx,GDRX,,workday,goodrx/wd1,r3_search2,https://goodrx.wd1.myworkdayjobs.com [medium]
 Grab,GRAB,,,,,
 Guidewire,GWRE,guidewire.com,workday,guidewire.wd5.myworkdayjobs.com,search-b1,"\""workday hit: Guidewire Careers on guidewire.wd5 tenant\"""
 Guidewire Software,GWRE,guidewire.com,workday,guidewire.wd5.myworkdayjobs.com,search-b1,"\""same company as Guidewire; workday tenant guidewire.wd5\"""
 H&R Block,HRB,,,,,
-HP Inc.,HPQ,,,,,
+HP Inc.,HPQ,,workday,hp/wd5/ExternalCareerSite,r3_search2,https://hp.wd5.myworkdayjobs.com/externalcareersite [medium]
 Hamamatsu Photonics,6965,,,,,
-Hewlett Packard Enterprise,HPE,,,,,
+Hewlett Packard Enterprise,HPE,,workday,hpe/wd5/Jobsathpe,r3_search2,https://hpe.wd5.myworkdayjobs.com/en-US/Jobsathpe/job/San-Jose-California-United-States-of-America/A [medium]
 Hexagon,HEXA,,,,,
 Hikvision,002415,,,,,
 Hirose,6806,,,,,
 Hitachi,6501,hitachi.com,workday,hitachi.wd1.myworkdayjobs.com,search-b1,"\""workday hit: hitachi.wd1 tenant (Hitachi Energy USA Inc. postings)\"""
 Horiba,6856,,,,,
-HubSpot,HUBS,,,,,
+HubSpot,HUBS,,greenhouse,hubspotjobs,r3_search2,https://boards.greenhouse.io/embed/job_app?for=hubspotjobs&token=5986990 [high]
 IBM,IBM,,,,,
 II-VI,COHR,,,,,
 IPG Photonics,IPGP,,adp,,r3_search,https://recruiting.adp.com/srccar/public/RTI.home?c=2179707&d=ExternalCareerSite#/ [medium]
-IQVIA,IQV,,,,,
+IQVIA,IQV,,workday,iqvia/wd1/IQVIA,r3_search2,https://iqvia.wd1.myworkdayjobs.com/en-US/IQVIA [medium]
 Infineon,IFX,,,,,
-Infinera,INFN,,,,,
+Infinera,INFN,,workday,infinera/wd1/Infinera_Careers,r3_search2,https://infinera.wd1.myworkdayjobs.com/Infinera_Careers/job/Portugal---Lisbon/Optical-Systems-Engine [medium]
 Informa,INF,,,,,
 Informatica,INFA,,,,,
 Infosys,INFY,,,,,
 Insight Enterprises,NSIT,,,,,
 Intel,INTC,intel.com,workday,intel.wd1.myworkdayjobs.com,search-b2,found via site:myworkdayjobs.com search
-InterDigital,IDCC,,,,,
+InterDigital,IDCC,,workday,interdigital/wd5/InterDigital_Intern,r3_search2,https://interdigital.wd5.myworkdayjobs.com/en-US/InterDigital_Intern [medium]
 Intuit,INTU,,,,,
 Iwatsu,6704,,,,,
 JD.com,JD,,,,,
 JFrog,FROG,,,,,
-Jabil,JBL,,,,,
+Jabil,JBL,,workday,jabil/wd5/Jabil_Careers,r3_search2,https://jabil.wd5.myworkdayjobs.com/en-US/Jabil_Careers/job/St-PetersburgTampa-FL/Associate-Cloud-En [medium]
 Jack Henry,JKHY,,,,,
 Jeol,6951,,,,,
 Juniper,JNPR,,,,,
 Juniper Networks,JNPR,,,,,
-KLA Corporation,KLAC,,,,,
+KLA Corporation,KLAC,,workday,kla/wd1/Search,r3_search2,https://kla.wd1.myworkdayjobs.com/en-US/Search [medium]
 Kainos,KNOS,,workday,kainos/Kainos,r3_search,https://kainos.wd3.myworkdayjobs.com/Kainos/job/Birmingham/Lead-Security-Engineer_JR_18219/apply [high]
 Kakao,035720,,,,,
 Kemet,KEM,,,,,
@@ -239,31 +239,31 @@ Kinaxis,KXS,,,,,
 Klaviyo,KVYO,,lever,klaviyo,r3_search,https://jobs.lever.co/klaviyo/dbbe5649-8306-4ccd-a2fa-054ca34825ae/apply [high]
 Knowles,KN,,,,,
 Konami,9766,,,,,
-Krafton,259960,,,,,
+Krafton,259960,,greenhouse,kraftonindia,r3_search2,https://boards.greenhouse.io/kraftonindia/jobs/7333706002 [high]
 Kyndryl,KD,,workday,kyndryl.wd5.myworkdayjobs.com,search-b2,found on first search
 Kyocera,6971,,,,,
-LG Electronics,066570,,,,,
+LG Electronics,066570,,greenhouse,lgelectronics,r3_search2,https://boards.greenhouse.io/lgelectronics/jobs/4137231008 [high]
 Lam Research,LRCX,,,,,
 Lasertec,6920,,,,,
 Lattice Semiconductor,LSCC,,,,,
 Lear,LEA,,,,,
 Lemonade,LMND,,,,,
-LendingClub,LC,,,,,
+LendingClub,LC,,workday,lendingclub/wd1/External,r3_search2,https://lendingclub.wd1.myworkdayjobs.com/en-US/External/job/Lehi-UT/Corporate-Counsel--Commercial_R [medium]
 Lenovo,0992,,,,,
 Lightspeed,LSPD,,,,,
-Littelfuse,LFUS,,,,,
+Littelfuse,LFUS,,workday,littelfuse/wd1/Littelfuse-Careers,r3_search2,https://littelfuse.wd1.myworkdayjobs.com/Littelfuse-Careers/job/Lipa-SBU/Project-Engineer_JR-108536 [medium]
 Live Nation Entertainment,LYV,livenationentertainment.com,workday,livenation.wd503.myworkdayjobs.com,search-b2,found on first (workday) search
 LivePerson,LPSN,,greenhouse,liveperson,r3_search,https://boards.greenhouse.io/liveperson/jobs/6117202 [high]
 Logitech,LOGI,,jobvite,logitech,r3_search,https://jobs.jobvite.com/logitech/ [high]
-Lumentum,LITE,,,,,
-Lyft,LYFT,,,,,
+Lumentum,LITE,,workday,lumentum/wd5/LITE,r3_search2,https://lumentum.wd5.myworkdayjobs.com/LITE/job/Canada---Ottawa-Bill-Leathem/Software-Automation-Tes [medium]
+Lyft,LYFT,,greenhouse,lyft,r3_search2,https://boards.greenhouse.io/embed/job_board?for=lyft [high]
 MACOM Technology Solutions,MTSI,,,,,
 MKS Instruments,MKSI,,,,,
 MSCI,MSCI,,icims,uscareers-msci,r3_search,https://uscareers-msci.icims.com/jobs/search?searchRelation=keyword_all&mobile=true&needsRedirect=fa [high]
-Manhattan Associates,MANH,,,,,
+Manhattan Associates,MANH,,workday,manh/wd5/campus,r3_search2,https://manh.wd5.myworkdayjobs.com/campus/job/Atlanta-GA/Cloud-Ops-Software-Engineer---Campus--Summe [medium]
 Markforged,MKFG,,greenhouse,markforged,r3_search,https://job-boards.greenhouse.io/markforged/jobs/5258759004?gh_src=Trinity+Ventures+job+board [high]
 Marqeta,MQ,,greenhouse,marqeta,r3_search,https://boards.greenhouse.io/marqeta/jobs/4314326 [high]
-Marvell Technology,MRVL,,,,,
+Marvell Technology,MRVL,,workday,marvell/wd1/marvellcareers,r3_search2,https://marvell.wd1.myworkdayjobs.com/en-US/marvellcareers/job/Santa-Clara-CA/Digital-Logic---Design [medium]
 Materialise,MTLS,,,,,
 MaxLinear,MXL,,,,,
 MediaTek,2454,,,,,
@@ -271,7 +271,7 @@ Meituan,3690,,,,,
 MercadoLibre,MELI,,,,,
 Meta Platforms,META,,,,,
 MicroStrategy,MSTR,,,,,
-Microchip Technology,MCHP,,,,,
+Microchip Technology,MCHP,,workday,microchiphr/wd5/external,r3_search2,https://microchiphr.wd5.myworkdayjobs.com/en-US/external/job/OR---Gresham/Intern--Data-Analyst-_R230 [medium]
 Micron Technology,MU,,workday,micron/External,r3_search,https://micron.wd1.myworkdayjobs.com/External/job/Sanand---MIB---Mini-Pioneer-India/Director--India- [high]
 Microsoft,MSFT,,,,,
 Mitsubishi Electric,6503,,,,,
@@ -289,13 +289,13 @@ NXP Semiconductors,NXPI,nxp.com,workday,nxp.wd3.myworkdayjobs.com,search-b2,foun
 Nano Dimension,NNDM,,,,,
 National Instruments,NATI,,,,,
 Naver,035420,,,,,
-Nebius Group,NBIS,,,,,
+Nebius Group,NBIS,,greenhouse,nebius,r3_search2,https://boards.greenhouse.io/nebius/jobs/4505673101 [high]
 Nemetschek,NEM,,,,,
 NerdWallet,NRDS,,ashby,nerdwallet,r3_search,https://jobs.ashbyhq.com/nerdwallet/c8b9304f-e88f-4826-8a8f-a0a44e784a03 [medium]
 NetApp,NTAP,,,,,
 NetEase,NTES,,,,,
 Netflix,NFLX,,workday,netflix/netflix,r3_search,https://netflix.wd108.myworkdayjobs.com/en-US/netflix/job/Los-Gatos/Machine-Learning-AI-Infrastructu [medium]
-New Relic,NEWR,,,,,
+New Relic,NEWR,,greenhouse,newrelic,r3_search2,https://boards.greenhouse.io/newrelic/jobs/4473582008 [high]
 News Corp (Class A),NWSA,,,,,
 Nexon,3659,,,,,
 Nice,NICE,,greenhouse,nice,r3_search,https://job-boards.eu.greenhouse.io/nice/jobs/4983305101 [high]
@@ -306,7 +306,7 @@ Nokia,NOK,,taleo,nokia,r3_search,http://nokia.taleo.net/careersection/10120/jobd
 Nova,NVMI,,,,,
 Novanta,NOVT,,workday,novanta.wd5.myworkdayjobs.com,search-b2,found via workday site search
 Nuance,NUAN,,,,,
-Nutanix,NTNX,,,,,
+Nutanix,NTNX,,jobvite,nutanix,r3_search2,https://jobs.jobvite.com/nutanix/job/oD5xAfwz [high]
 Nuvei,NVEI,,,,,
 Nvidia,NVDA,,workday,nvidia.wd5.myworkdayjobs.com,search-b2,found via workday site search
 ON Semiconductor,ON,,,,,
@@ -322,27 +322,27 @@ Orbotech,KLAC,,,,,
 PDD Holdings,PDD,,,,,
 PROS,PRO,,,,,
 PTC Inc.,PTC,,workday,ptc/ptc,r3_search,https://ptc.wd1.myworkdayjobs.com/ptc/job/remote-sweden/servicemax-enterprise-account-executive_jr11 [medium]
-Pagaya,PGY,,,,,
+Pagaya,PGY,,greenhouse,pagaya,r3_search2,https://boards.greenhouse.io/pagaya/jobs/5784608003 [high]
 PagerDuty,PD,,lever,pagerduty,r3_search,https://jobs.lever.co/pagerduty/a1d7cd69-2601-46e9-89c9-fa7c1c2324bb/apply [medium]
 Palantir Technologies,PLTR,,lever,palantir,search-b3,pre-session batch hit on jobs.lever.co/palantir
-Palo Alto Networks,PANW,,,,,
+Palo Alto Networks,PANW,,workday,paloaltonetworks/panwexternalcareers,r3_search2,https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Remote---United-Kingdom/Strat [high]
 Paradox,PDX,,,,,
-Paramount Skydance Corporation,PSKY,,,,,
+Paramount Skydance Corporation,PSKY,,lever,skydance,r3_search2,https://jobs.lever.co/skydance/14f3bd4e-2dca-4c87-a16b-3d2d7dec3040 [medium]
 Pardot,CRM,,,,,
 PayPal,PYPL,,eightfold,paypal,r3_search,"http://paypal.eightfold.ai/careers?query=R0127669&location=Dublin,+County+Dublin,+Ireland&domain=pay [high]"
 Paychex,PAYX,,,,,
 Paycom,PAYC,,,,,
 Paylocity,PCTY,,,,,
-Payoneer,PAYO,,,,,
+Payoneer,PAYO,,greenhouse,payoneer,r3_search2,https://boards.greenhouse.io/payoneer/jobs/6059730 [high]
 Pearson,PSO,,,,,
 Pegasystems,PEGA,,,,,
 Perficient,PRFT,,smartrecruiters,Perficient2,r3_search,https://careers.smartrecruiters.com/Perficient2 [high]
-Ping Identity,PING,,,,,
-Pinterest,PINS,,,,,
+Ping Identity,PING,,greenhouse,pingidentity,r3_search2,https://boards.greenhouse.io/pingidentity/jobs/7711076002 [high]
+Pinterest,PINS,,greenhouse,pinterest,r3_search2,https://boards.greenhouse.io/pinterest/jobs/5549493 [high]
 Plexus,PLXS,,,,,
 Power Integrations,POWI,,jobvite,power-integrations,r3_search,https://jobs.jobvite.com/power-integrations/jobs/ [high]
 Prosus,PRX,,ashby,prosus,r3_search,https://jobs.ashbyhq.com/prosus/016c6c82-8f34-4f2d-94cd-6392b6cf2c43 [medium]
-Proto Labs,PRLB,,,,,
+Proto Labs,PRLB,,lever,protolabs,r3_search2,https://jobs.lever.co/protolabs/4c310e68-d35b-4ae4-97f7-b2a37534396a [high]
 Pure Storage,PSTG,,greenhouse,purestorage,r3_search,https://job-boards.greenhouse.io/purestorage/jobs/8042530 [high]
 Q2 Holdings,QTWO,,,,,
 Qnity Electronics,Q,,,,,
@@ -354,15 +354,15 @@ Radware,RDWR,,,,,
 Rakuten,4755,,workday,rakuten.wd1.myworkdayjobs.com,search-b3,
 Rambus,RMBS,,icims,careers-rambus,r3_search,https://careers-rambus.icims.com/jobs/21492/analog-mixed-signal-design-engineer/job [high]
 Rapid7,RPD,,,,,
-Reddit,RDDT,,,,,
+Reddit,RDDT,,greenhouse,reddit,r3_search2,https://boards.greenhouse.io/reddit/jobs/3328670 [high]
 Remitly,RELY,,,,,
 Renesas,6723,,smartrecruiters,RenesasElectronics,r3_search,https://careers.smartrecruiters.com/RenesasElectronics [high]
-Reply,REY,,,,,
+Reply,REY,,lever,reply,r3_search2,https://jobs.lever.co/reply/88e268cd-b34e-41a4-bcbb-0682612afa5f/apply [high]
 Ricoh,7752,,,,,
 RingCentral,RNG,,workday,ringcentral.wd1.myworkdayjobs.com,search-b3,
 Riskified,RSKD,,greenhouse,riskified,r3_search,https://boards.greenhouse.io/riskified/jobs/7776724002 [high]
-Robinhood,HOOD,,,,,
-Roblox,RBLX,,,,,
+Robinhood,HOOD,,greenhouse,robinhood,r3_search2,https://boards.greenhouse.io/robinhood/jobs/6494161 [high]
+Roblox,RBLX,,greenhouse,roblox,r3_search2,https://boards.greenhouse.io/embed/job_board?for=roblox [high]
 Rohm,6963,,,,,
 Roper Technologies,ROP,,,,,
 S&P Global,SPGI,,,,,
@@ -387,22 +387,22 @@ Sega Sammy,6460,,,,,
 Segment,TWLO,,,,,
 Seiko Epson,6724,,,,,
 Semtech,SMTC,,workday,semtech.wd1.myworkdayjobs.com,search-b3,
-SentinelOne,S,,,,,
+SentinelOne,S,,greenhouse,sentinellabs,r3_search2,https://boards.greenhouse.io/sentinellabs/jobs/6018849003 [medium]
 ServiceNow,NOW,,,,,
 Shift4 Payments,FOUR,,,,,
 Shimadzu,7701,,,,,
 Shopify,SHOP,,,,,
 Shutterstock,SSTK,,,,,
 SiTime,SITM,,,,,
-Silicon Labs,SLAB,,,,,
-Similarweb,SMWB,,,,,
+Silicon Labs,SLAB,,workday,silabs/SiliconlabsCareers,r3_search2,https://silabs.wd1.myworkdayjobs.com/en-US/SiliconlabsCareers/job/Austin/Software-Engineer---Intern_ [high]
+Similarweb,SMWB,,greenhouse,similarweb,r3_search2,https://boards.greenhouse.io/similarweb/jobs/526505 [high]
 Skyworks Solutions,SWKS,,,,,
 Smartsheet,SMAR,,,,,
 Snap,SNA,,,,,
 Snowflake,SNOW,,,,,
 SoFi,SOFI,,,,,
 Softcat,SCT,,,,,
-Sonos,SONO,,,,,
+Sonos,SONO,,workday,sonos/Sonos,r3_search2,https://sonos.wd1.myworkdayjobs.com/en-US/Sonos/job/Boston-MA/Software-Engineering-Intern_R2576-1 [high]
 Sony,SONY,,workday,sonyglobal.wd1.myworkdayjobs.com,search-b3,
 Sopra Steria,SOP,,smartrecruiters,SopraSteria1,r3_search,https://careers.smartrecruiters.com/SopraSteria1/en_bnl_netherlands_all-vacancies [high]
 SoundHound,SOUN,,,,,
@@ -412,90 +412,90 @@ Sprout Social,SPT,,,,,
 Square Enix,9684,,workable,square-enix,r3_search,https://apply.workable.com/square-enix/ [high]
 Squarespace,SQSP,,,,,
 Stratasys,SSYS,,,,,
-Sumo,SUMO,,,,,
+Sumo,SUMO,,greenhouse,sumologic,r3_search2,https://boards.greenhouse.io/sumologic/jobs/5301859 [high]
 Supermicro,SMCI,,,,,
 Synaptics,SYNA,,,,,
 Synopsys,SNPS,,,,,
 T-Mobile US,TMUS,t-mobile.com,workday,tmobile.wd1.myworkdayjobs.com,search-b4,T-MOBILE CAREERS on Workday
-TD Synnex,SNX,,,,,
+TD Synnex,SNX,,workday,synnex/tdsynnexcareers,r3_search2,https://synnex.wd5.myworkdayjobs.com/tdsynnexcareers/job/Clearwater-Florida-United-States/Senior-Ent [high]
 TDK,6762,,,,,
 TE Connectivity,TEL,,,,,
 TKO Group Holdings,TKO,tkogroup.com,workday,wwecorp.wd5.myworkdayjobs.com,search-b4,jobs hosted under WWE Corp tenant (wwecorp); posting text explicitly 'TKO Group Holdings' (UFC/WWE/PBR)
 TOTVS,TOTS3,,,,,
 TSMC,TSM,,,,,
-TTM Technologies,TTMI,,,,,
-Take-Two Interactive,TTWO,,,,,
+TTM Technologies,TTMI,,workday,ttmtech/jobs,r3_search2,https://ttmtech.wd5.myworkdayjobs.com/jobs/job/Farmingdale-NY/Software-Engineering-Internship_R13824 [high]
+Take-Two Interactive,TTWO,,greenhouse,taketwo,r3_search2,https://boards.greenhouse.io/taketwo/jobs/6199992 [high]
 TaskUs,TASK,taskus.com,workday,taskus.wd1.myworkdayjobs.com,search-b4,TaskUs Careers on Workday
 Team17,TM17,,workable,team-17-digital,r3_search,https://apply.workable.com/team-17-digital/ [high]
 TeamViewer,TMV,,jobvite,teamviewer-global,r3_search,https://jobs.jobvite.com/careers/teamviewer-global/jobs?error=404 [medium]
 Teladoc,TDOC,teladoc.com,workday,teladoc.wd503.myworkdayjobs.com,search-b4,Work With Us on Workday
 Teledyne Technologies,TDY,,,,,
 Temenos,TEMN,,,,,
-Tenable,TENB,,,,,
+Tenable,TENB,,greenhouse,tenableinc,r3_search2,https://boards.greenhouse.io/tenableinc/jobs/4175382008 [high]
 Tencent,TCEHY,,workday,tencent.wd1.myworkdayjobs.com,search-b4,workday hit on first query
 Teradata,TDC,,,,,
 Teradyne,TER,,,,,
 Tesla,TSLA,,,,,
 Texas Instruments,TXN,,,,,
 Thomson Reuters,TRI,,workday,thomsonreuters.wd5.myworkdayjobs.com,search-b4,workday hit on first query
-Thoughtworks,TWKS,,,,,
-Toast,TOST,,,,,
-Tokyo Electron,8035,,,,,
+Thoughtworks,TWKS,,greenhouse,thoughtworks,r3_search2,https://boards.greenhouse.io/embed/job_board?for=thoughtworks [high]
+Toast,TOST,,greenhouse,toast,r3_search2,https://boards.greenhouse.io/toast/jobs/6019511 [high]
+Tokyo Electron,8035,,workday,tel/tel-careers,r3_search2,https://tel.wd3.myworkdayjobs.com/en-US/tel-careers/job/San-Jose/Software-Engineer-Intern--Summer-20 [high]
 Tokyo Seimitsu,7729,,,,,
-TomTom,TOM2,,,,,
-Topcon,7732,,,,,
+TomTom,TOM2,,workday,tomtom/TT_External_Careers,r3_search2,https://tomtom.wd3.myworkdayjobs.com/TT_External_Careers/job/India-Pune/Sr-Software-Engineer--Java8- [high]
+Topcon,7732,,workday,topcon/TopconPositioningCareers,r3_search2,https://topcon.wd1.myworkdayjobs.com/en-US/TopconPositioningCareers/details/Field-Service-Technician [high]
 Toshiba,6502,,,,,
 TransUnion,TRU,,workday,transunion.wd5.myworkdayjobs.com,search-b4,workday hit on first query
-Trend Micro,4704,,,,,
-Trimble Inc.,TRMB,,,,,
-Twilio,TWLO,,,,,
+Trend Micro,4704,,workday,trendmicro/External,r3_search2,https://trendmicro.wd3.myworkdayjobs.com/External [high]
+Trimble Inc.,TRMB,,workday,trimble/TrimbleCareers,r3_search2,https://trimble.wd1.myworkdayjobs.com/TrimbleCareers/job/US---CO-Westminster/Software-Engineering-In [high]
+Twilio,TWLO,,greenhouse,twilio,r3_search2,https://boards.greenhouse.io/twilio/jobs/4550964 [high]
 Tyler Technologies,TYL,,jobvite,tylertech,r3_search,https://jobs.jobvite.com/tylertech/jobs [high]
 Uber,UBER,,,,,
 Ubisoft,UBI,,,,,
-Udemy,UDEM,,,,,
+Udemy,UDEM,,greenhouse,udemybedi,r3_search2,https://boards.greenhouse.io/udemybedi/jobs/5412192004 [medium]
 UiPath,PATH,,,,,
 Ultra Clean Holdings,UCTT,,,,,
 Ulvac,6728,,,,,
-Unity Software,U,,,,,
+Unity Software,U,,workday,unitytech/Unity,r3_search2,https://unitytech.wd1.myworkdayjobs.com/Unity/job/Bellevue-WA-USA/Software-Engineer--XR_JOBREQ-26164 [high]
 Universal Display,OLED,,,,,
 Upstart,UPST,,greenhouse,upstart,r3_search,http://job-boards.greenhouse.io/embed/job_app?for=upstart&gh_src=8c01b2f01&token=7852347 [high]
 Varonis,VRNS,,jobvite,varonis-internal,r3_search,https://jobs.jobvite.com/varonis-internal/job/oqw3vfwe [high]
 Veeco Instruments,VECO,,,,,
 Veeva Systems,VEEV,,lever,veeva,search-b4,lever board veeva confirmed by multiple Veeva Systems postings
-Velo3D,VLD,,,,,
-Veradigm,MDRX,,,,,
+Velo3D,VLD,,lever,velo3d,r3_search2,https://jobs.lever.co/velo3d/c0f84080-4f41-47fa-b9e3-af60e47c6e26 [high]
+Veradigm,MDRX,,workday,veradigm,r3_search2,https://veradigm.wd12.myworkdayjobs.com [high]
 Verint,VRNT,,,,,
-Verisign,VRSN,,,,,
-Verizon,VZ,,,,,
+Verisign,VRSN,,greenhouse,verisign,r3_search2,https://boards.greenhouse.io/verisign/jobs/4403234003 [high]
+Verizon,VZ,,workday,verizon/verizon-careers,r3_search2,https://verizon.wd12.myworkdayjobs.com/verizon-careers [high]
 Vertex,VERX,,,,,
-Viavi,VIAV,,,,,
-Viavi Solutions,VIAV,,,,,
+Viavi,VIAV,,workday,viavisolutions/careers,r3_search2,https://viavisolutions.wd1.myworkdayjobs.com/en-US/careers/job/Minnetonka-MN-USA/Early-Careers-Rotat [high]
+Viavi Solutions,VIAV,,workday,viavisolutions/careers,r3_search2,https://viavisolutions.wd1.myworkdayjobs.com/en-US/careers/job/Minnetonka-MN-USA/Early-Careers-Rotat [high]
 Vishay,VSH,,,,,
 Visteon,VC,,,,,
 Vontier,VNT,,,,,
-WEX,WEX,,,,,
+WEX,WEX,,workday,wexinc/WEXInc,r3_search2,https://wexinc.wd5.myworkdayjobs.com/WEXInc/job/Brazil---Remote/Mid-Level-Software-Developer-2_R8953 [high]
 WNS Holdings,WNS,,,,,
-Walt Disney Company (The),DIS,,,,,
-Warner Bros. Discovery,WBD,,,,,
+Walt Disney Company (The),DIS,,workday,disney/disneycareer,r3_search2,https://disney.wd5.myworkdayjobs.com/en-US/disneycareer/job/Glendale-CA-USA/Software-Engineering-Int [high]
+Warner Bros. Discovery,WBD,,workday,warnerbros/global,r3_search2,https://warnerbros.wd5.myworkdayjobs.com/global/job/Remote-New-York/TikTok-Social-Programming--Bleac [high]
 Western Digital,WDC,,smartrecruiters,WesternDigital,r3_search,https://careers.smartrecruiters.com/WesternDigital/raemployee [high]
 Wipro,WIT,,,,,
 Wise,WISE,,,,,
 WiseTech Global,WTC,,,,,
 Wix,WIX,,,,,
-Wolters Kluwer,WKL,,,,,
+Wolters Kluwer,WKL,,workday,wk/External,r3_search2,https://wk.wd3.myworkdayjobs.com/External/job/USA-MA-Remote/Principal-Content-Management-Consultant- [high]
 "Workday, Inc.",WDAY,workday.com,workday,workday.wd5.myworkdayjobs.com,search-b4,hit via cross-reference job postings
 Workiva,WK,,workday,workiva.wd503.myworkdayjobs.com,search-b4,hit
-Xero,XRO,,,,,
+Xero,XRO,,lever,xero,r3_search2,https://jobs.lever.co/xero [high]
 Xiaomi,1810,,,,,
-Xometry,XMTR,,,,,
+Xometry,XMTR,,greenhouse,xometry,r3_search2,https://boards.greenhouse.io/xometry/jobs/4606575007 [high]
 Yageo,2327,,,,,
-Yext,YEXT,,,,,
+Yext,YEXT,,greenhouse,yext,r3_search2,https://boards.greenhouse.io/yext/jobs/5315129 [high]
 Yokogawa,6841,,,,,
 ZTE,0763,,,,,
 Zalando,ZAL,,,,,
-Zebra Technologies,ZBRA,,,,,
-Zoom Video,ZM,,,,,
+Zebra Technologies,ZBRA,,workday,zebra/Zebra_careers,r3_search2,https://zebra.wd501.myworkdayjobs.com/Zebra_careers/job/Bengaluru-India/Software-Engineer-II_111398 [high]
+Zoom Video,ZM,,lever,zoom,r3_search2,https://jobs.lever.co/zoom/8a76f470-da4d-4e90-a341-8efd7de62878 [high]
 ZoomInfo,ZI,,,,,
-Zscaler,ZS,,,,,
+Zscaler,ZS,,greenhouse,zscaler,r3_search2,http://boards.greenhouse.io/zscaler/jobs/4535141007 [high]
 eBay,EBAY,,workday,ebay.wd5.myworkdayjobs.com,search-b4,hit (TCGPlayer subsidiary tenant)
-nCino,NCNO,,,,,
+nCino,NCNO,,workday,ncino/nCinoCareers,r3_search2,https://ncino.wd5.myworkdayjobs.com/en-US/nCinoCareers/job/US---Utah---Lehi/Part-time-Software-Engin [high]
