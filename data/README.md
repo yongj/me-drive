@@ -9,21 +9,21 @@
 - 内容：L1 科技层 500 家公司
 - 列：company（公司名）, ticker（上市代码）, domain（官网域名）, ats_platform（招聘系统，如 workday/greenhouse/lever）, ats_token（抓取用标识，如 Workday 的 tenant/site、Greenhouse 的 board slug）, method（ATS 确认方式）, note（证据/备注）
 
-### ATS 分布（2026-10-07 快照，160/500 已确认）
+### ATS 分布（2026-10-07 快照，261/500 已确认）
 
 | 平台 | 公司数 |
 |---|---|
-| workday | 66 |
-| greenhouse | 24 |
+| workday | 113 |
+| greenhouse | 67 |
+| lever | 16 |
 | custom（自建站） | 15 |
-| smartrecruiters | 11 |
-| lever | 10 |
-| jobvite | 8 |
+| smartrecruiters | 12 |
+| jobvite | 10 |
 | icims | 7 |
 | workable | 4 |
-| phenom | 3 |
-| taleo / oracle / adp / eightfold / ashby | 各 2 |
-| successfactors / kandidatenportal | 各 1 |
+| phenom / eightfold | 各 3 |
+| taleo / oracle / adp / ashby | 各 2 |
+| successfactors / kandidatenportal / dayforce | 各 1 |
 
 ### 名单构成
 
@@ -31,7 +31,7 @@
 
 ### 方法
 
-三轮 ATS 发现：Round 1 官网 careers 页静态扫描 → Round 2 搜索引擎（Workday 优先）→ Round 3 搜索指纹 + 浏览器反查。Workday 租户已验证 CXS JSON API 可直接抓取（38 家 tenant/site 已确认）。
+三轮 ATS 发现：Round 1 官网 careers 页静态扫描 → Round 2 搜索引擎（Workday 优先）→ Round 3 搜索指纹 + 浏览器反查。Workday 租户已验证 CXS JSON API 可直接抓取（68 家 tenant/site 已确认）。
 
 ### 用途
 
