@@ -27,6 +27,8 @@
 
 **已验证案例：jobuzzer.com（[thread-1178300](../threads/thread-1178300-jobuzzer.md)，2026-05-28，1.7w 浏览 / 316 收藏）**：独立开发者高频监控 7k→9k 家公司官网招聘页，"比 LinkedIn 更早看到职位"，免费搜索 + 付费邮件通知。验证了三点：①"卖 workflow 不卖数据"——用户买的是"更早知道"+被动通知；②求职者获客成立、付费天花板低——作者自述"收入还未能够支持开支"，与本节第 4 条排序一致；③成本纪律决定生死——工程化 diff 先行、有增量才用 AI 分类，数据源按 ATS API → 渲染浏览器 → LLM 三级走，成本递增。
 
+**Incumbent 案例：Draup（2026-10-06 收录，见 [misc/wall-street-ai-talent-demand-2026-draup.md](../misc/wall-street-ai-talent-demand-2026-draup.md)）**：企业招聘数据公司，抓取 LinkedIn 等平台公开招聘信息，卖人才分析（talent intelligence）——2026-10 独家给 CNBC 提供了华尔街 AI 人才数据（银行 AI 职位 +49%、Agent 编排 +1721%）。这是"招聘上游数据 → B2B 订阅/报告"形态已经跑通的玩家：客户是企业 HR/战略部门而非求职者，客单价和续费逻辑与求职者端完全不同。做同类方向时，Draup 是要正面研究的对标。
+
 ## B. 上游数据源清单 × 客户触达矩阵
 
 *逐类格式：信号 → 谁付费 → 卖什么形态 → 怎么触达 → 最小验证实验。数据源出自 [ai-value-creation.md](ai-value-creation.md) 的"上游数据源清单"。*
