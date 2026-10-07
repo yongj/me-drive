@@ -4,7 +4,7 @@ Bank of America,BAC,bankofamerica.com,workday,ghr.wd1.myworkdayjobs.com,https://
 Citigroup,C,citigroup.com,workday,citi.wd5.myworkdayjobs.com,https://jobs.citi.com/,ats found at https://citigroup.com/careers
 HSBC,HSBC,hsbc.com,phenom,,https://www.hsbc.com/careers#goToNextNav,r2[medium] 官方招聘门户 portal.careers.hsbc.com 的职位数据含 medallionProgram/canonicalPositionUrl 等 Phenom 特征字段，疑为 Phenom 自建门户 | https://portal.careers.hsbc.com/careers?pid=563774611582832&domain=hsbc.com&utm_source=LinkedIn
 Industrial and Commercial Bank of China,1398,icbc.com.cn,custom,,https://www.icbc-ltd.com,r3 search-evidence (medium): Career section 'Join Us' on own domain; overseas branches use email applications
-Agricultural Bank of China,1288,abchina.com,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='abchina.com', port=443):)"
+Agricultural Bank of China,1288,abchina.com,custom,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='abchina.com', port=443):) | ATS:overseas branches post jobs on official abchina.com subdomains with email applications; no third-party ATS found"
 Bank of China,3988,boc.cn,pageup,,https://careers.pageuppeople.com/798/cw/en/filter/?search-keyword=&department=information%20technology%20department,r3 search-evidence (low): evidence from BOCHK (HK subsidiary); HQ boc.cn system unverified
 Barclays,BARC,barclays.com,workday,,,r2[high] 实际申请链接落在 Workday 租户 barclays.wd1.myworkdayjobs.com/external_career_site_barclays，与 wd3 租户文档记录互相印证 | https://barclays.wd1.myworkdayjobs.com/external_career_site_barclays/job/Glasgow-Campus/Java-Integration-Software-Engineer_JR-0000050031-1
 BNP Paribas,BNP,bnpparibas.com,custom,,,r2[medium] 英国校招实际申请链接落在自有品牌 ATS 域名 bnpparibas.tal.net（Lumesse TalentLink），未发现标准名单内的第三方平台 | https://bnpparibas.tal.net/vx/lang-en-GB/mobile-0/brand-2/user-807236/xf-74fcfccade6f/candidate/so/pm/1/pl/1/opp/2151-London-2025-Graduate-Programme-Technology/en-GB
@@ -16,16 +16,16 @@ UBS,UBSG,ubs.com,custom,,https://www.ubs.com/global/en/careers/search-jobs/faq.h
 Bank of Communications,3328,bankcomm.com,custom,,https://www.hk.bankcomm.com/hk/shtml/hk/en/2005773/2005781/list.shtml?channelId=2005773,r3 search-evidence (medium): HK careers pages self-hosted on own domain
 Bank of New York Mellon,BK,bnymellon.com,eightfold,,https://bnymellon.eightfold.ai/careers,r3 search-evidence (high): Eightfold AI-hosted careers site
 Deutsche Bank,DBK,db.com,custom,,https://careers.db.com/professionals/Your-Application/,r3 search-evidence (medium): Apply flow on own careers.db.com (Candidate Home); Indeed job postings direct applicants to www.careers.db.com to apply; no third-party ATS subdomain found
-Groupe BPCE,,groupebpce.com,,,,"no careers page (3 tried, last: http 404)"
+Groupe BPCE,,groupebpce.com,custom,,,"no careers page (3 tried, last: http 404) | ATS:groupebpce.com references the group's own 'site recrutement' (own recruitment site); no third-party ATS found"
 ING,INGA,ing.com,workday,,https://careers.ing.com/en/search-jobs,r2[high] ING 官方职位页（careers.ing.com）多处明确写明 ING uses Workday as its recruitment system | https://careers.ing.com/en/job/bukareszt/data-analyst-business-intelligence-retail-banking-ing-bank/3121/35516020992
-Mizuho Financial Group,8411,mizuho-fg.co.jp,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='mizuho-fg.co.jp', port=4)"
+Mizuho Financial Group,8411,mizuho-fg.co.jp,none,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='mizuho-fg.co.jp', port=4) | ATS:actively hiring (LinkedIn 242 jobs) but no ATS domain identifiable from search results"
 Morgan Stanley,MS,morganstanley.com,eightfold,,https://morganstanley.eightfold.ai/careers,r3 search-evidence (high): Eightfold AI-hosted careers site (tal.net link was old 2023 campus posting)
 Royal Bank of Canada,RY,rbc.com,phenom,phenompeople.com,https://jobs.rbc.com/ca/en/,ats found at https://rbc.com/careers
 Santander,SAN,santander.com,workday,santander.wd3.myworkdayjobs.com,https://www.santander.com/en/careers,ats found at https://careers.santander.com/
 Societe Generale,GLE,societegenerale.com,taleo,socgen.taleo.net,https://careers.societegenerale.com/,ats found at https://careers.societegenerale.com/
 Standard Chartered,STAN,sc.com,phenom,,https://talent.sc.com/flows/tn-uae-lateral-registration?campaign=facebook&medium=social-organic&term=exp-careers&content=voiceandvirtual,r3 search-evidence (medium): talent.sc.com/flows/ URL is Phenom's Talent Network pattern; job listings also on jobs.standardchartered.com
 State Street,STT,statestreet.com,workday,statestreet.wd1.myworkdayjobs.com,https://careers.statestreet.com/global/en,ats found at https://careers.statestreet.com/
-Sumitomo Mitsui Financial Group,8316,smfg.co.jp,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='smfg.co.jp', port=443): )"
+Sumitomo Mitsui Financial Group,8316,smfg.co.jp,none,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='smfg.co.jp', port=443): ) | ATS:actively hiring (LinkedIn 158 jobs) but no ATS domain identifiable from search results"
 Toronto-Dominion Bank,TD,td.com,workday,td.wd3.myworkdayjobs.com,https://careers.td.com/,ats found at https://careers.td.com/
 Wells Fargo,WFC,wellsfargo.com,custom,,,r2[medium] 富国官方说明：内部员工用 Workday 找工作，外部候选人走 wellsfargojobs.com 自有门户；外部申请系统无第三方 ATS 域名证据 | https://teamworks.wellsfargo.com/retain/applyforwellsfargojobs.htm
 U.S. Bancorp,USB,usbank.com,phenom,,,r2[medium] 开源抓取工具 issue 明确 careers.usbank.com 抓取源为 phenom_canvas（Phenom）并给出 phApp.ddo 数据路径，与其 /global/en/job/ URL 形态互相印证 | https://github.com/colophon-group/jobseek/issues/2544
@@ -41,7 +41,7 @@ Regions Financial,RF,regions.com,phenom,,,r2[medium] 官方招聘站 careers.reg
 Huntington Bancshares,HBAN,huntington.com,custom,,https://huntington-careers.com,r3 search-evidence (medium): Official careers on custom domain; platform not identifiable via search
 Ally Financial,ALLY,ally.com,avature,,https://ally.avature.net/careers/SearchJobs/?667=%5B265477%5D&667_format=613&listFilterMode=1&jobRecordsPerPage=6&jobOffset=6,r3 search-evidence (medium): Job search portal hosted on Avature subdomain (Avature RMK numeric-filter URL pattern)
 Comerica,CMA,comerica.com,phenom,,https://www.53.com/,r2[medium] 官方招聘站 careers.comerica.com 职位页 URL 采用 /us/en/job/CDKCBCUS…EXTERNALENUS 形态，与 U.S. Bank/PNC 的 Phenom 门户模式一致 | https://careers.comerica.com/us/en/job/CDKCBCUS258216EXTERNALENUS/Senior-Lending-Assistant
-First Horizon,FHN,firsthorizon.com,,,,"no careers page (3 tried, last: http 404)"
+First Horizon,FHN,firsthorizon.com,custom,,,"no careers page (3 tried, last: http 404) | ATS:463 open positions; no third-party ATS domain found; bank-typical self-hosted portal"
 Western Alliance Bancorp,WAL,westernalliancebank.com,workday,,,r2[high] 官方申请链接直接落在 Workday 租户 westernalliancebank.wd5.myworkdayjobs.com/wab，职位描述含 Time Type 等 Workday 字段互相印证 | https://westernalliancebank.wd5.myworkdayjobs.com/wab/job/maryland/client-service-analyst-iii_r11274-1
 Zions Bancorporation,ZION,zionsbancorporation.com,custom,,https://careers.zionsbancorp.com/,r3 search-evidence (medium): Self-hosted portal on own subdomain; underlying platform unverified
 Popular Inc,BPOP,popular.com,custom,,https://jobs.popular.com,r3 search-evidence (medium): Official jobs portal on own subdomain
@@ -51,108 +51,108 @@ Cullen/Frost Bankers,CFR,frostbank.com,workday,frostbank.wd5.myworkdayjobs.com,h
 Wintrust Financial,WTFC,wintrust.com,workday,wintrust.wd1.myworkdayjobs.com,https://www.wintrust.com/careers,ats found at https://wintrust.com/careers
 Old National Bancorp,ONB,oldnational.com,icims,,,"r2[high] 职位发布直接标注 Old National Bank Careers"" 并落在 icims 域名 social.icims.com"" | https://social.icims.com/viewjob/pf17774400488164ae75"
 FNB Corporation,FNB,fnb-online.com,workday,fnbcorp.wd501.myworkdayjobs.com,https://www.fnb-online.com/about-us/careers,ats found via job link
-Pinnacle Financial Partners,PNFP,pnfp.com,,,,blocked? http 403 — backing off
+Pinnacle Financial Partners,PNFP,pnfp.com,custom,,,blocked? http 403 — backing off | ATS:actively hiring; no third-party ATS domain found; bank-typical self-hosted portal
 Prosperity Bancshares,PB,prosperitybankusa.com,custom,,https://www.prosperitybankusa.com/Careers,r3 search-evidence (medium): Career Center on own domain; internal uses ADP
-Hancock Whitney,HWC,hancockwhitney.com,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='hancockwhitney.com', por)"
+Hancock Whitney,HWC,hancockwhitney.com,custom,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='hancockwhitney.com', por) | ATS:actively hiring; no third-party ATS domain found; bank-typical self-hosted portal"
 Associated Banc-Corp,ASB,associatedbank.com,workday,associatedbank.wd1.myworkdayjobs.com,https://www.associatedbank.com/careers,ats found at https://associatedbank.com/careers
 UMB Financial,UMBF,umb.com,workday,umb.wd1.myworkdayjobs.com,https://www.umb.com/careers,ats found at https://umb.com/careers
 BOK Financial,BOKF,bokf.com,phenom,,https://jobs.bokf.com/go/Consumer-Banking-Jobs-in-Houston/2890500/,r3 search-evidence (medium): /go/ white-label URL pattern matches Phenom; Phenom case study for financial client
 Texas Capital Bancshares,TCBI,texascapitalbank.com,workday,,https://texascapitalbank.wd12.myworkdayjobs.com/en-US/Careers,r3 search-evidence (high): tenant=texascapitalbank|site=Careers; job posting URLs indexed on company Workday tenant
-Columbia Banking Systems,COLB,columbiabank.com,,,,blocked? http 403 — backing off
+Columbia Banking Systems,COLB,columbiabank.com,custom,,,blocked? http 403 — backing off | ATS:HiringCafe tracks 223 open jobs on columbiabank.com (own domain); no third-party ATS found
 SouthState Corporation,SSB,southstatebank.com,phenom,,,r2[medium] 官方招聘链接为 /us/en/job/R-xxxxx 格式，且职位链接携带 utm_medium=phenom-feeds，Phenom 特征明显 | https://careers.southstatebank.com/us/en/job/R-04381/SAM-Commercial-Resolutions-Officer-Remote-FL-GA-AL-VA-NC-SC-TX?ref=dailyremote&utm_source=dailyremote.com&utm_campaign=dailyremote.com&utm_medium=dailyremote.com
-United Bankshares,UBSI,ubsi-inc.com,,,,blocked? http 403 — backing off
+United Bankshares,UBSI,ubsi-inc.com,custom,,,blocked? http 403 — backing off | ATS:talentify shows 'Go to career site' (own career site); 93 open positions; no third-party ATS found
 Fulton Financial,FULT,fultonbank.com,icims,www.icims.com,https://careers.fultonbank.com/,ats found at https://careers.fultonbank.com/
-WesBanco,WSBC,wesbanco.com,,,https://www.wesbanco.com/careers/,"job page ok, ats unknown"
+WesBanco,WSBC,wesbanco.com,custom,,https://www.wesbanco.com/careers/,"job page ok, ats unknown | ATS:DiversityJobs mirrors 221 WesBanco jobs (job page ok per input note); no third-party ATS identified"
 Renasant Corporation,RNST,renasantbank.com,icims,careers-renasant.icims.com,https://www.renasantbank.com/careers,ats found at https://renasantbank.com/careers
-Atlantic Union Bankshares,AUB,atlanticunionbank.com,,,https://recruiting.ultipro.com/UNI1046UFMB/JobBoard/d8f90aad-672e-4f0a-bbc1-a17aa8cf1111%20/?q=&amp;o=postedDateDesc&amp;w=&amp;wc=&amp;we=&amp;wpst=,"job page ok, ats unknown"
-Simmons First National,SFNC,simmonsbank.com,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='www.simmonsbank.com', po)"
-Cadence Bank,CADE,cadencebank.com,,,,blocked? http 403 — backing off
+Atlantic Union Bankshares,AUB,atlanticunionbank.com,custom,,https://recruiting.ultipro.com/UNI1046UFMB/JobBoard/d8f90aad-672e-4f0a-bbc1-a17aa8cf1111%20/?q=&amp;o=postedDateDesc&amp;w=&amp;wc=&amp;we=&amp;wpst=,"job page ok, ats unknown | ATS:DiversityJobs lists open positions (job page ok per input note); no third-party ATS identified"
+Simmons First National,SFNC,simmonsbank.com,custom,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='www.simmonsbank.com', po) | ATS:89 open positions on Indeed; no third-party ATS domain found; bank-typical self-hosted portal"
+Cadence Bank,CADE,cadencebank.com,custom,,,blocked? http 403 — backing off | ATS:34 open positions; no third-party ATS domain found; bank-typical self-hosted portal
 FB Financial,FBK,firstbankonline.com,jobvite,jobs.jobvite.com,https://jobs.jobvite.com/firstbank,ats found at https://firstbankonline.com/careers
-Glacier Bancorp,GBCI,glacierbancorp.com,,,,blocked? http 403 — backing off
-Veritex Holdings,VBTX,veritexbank.com,,,,blocked? http 403 — backing off
-Banner Corporation,BANR,bannerbank.com,,,,"no careers page (3 tried, last: http 404)"
-NBT Bancorp,NBTB,nbtbank.com,,,,blocked? http 403 — backing off
+Glacier Bancorp,GBCI,glacierbancorp.com,custom,,,blocked? http 403 — backing off | ATS:applicants directed to www.glacierbancorp.com/careers (own site); 154 jobs; no third-party ATS found
+Veritex Holdings,VBTX,veritexbank.com,none,,,blocked? http 403 — backing off | ATS:2 searches found no ATS URL; careers page blocked (http 403) per input note; Indeed/Glassdoor show no current open jobs
+Banner Corporation,BANR,bannerbank.com,lever,,,"no careers page (3 tried, last: http 404) | ATS:Banner Bank 'Apply Now' links point to jobs.lever.co/bannerbank (two independent job-mirror pages)"
+NBT Bancorp,NBTB,nbtbank.com,custom,,,blocked? http 403 — backing off | ATS:NBT Bank recruiting video points applicants to www.nbtbank.com/careers (own-domain portal); no third-party ATS identified
 BBVA,BBVA,bbva.com,workday,bbva.wd3.myworkdayjobs.com,https://www.bbva.com/es/empleo/,ats found at https://careers.bbva.com/
-CaixaBank,CABK,caixabank.com,,,,"no careers page (3 tried, last: http 404)"
+CaixaBank,CABK,caixabank.com,custom,,,"no careers page (3 tried, last: http 404) | ATS:Large Spanish bank; aggregators list its jobs but no third-party ATS URL in 2 searches; careers portal previously http 404 per input note"
 Banco Sabadell,SAB,bancosabadell.com,custom,,https://www.sabadellcareers.com/inicio/?lang=en,r3 search-evidence (medium): Official careers portal self-hosted on sabadellcareers.com; HQ Spain
-Bankinter,BKT,bankinter.com,,,,blocked? http 403 — backing off
+Bankinter,BKT,bankinter.com,custom,,,blocked? http 403 — backing off | ATS:Guide describes Bankinter's own employment portal ('Trabaja con nosotros: Enviar CV') on its site; no third-party ATS identified
 UniCredit,UCG,unicredit.eu,successfactors,,https://careers.unicredit.eu/en_GB/jobsuche/SearchJobs/?1286=%5B1883%5D&1286_format=1068&listFilterMode=1&jobRecordsPerPage=15,r3 search-evidence (medium): SAP SuccessFactors RMK URL pattern (jobsuche + numeric filter IDs); application via ApplicationMethods?jobId= pages
 Intesa Sanpaolo,ISP,intesasanpaolo.com,custom,,https://jobs.intesasanpaolo.com/job/Tokyo-Operations-Officer/580573401/,r3 search-evidence (high): job posting URL on own domain jobs.intesasanpaolo.com
-Mediobanca,MB,mediobanca.com,,,,"no careers page (3 tried, last: http 404)"
-Banco BPM,BAMI,bancobpm.it,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='www.bancobpm.it', port=4)"
+Mediobanca,MB,mediobanca.com,custom,,,"no careers page (3 tried, last: http 404) | ATS:Own-domain careers pages (mediobancapremier.com lavora-con-noi; mediobanca.com/it/lavora-con-noi/posizioni-aperte.html); no third-party ATS"
+Banco BPM,BAMI,bancobpm.it,custom,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='www.bancobpm.it', port=4) | ATS:Official careers area gruppo.bancobpm.it 'lavora con noi' referenced as sole application channel; no third-party ATS"
 Banca Monte dei Paschi di Siena,BMPS,mps.it,taleo,,,r2[high] official portal URL uses classic Oracle Taleo path /careersection/ex/jobdetail.ftl on lavoraconnoi.mps.it | https://lavoraconnoi.mps.it/careersection/ex/jobdetail.ftl
 BPER Banca,BPE,bper.it,oracle,,,r2[high] official Lavora con noi portal is Oracle Cloud HCM CandidateExperience at fa-ewnv-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/it/sites/BPER-Lavora-Con-Noi/jobs | https://www.lavorofacile.info/bper-tirocini-giovani-laureati-2026.html
-La Banque Postale,,labanquepostale.fr,,,https://www.labanquepostale.fr,"page ok, ats unknown"
+La Banque Postale,,labanquepostale.fr,custom,,https://www.labanquepostale.fr,"page ok, ats unknown | ATS:Recruiting via group's own portal laposterecrute.fr (La Poste Recrute) and labanquepostale.fr; no third-party ATS"
 Credit Mutuel,,creditmutuel.fr,custom,,https://subdomainfinder.c99.nl/scans/2022-03-14/creditmutuel.fr,r3 search-evidence (medium): recrutement.creditmutuel.fr is own-domain recruitment subdomain; ATS vendor not identified
 ABN Amro,ABN,abnamro.com,custom,,https://www.werkenbijabnamro.nl/en/vacancy/9555/junior-data-engineer,r3 search-evidence (medium): self-built branded portal werkenbijabnamro.nl (NL HQ); no ATS domain evidence; direct curl blocked (HTTP 000)
 Rabobank,,rabobank.com,workday,,https://rabobank.jobs/en/job/business-analyst-data-lineage-platform/JR_00145415/,r3 search-evidence (low): rabobank.jobs uses JR_xxxxxx requisition IDs (Workday-style); no vendor-domain apply URL indexed
 Lloyds Banking Group,LLOY,lloydsbankinggroup.com,workday,lbg.wd3.myworkdayjobs.com,https://www.lloydsbankinggroup.com/careers,ats found at https://lloydsbankinggroup.com/careers
 NatWest Group,NWG,natwestgroup.com,custom,,https://jobs.natwestgroup.com/search/jobs/in/gurugram-london-manchester,r3 search-evidence (medium): Bespoke careers site on own subdomain (scraper notes WAF + browser required; no standard ATS API pattern)
-Nationwide Building Society,,nationwide.co.uk,,,,"no careers page (3 tried, last: http 404)"
+Nationwide Building Society,,nationwide.co.uk,custom,,,"no careers page (3 tried, last: http 404) | ATS:Job ads describe Nationwide's own 'candidate hub' assessment flow; open positions on Glassdoor; no third-party ATS URL found"
 Close Brothers,CBG,closebrothers.com,custom,,https://www.closebrothers.com/careers,r3 search-evidence (medium): careers portal on closebrothers.com own domain; no ATS domain evidence; UK/Ireland entities use same group portal; direct curl blocked (HTTP 000)
-Commerzbank,CBK,commerzbank.com,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='www.commerzbank.de', por)"
-Nordea,NDA-FI,nordea.com,,,,"no careers page (4 tried, last: fetch err: HTTPSConnectionPool(host='www.nordea.com', port=44)"
+Commerzbank,CBK,commerzbank.com,custom,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='www.commerzbank.de', por) | ATS:Recruiting film references own portal https://jobs.commerzbank.com (in video description); no third-party ATS"
+Nordea,NDA-FI,nordea.com,custom,,,"no careers page (4 tried, last: fetch err: HTTPSConnectionPool(host='www.nordea.com', port=44) | ATS:Open positions listed on nordea.com/en/careers (own site); no third-party ATS"
 SEB,SEB-A,sebgroup.com,custom,,https://sebgroup.com/career/find-your-new-job/our-vacant-positions/seb-corporate--investment-banking-summer-internship-2027-cib-legal--seb-stockholm-fc606b98-a4e8-43c7-9106-39bfa06f8f1d,r3 search-evidence (high): job postings hosted on own domain sebgroup.com
 Handelsbanken,SHB-A,handelsbanken.com,custom,,https://www.handelsbanken.com/en/careers/vacancies,r3 search-evidence (medium): vacancies on handelsbanken.com own domain; UK wealth arm has separate careers page (wealthandasset.handelsbanken.co.uk) that may differ; direct curl blocked (HTTP 000)
-Swedbank,SWED-A,swedbank.com,,,,"no careers page (3 tried, last: http 404)"
-Danske Bank,DANSKE,danskebank.com,,,https://ejqi.fa.ocs.oraclecloud.eu/hcmUI/CandidateExperience/en/sites/CX_1001/job/24967,"job page ok, ats unknown"
-DNB,DNB,dnb.no,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='www.dnb.no', port=443): )"
+Swedbank,SWED-A,swedbank.com,custom,,,"no careers page (3 tried, last: http 404) | ATS:Employer profile points applicants to www.swedbank.ee/careers (own site); no third-party ATS"
+Danske Bank,DANSKE,danskebank.com,custom,,https://ejqi.fa.ocs.oraclecloud.eu/hcmUI/CandidateExperience/en/sites/CX_1001/job/24967,"job page ok, ats unknown | ATS:'All our open jobs are published on Danske Bank Careers' (danskebank.com own careers); no third-party ATS"
+DNB,DNB,dnb.no,custom,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='www.dnb.no', port=443): ) | ATS:Bank's own career portal on dnb.no domain mentions open positions advertised through 'our career portal'; no third-party ATS URL found in search results"
 Erste Group,EBS,erstegroup.com,custom,,https://www.erstegroup.com/en/career/positions-offered,"r3 search-evidence (medium): self-hosted ""online job application portal"" on erstegroup.com; no ATS domain evidence; CEE subsidiaries may run different systems; direct curl blocked (HTTP 000)"
 Raiffeisen Bank International,RBI,rbinternational.com,phenom,,https://jobs.rbinternational.com/job/Wien-SW-Architect-Lead-Developer-for-Cash-Management-International-%28fmx%29-Vien-1030/1327801857/,r3 search-evidence (medium): jobs.rbinternational.com /job/<title>/<numeric-id>/ URL pattern + Talent Community matches Phenom TXM
-BAWAG Group,BG,bawaggroup.com,,,,"no careers page (3 tried, last: http 404)"
+BAWAG Group,BG,bawaggroup.com,none,,,"no careers page (3 tried, last: http 404) | ATS:No careers page or identifiable ATS found in web search results (2 searches)"
 KBC Group,KBC,kbc.com,successfactors,,,"r2[medium] official jobs at careers.kbc-group.com use classic SuccessFactors Career Site Builder pattern (Job Details pages with Req ID URLs); no vendor domain in URL though, so medium | https://careers.kbc-group.com/SSC_BG/job/Application-Manager-%28Finance%29/84701-en_GB/"
-Bank of Ireland,BIRG,bankofireland.com,,,,"no careers page (4 tried, last: http 404)"
+Bank of Ireland,BIRG,bankofireland.com,custom,,,"no careers page (4 tried, last: http 404) | ATS:Self-hosted careers portal on bank's own domain with open job listings; no third-party ATS domain identified"
 AIB Group,AIBG,aib.ie,taleo,,https://jobs.aib.ie/go/Search-All-Jobs/3834700/,r3 search-evidence (high): Taleo GO portal URL fingerprint (/go/<category>/<id>/ + /content/); hosted on jobs.aib.ie own domain; direct curl blocked (HTTP 000)
-Millennium BCP,BCP,millenniumbcp.pt,,,https://www.millenniumbcp.pt,"page ok, ats unknown"
-Piraeus Bank,TPEIR,piraeusbankgroup.com,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='piraeusbankgroup.com', p)"
+Millennium BCP,BCP,millenniumbcp.pt,none,,https://www.millenniumbcp.pt,"page ok, ats unknown | ATS:No identifiable ATS found in web search results (2 searches)"
+Piraeus Bank,TPEIR,piraeusbankgroup.com,workable,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='piraeusbankgroup.com', p) | ATS:Jobs hosted on Workable (jobs.workable.com company page titled 'Piraeus Bank | Jobs By Workable'); Workable is an ATS platform"
 National Bank of Greece,ETE,nbg.gr,custom,,http://www.nbg.gr/en/group/human-resources,r3 search-evidence (medium): HR/careers pages on own domain nbg.gr; ATS vendor not identified
 Alpha Bank,ALPHA,alpha.gr,taleo,,https://careers.alpha.gr/go/DigiTech-jobs/9363455/,r3 search-evidence (high): Taleo GO portal URL fingerprint (/go/<category>/<id>/ with locale param); same pattern as AIB jobs.aib.ie; Alpha Bank London jobs instead apply via LinkedIn; direct curl blocked (HTTP 000)
 Eurobank,EUROB,eurobank.gr,phenom,,https://careers.eurobank.gr/job/IT-Infrastructure-Domain-Architect/1371972557/,r3 search-evidence (medium): careers.eurobank.gr uses /go/ and /job/<title>/<numeric-id>/ structure characteristic of Phenom
 PKO Bank Polski,PKO,pkobp.pl,custom,,https://pl.linkedin.com/posts/ewa-poczciwek-4258b3141_doradczynidoradca-klient%C3%B3w-indywidualnych-activity-7471140444580704257-eSeL,"r3 search-evidence (low): PKO recruiters cite kariera.pkobp.pl as apply destination (own subdomain); some branch postings use system.erecruiter.pl forms - mixed signals, needs verification"
-Bank Pekao,PEO,pekao.com.pl,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='www.pekao.com.pl', port=)"
-mBank,MBK,mbank.pl,,,,"no careers page (3 tried, last: http 404)"
-Santander Bank Polska,SPL,santander.pl,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='santander.pl', port=443))"
+Bank Pekao,PEO,pekao.com.pl,none,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='www.pekao.com.pl', port=) | ATS:No identifiable ATS found in web search results (2 searches)"
+mBank,MBK,mbank.pl,erecruiter,,,"no careers page (3 tried, last: http 404) | ATS:Bank's own GDPR/HR document states job-candidate data is processed via 'the ATSeRecruiter system' (eRecruiter, Polish ATS)"
+Santander Bank Polska,SPL,santander.pl,none,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='santander.pl', port=443)) | ATS:No careers page or identifiable ATS found in web search results (2 searches)"
 OTP Bank,OTP,otpbank.hu,phenom,,https://karrier.otpbank.hu/search/,r3 search-evidence (medium): Phenom URL pattern: /go/<name>/<id>/ and /job/<title>-<city>-<id>/<jobid>/ on karrier.otpbank.hu
-Komercni Banka,KOMB,kb.cz,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='kb.cz', port=443): Read )"
+Komercni Banka,KOMB,kb.cz,none,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='kb.cz', port=443): Read ) | ATS:No identifiable ATS found in web search results (2 searches)"
 Moneta Money Bank,MONETA,moneta.cz,custom,,https://esg.moneta.cz/documents/19688341/19700902/mmb-corporate-sustainability-report-2017.pdf,"r3 search-evidence (medium): self-built career site www.moneta.cz/kariera per bank's own sustainability report; SmartRecruiters ""Moneta"" postings are the unrelated US RIA firm; direct curl blocked (HTTP 000)"
-Garanti BBVA,GARAN,garanti.com.tr,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='www.garantibbva.com.tr',)"
+Garanti BBVA,GARAN,garanti.com.tr,custom,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='www.garantibbva.com.tr',) | ATS:Own careers portal (Garanti BBVA International, careers.garantibank.eu) with open positions; no third-party ATS; Turkish parent garantibbva.com.tr careers page not found"
 Akbank,AKBNK,akbank.com,custom,,https://world.einnews.com/pr_news/938986092/akbank-career-by-akbank-design-studio-staff-channel-wins-gold-in-a-software-design-awards,"r3 search-evidence (medium): In-house 'Akbank Career' end-to-end recruitment platform developed by Akbank Design Studio (Sept 2026 press releases, multiple)"
 Isbank,ISCTR,isbank.com.tr,custom,,https://www.sitelike.org/similar/ik.uk/,r3 search-evidence (medium): ik.isbank.com.tr identified as own-domain HR/careers portal across multiple listings; vendor not identified
 Yapi Kredi,YKBNK,yapikredi.com.tr,custom,,https://app.qureos.com/jobs/security-engineer-incident-response-cyber-threat-intelligence-1764847338485,r3 search-evidence (medium): self-hosted portal kariyerim.yapikredi.com.tr cited as application destination in Yapi Kredi Teknoloji job ads; tech subsidiary may differ from bank HQ; direct curl blocked (HTTP 000)
 Julius Baer,BAER,juliusbaer.com,workday,,,r2[medium] multiple independent job postings point apply links to the juliusbaer.wd3.myworkdayjobs.com tenant (Workday); no official URL crawled directly | https://juliusbaer.wd3.myworkdayjobs.com/en-US/External
-EFG International,EFGN,efginternational.com,,,,blocked? http 403 — backing off
+EFG International,EFGN,efginternational.com,custom,,,blocked? http 403 — backing off | ATS:Careers page on bank's own domain (efginternational.com/about/careers); no third-party ATS identified
 China Merchants Bank,3968,cmbchina.com,custom,,https://career.cuhk.edu.cn/attachment/careercuhk/ueditor/file/20250220/4954_招商银行深圳分行2025届春季校园招聘启事.pdf,"r3 search-evidence (medium): Official recruitment site https://career.cmbchina.com confirmed in official campus-recruitment notice (own domain, custom-built)"
 China CITIC Bank,0998,bank.ecitic.com,custom,,https://job.citicbank.com,r3 search-evidence (medium): official recruitment portal job.citicbank.com on own domain (HQ mainland); HK subsidiary uses careers.cncbinternational.com
 Shanghai Pudong Development Bank,600000,spdb.com.cn,custom,,http://news.spdb.com.cn/about_spd/recruitment/shzp/201804/P020180717636342368547.pdf,r3 search-evidence (medium): 总部招聘走官网spdb.com.cn浦发招聘栏+下载报名表邮件报名recruit@spdb.com.cn（自建）；香港分行另用JobsDB等渠道
-Industrial Bank (China),601166,cib.com.cn,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='cib.com.cn', port=443): )"
-China Minsheng Bank,600016,cmbc.com.cn,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='cmbc.com.cn', port=443):)"
-Ping An Bank,000001,bank.pingan.com,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='bank.pingan.com', port=4)"
+Industrial Bank (China),601166,cib.com.cn,none,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='cib.com.cn', port=443): ) | ATS:No identifiable ATS found in web search results (2 searches; English and Chinese queries)"
+China Minsheng Bank,600016,cmbc.com.cn,none,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='cmbc.com.cn', port=443):) | ATS:No identifiable ATS found in web search results (2 searches; English and Chinese queries); jobs appear on third-party job boards only"
+Ping An Bank,000001,bank.pingan.com,custom,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='bank.pingan.com', port=4) | ATS:自有""平安人才""AI招聘系统；英文搜索无第三方ATS指纹"
 China Everbright Bank,601818,cebbank.com,custom,,http://static.cebbank.com/site/ceb/gddt/xnxw52/110873669/2019101014263224809.pdf,r3 search-evidence (medium): 招聘公告托管在cebbank.com自有域名；总部通过官网人才招聘栏招聘；未见第三方ATS域名
-Huaxia Bank,600015,hxb.com.cn,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='hxb.com.cn', port=443): )"
-China Zheshang Bank,2016,czbank.com,,,http://czbank.com/cn/,"page ok, ats unknown"
-Bank of Beijing,601169,bankofbeijing.com.cn,,,https://bankofbeijing.com.cn/careers,"page ok, ats unknown"
-Bank of Shanghai,601229,bankofshanghai.com,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='bankofshanghai.com', por)"
+Huaxia Bank,600015,hxb.com.cn,custom,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='hxb.com.cn', port=443): ) | ATS:官网hxb.com.cn自办招聘；2027届校招公告"
+China Zheshang Bank,2016,czbank.com,custom,,http://czbank.com/cn/,"page ok, ats unknown | ATS:自有网申通道+招聘微信公众号投递"
+Bank of Beijing,601169,bankofbeijing.com.cn,custom,,https://bankofbeijing.com.cn/careers,"page ok, ats unknown | ATS:自有社会招聘公告渠道"
+Bank of Shanghai,601229,bankofshanghai.com,custom,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='bankofshanghai.com', por) | ATS:银行自办招聘公告；无第三方ATS指纹"
 Bank of Ningbo,002142,nbcb.com.cn,custom,,https://jjxy.hznu.edu.cn/upload/resources/file/2018/04/04/7417301.pdf,r3 search-evidence (medium): official campus-recruit portal zhaopin.nbcb.com.cn on bank's own domain
 Bank of Jiangsu,600919,jsbchina.cn,custom,,https://hr.jsbchina.cn/zp,"r3 search-evidence (medium): Own recruitment portal hr.jsbchina.cn/zp, separate from corporate site jsbchina.cn; cited in branch recruitment notices"
-Bank of Nanjing,601009,njcb.com.cn,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='njcb.com.cn', port=443):)"
-Postal Savings Bank of China,1658,psbc.com,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='psbc.com', port=443): Ma)"
-Resona Holdings,8308,resona-gr.co.jp,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='resona-gr.co.jp', port=4)"
-Sumitomo Mitsui Trust Holdings,8309,smth.jp,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='smth.jp', port=443): Max)"
-Concordia Financial Group,7186,concordia-fg.jp,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='concordia-fg.jp', port=4)"
-Fukuoka Financial Group,8354,fukuoka-fg.com,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='fukuoka-fg.com', port=44)"
-Chiba Bank,8331,chibabank.co.jp,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='chibabank.co.jp', port=4)"
-Shizuoka Financial Group,5831,shizuoka-fg.co.jp,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='shizuoka-fg.co.jp', port)"
-Mebuki Financial Group,7167,mebuki-fg.co.jp,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='mebuki-fg.co.jp', port=4)"
-Hokuhoku Financial Group,8377,hokuhoku-fg.co.jp,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='hokuhoku-fg.co.jp', port)"
-KB Financial Group,105560,kbfg.com,,,https://kbfg.com/error.jsp,"page ok, ats unknown"
-Shinhan Financial Group,055550,shinhangroup.com,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='shinhangroup.com', port=)"
-Hana Financial Group,086790,hanafn.com,,,,"no careers page (3 tried, last: http 404)"
-Woori Financial Group,316140,woori.com,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='woori.com', port=443): M)"
+Bank of Nanjing,601009,njcb.com.cn,custom,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='njcb.com.cn', port=443):) | ATS:银行自办招聘公告(第三方转载)；无第三方ATS指纹"
+Postal Savings Bank of China,1658,psbc.com,custom,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='psbc.com', port=443): Ma) | ATS:官方网申通道+招聘微信公众号"
+Resona Holdings,8308,resona-gr.co.jp,custom,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='resona-gr.co.jp', port=4) | ATS:官网域名自办HR/招聘信息"
+Sumitomo Mitsui Trust Holdings,8309,smth.jp,custom,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='smth.jp', port=443): Max) | ATS:官网域名自办HR信息"
+Concordia Financial Group,7186,concordia-fg.jp,custom,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='concordia-fg.jp', port=4) | ATS:官网域名；旗下银行各自招聘"
+Fukuoka Financial Group,8354,fukuoka-fg.com,custom,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='fukuoka-fg.com', port=44) | ATS:官网域名；集团自办招聘"
+Chiba Bank,8331,chibabank.co.jp,custom,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='chibabank.co.jp', port=4) | ATS:官网域名；集团统一招聘"
+Shizuoka Financial Group,5831,shizuoka-fg.co.jp,none,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='shizuoka-fg.co.jp', port) | ATS:未找到官网招聘页；仅有行业招聘新闻"
+Mebuki Financial Group,7167,mebuki-fg.co.jp,custom,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='mebuki-fg.co.jp', port=4) | ATS:官网域名；集团自办招聘信息"
+Hokuhoku Financial Group,8377,hokuhoku-fg.co.jp,none,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='hokuhoku-fg.co.jp', port) | ATS:未找到可识别ATS；仅有集团招聘战略信息"
+KB Financial Group,105560,kbfg.com,custom,,https://kbfg.com/error.jsp,"page ok, ats unknown | ATS:旗下子公司自建招聘主页(如KB资产运用)；无第三方ATS指纹"
+Shinhan Financial Group,055550,shinhangroup.com,custom,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='shinhangroup.com', port=) | ATS:自有招聘主页(集团子公司共用)；官方渠道收简历"
+Hana Financial Group,086790,hanafn.com,custom,,,"no careers page (3 tried, last: http 404) | ATS:旗下子公司自有招聘页(incruit托管)；无第三方ATS指纹"
+Woori Financial Group,316140,woori.com,custom,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='woori.com', port=443): M) | ATS:旗下子公司自有招聘主页(如wooricard.careerlink.kr)；集团自办"
 Industrial Bank of Korea,024110,ibk.co.kr,incruit,,https://www.ibk.co.kr/common/download.ibk?fullName=fup/finebank/recruit/announce/202609041658061096539824115162.pdf,r3 search-evidence (medium): official dedicated recruit site ibk.incruit.com (Korean local recruitment platform); also uses JobKorea hosted service
 KakaoBank,323410,kakaobank.com,custom,,https://www.kakaobank.com,r3 search-evidence (medium): Hiring notices posted on the official website; dedicated KakaoBank Careers site redesigned in-house
-DGB Financial Group,139130,dgbfg.co.kr,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='dgbfg.co.kr', port=443):)"
+DGB Financial Group,139130,dgbfg.co.kr,none,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='dgbfg.co.kr', port=443):) | ATS:未找到可识别ATS或官网招聘页"
 BNK Financial Group,138930,bnkfg.com,custom,,https://en.infomaxai.com/news/articleView.html?idxno=55256,r3 search-evidence (medium): 釜山银行/庆南银行招聘经银行官网提交（自建）；集团层面为bnkfg.com；注意总部与子公司招聘系统区分
-DBS Group,D05,dbs.com,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='www.dbs.com', port=443):)"
+DBS Group,D05,dbs.com,custom,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='www.dbs.com', port=443):) | ATS:官网dbs.com自建Careers板块"
 OCBC,O39,ocbc.com,taleo,,https://careerfair.comp.nus.edu.sg/Company0822/OCBC_Bank.html,"r3 search-evidence (medium): Application portal on Taleo (ocbc.taleo.net careersection/ocbc_external), listed on the NUS Computing career-fair company page"
 United Overseas Bank,U11,uobgroup.com,workday,,https://uobgroup.wd3.myworkdayjobs.com/UOBExternal/job/Central-Region-City-Area/Senior-Officer--Branch-Digital-Executive--Group-Channel-Digitalisation_JR72171,r3 search-evidence (high): tenant=uobgroup|site=UOBExternal
 Hang Seng Bank,11,hangseng.com,custom,,https://www.efinancialcareers.fi/jobs-Hong_Kong-Hong_Kong-Management_Trainee_-_Hang_Seng_Bank_HK_-_Commercial_Banking.id23329346,r3 search-evidence (medium): 职位广告引导至hangseng.com/careers在线申请（自建门户）；汇丰系但招聘门户独立
@@ -160,24 +160,24 @@ Bank of East Asia,23,hkbea.com,oracle,,https://hk.joblum.com/job/risk-and-compli
 Dah Sing Banking Group,2356,dahsing.com,custom,,https://www.dahsing.com/career,r3 search-evidence (medium): Job ads direct applicants to the bank's own online application form at dahsing.com/career
 CTBC Financial Holding,2891,ctbcbank.com,workday,,https://ctbcholding.wd3.myworkdayjobs.com/External/job/-_JR230,r3 search-evidence (high): tenant=ctbcholding|site=External
 Cathay Financial Holding,2882,cathaybk.com.tw,custom,,https://www.cake.me/companies/cathaysec/jobs/4b4a2c?locale=fr,r3 search-evidence (medium): 集团官方招募门户recruit.cathayholdings.com（自建）；注意区分美国Cathay Bank/Cathay General Bancorp（不同公司）
-Mega Financial Holding,2886,megabank.com.tw,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='megabank.com.tw', port=4)"
+Mega Financial Holding,2886,megabank.com.tw,custom,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='megabank.com.tw', port=4) | ATS:金控官网；旗下兆丰银行等自办招聘"
 First Financial Holding,2892,firstbank.com.tw,custom,,https://www.firstbank.com.tw/sites/fcb/OnlineRecruiting,"r3 search-evidence (medium): First Bank (第一銀行) own online recruiting pages; applications by email to @firstbank.com.tw or via 104.com.tw — this is the bank subsidiary, not the holding company"
-E.Sun Financial Holding,2884,esunbank.com.tw,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='esunbank.com.tw', port=4)"
+E.Sun Financial Holding,2884,esunbank.com.tw,custom,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='esunbank.com.tw', port=4) | ATS:自有""玉山菁英甄選網站""招聘门户(esun.co)"
 Taishin Financial Holding,2887,taishinbank.com.tw,custom,,https://economics2.mcu.edu.tw/sites/default/files/u3/2022%20%E5%8F%B0%E6%96%B0%E9%87%91%E6%8E%A7%20Early%20Win%E8%81%B7%E5%A0%B4%E9%AB%94%E9%A9%97%E8%A8%88%E7%95%ABDM_0.PDF,r3 search-evidence (medium): 台新金控人才招募网自建；2025年7月与新光金控合并为台新新光金控；注意总部与子银行招聘入口
 Yuanta Financial Holding,2885,yuanta.com,custom,,https://cdgs.asia.edu.tw/xhr/announcements/file/630c6f6a0c41f9ed6f676c99/%E5%85%83%E5%A4%A7%E9%87%91%E6%8E%A7%E8%81%B7%E7%BC%BA%E5%88%8A%E7%99%BB.pdf,r3 search-evidence (medium): official 元大招募網 hr.yuanta.com/JOB/ on company domain; all applications routed there
-Hua Nan Financial Holding,2880,huananbank.com.tw,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='huananbank.com.tw', port)"
-HDFC Bank,HDFCBANK,hdfcbank.com,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='www.hdfcbank.com', port=)"
+Hua Nan Financial Holding,2880,huananbank.com.tw,custom,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='huananbank.com.tw', port) | ATS:自办招聘(经台湾金融研训院甄选)；无第三方ATS指纹"
+HDFC Bank,HDFCBANK,hdfcbank.com,custom,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='www.hdfcbank.com', port=) | ATS:官网hdfcbank.com自建Careers在线申请"
 ICICI Bank,ICICIBANK,icicibank.com,custom,,https://www.icicicareers.com,r3 search-evidence (medium): self-hosted careers portal icicicareers.com; backend vendor not identifiable from public search; direct curl from test env returned HTTP 000 (unreachable)
 State Bank of India,SBIN,sbi.co.in,ibps,,https://ibpsreg.ibps.in/sbijajul26/,"r3 search-evidence (high): official apply path redirects to IBPS (Institute of Banking Personnel Selection); exam-based public-sector recruitment, not a commercial ATS"
 Axis Bank,AXISBANK,axisbank.com,custom,,https://axiscareers.axisbank.co.in,"r3 search-evidence (medium): Official own recruitment portal axiscareers.axisbank.co.in, separate from corporate axisbank.com"
-Kotak Mahindra Bank,KOTAKBANK,kotak.com,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='kotak.com', port=443): R)"
+Kotak Mahindra Bank,KOTAKBANK,kotak.com,custom,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='kotak.com', port=443): R) | ATS:银行自办招聘；无第三方ATS指纹"
 IndusInd Bank,INDUSINDBK,indusind.com,custom,,https://www.indusind.com/content/home/careers/opportunities-with-us.html,r3 search-evidence (medium): careers section hosted on official indusind.com; jobs listed and applied online on bank's own site; no third-party ATS domain observed
 Bank of Baroda,BANKBARODA,bankofbaroda.in,custom,,https://www.tamilanguide.in/bank-of-baroda-recruitment-2026-1100-wealth-executive-posts-apply-now/,r3 search-evidence (medium): applications run on bank's own Careers page (bankofbaroda.bank.in); no third-party ATS vendor domain found
 Punjab National Bank,PNB,pnbindia.in,custom,,https://pnbindia.in/Recruitments.aspx,r3 search-evidence (medium): Own site pnbindia.in/Recruitments.aspx with IBPS-style online application forms
-Canara Bank,CANBK,canarabank.com,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='canarabank.com', port=44)"
+Canara Bank,CANBK,canarabank.com,custom,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='canarabank.com', port=44) | ATS:公营银行官网自办招聘门户(canarabank.bank.in)"
 Yes Bank,YESBANK,yesbank.in,skillate,,https://ae.famedubai.com/yes-bank-india/,r3 search-evidence (medium): third-party listing shows official careers portal at yesbankcareers.skillate.com; Skillate is an Indian ATS and is NOT in the standard ATS mapping; subdomain unreachable from test env so not independently verified
 IDFC First Bank,IDFCFIRSTB,idfcfirstbank.com,phenom,,,r2[high] 官方招聘页 careers.idfcfirst.bank.in 基于 Phenom（页面直接出现 Phenom 字样） | https://careers.idfcfirst.bank.in/in/en/campus
-AU Small Finance Bank,AUBANK,aubank.in,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='aubank.in', port=443): R)"
+AU Small Finance Bank,AUBANK,aubank.in,custom,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='aubank.in', port=443): R) | ATS:官网(aubank.in)招聘；无第三方ATS指纹"
 BDO Unibank,BDO,bdo.com.ph,successfactors,,,r2[high] 官方招聘页 careers.bdo.com.ph 使用 SuccessFactors 典型 URL（/go/、/search/、/job/） | https://www.careers.bdo.com.ph/search/
 Bank of the Philippine Islands,BPI,bpi.com.ph,custom,,https://www.bpi.com.ph,"r3 search-evidence (medium): Own bpi.com site with register/login application flow, per university career directories"
 Metropolitan Bank & Trust,MBT,metrobank.com.ph,successfactors,,,r2[high] 官方招聘页 careers.metrobank.com.ph 使用 SuccessFactors 典型 URL（/go/、/job/） | https://careers.metrobank.com.ph/go/Customer-Service/4706810/
@@ -190,7 +190,7 @@ Kasikornbank,KBANK,kasikornbank.com,custom,,https://www.kasikornbank.com/en/care
 Siam Commercial Bank,SCB,scb.co.th,workday,,https://www.scb.co.th/th/404.html,r2[high] 官方招聘页（careers.scb.co.th）职位申请链接指向 myworkdayjobs.com 的 SCB_Careers 租户 | https://peopleplus.wd3.myworkdayjobs.com/SCB_Careers
 Krungthai Bank,KTB,ktb.co.th,custom,,https://www.youtube.com/watch?v=rQhMYKxnSOE,"r3 search-evidence (low): bank cites hr.krungthai.com as its apply site (bank-owned HR portal); weak evidence, no ATS vendor identified"
 Bank Rakyat Indonesia,BBRI,bri.co.id,custom,,https://e-recruitment.bri.co.id,"r3 search-evidence (medium): Own e-recruitment.bri.co.id portal, cited across multiple job notices"
-Bank Mandiri,BMRI,bankmandiri.co.id,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='www.bankmandiri.co.id', )"
+Bank Mandiri,BMRI,bankmandiri.co.id,custom,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='www.bankmandiri.co.id', ) | ATS:官网bankmandiri.co.id自办招聘；无第三方ATS指纹"
 Bank Central Asia,BBCA,bca.co.id,kalibrr,,https://find-your-support.com/l-support/lowongan-pt-support-personal.html,r3 search-evidence (low): third-party aggregator states BCA recruitment registration uses the Kalibrr platform (data stored in Kalibrr); official portal karir.bca.co.id; claim unverified and Kalibrr is NOT in the standard ATS mapping
 Bank Negara Indonesia,BBNI,bni.co.id,custom,,https://bni.co.id/en-us/home/bni-news/news/articleid/25383,r3 search-evidence (medium): official BNI news: applications only via recruitment.bni.co.id (bank's own portal); no commercial ATS vendor
 Vietcombank,VCB,vietcombank.com.vn,taleo,,https://tuyendung.vietcombank.com.vn,r3 search-evidence (medium): Recruit portal uses Taleo-style /go/ job URL patterns (e.g. /go/Head-Office/572644/) on its own subdomain
@@ -205,28 +205,28 @@ Al Rajhi Bank,1120,alrajhibank.com.sa,custom,,https://careers.alrajhibank.com.sa
 Saudi National Bank,1180,alahli.com,custom,,https://www.alahli.com/en/pages/about-us/careers,r3 search-evidence (medium): Careers on own alahli.com site; jobs submitted through the bank's official website
 Riyad Bank,1010,riyadbank.com,custom,,https://ksacss.b8cdn.com/css/jobs-ie8-4-s.css,r2[medium] 官方招聘门户在自有子域名careers.riyadbank.com下未见已知ATS域名信号 | http://careers.riyadbank.com/en/
 Saudi Awwal Bank,1060,sab.com,successfactors,hcm23.sapsf.com,https://careers.sab.com/,ats found at https://careers.sab.com/
-Alinma Bank,1150,alinma.com,,,https://alinma.com/404,"page ok, ats unknown"
+Alinma Bank,1150,alinma.com,custom,,https://alinma.com/404,"page ok, ats unknown | ATS:官网alinma.com自有Careers页面；无第三方ATS指纹"
 First Abu Dhabi Bank,FAB,bankfab.com,custom,,,r2[medium] 官方招聘页在自有域名下未见已知ATS域名信号 | https://www.bankfab.com/en-ae/about-fab/careers
 Emirates NBD,EMIRATESNBD,emiratesnbd.com,custom,,https://www.emiratesnbd.com/jobs,r2[medium] 官方招聘页在自有域名下未见已知ATS域名信号 | https://www.emiratesnbd.com/en/careers/join-emirates-nbd/experienced-professionals
 Commercial Bank of Dubai,CBD,cbd.ae,custom,,https://ehss.ae/commercial-bank-of-dubai-careers-uae/,r3 search-evidence (medium): official application portal cited as cbd.ae/home/contact-us/careers on bank's own site; ATS-domain probe searches (taleo/workday/successfactors/oraclecloud) returned no signal
 Qatar National Bank,QNBK,qnb.com,custom,,,r2[medium] 自有招聘子域名jobs.qnb.com未见已知ATS域名信号 | https://jobs.qnb.com/sites/qnb/qnbindia/document/ar/arBaselDisclosuresJun20
-National Bank of Kuwait,NBK,nbk.com,,,,"no careers page (3 tried, last: http 404)"
+National Bank of Kuwait,NBK,nbk.com,custom,,,"no careers page (3 tried, last: http 404) | ATS:自有NBK Recruitment Portal(nbk.com)"
 Standard Bank Group,SBK,standardbank.com,custom,,https://www.standardbank.com/sbg/standard-bank-group/careers,r2[medium] 官方招聘门户在自有子域名下未见已知ATS域名信号 | https://careers.standardbank.com/sbg/standard-bank-group/careers
 FirstRand,FSR,firstrand.co.za,workday,,https://firstrand.wd3.myworkdayjobs.com/en-US/FRB,r3 search-evidence (medium): tenant=firstrand|site=FRB (myworkdayjobs apply link from FirstRand graduate learnership notices)
 Absa Group,ABSA,absa.africa,workday,,,r2[medium] 多条招聘页指引申请至absa.wd3.myworkdayjobs.com官方Workday招聘门户 | https://www.greatzambiajobs.com/jobs/job-detail/job-Customer-Service-Advisor-job-at-ABSA-Group-67771?Itemid=
 Nedbank,NED,nedbank.co.za,custom,,https://jobs.nedbank.co.za/platform/bootstrap/3.4.8_NES/css/bootstrap.min.css,r2[medium] 官方招聘门户jobs.nedbank.co.za存在但未见已知ATS域名信号 | https://jobs.nedbank.co.za/topjobs/
 Attijariwafa Bank,ATW,attijariwafabank.com,custom,,,r2[medium] 官方招聘页指向自有e-Recruitment网站recrutement.attijariwafa.com | https://www.attijariwafabank.com/en/Employment-Careers
-Itau Unibanco,ITUB,itau.com.br,,,,blocked? http 403 — backing off
+Itau Unibanco,ITUB,itau.com.br,custom,,,blocked? http 403 — backing off | ATS:自有招聘门户；无第三方ATS指纹
 Banco Bradesco,BBD,bradesco.com.br,custom,,https://trabalheconosco.inf.br/en/bancos/,r3 search-evidence (medium): official career page Trabalhe Conosco on bradesco.br with self-hosted job listings; no ATS-domain signal; note US subsidiary Bradesco Bank (Miami/Coral Gables) posts via LinkedIn separately from HQ
 BTG Pactual,BPAC11,btgpactual.com,greenhouse,,https://www.btgpactual.com/jobs,r2[high] 官方招聘直接落在job-boards.greenhouse.io/btgprogramas | https://job-boards.greenhouse.io/btgprogramas/jobs/6187969004
-Banco do Brasil,BBAS3,bb.com.br,,,,blocked? http 403 — backing off
+Banco do Brasil,BBAS3,bb.com.br,custom,,,blocked? http 403 — backing off | ATS:国有银行官网自办招聘(经Cesgranrio考试机构)
 Bancolombia (Grupo Cibest),CIB,grupobancolombia.com,custom,,https://www.grupobancolombia.com/trabaja-con-nosotros,r3 search-evidence (medium): Trabaja con nosotros on own grupobancolombia.com site; job invites at empleo.grupobancolombia.com
-Banco de Chile,BCH,bancodechile.cl,,,,"no careers page (3 tried, last: fetch err: ('Connection aborted.', RemoteDisconnected('Remote)"
-Credicorp,BAP,credicorpnet.com,,,,"no careers page (3 tried, last: fetch err: ('Connection aborted.', RemoteDisconnected('Remote)"
-Banorte,GFNORTEO,banorte.com,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='www.banorte.com', port=4)"
-Inbursa,GFINBURO,inbursa.com,,,,"no careers page (3 tried, last: fetch err: ('Connection aborted.', RemoteDisconnected('Remote)"
-Banco Macro,BMA,macro.com.ar,,,,"no careers page (3 tried, last: http 404)"
-Grupo Financiero Galicia,GGAL,gafg.com.ar,,,,"no careers page (3 tried, last: fetch err: ('Connection aborted.', RemoteDisconnected('Remote)"
+Banco de Chile,BCH,bancodechile.cl,custom,,,"no careers page (3 tried, last: fetch err: ('Connection aborted.', RemoteDisconnected('Remote) | ATS:自办招聘；无第三方ATS指纹"
+Credicorp,BAP,credicorpnet.com,custom,,,"no careers page (3 tried, last: fetch err: ('Connection aborted.', RemoteDisconnected('Remote) | ATS:自有招聘门户grupocredicorp.com/careers；无第三方ATS指纹"
+Banorte,GFNORTEO,banorte.com,custom,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='www.banorte.com', port=4) | ATS:银行自办招聘；无第三方ATS指纹"
+Inbursa,GFINBURO,inbursa.com,none,,,"no careers page (3 tried, last: fetch err: ('Connection aborted.', RemoteDisconnected('Remote) | ATS:仅第三方聚合招聘信息；未识别官方招聘门户/ATS"
+Banco Macro,BMA,macro.com.ar,none,,,"no careers page (3 tried, last: http 404) | ATS:无可识别ATS指纹"
+Grupo Financiero Galicia,GGAL,gafg.com.ar,none,,,"no careers page (3 tried, last: fetch err: ('Connection aborted.', RemoteDisconnected('Remote) | ATS:无可识别ATS指纹"
 MetLife,MET,metlife.com,taleo,,https://www.metlifecareers.com/en_US/ml/ApplicationMethods?jobId=20488,r3 search-evidence (medium): apply flow on metlifecareers.com custom domain (/en_US/ml/ApplicationMethods) matches Oracle Taleo Enterprise pattern
 Prudential Financial,PRU,prudential.com,custom,,,r2[medium] 官方招聘门户jobs.prudential.com存在但未见已知ATS域名信号 | https://jobs.prudential.com/gb-en
 Aflac,AFL,aflac.com,custom,,,r2[medium] 官方招聘门户careers.aflac.com存在但未见已知ATS域名信号 | https://careers.aflac.com/go/Technology-Jobs/8697100/
@@ -245,7 +245,7 @@ Manulife,MFC,manulife.com,custom,,https://careers.manulife.com/global/en/job/JR2
 Sun Life Financial,SLF,sunlife.com,custom,,,r2[medium] 官方招聘页sunlife.com/about/careers存在但未见已知ATS域名信号 | https://www.sunlife.com/us/en/about/careers/
 Dai-ichi Life,8750,dai-ichi-life.co.jp,lever,,https://jobs.lever.co/protective/f13ae67f-1d5f-4ace-901f-63ed0f9d9cc4,r3 search-evidence (medium): US subsidiary Protective Life uses Lever at jobs.lever.co/protective; Tokyo HQ has no global ATS portal; Japanese domestic hiring via custom recruit site; other group companies differ
 Samsung Life,032830,samsunglife.com,custom,,https://www.samsungcareers.com,r3 search-evidence (medium): Samsung group recruiting via samsungcareers.com custom portal
-China Life Insurance,2628,chinalife.com.cn,,,https://www.chinalife.com.cn/,"page ok, ats unknown"
+China Life Insurance,2628,chinalife.com.cn,custom,,https://www.chinalife.com.cn/,"page ok, ats unknown | ATS:国有保险公司自办在线招聘；无第三方ATS指纹"
 CNP Assurances,CNP,cnp.fr,custom,,https://www.cnp.fr/particuliers,r2[medium] 官方招聘页cnp.fr/candidates存在但未见已知ATS域名信号 | https://www.cnp.fr/en/the-cnp-assurances-group/candidates
 Allianz,ALV,allianz.com,phenom,,,r2[medium] 多家第三方抓取工具文档将careers.allianz.com列为Phenom官方页面未明示 | https://github.com/dankopenko/qualityjobs/blob/HEAD/custom_scraper_candidates.md
 AXA,CS,axa.com,phenom,,,r2[medium] 官方站careers.axa.com/careers-home/jobs路径为Phenom平台特征官方页面未明示 | https://careers.axa.com/careers-home/jobs?lang=en-US
@@ -253,32 +253,32 @@ Generali,G,generali.com,custom,,,r2[medium] 官方招聘页generali.com/people-a
 Zurich Insurance,ZURN,zurich.com,custom,,https://www.careers.zurich.com/job/Schaumburg-SuccessFactors-Employee-Central-Technical-Specialist-IL-60159/793864302/,r3 search-evidence (high): Official company-hosted portal careers.zurich.com with real job detail URLs; no third-party ATS domain seen; URL pattern resembles Phenom but unverified
 Aviva,AV,aviva.com,custom,,,r2[medium] 官方招聘页aviva.com/careers存在但未见已知ATS域名信号 | https://www.aviva.com/careers/careers-at-aviva-overview/
 Talanx,TLX,talanx.com,custom,,https://careers.hdi.group/en/your_career_opportunities,r3 search-evidence (medium): Official Talanx-group career portal on own domain careers.hdi.group (Hannover HQ); apply flow stays inside branded portal; underlying ATS vendor not publicly exposed
-Vienna Insurance Group,VIG,vig.com,,,,"no careers page (3 tried, last: http 404)"
+Vienna Insurance Group,VIG,vig.com,none,,,"no careers page (3 tried, last: http 404) | ATS:仅第三方聚合招聘信息；未识别官方ATS门户"
 Ping An Insurance,2318,pingan.com,custom,,,r2[medium] 官方报道PingAnTalent自研AI招聘系统无第三方ATS信号 | https://group.pingan.com/media/news/2025/pingan-enhances-recruitment-experience-with-pingan-talent-ai-system.html
-China Pacific Insurance,2601,cpic.com.cn,,,,"no careers page (3 tried, last: http 404)"
+China Pacific Insurance,2601,cpic.com.cn,custom,,,"no careers page (3 tried, last: http 404) | ATS: own-domain recruitment (cpic.com.cn / hklife.cpic.com.cn job PDFs, email applications), no third-party ATS identified; low"
 AIG,AIG,aig.com,workday,aig.wd1.myworkdayjobs.com,https://www.aig.com:443/careers,ats found at https://aig.com/careers
 Travelers,TRV,travelers.com,custom,,,r2[medium] 官方招聘门户careers.travelers.com存在但未见已知ATS域名信号 | https://careers.travelers.com/2020/04/02/life-at-travelers/
 Chubb,CB,chubb.com,oracle,ocs.oraclecloud.com,https://fa-ewgu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001,ats found at https://chubb.com/careers
 Progressive,PGR,progressive.com,custom,,https://careers.progressive.com/pages/how-we-hire-faq-job-scams/,r2[medium] 官方招聘门户careers.progressive.com存在未见已知ATS域名信号 | https://careers.progressive.com/search/jobs/in/oh-ohio-va-virginia/
 Allstate,ALL,allstate.com,workday,allstate.wd5.myworkdayjobs.com,https://www.allstatecorporation.com/careers.aspx,ats found at https://allstate.com/careers
 Hartford Financial,HIG,thehartford.com,custom,,,r2[medium] 官方招聘页在thehartford.com/careers下未见已知ATS域名信号 | https://www.thehartford.com/careers/finance-jobs
-CNA Financial,CNA,cna.com,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='cna.com', port=443): Max)"
+CNA Financial,CNA,cna.com,custom,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='cna.com', port=443): Max) | ATS:职位广告写明 Apply online at http://www.cna.com，申请走 cna.com 自建招聘页，未见第三方 ATS"
 W.R. Berkley,WRB,wrberkley.com,icims,careers-berkley.icims.com,https://berkley.com/about-us/careers,ats found at https://wrberkley.com/careers
 Assurant,AIZ,assurant.com,custom,,,r2[medium] 官方招聘门户jobs.assurant.com存在未见已知ATS域名信号 | https://jobs.assurant.com/en/jobs/job/customer-care-representative-united-states-virtual-r-114688/
 Tokio Marine Holdings,8766,tokiomarinehd.com,jobvite,,https://careers.jobvite.com/tmhcc/accelerate_students_jan_2022.pdf,r3 search-evidence (medium): Evidence is US subsidiary TMHCC on Jobvite at careers.jobvite.com/tmhcc; TMHD Tokyo HQ recruits corporate functions only and links to LinkedIn; other group companies differ
-MS&AD Insurance,8725,ms-ad-hd.com,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='ms-ad-hd.com', port=443))"
+MS&AD Insurance,8725,ms-ad-hd.com,none,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='ms-ad-hd.com', port=443)) | ATS:控股公司无统一公开招聘页/ATS 信号，招聘分散在各子公司（如 MS Amlin、MSIG）各自渠道"
 Sompo Holdings,8630,sompo-hd.com,custom,,https://www.sompo-intl.com/wp-content/uploads/Sompo-Global-Applicant-Privacy-Notice-1.pdf,r3 search-evidence (low): HQ sompo-hd.com careers page is only a regional hub; Sompo International runs a centralized self-hosted application portal (per its Global Applicant Privacy Notice); no ATS vendor token found; direct curl verification blocked in this env
-PICC Property & Casualty,2328,picc.com,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='picc.com', port=443): Ma)"
+PICC Property & Casualty,2328,picc.com,none,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='picc.com', port=443): Ma) | ATS:中国公司，英文搜索未找到可识别的 ATS 或统一招聘页，招聘主要靠本土渠道"
 QBE Insurance,QBE,qbe.com,phenom,,,r2[high] Official QBE careers page names Phenom as its recruitment-system partner | https://careers.qbe.com/gb/en/avoiding-employment-scams
 Admiral Group,ADM,admiralgroup.co.uk,custom,,,r2[medium] Privacy notice says 3D Marcomms operates Admiral's applicant tracking system; site hosted by Attrax | https://www.admiraljobs.co.uk/privacy-notice
-Sampo Group,SAMPO,sampo.com,,,https://www.sampo.com/careers,"page ok, ats unknown"
-DB Insurance,005830,idbins.com,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='idbins.com', port=443): )"
+Sampo Group,SAMPO,sampo.com,custom,,https://www.sampo.com/careers,"page ok, ats unknown | ATS:芬兰保险集团在 sampo.com 自建 careers/vacancies 页面并 301 跳转至 career-at-sampo-group，无第三方 ATS"
+DB Insurance,005830,idbins.com,jobvite,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='idbins.com', port=443): ) | ATS:美国招聘广告写明 career page 在 dbinsus.applytojob.com/apply（Jobvite 申请门户域名）"
 Munich Re,MUV2,munichre.com,greenhouse,nextinsurancemresandbox,https://careers.munichre.com/en/munichre,ats found at https://munichre.com/careers
 Swiss Re,SREN,swissre.com,phenom,,,"r2[high] Official Swiss Re careers page states ""our use of Phenom"" in recruitment AI disclosure; careers hosted at careers.swissre.com | https://swissre.com/swissre/careers/americas-careers"
 Hannover Re,HNR1,hannover-re.com,phenom,,https://jobs.hannover-re.com/job/Hannover-Business-Controller/1330233255/,"r3 search-evidence (medium): Job URLs follow Phenom pattern /job/<slug>/<10-digit-id>/, same structure as SGX careers.sgx.com; final landing page not captured (curl blocked in this env)"
-SCOR,SCR,scor.com,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='scor.com', port=443): Re)"
+SCOR,SCR,scor.com,none,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='scor.com', port=443): Re) | ATS:仅见 Indeed/Glassdoor 等聚合站职位，无 scor.com 招聘页的 ATS 信号"
 Reinsurance Group of America,RGA,rgare.com,workday,,https://rgare.wd1.myworkdayjobs.com/careers/job/United-States-Weldon-Spring-MO-RGA-HQ-West/Senior-Full-Stack-Software-Engineer_J24608?utm_source=reddit&utm_medium=organic&utm_campaign=jobhunting,r3 search-evidence (high): tenant=rgare|site=careers; branded careers front at rgarecareers.com routes to Workday apply
-Everest Group,EG,everestglobal.com,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='www.everestglobal.com', )"
+Everest Group,EG,everestglobal.com,none,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='www.everestglobal.com', ) | ATS:聚合站显示其 careers 页有在招职位但未暴露 ATS 平台 URL，无法判定"
 Arch Capital,ACGL,archgroup.com,workday,,,r2[high] Arch Capital Group job postings point to official Workday tenant archgroup.wd1.myworkdayjobs.com (corroborated by multiple postings) | https://github.com/simplifyjobs/summer2026-internships/issues/7605
 Korean Re,003690,koreanre.com,recruiter,,https://koreanre.recruiter.co.kr,r3 search-evidence (medium): 2023/2025 Korean university recruitment notices name koreanre.recruiter.co.kr as the official application portal (Korean ATS Recruiter); final landing page not captured (curl blocked in this env)
 Marsh McLennan,MMC,marshmclennan.com,workday,,,r2[medium] Careers at careers.marshmclennan.com use Workday-format req IDs (R_361906); company staffs Workday HR application team | https://www.theladders.com/job/senior-hr-workday-technology-analyst-marshmclennan-louisville-ky_88421625
@@ -291,11 +291,11 @@ BlackRock,BLK,blackrock.com,icims,,,r2[medium] Official careers URLs carry iCIMS
 T. Rowe Price,TROW,troweprice.com,workday,,,r2[high] Job postings link to official Workday tenant troweprice.wd5.myworkdayjobs.com (auto-discovered via Workday API; multiple postings) | https://github.com/aprameyak/2027-tech-jobs/issues/883
 Invesco,IVZ,invesco.com,workday,invesco.wd1.myworkdayjobs.com,https://careers.invesco.com/,ats found at https://invesco.com/careers
 Franklin Templeton,BEN,franklintempleton.com,workday,,,r2[high] Job posting's official apply link is franklintempleton.wd5.myworkdayjobs.com (Workday tenant) | https://cdo.som.yale.edu/jobs/franklin-templeton-investments-portfolio-construction-analyst-global-fixed-income/
-Affiliated Managers Group,AMG,amg.com,,,,"no careers page (3 tried, last: http 404)"
+Affiliated Managers Group,AMG,amg.com,none,,,"no careers page (3 tried, last: http 404) | ATS:官方 careers 页 404、The Org 显示无在招职位，未找到任何 ATS 信号"
 Federated Hermes,FHI,federatedhermes.com,custom,,https://www.federatedhermes.com/us/corporate/careers.do,r3 search-evidence (medium): Apply flow stays on own domain via 'Career Center' (.do Java portal); no third-party ATS subdomain found; direct curl verification blocked in this env
 AllianceBernstein,AB,alliancebernstein.com,custom,,https://www.alliancebernstein.com/corporate/en/careers.html,r3 search-evidence (medium): Official careers page on alliancebernstein.com with job search; no ATS domain URL seen
 Janus Henderson,JHG,janushenderson.com,successfactors,,https://career8.successfactors.com/career?company=Janus,r3 search-evidence (high): Direct SuccessFactors apply links (company=Janus) in job ads; public front jobs.janushenderson.com is SF Career Site Builder custom domain
-WisdomTree,WT,wisdomtree.com,,,,blocked? http 403 — backing off
+WisdomTree,WT,wisdomtree.com,custom,,,blocked? http 403 — backing off | ATS:wisdomtree.com 官网自建招聘页展示职位并站内申请（View Job Post and Apply），无第三方 ATS
 Victory Capital,VCTR,victorycapital.com,custom,,https://advisor.vcm.com/careers,r3 search-evidence (medium): Careers and apply flow on own domain advisor.vcm.com; no third-party ATS subdomain found; direct curl verification blocked in this env
 Artisan Partners,APAM,artisanpartners.com,greenhouse,,https://www.artisanpartners.com:443/,r2[high] Official Greenhouse job board embed for artisanpartners powering the careers page on artisanpartners.com | https://job-boards.greenhouse.io/embed/job_board?for=artisanpartners&b=https%3A%2F%2Fwww.artisanpartners.com%2Fcareers%2Fcareer-opportunities.html
 Cohen & Steers,CNS,cohenandsteers.com,custom,,https://www.cohenandsteers.com/careers/,r3 search-evidence (medium): Official careers page on cohenandsteers.com with 'View open positions'; no ATS domain URL seen
@@ -303,22 +303,22 @@ SEI Investments,SEIC,seic.com,workday,seic.wd1.myworkdayjobs.com,https://www.sei
 Northern Trust,NTRS,northerntrust.com,workday,,,r2[medium] Official Sr Recruiter posting states ATS proficiency requirement as Workday; firm's HR tech postings center on Workday HCM | https://www.efinancialcareers.fi/jobs-USA-IL-Chicago-Sr_Recruiter_Wealth_Management.id23623260
 Amundi,AMUN,amundi.com,talentsoft,,https://jobs.amundi.com/legal-notice.aspx?LCID=2057,r3 search-evidence (high): legal notice on jobs.amundi.com names TALENTSOFT as site host; direct curl blocked (HTTP 000)
 Schroders,SDR,schroders.com,oracle,em2.oraclecloud.com,https://www.schroders.com/en/global/individual/,ats found at https://schroders.com/careers
-DWS Group,DWS,dws.com,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='www.dws.com', port=443):)"
-Abrdn,ABDN,abrdn.com,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='abrdn.com', port=443): M)"
-Jupiter Fund Management,JUP,jupiteram.com,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='jupiteram.com', port=443)"
+DWS Group,DWS,dws.com,custom,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='www.dws.com', port=443):) | ATS:DWS 走德意志银行自建招聘站（Only applications made directly via the Deutsche Bank career site），无第三方 ATS"
+Abrdn,ABDN,abrdn.com,none,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='abrdn.com', port=443): M) | ATS:搜索结果仅出现第三方招聘聚合站(builtin.com、hijobs.net)，未出现可识别的 ATS 域名"
+Jupiter Fund Management,JUP,jupiteram.com,none,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='jupiteram.com', port=443) | ATS:职位广告仅见于 eFinancialCareers、TIEtalent 等聚合站，未出现可识别的 ATS 域名"
 Ashmore Group,ASHM,ashmoregroup.com,custom,,https://www.ashmoregroup.com/en-id/careers,r3 search-evidence (medium): Official careers page has no ATS portal; applications by email to careers@ashmoregroup.com; small EM asset manager
-Rathbones,RAT,rathbones.com,,,,"no careers page (3 tried, last: http 404)"
+Rathbones,RAT,rathbones.com,none,,,"no careers page (3 tried, last: http 404) | ATS:职位广告仅见于聚合站(flexa.careers、grabjobs)，未出现可识别的 ATS 域名"
 Man Group,EMG,man.com,greenhouse,,,r2[high] Official Greenhouse job board mangroup on job-boards.eu.greenhouse.io; firm job posting names Greenhouse Recruitment as talent acquisition platform | https://job-boards.eu.greenhouse.io/mangroup/jobs/4978934101
 Vontobel,VONN,vontobel.com,workday,vontobel.wd3.myworkdayjobs.com,https://www.vontobel.com/en-us/about-vontobel/careers/,ats found at https://vontobel.com/careers
 GAM Holding,GAM,gam.com,workday,gam.wd3.myworkdayjobs.com,https://www.gam.com/careers,ats found at https://gam.com/careers
 Value Partners,806,valuepartners-group.com,custom,,https://www.valuepartners-group.com,r3 search-evidence (medium): Official site posts job ads as PDFs requiring applications by email to career@vp.com.hk; no ATS portal found; direct curl verification blocked in this env
-HDFC Asset Management,HDFCAMC,hdfcfund.com,,,,blocked? http 403 — backing off
+HDFC Asset Management,HDFCAMC,hdfcfund.com,none,,,blocked? http 403 — backing off | ATS:搜索结果仅见于 Naukri、Glassdoor 等聚合站及招聘博客，未出现可识别的 ATS 域名
 Perpetual,PPT,perpetual.com.au,workday,,,r2[high] Official careers page directs applicants to the Workday Career Portal and references Workday profiles | https://cms-prd.perpetual.com.au/about/careers-at-perpetual/?PreferredLocation=true
-Magellan Financial,MFG,magellangroup.com.au,,,,blocked? http 403 — backing off
-CI Financial,CIX,cifinancial.com,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='www.cifinancial.com', po)"
-Fiera Capital,FSZ,fieracapital.com,,,https://fieracapital.com/careers,"page ok, ats unknown"
+Magellan Financial,MFG,magellangroup.com.au,none,,,blocked? http 403 — backing off | ATS:搜索结果与 Magellan Health/其他同名公司混淆，未出现可识别的 ATS 域名
+CI Financial,CIX,cifinancial.com,none,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='www.cifinancial.com', po) | ATS:职位广告仅见于 Indeed、Glassdoor、theladders 聚合站，未出现可识别的 ATS 域名"
+Fiera Capital,FSZ,fieracapital.com,custom,,https://fieracapital.com/careers,"page ok, ats unknown | ATS:官网自有招聘门户 careers.fieracapital.com(自有子域名，有开放职位)，URL 中无第三方 ATS 域名"
 Evercore,EVR,evercore.com,custom,,,r2[medium] Vendor case study says Evercore uses Oleeo recruitment ATS for 10 years with quote from Evercore Head of US Campus Recruiting; Oleeo not in platform list so recorded as custom | https://www.wisdominterface.com/wp-content/uploads/2025/08/Case-Studies_Evercore-1.pdf
-Moelis & Company,MC,moelis.com,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='moelis.com', port=443): )"
+Moelis & Company,MC,moelis.com,custom,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='moelis.com', port=443): ) | ATS:招聘页在官网 moelis.com/careers/ 自带 Explore Our Open Roles 列表，无第三方 ATS 域名"
 Lazard,LAZ,lazard.com,oracle,ocs.oraclecloud.com,https://lazard.com/careers,ats found at https://lazard.com/careers
 Houlihan Lokey,HLI,hl.com,workday,,https://hl.wd1.myworkdayjobs.com/Campus,r3 search-evidence (high): tenant=hl|site=Campus per Vault how-to-apply page; experienced-hire channel likely same tenant; entry via hl.com/careers
 PJT Partners,PJT,pjtpartners.com,workday,pjtpartners.wd1.myworkdayjobs.com,https://www.pjtpartners.com/careers,ats found at https://pjtpartners.com/careers
@@ -326,7 +326,7 @@ Piper Sandler,PIPR,pipersandler.com,workday,,https://www.extern.com/post/piper-s
 Jefferies,JEF,jefferies.com,lumesse,,https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/user-1051770/xf-fcc65161e328/candidate,r3 search-evidence (medium): tal.net = Lumesse TalentLink ('Jefferies Campus Application Center'); final landing page not captured (curl blocked in this env)
 Raymond James,RJF,raymondjames.com,workday,,https://raymondjames.wd1.myworkdayjobs.com/en-US/RaymondJamesCareers/job/Financial-Advisor_R-0006855,r3 search-evidence (high): tenant=raymondjames|site=RaymondJamesCareers; Workday landing URL verbatim in multiple search results
 Stifel Financial,SF,stifel.com,icims,,https://careers-stifel.icims.com/jobs/search?hashed=-625886931&mobile=true&width=393&height=662&bga=true&needsRedirect=false&jan1offset=-360&jun1offset=-300,r3 search-evidence (high): careers-stifel.icims.com confirmed in search index; internal HR stack includes UKG and iCIMS per job description
-BGC Group,BGC,bgcpartners.com,,,,blocked? http 403 — backing off
+BGC Group,BGC,bgcpartners.com,custom,,,blocked? http 403 — backing off | ATS:招聘页在官网 bgcg.com/careers/，无第三方 ATS 域名
 Nomura Holdings,8604,nomura.com,taleo,,,r2[medium] Official Nomura-branded Taleo instance (nomuracampus.tal.net) used for campus recruiting; main portal careers.nomura.com vendor unidentified | https://nomuracampus.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/1/opp/653-2022-Nomura-Investment-Banking-Expansion-Class-for-Associates/en-GB
 Daiwa Securities,8601,daiwa-grp.jp,custom,,https://www.daiwa-grp.jp,r3 search-evidence (low): JP graduate recruiting runs on company-owned 'My Page' system; no third-party ATS token found; direct curl verification blocked in this env
 Visa,V,visa.com,workday,,,r2[medium] Two independent sources state Visa careers page is backed by Workday tenant visa.wd5.myworkdayjobs.com; no direct official URL captured | https://github.com/shubhamcodess/career-os/blob/HEAD/skills/careers-crawler/SKILL.md
@@ -345,31 +345,31 @@ Sezzle,SEZL,sezzle.com,greenhouse,sezzle,https://sezzle.com/careers,ats found at
 Nu Holdings,NU,nu.com.co,greenhouse,,https://nu.com.co/careers,r2[high] Official Nubank Greenhouse board job-boards.greenhouse.io/nubank (Nubank is Nu Holdings' operating company) | http://job-boards.greenhouse.io/nubank?gh_src=duzz2o0o1us&keyword=X
 Zip Co,ZIP,zip.co,greenhouse,,,r2[high] Official Greenhouse board job-boards.greenhouse.io/zipcolimited; zip.co job URLs carry Greenhouse gh_src params | https://job-boards.greenhouse.io/zipcolimited/jobs/4711161006
 StoneCo,STNE,stone.co,custom,,https://www.stone.co/careers.html,r3 search-evidence (medium): Careers page on own domain stone.co/careers.html; no third-party ATS subdomain found; direct curl verification blocked in this env
-PagSeguro,PAGS,pagbank.com.br,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='pagbank.com.br', port=44)"
+PagSeguro,PAGS,pagbank.com.br,none,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='pagbank.com.br', port=44) | ATS:搜索结果仅出现 Glassdoor、Expertini 等站点，未出现可识别的 ATS 域名"
 dLocal,DLO,dlocal.com,lever,company,https://app.nodi.global/company/dlocal,ats found at https://dlocal.com/careers
 Synchrony Financial,SYF,synchrony.com,custom,,https://www.synchronycareers.com/search-jobs,r3 search-evidence (medium): dedicated branded portal with live job search; no third-party ATS domain observed; applications handled on own domain
 Bread Financial,BFH,breadfinancial.com,phenom,,,r2[high] Official careers pages reference Phenom CDN assets (cdn.phenompeople.com/CareerConnectResources) | https://careers.breadfinancial.com/us/en/how-we-hire
 OneMain Holdings,OMF,onemainfinancial.com,custom,,,r2[medium] Official jobs site URL pattern (acm/alrpm/ascf params | https://jobs.onemainfinancial.com/search-jobs?acm=ALL&alrpm=ALL&ascf=%5B%7B%22key%22%3A%22job_level%22%2C%22value%22%3A%22Automotive%22%7D%5D&ss=paid&source=rd_programmatic_display
 Enova International,ENVA,enova.com,greenhouse,enova,https://www.enova.com/careers/,ats found at https://enova.com/careers
-Regional Management,RM,regionalmanagement.com,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='regionalmanagement.com',)"
+Regional Management,RM,regionalmanagement.com,none,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='regionalmanagement.com',) | ATS:两轮搜索仅在 indeed/beBee 等第三方站点看到职位，未出现可识别的 ATS 域名。"
 World Acceptance,WRLD,worldacceptance.com,custom,,https://www.loansbyworld.com/job-openings/,r3 search-evidence (medium): Job openings on own domain loansbyworld.com/job-openings/; no third-party ATS subdomain found; direct curl verification blocked in this env
 Credit Acceptance,CACC,creditacceptance.com,workday,creditacceptance.wd5.myworkdayjobs.com,https://www.creditacceptance.com/careers,ats found at https://creditacceptance.com/careers
 SLM Corporation,SLM,salliemae.com,workday,sallie-mae.wd5.myworkdayjobs.com,https://www.salliemae.com/careers/,ats found at https://salliemae.com/jobs
 Navient,NAVI,navient.com,workday,navient.wd1.myworkdayjobs.com,https://www.navient.com/careers/,ats found at https://navient.com/careers
-Atlanticus Holdings,ATLC,atlanticus.com,,,https://www.atlanticus.com/careers/,"job page ok, ats unknown"
+Atlanticus Holdings,ATLC,atlanticus.com,none,,https://www.atlanticus.com/careers/,"job page ok, ats unknown | ATS:两轮搜索仅见 indeed/career.io/tealhq 等第三方职位，未出现官方招聘门户或 ATS 域名。"
 EZCORP,EZPW,ezcorp.com,workday,,https://grabjobs.co/us/job/full-time/others/remote-senior-workday-hcm-analyst-152646588,r3 search-evidence (medium): own posting for Senior Workday HCM Analyst requires Workday HCM incl Recruiting module; store and corporate hiring assumed on same system; myworkdayjobs landing page not confirmed
 FirstCash Holdings,FCFS,firstcash.com,jobvite,,,r2[high] Multiple official job postings on jobs.jobvite.com/firstcash-holdings-inc | https://jobs.jobvite.com/firstcash-holdings-inc/job/ojdlufw5
-CME Group,CME,cmegroup.com,,,,blocked? http 403 — backing off
+CME Group,CME,cmegroup.com,custom,,,blocked? http 403 — backing off | ATS:jobzmall 说明申请走官网在线申请流程（on their website），未见第三方 ATS 域名。
 Intercontinental Exchange,ICE,ice.com,icims,,,r2[medium] Jobs at careers.ice.com/jobs/<id>?lang=en-us use iCIMS URL pattern; ICE recruiting ops job posting lists iCIMS experience as preferred (simplify.jobs). Two independent signals | https://careers.ice.com/jobs/11995
 Nasdaq Inc,NDAQ,nasdaq.com,workday,,https://nasdaq.wd1.myworkdayjobs.com/Global_External_Site?workerSubType=88704065592e01f416f7a3a7463956ae,r3 search-evidence (high): tenant=nasdaq|site=Global_External_Site
-London Stock Exchange Group,LSEG,lseg.com,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='lseg.com', port=443): Re)"
+London Stock Exchange Group,LSEG,lseg.com,custom,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='lseg.com', port=443): Re) | ATS:官方 careers 站点（lseg.com/careers）需创建账号自助申请，官网自建门户，未见第三方 ATS。"
 Deutsche Boerse,DB1,deutsche-boerse.com,smartrecruiters,,https://careers.deutsche-boerse.com/offer/devops-engineer/44e8af5b-2458-4960-8a19-d89a72b07623,r3 search-evidence (high): SmartRecruiters smart-career-site fingerprint (careers subdomain + /offer/<uuid>); direct curl blocked (HTTP 000)
-Hong Kong Exchanges,388,hkexgroup.com,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='hkexgroup.com', port=443)"
+Hong Kong Exchanges,388,hkexgroup.com,custom,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='hkexgroup.com', port=443) | ATS:多个职位描述均提示 'Apply now via our official website: HKEX Early Careers'，自建招聘门户。"
 Singapore Exchange,S68,sgx.com,phenom,,https://careers.sgx.com/job/Singapore-Intern-FCD%2C-Business-Partnering-(Fall-2026%2C-Jul-to-Dec)/1328017466/,"r3 search-evidence (medium): Job URLs follow Phenom pattern /job/<slug>/<10-digit-id>/, same structure as Hannover Re jobs.hannover-re.com; final landing page not captured (curl blocked in this env)"
 ASX,ASX,asx.com.au,workday,,https://www.asx.com.au/about/careers/,r3 search-evidence (medium): careers page text says 'browse our latest opportunities on Workday'; no myworkdayjobs landing URL found
 TMX Group,X,tmx.com,workday,tmx.wd3.myworkdayjobs.com,https://tmx.com/en/careers,ats found at https://tmx.com/careers
 Japan Exchange Group,8697,jpx.co.jp,custom,,https://www.jpx.co.jp/english/corporate/about-jpx/recruit/,r3 search-evidence (medium): dedicated Japanese-only recruitment sites (new grad / mid-career / disabilities) linked from JPX corporate page; no third-party ATS domain found
-B3,B3SA3,b3.com.br,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='b3.com.br', port=443): R)"
+B3,B3SA3,b3.com.br,none,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='b3.com.br', port=443): R) | ATS:两轮搜索仅见 glassdoor/efinancialcareers 等第三方职位，无 B3 官方招聘门户或 ATS 域名。"
 Euronext,ENX,euronext.com,workday,,https://www.euronext.com/nb/about/careers/vacancies,r3 search-evidence (medium): Official vacancy pages: 'Assist the candidates in the application process on our HR Management System (Workday)'; Workday tenant unknown; direct curl verification blocked in this env
 Cboe Global Markets,CBOE,cboe.com,phenom,,,r2[high] Official job pages use Phenom URL pattern (careers.cboe.com/us/en/job/R-XXXX/<slug>) | https://careers.cboe.com/us/en/job/R-4654/Software-Engineer-Intern
 MarketAxess,MKTX,marketaxess.com,greenhouse,,https://startup.jobs/technical-recruiter-marketaxess-corporation-4497646,r3 search-evidence (low): single weak source: company JD text mentions 'our new Applicant Tracking System (Greenhouse)'; no greenhouse.io landing URL seen
@@ -379,33 +379,33 @@ LPL Financial,LPLA,lpl.com,workday,,,"r2[high] Official LPL Financial page state
 Virtu Financial,VIRT,virtu.com,greenhouse,,,r2[high] Official job application pages on job-boards.greenhouse.io/virtu | https://job-boards.greenhouse.io/virtu/jobs/5212847002
 Flow Traders,FLOW,flowtraders.com,greenhouse,,,r2[high] Multiple official Flow Traders job postings on boards.greenhouse.io/flowtraders and job-boards.greenhouse.io/flowtraders | http://boards.greenhouse.io/flowtraders/jobs/6077765
 IG Group,IGG,iggroup.com,custom,,https://www.iggroup.com/careers,r3 search-evidence (medium): Careers and apply flow on own domain iggroup.com/careers; no third-party ATS subdomain found; direct curl verification blocked in this env
-CMC Markets,CMCX,cmcmarkets.com,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='cmcmarkets.com', port=44)"
+CMC Markets,CMCX,cmcmarkets.com,none,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='cmcmarkets.com', port=44) | ATS:两轮搜索仅见 careerone/jora/aduna 等第三方职位，未见可识别的 ATS 域名。"
 Plus500,PLUS,plus500.com,custom,,https://careers.plus500.com/,r3 search-evidence (medium): branded careers portal on own subdomain; postings mirrored on local board careers.matam.co.il; underlying ATS vendor not identified
 XTB,XTB,xtb.com,lever,,,r2[high] Multiple official XTB job postings on their Lever board jobs.eu.lever.co/xtb (Data Engineer/SRE/AI Engineer/Broker Partnership Manager) | https://jobs.eu.lever.co/xtb/5d0f0d0a-5b12-43d7-a609-cd34b53922e3?ref=dailyremote&utm_source=dailyremote.com&utm_campaign=dailyremote.com&utm_medium=dailyremote.com
 TP ICAP,TCAP,tpicap.com,workday,,https://tp.wd107.myworkdayjobs.com/tp-icap/job/usa---offsite/sales-manager---energy---commodities--parameta-solutions--remote-_r4574,r3 search-evidence (high): apply link lands on tp.wd107.myworkdayjobs.com; tenant=tp|site=tp-icap
 Marex Group,MRX,marex.com,custom,,https://www.marex.com/careers,r3 search-evidence (medium): Job postings on own domain /careers/career-opportunities/<hash>-<slug>; no ATS vendor token found; direct curl verification blocked in this env
 Blackstone,BX,blackstone.com,workday,,https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Careers,r3 search-evidence (high): tenant=blackstone|site=Blackstone_Careers; official recruiting domain verbatim in multiple search results
 KKR,KKR,kkr.com,custom,,https://www.kkr.com/careers/career-opportunities,r3 search-evidence (medium): careers hosted on kkr.com; no third-party ATS domain found across ATS probes; vendor not identified
-Apollo Global Management,APO,apollo.com,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='apollo.com', port=443): )"
+Apollo Global Management,APO,apollo.com,none,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='apollo.com', port=443): ) | ATS:两轮搜索仅见 efinancialcareers/recruit.net 等第三方职位，未见可识别的 ATS 域名。"
 Carlyle Group,CG,carlyle.com,custom,,https://www.carlyle.com/careers,r3 search-evidence (medium): Careers and apply flow on own domain carlyle.com/careers (job reqs R-00xxx); no third-party ATS subdomain found; direct curl verification blocked in this env
-Ares Management,ARES,aresmgmt.com,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='aresmgmt.com', port=443))"
+Ares Management,ARES,aresmgmt.com,custom,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='aresmgmt.com', port=443)) | ATS:职位页提示 'Please apply here: Careers' 指向公司自有 Careers 页，门户技术未证实，置信度低。"
 Brookfield Corporation,BN,brookfield.com,custom,,https://www.brookfield.com/,r3 search-evidence (medium): careers referenced on brookfield.com; no third-party ATS domain found; subsidiaries (e.g. Brookfield Properties) may use different systems
-Brookfield Asset Management,BAM,bam.brookfield.com,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='bam.brookfield.com', por)"
+Brookfield Asset Management,BAM,bam.brookfield.com,custom,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='bam.brookfield.com', por) | ATS:官方 careers 页自助投递申请流程，未见第三方 ATS 域名。"
 Blue Owl Capital,OWL,blueowl.com,custom,,http://www.blueowl.com/careers,r3 search-evidence (medium): Careers and apply flow on own domain blueowl.com/careers; no third-party ATS subdomain found; direct curl verification blocked in this env
 TPG Inc,TPG,tpg.com,greenhouse,,,r2[high] Official TPG Careers Page board on Greenhouse (job-boards.greenhouse.io/tpgcareers) with ~15 open roles | https://job-boards.greenhouse.io/tpgcareers?error=true
 EQT,EQT,eqtgroup.com,greenhouse,,,r2[medium] Job application for EQT Group posted on their EU Greenhouse board (job-boards.eu.greenhouse.io/eqtpartners); no other corroborating sources | https://job-boards.eu.greenhouse.io/eqtpartners/jobs/4976297101
-CVC Capital Partners,CVC,cvc.com,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='cvc.com', port=443): Max)"
+CVC Capital Partners,CVC,cvc.com,none,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='cvc.com', port=443): Max) | ATS:两轮搜索未见 boards.greenhouse.io/lever/smartrecruiters 等 ATS 域名，职位只出现在 glassdoor/wellfound 等第三方站点，cvc.com 官网可访问但搜索未发现 careers/ATS 入口"
 Partners Group,PGHN,partnersgroup.com,custom,,https://jobs.partnersgroup.com/job/Baar-AI-Engineer/1405039533/,r3 search-evidence (medium): branded jobs portal on own subdomain with live postings; linked from partnersgroup.com careers; underlying ATS vendor not visible
-Intermediate Capital Group,ICG,icgam.com,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='icgam.com', port=443): M)"
+Intermediate Capital Group,ICG,icgam.com,none,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='icgam.com', port=443): M) | ATS:未见第三方 ATS 域名；talentify.io 仅链接到其官网 career site，无可识别 ATS 平台；Glassdoor 上有职位但非 ATS 托管"
 3i Group,III,3i.com,custom,,http://3i.com/media/pcxf4rnv/global-recruitment-and-selection-policy-august-2024.pdf,r3 search-evidence (medium): Official Global Recruitment and Selection Policy (Aug 2024): apply by emailing CV to recruitment@3i.com or via agency; no ATS portal
-Eurazeo,RF,eurazeo.com,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='eurazeo.com', port=443):)"
+Eurazeo,RF,eurazeo.com,none,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='eurazeo.com', port=443):) | ATS:eurazeo.welcomekit.co（Welcome to the Jungle）出现但均为被投公司招聘页，非 Eurazeo 本体；Eurazeo 自身未见 ATS，Eurasia Group 结果为搜索噪声"
 Hamilton Lane,HLNE,hamiltonlane.com,custom,,https://www.hamiltonlane.com/careers,r3 search-evidence (medium): careers on own domain per firm press releases; no third-party ATS domain found across ATS probes
-StepStone Group,STEP,stepstonegroup.com,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='stepstonegroup.com', por)"
-P10 Inc,PX,p10alts.com,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='p10alts.com', port=443):)"
+StepStone Group,STEP,stepstonegroup.com,none,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='stepstonegroup.com', por) | ATS:careers.smartrecruiters.com/StepStoneGroup 属于同名的德国招聘平台 StepStone Group（job board），非 PE 机构 StepStone Group LP；后者（stepstonegroup.com）职位只出现在 Indeed/Glassdoor，无 ATS 实锤"
+P10 Inc,PX,p10alts.com,none,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='p10alts.com', port=443):) | ATS:p10alts.com 的公司（NYSE: PX）两轮搜索无任何 careers/jobs 结果，亦无 ATS 域名"
 GCM Grosvenor,GCMG,gcmgrosvenor.com,greenhouse,,,r2[high] Official job listings use Greenhouse: their site embeds ?gh_jid= job IDs and postings sit on job-boards.greenhouse.io/gcmgrosvenor | https://job-boards.greenhouse.io/gcmgrosvenor/jobs/7761842003
 Onex,ONEX,onex.com,greenhouse,,,r2[high] Official Onex job board on job-boards.greenhouse.io/onexgeneral; postings link there | https://job-boards.greenhouse.io/onexgeneral/jobs/7813855003
-Bridgepoint Group,BPT,bridgepoint.eu,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='bridgepoint.eu', port=44)"
-Petershill Partners,PHLL,petershill.com,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='petershill.com', port=44)"
-Foresight Group,FSG,foresight.group,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='foresight.group', port=4)"
-Antin Infrastructure Partners,ANTIN,antin-ip.com,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='antin-ip.com', port=443))"
-HarbourVest Global Private Equity,HVPE,hvpe.com,,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='hvpe.com', port=443): Re)"
+Bridgepoint Group,BPT,bridgepoint.eu,none,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='bridgepoint.eu', port=44) | ATS:未见第三方 ATS 域名；实习招聘以邮件（Isabelle.Gislefoss@bridgepoint.eu）收简历为主，提示无集中化 ATS"
+Petershill Partners,PHLL,petershill.com,none,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='petershill.com', port=44) | ATS:未见 ATS 域名；petershillpartners.com 可访问但搜索未发现 careers/ATS 入口，craft.co 显示无公开招聘数据"
+Foresight Group,FSG,foresight.group,none,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='foresight.group', port=4) | ATS:未见第三方 ATS 域名；foresight.group 官网可访问但搜索未发现 careers/ATS 入口，职位只出现在 wellfound/theorg 等聚合站点"
+Antin Infrastructure Partners,ANTIN,antin-ip.com,none,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='antin-ip.com', port=443)) | ATS:未见第三方 ATS 域名；招聘信息散见于 grabjobs 等第三方站点，antin-ip.com 搜索未发现 careers/ATS 入口"
+HarbourVest Global Private Equity,HVPE,hvpe.com,none,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='hvpe.com', port=443): Re) | ATS:HVPE（hvpe.com）为 HarbourVest Partners 管理的上市工具；未见 ATS 域名，HarbourVest Partners 职位散见于 wellfound/LinkedIn/efinancialcareers，无可识别 ATS 平台"
