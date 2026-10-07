@@ -1,7 +1,7 @@
 company,ticker,domain,ats_platform,ats_token,careers_url,note
-JPMorgan Chase,JPM,jpmorganchase.com,oracle,fa.oraclecloud.com,https://www.jpmorganchase.com/careers,ats found at https://jpmorganchase.com/careers
+JPMorgan Chase,JPM,jpmorganchase.com,oracle,jpmc.fa.oraclecloud.com|CX_1001,https://www.jpmorganchase.com/careers,"ats found at https://jpmorganchase.com/careers; 公开 JSON API 已验证(2026-10-08): GET jpmc.fa.oraclecloud.com/hcmRestApi/resources/11.13.18.05/recruitingCEJobRequisitions?finder=findReqs;siteNumber=CX_1001;keyword=AI;offset=0;limit=25 (匿名可访问); 注意分号必须字面发送不可URL编码; AI职位约2378"
 Bank of America,BAC,bankofamerica.com,workday,ghr.wd1.myworkdayjobs.com,https://careers.bankofamerica.com/en-us,ats found at https://bankofamerica.com/careers
-Citigroup,C,citigroup.com,workday,citi.wd5.myworkdayjobs.com,https://jobs.citi.com/,ats found at https://citigroup.com/careers
+Citigroup,C,citigroup.com,workday,citi.wd5.myworkdayjobs.com|citi|2,https://jobs.citi.com/,"ats found at https://citigroup.com/careers; Workday site=2 已验证(2026-10-08, POST /wday/cxs/citi/2/jobs); AI相关职位约1936"
 HSBC,HSBC,hsbc.com,phenom,,https://www.hsbc.com/careers#goToNextNav,r2[medium] 官方招聘门户 portal.careers.hsbc.com 的职位数据含 medallionProgram/canonicalPositionUrl 等 Phenom 特征字段，疑为 Phenom 自建门户 | https://portal.careers.hsbc.com/careers?pid=563774611582832&domain=hsbc.com&utm_source=LinkedIn
 Industrial and Commercial Bank of China,1398,icbc.com.cn,custom,,https://www.icbc-ltd.com,r3 search-evidence (medium): Career section 'Join Us' on own domain; overseas branches use email applications
 Agricultural Bank of China,1288,abchina.com,custom,,,"no careers page (3 tried, last: fetch err: HTTPSConnectionPool(host='abchina.com', port=443):) | ATS:overseas branches post jobs on official abchina.com subdomains with email applications; no third-party ATS found"
@@ -30,7 +30,7 @@ Toronto-Dominion Bank,TD,td.com,workday,td.wd3.myworkdayjobs.com,https://careers
 Wells Fargo,WFC,wellsfargo.com,custom,,,r2[medium] 富国官方说明：内部员工用 Workday 找工作，外部候选人走 wellsfargojobs.com 自有门户；外部申请系统无第三方 ATS 域名证据 | https://teamworks.wellsfargo.com/retain/applyforwellsfargojobs.htm
 U.S. Bancorp,USB,usbank.com,phenom,,,r2[medium] 开源抓取工具 issue 明确 careers.usbank.com 抓取源为 phenom_canvas（Phenom）并给出 phApp.ddo 数据路径，与其 /global/en/job/ URL 形态互相印证 | https://github.com/colophon-group/jobseek/issues/2544
 PNC Financial,PNC,pnc.com,phenom,,,r2[high] careers.pnc.com 官方候选人登录页显示 Sign in to Phenom Careers，且 URL 形态与 Phenom 托管门户一致 | https://economyall.com/pnc-careers-log-in/
-Capital One,COF,capitalone.com,phenom,,,r2[medium] 官方招聘站 capitalonecareers.com 的职位页 URL 采用 /category/.../234/29016/1 数字编号形态，与 Phenom 托管门户特征一致 | https://www.capitalonecareers.com/?ss=paid&utm_campaign=PROS&utm_medium=PD&utm_source=TalentBrew360&utm_term=356091934&source=rd_RD360_programmatic_display_tm&gclid=EAIaIQobChMIpNG5weShkQMVPwakBh2cYD1LEAEYASAAEgK2uPD_BwE
+Capital One,COF,capitalone.com,workday,capitalone.wd12.myworkdayjobs.com|capitalone|Capital_One,https://www.capitalonecareers.com/,"2026-10-08 纠正旧分类: 非Phenom, 系TalentBrew前端 + Workday后端; site=Capital_One 已验证(POST /wday/cxs/capitalone/Capital_One/jobs); AI相关职位约990, 已见 Sr. Manager AI Engineer title"
 Truist Financial,TFC,truist.com,phenom,phenompeople.com,https://careers.truist.com/us/en,ats found at https://careers.truist.com/
 Charles Schwab,SCHW,schwab.com,icims,,,r2[high] 官方招聘门户直接落在 iCIMS 域名 career-schwab.icims.com，Schwab 自家 aboutschwab.com/jobs 亦链向该门户 | https://career-schwab.icims.com/jobs/search?searchCategory=8718&searchRelation=keyword_all&pr=5&mobile=true&needsRedirect=false
 Fifth Third Bancorp,FITB,53.com,workday,,https://fifththird.wd5.myworkdayjobs.com/53careers,r3 search-evidence (high): tenant=fifththird|site=53careers; validated via jobseek (1043 jobs)
