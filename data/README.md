@@ -67,3 +67,28 @@
 ### 验证情况
 
 L1+L2 共 239 家公司经接口实测拉到过真实职位数据（Workday CXS、Greenhouse Boards API、Lever、Ashby、SmartRecruiters 公开接口）。
+
+## l3_company_library.csv
+
+- 快照日期：2026-10-07
+- 内容：L3 传统行业层 1054 家公司（S&P 500 / S&P MidCap 400 / S&P SmallCap 600 成分，剔除科技与金融）
+- 列：ticker（上市代码）, company（公司名）, sector（行业）, sub_industry（子行业）, domain（官网域名）, ats_platform（招聘系统）, note（证据/备注）
+
+### ATS 分布（2026-10-07 快照，620/1054 已确认，59%）
+
+| 平台 | 公司数 |
+|---|---|
+| custom（自建站） | 403 |
+| workday | 87 |
+| greenhouse | 23 |
+| phenom | 19 |
+| icims | 16 |
+| oracle / successfactors | 各 11 |
+| smartrecruiters | 10 |
+| taleo / eightfold / jobvite | 各 7 |
+| lever | 4 |
+| 其他 | 各 1-2 |
+
+### 验证情况
+
+L3 共 80 家公司经接口实测拉到过真实职位数据（Workday 50、Greenhouse/Lever 22、SmartRecruiters 8）。传统行业自建站比例高（403 家），无公开接口可调。
