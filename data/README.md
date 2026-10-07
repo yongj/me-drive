@@ -41,3 +41,29 @@
 ### 用途
 
 支撑"自抓职位数据的 AI 人才需求分析"：按 ATS 平台分别抓取各公司在招职位，再与 LinkedIn/Indeed 等聚合站数据做"官网独有岗位差集"对比（见 `misc/wall-street-ai-talent-demand-2026-draup.md` 后续分析想法）。
+
+## l2_company_library.csv
+
+- 快照日期：2026-10-07
+- 内容：L2 金融层 410 家公司（银行、保险、资管、交易所等，49 个国家/地区）
+- 列：company（公司名）, ticker（上市代码）, domain（官网域名）, ats_platform（招聘系统）, ats_token（抓取标识）, careers_url（招聘页 URL）, note（证据/备注）
+
+### ATS 分布（2026-10-07 快照，288/410 已确认，70%）
+
+| 平台 | 公司数 |
+|---|---|
+| custom（自建站） | 125 |
+| workday | 61 |
+| phenom | 25 |
+| greenhouse | 19 |
+| icims | 11 |
+| taleo | 9 |
+| oracle / successfactors | 各 7 |
+| eightfold | 4 |
+| jobvite / lever | 各 3 |
+| ashby | 2 |
+| 其他 | 各 1 |
+
+### 验证情况
+
+L1+L2 共 239 家公司经接口实测拉到过真实职位数据（Workday CXS、Greenhouse Boards API、Lever、Ashby、SmartRecruiters 公开接口）。
