@@ -59,7 +59,7 @@ Axon,AXON,,greenhouse,axon,r3_search,http://boards.greenhouse.io/axon/jobs/63027
 Azbil,6845,sg.azbil.com,custom,,search-b0,"regional careers page, email-based applications (careers@sg.azbil.com)"
 BE Semiconductor,BESIY,besi.kandidatenportal.eu,kandidatenportal,besi,search-b0,"third-party candidate portal, not one of the listed ATS platforms"
 Baidu,BIDU,,greenhouse,baidu,r3_search2,https://boards.greenhouse.io/baidu/jobs/5360432 [high]
-Bandai Namco,7832,,,,,
+Bandai Namco,7832,,custom,,,ATS:own-domain official careers page
 Belden Inc.,BDC,belden.com,successfactors,,phaseB-browser,SuccessFactors tenant career4
 Bentley Systems,BSY,bentley.com,workday,bentleysystems.wd5,search-b0,
 BigBear.ai,BBAI,bigbear.ai,icims,,phaseB-browser,iCIMS career portal
@@ -145,7 +145,7 @@ EchoStar,ECHO,,icims,,phaseB-browser,iCIMS portal
 Elastic,ESTC,,greenhouse,,phaseB-browser,Greenhouse iframe embed
 Electronic Arts,EA,ea.com,phenom,,phaseB-browser,Phenom TXM URL pattern on jobs.ea.com
 Eloqua,ORCL,,oracle,,phaseB-browser,tenant=eeho|site=jobsearch; Oracle company on Oracle HCM
-Embracer,EMBRAC,embracer.com,,,,
+Embracer,EMBRAC,embracer.com,none,,,ATS:no careers page or ATS surfaced
 Endava,DAVA,endava.com,smartrecruiters,endava,r3_search,https://jobs.smartrecruiters.com/endava/744000081660685-senior-business-development-manager-payments [high]
 Entegris,ENTG,entegris.com,workday,entegris.wd1.myworkdayjobs.com,script,ats found at https://careers.entegris.com/
 Envestnet,ENV,envestnet.com,jobvite,,phaseB-browser,"Apply posts to apply.app.jobvite.com, company=envestnet"
@@ -198,7 +198,7 @@ HP Inc.,HPQ,,workday,hp/wd5/ExternalCareerSite,r3_search2,https://hp.wd5.myworkd
 Hamamatsu Photonics,6965,,jazzhr,,phaseB-browser,POWERED BY JazzHr (German entity uses Personio)
 Hewlett Packard Enterprise,HPE,,workday,hpe/wd5/Jobsathpe,r3_search2,https://hpe.wd5.myworkdayjobs.com/en-US/Jobsathpe/job/San-Jose-California-United-States-of-America/A [medium]
 Hexagon,HEXA,,successfactors,,phaseB-browser,SAP SuccessFactors; positioning division uses iCIMS
-Hikvision,002415,,,,,
+Hikvision,002415,,custom,,,ATS:official-site careers section referenced; aggregators only
 Hirose,6806,,paylocity,,phaseB-browser,"Paylocity portal, 7 jobs"
 Hitachi,6501,hitachi.com,workday,hitachi.wd1.myworkdayjobs.com,search-b1,"\""workday hit: hitachi.wd1 tenant (Hitachi Energy USA Inc. postings)\"""
 Horiba,6856,,adp,,phaseB-browser,ADP Workforce Now recruiting
@@ -209,19 +209,19 @@ IQVIA,IQV,,workday,iqvia/wd1/IQVIA,r3_search2,https://iqvia.wd1.myworkdayjobs.co
 Infineon,IFX,,phenom,,phaseB-browser,Phenom-hosted portal
 Infinera,INFN,,workday,infinera/wd1/Infinera_Careers,r3_search2,https://infinera.wd1.myworkdayjobs.com/Infinera_Careers/job/Portugal---Lisbon/Optical-Systems-Engine [medium]
 Informa,INF,,smartrecruiters,,phaseB-browser,careers.smartrecruiters.com/InformaGroupPlc
-Informatica,INFA,,,,,
+Informatica,INFA,,custom,,,ATS:official careers page confirmed
 Infosys,INFY,,custom,https://myjobb.ai/blog/which-ats-indian-companies-use,,manual curl+search: in-house portal (career.infosys.com); multiple sources say IT-services giants run proprietary portals; site blocks curl
-Insight Enterprises,NSIT,,,,,
+Insight Enterprises,NSIT,,custom,,,ATS:official-site application referenced by aggregators
 Intel,INTC,intel.com,workday,intel.wd1.myworkdayjobs.com,search-b2,found via site:myworkdayjobs.com search
 InterDigital,IDCC,,workday,interdigital/wd5/InterDigital_Intern,r3_search2,https://interdigital.wd5.myworkdayjobs.com/en-US/InterDigital_Intern [medium]
 Intuit,INTU,,avature,,phaseB-browser,Apply links to intuit.avature.net externalCareers
-Iwatsu,6704,,,,,
-JD.com,JD,,,,,
-JFrog,FROG,,,,,
+Iwatsu,6704,,custom,,,ATS:regional job postings; no ATS pattern
+JD.com,JD,,custom,,,ATS:own recruitment; Chinese job boards; no ATS URL
+JFrog,FROG,,greenhouse,,,ATS:official portal carries Greenhouse gh_src tracking param
 Jabil,JBL,,workday,jabil/wd5/Jabil_Careers,r3_search2,https://jabil.wd5.myworkdayjobs.com/en-US/Jabil_Careers/job/St-PetersburgTampa-FL/Associate-Cloud-En [medium]
 Jack Henry,JKHY,,avature,https://careers.jackhenry.com/,,manual curl+search: apply links go to jackhenry.avature.net (Avature)
-Jeol,6951,,,,,
-Juniper Networks,JNPR,,,,,Juniper Networks (acquired by HPE 2025; careers via careers.hpe.com)
+Jeol,6951,,custom,,,ATS:jobs posted on jeoluk.com
+Juniper Networks,JNPR,,workday,,,Juniper Networks (acquired by HPE 2025; careers via careers.hpe.com) | ATS:acquired by HPE 2025; careers via HPE Workday
 KLA Corporation,KLAC,,workday,kla/wd1/Search,r3_search2,https://kla.wd1.myworkdayjobs.com/en-US/Search [medium]
 Kainos,KNOS,,workday,kainos/Kainos,r3_search,https://kainos.wd3.myworkdayjobs.com/Kainos/job/Birmingham/Lead-Security-Engineer_JR_18219/apply [high]
 Kakao,035720,,custom,,phaseB-browser,Self-hosted Kakao Recruit; no third-party ATS
@@ -264,7 +264,7 @@ MediaTek,2454,,custom,,phaseB-browser,Self-built; in-page apply modal
 Meituan,3690,,custom,,phaseB-browser,Self-built; career.meituan.com
 MercadoLibre,MELI,,eightfold,,phaseB-browser,Eightfold AI
 Meta Platforms,META,,custom,,phaseB-browser,Self-built metacareers.com
-MicroStrategy,MSTR,,,,,
+MicroStrategy,MSTR,,custom,,,ATS:official careers page per aggregators
 Microchip Technology,MCHP,,workday,microchiphr/wd5/external,r3_search2,https://microchiphr.wd5.myworkdayjobs.com/en-US/external/job/OR---Gresham/Intern--Data-Analyst-_R230 [medium]
 Micron Technology,MU,,workday,micron/External,r3_search,https://micron.wd1.myworkdayjobs.com/External/job/Sanand---MIB---Mini-Pioneer-India/Director--India- [high]
 Microsoft,MSFT,,custom,,phaseB-browser,Official portal; could not load in browser
@@ -276,7 +276,7 @@ Monolithic Power Systems,MPWR,,workday,monolithicpower/MPS_Careers,r3_search,htt
 Moody's,MCO,,successfactors,,phaseB-prefound,Moody's job listing on SuccessFactors apply domain (company=MoodysProd); careers.moodys.com corroborates
 Morningstar,MORN,morningstar.com,workday,morningstar.wd5.myworkdayjobs.com,search-b2,found
 Motorola Solutions,MSI,motorolasolutions.com,workday,motorolasolutions.wd5.myworkdayjobs.com,search-b2,found
-Murata,6981,,,,,
+Murata,6981,,custom,,,ATS:apply directly via website per jobzmall
 NCSoft,036570,,greenhouse,,phaseB-browser,Followed Apply to Greenhouse
 NEC,6701,,successfactors,,phaseB-browser,Loads SAP SuccessFactors RMK assets
 NXP Semiconductors,NXPI,nxp.com,workday,nxp.wd3.myworkdayjobs.com,search-b2,found
@@ -299,12 +299,12 @@ Nintendo,7974,,custom,,phaseB-browser,Self-hosted on careers.nintendo.com
 Nokia,NOK,,taleo,nokia,r3_search,http://nokia.taleo.net/careersection/10120/jobdetail.ftl?job=1005090&lang=en [medium]
 Nova,NVMI,,comeet,https://www.novami.com/,,manual curl+search: Nova Ltd (NVMI); Google-indexed novami.com/comeetitem/* job URLs = Comeet embed pattern; site blocks curl so no final landing page
 Novanta,NOVT,,workday,novanta.wd5.myworkdayjobs.com,search-b2,found via workday site search
-Nuance,NUAN,,,,,
+Nuance,NUAN,,none,,,ATS:acquired by Microsoft; no standalone ATS surfaced
 Nutanix,NTNX,,jobvite,nutanix,r3_search2,https://jobs.jobvite.com/nutanix/job/oD5xAfwz [high]
-Nuvei,NVEI,,,,,
+Nuvei,NVEI,,none,,,ATS:aggregators only
 Nvidia,NVDA,,workday,nvidia.wd5.myworkdayjobs.com,search-b2,found via workday site search
 ON Semiconductor,ON,,oracle,https://hctz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs,,"manual curl+search: Oracle Recruiting (HCM Cloud), site CX_1001; HTTP 200 verified"
-Oki,6703,,,,,
+Oki,6703,,none,,,ATS:no Oki Electric Industry careers page found
 "Okta, Inc.",OKTA,,greenhouse,https://boards.greenhouse.io/okta,,manual curl+search: 3 independent ATS datasets list boards.greenhouse.io/okta; board now 301-redirects to okta.com/company/careers/ (legacy board?)
 Omnicell,OMCL,,eightfold,https://apply.omnicell.com/careers,,manual curl+search: Eightfold-powered (app.eightfold.ai references); HTTP 200 verified
 Omnicom Group,OMC,,workday,interpublic/OMC,phaseB-browser,tenant=interpublic|site=OMC (post-merger)
@@ -313,7 +313,7 @@ Onto Innovation,ONTO,,workday,onto/ONTO_Careers,phaseB-browser,tenant=onto|site=
 OpenText,OTEX,,phenom,,phaseB-browser,Phenom front; feeds into SuccessFactors (multi-ATS)
 Oracle Corporation,ORCL,,oracle,,phaseB-browser,Oracle Recruiting Cloud (Oracle HCM)
 Orbotech,KLAC,,workday,kla/Search,phaseB-browser,Recruits via parent KLA; tenant=kla
-PDD Holdings,PDD,,,,,
+PDD Holdings,PDD,,none,,,ATS:no PDD Holdings careers found
 PROS,PRO,,workday,pros/PROS_Careers,phaseB-browser,tenant=pros|site=PROS_Careers
 PTC Inc.,PTC,,workday,ptc/ptc,r3_search,https://ptc.wd1.myworkdayjobs.com/ptc/job/remote-sweden/servicemax-enterprise-account-executive_jr11 [medium]
 Pagaya,PGY,,greenhouse,pagaya,r3_search2,https://boards.greenhouse.io/pagaya/jobs/5784608003 [high]
@@ -342,9 +342,9 @@ Q2 Holdings,QTWO,,workday,q2ebanking/Q2,phaseB-browser,tenant=q2ebanking|site=Q2
 Qnity Electronics,Q,,phenom,,phaseB-browser,Phenom-powered portal on custom domain
 Qorvo,QRVO,,phenom,,phaseB-browser,URL pattern matches Phenom; DNS unresolved in browser
 Qualcomm,QCOM,,workday,qualcomm/wd12,phaseB-browser,tenant=qualcomm; indexed job pages confirm
-Qualys,QLYS,,,,,
+Qualys,QLYS,,custom,,,ATS:careers page direct to company per remotefront
 RELX,RELX,,workday,relx.wd3.myworkdayjobs.com,search-b3,
-Radware,RDWR,,,,,
+Radware,RDWR,,none,,,ATS:LinkedIn/Wellfound/aggregators only
 Rakuten,4755,,workday,rakuten.wd1.myworkdayjobs.com,search-b3,
 Rambus,RMBS,,icims,careers-rambus,r3_search,https://careers-rambus.icims.com/jobs/21492/analog-mixed-signal-design-engineer/job [high]
 Rapid7,RPD,,pageup,https://github.com/axm0/jobwatcher/blob/HEAD/research/rapid7.md,,manual curl+search: Clinch (Symphony Talent/PageUp) on careers.rapid7.com per jobwatcher research (2026-05-01); not curl-verified (site WAF-challenges curl)
@@ -352,29 +352,29 @@ Reddit,RDDT,,greenhouse,reddit,r3_search2,https://boards.greenhouse.io/reddit/jo
 Remitly,RELY,,workday,https://careers.remitly.com/job/23621679/manager-people-operations,,manual curl+search: apply URL is remitly.wd5.myworkdayjobs.com/Remitly_Careers; tenant=remitly|site=Remitly_Careers
 Renesas,6723,,smartrecruiters,RenesasElectronics,r3_search,https://careers.smartrecruiters.com/RenesasElectronics [high]
 Reply,REY,,lever,reply,r3_search2,https://jobs.lever.co/reply/88e268cd-b34e-41a4-bcbb-0682612afa5f/apply [high]
-Ricoh,7752,,,,,
+Ricoh,7752,,custom,,,ATS:aggregators only; no ATS pattern
 RingCentral,RNG,,workday,ringcentral.wd1.myworkdayjobs.com,search-b3,
 Riskified,RSKD,,greenhouse,riskified,r3_search,https://boards.greenhouse.io/riskified/jobs/7776724002 [high]
 Robinhood,HOOD,,greenhouse,robinhood,r3_search2,https://boards.greenhouse.io/robinhood/jobs/6494161 [high]
 Roblox,RBLX,,greenhouse,roblox,r3_search2,https://boards.greenhouse.io/embed/job_board?for=roblox [high]
 Rohm,6963,,taleo,https://www.rohm.com/job-openings,,"manual curl+search: job links go to phg.tbe.taleo.net (org=ROHM, Taleo); DE site uses Personio"
-Roper Technologies,ROP,,,,,
+Roper Technologies,ROP,,custom,,,ATS:subsidiary postings; no central ATS
 S&P Global,SPGI,,workday,https://spgi.wd5.myworkdayjobs.com/SPGI_Careers,,manual curl+search: official careers page points applicants to Workday; tenant=spgi|site=SPGI_Careers; HTTP 200 verified
-SAP,SAP,,,,,
+SAP,SAP,,successfactors,,,ATS:careers portal jobs.sap.com runs on SAP SuccessFactors per multiple sources
 SK Hynix,000660,,greenhouse,https://job-boards.greenhouse.io/skhynixmemorysolutionsamericainc/jobs/4333103009,,manual curl+search: US subsidiary board (SK hynix memory solutions America Inc.); HTTP 200 verified; KR HQ uses skcareers.com
-SMIC,0981,,,,,
+SMIC,0981,,none,,,ATS:unrelated results only
 SPS Commerce,SPSC,,icims,https://careers-spscommerce.icims.com/jobs/intro?hashed=-435627206,,manual curl+search: 
 SS&C Technologies,SSNC,,workday,ssctech.wd1.myworkdayjobs.com,search-b3,
 STMicroelectronics,STM,,eightfold,https://stmicroelectronics.eightfold.ai,,manual curl+search: Eightfold-hosted subdomain redirects to corporate SSO; landing page not confirmed
-Sage Group,SGE,,,,,
+Sage Group,SGE,,custom,,,ATS:official careers portal on sage.com
 SailPoint,SAIL,,workday,sailpoint.wd1.myworkdayjobs.com,search-b3,
 Salesforce,CRM,,workday,salesforce.wd12.myworkdayjobs.com,search-b3,
 Samsara,IOT,,greenhouse,samsara,r3_search,https://boards.greenhouse.io/samsara/jobs/5372352 [high]
 Samsung Electronics,005930,,workday,sec.wd3.myworkdayjobs.com,search-b3,
 Sandisk,SNDK,,smartrecruiters,Sandisk,r3_search,https://jobs.smartrecruiters.com/Sandisk/744000150636075-equipment-maintenance-preventative-maintena [high]
-Sanmina Corporation,SANM,,,,,
-Sapiens,SAPI,,,,,
-Screen Holdings,7735,,,,,
+Sanmina Corporation,SANM,,custom,,,ATS:official job search page confirmed
+Sapiens,SAPI,,none,,,ATS:LinkedIn/aggregators only
+Screen Holdings,7735,,none,,,ATS:aggregators only
 Sea Limited,SE,,custom,https://www.sea.com/careers,,manual curl+search: job listings on company domain
 Seagate Technology,STX,,successfactors,https://seagatecareers.com,,manual curl+search: SuccessFactors RMK assets (rmkcdn.successfactors.com) on official careers page; apply landing not followed
 Sega Sammy,6460,,custom,https://careers.sega.co.uk/,,manual curl+search: job listings on company domain
@@ -405,14 +405,14 @@ Spotify,SPOT,,lever,spotify,search-b4,lever board token 'spotify'; posting crawl
 Sprout Social,SPT,,greenhouse,,phaseB-browser,Greenhouse embed for=sproutsocial
 Square Enix,9684,,workable,square-enix,r3_search,https://apply.workable.com/square-enix/ [high]
 Squarespace,SQSP,,greenhouse,,phaseB-browser,Squarespace+Greenhouse via Google index; site unreachable
-Stratasys,SSYS,,,,,
+Stratasys,SSYS,,none,,,ATS:aggregators only; no ATS surfaced
 Sumo,SUMO,,greenhouse,sumologic,r3_search2,https://boards.greenhouse.io/sumologic/jobs/5301859 [high]
-Supermicro,SMCI,,,,,
-Synaptics,SYNA,,,,,
+Supermicro,SMCI,,none,,,ATS:LinkedIn/aggregators only
+Synaptics,SYNA,,custom,,,ATS:own job search portal confirmed
 Synopsys,SNPS,,avature,,phaseB-browser,tenant=synopsys
 T-Mobile US,TMUS,t-mobile.com,workday,tmobile.wd1.myworkdayjobs.com,search-b4,T-MOBILE CAREERS on Workday
 TD Synnex,SNX,,workday,synnex/tdsynnexcareers,phaseB-sitefix,https://synnex.wd5.myworkdayjobs.com/tdsynnexcareers/job/Clearwater-Florida-United-States/Senior-Ent [high] | site token corrected: synnex/tdsynnexcareers
-TDK,6762,,,,,
+TDK,6762,,custom,,,ATS:subsidiaries run own career pages; no third-party ATS pattern
 TE Connectivity,TEL,,successfactors,,phaseB-browser,SAP SuccessFactors
 TKO Group Holdings,TKO,tkogroup.com,workday,wwecorp.wd5.myworkdayjobs.com,search-b4,jobs hosted under WWE Corp tenant (wwecorp); posting text explicitly 'TKO Group Holdings' (UFC/WWE/PBR)
 TOTVS,TOTS3,,trakstar,,phaseB-browser,Trakstar Hire tenant=totvs
@@ -427,15 +427,15 @@ Teledyne Technologies,TDY,,workday,flir/flircareers,phaseB-browser,"tenant=flir|
 Temenos,TEMN,,workday,temenos/Temenoscareers,phaseB-browser,tenant=temenos|site=Temenoscareers
 Tenable,TENB,,greenhouse,tenableinc,r3_search2,https://boards.greenhouse.io/tenableinc/jobs/4175382008 [high]
 Tencent,TCEHY,,workday,tencent.wd1.myworkdayjobs.com,search-b4,workday hit on first query
-Teradata,TDC,,,,,
-Teradyne,TER,,,,,
+Teradata,TDC,,none,,,ATS:LinkedIn/Glassdoor/Indeed only; no official careers page surfaced
+Teradyne,TER,,none,,,ATS:aggregators only
 Tesla,TSLA,,custom,,phaseB-browser,Apply form hosted on tesla.com
 Texas Instruments,TXN,,oracle,,phaseB-browser,Oracle Recruiting Cloud CX
 Thomson Reuters,TRI,,workday,thomsonreuters.wd5.myworkdayjobs.com,search-b4,workday hit on first query
 Thoughtworks,TWKS,,greenhouse,thoughtworks,r3_search2,https://boards.greenhouse.io/embed/job_board?for=thoughtworks [high]
 Toast,TOST,,greenhouse,toast,r3_search2,https://boards.greenhouse.io/toast/jobs/6019511 [high]
 Tokyo Electron,8035,,workday,tel/tel-careers,r3_search2,https://tel.wd3.myworkdayjobs.com/en-US/tel-careers/job/San-Jose/Software-Engineer-Intern--Summer-20 [high]
-Tokyo Seimitsu,7729,,,,,
+Tokyo Seimitsu,7729,,none,,,ATS:no careers page or ATS surfaced
 TomTom,TOM2,,workday,tomtom/TT_External_Careers,r3_search2,https://tomtom.wd3.myworkdayjobs.com/TT_External_Careers/job/India-Pune/Sr-Software-Engineer--Java8- [high]
 Topcon,7732,,workday,topcon/TopconPositioningCareers,r3_search2,https://topcon.wd1.myworkdayjobs.com/en-US/TopconPositioningCareers/details/Field-Service-Technician [high]
 Toshiba,6502,,ukg,,phaseB-browser,UKG Pro Recruiting tenant=toshibausa (Toshiba America)
@@ -448,7 +448,7 @@ Uber,UBER,,oracle,,phaseB-browser,Oracle Recruiting Cloud
 Ubisoft,UBI,,smartrecruiters,,phaseB-browser,powered by SmartRecruiters
 Udemy,UDEM,,greenhouse,udemybedi,r3_search2,https://boards.greenhouse.io/udemybedi/jobs/5412192004 [medium]
 UiPath,PATH,,ashby,,phaseB-browser,Ashby Job Board iframe
-Ultra Clean Holdings,UCTT,,,,,
+Ultra Clean Holdings,UCTT,,none,,,ATS:Indeed/careerjet aggregators only
 Ulvac,6728,,rippling,,phaseB-browser,"Rippling ATS; direct nav failed, via Google index"
 Unity Software,U,,workday,unitytech/Unity,phaseB-sitefix,https://unitytech.wd1.myworkdayjobs.com/Unity/job/Bellevue-WA-USA/Software-Engineer--XR_JOBREQ-26164 [high] | site token corrected: unitytech/Unity
 Universal Display,OLED,,teamtailor,https://careers.oled.com,,manual curl+search: Teamtailor CDN assets (assets-aws.teamtailor-cdn.com) on careers.oled.com; job listings on company domain
@@ -465,7 +465,7 @@ Vertex,VERX,,workday,https://vertexinc.wd1.myworkdayjobs.com/VertexInc,,manual c
 Viavi,VIAV,,workday,viavisolutions/careers,r3_search2,https://viavisolutions.wd1.myworkdayjobs.com/en-US/careers/job/Minnetonka-MN-USA/Early-Careers-Rotat [high]
 Viavi Solutions,VIAV,,workday,viavisolutions/careers,r3_search2,https://viavisolutions.wd1.myworkdayjobs.com/en-US/careers/job/Minnetonka-MN-USA/Early-Careers-Rotat [high]
 Vishay,VSH,,custom,https://jobs.vishay.com/,,manual curl+search: job listings on company domain
-Visteon,VC,,,,,
+Visteon,VC,,none,,,ATS:jobs hosted on recruiting.ultipro.com (UKG Pro) - outside mapped platform set
 Vontier,VNT,,phenom,https://careers.vontier.com,,manual curl+search: Phenom assets (cdn.phenompeople.com) on official careers page; apply landing not followed
 WEX,WEX,,workday,wexinc/WEXInc,phaseB-sitefix,https://wexinc.wd5.myworkdayjobs.com/WEXInc/job/Brazil---Remote/Mid-Level-Software-Developer-2_R8953 [high] | site token corrected: wexinc/WEXInc
 WNS Holdings,WNS,,custom,https://www.wns.com/about-us/careers,,manual curl+search: job listings on company domain
@@ -474,19 +474,19 @@ Warner Bros. Discovery,WBD,,custom,,phaseB-direct,Entry sheets + マイページ
 Western Digital,WDC,,smartrecruiters,WesternDigital,r3_search,https://careers.smartrecruiters.com/WesternDigital/raemployee [high]
 Wipro,WIT,,successfactors,https://careers.wipro.com,,manual curl+search: SuccessFactors RMK assets (rmkcdn.successfactors.com) on official careers page; apply landing not followed
 Wise,WISE,,custom,https://wise.jobs/,,manual curl+search: job listings on company domain
-WiseTech Global,WTC,,,,,
+WiseTech Global,WTC,,none,,,ATS:aggregators only
 Wix,WIX,,custom,https://careers.wix.com/,,manual curl+search: job listings on company domain
 Wolters Kluwer,WKL,,workday,wk/External,phaseB-sitefix,https://wk.wd3.myworkdayjobs.com/External/job/USA-MA-Remote/Principal-Content-Management-Consultant- [high] | site token corrected: wk/External
 "Workday, Inc.",WDAY,workday.com,workday,workday.wd5.myworkdayjobs.com,search-b4,hit via cross-reference job postings
 Workiva,WK,,workday,workiva.wd503.myworkdayjobs.com,search-b4,hit
 Xero,XRO,,lever,xero,r3_search2,https://jobs.lever.co/xero [high]
-Xiaomi,1810,,,,,
+Xiaomi,1810,,custom,,,ATS:official own-domain careers portal confirmed
 Xometry,XMTR,,greenhouse,xometry,r3_search2,https://boards.greenhouse.io/xometry/jobs/4606575007 [high]
-Yageo,2327,,,,,
+Yageo,2327,,none,,,ATS:aggregators only (joblum/tealhq)
 Yext,YEXT,,greenhouse,yext,r3_search2,https://boards.greenhouse.io/yext/jobs/5315129 [high]
 Yokogawa,6841,,custom,https://www.yokogawa.com/eu/about/careers/,,manual curl+search: regional careers pages use email application; no ATS detected (page not fetchable via curl)
-ZTE,0763,,,,,
-Zalando,ZAL,,,,,
+ZTE,0763,,custom,,,ATS:official own-domain careers page zteusa.com/careers referenced; no third-party ATS
+Zalando,ZAL,,custom,,,ATS:own-domain jobs portal confirmed
 Zebra Technologies,ZBRA,,workday,zebra/Zebra_careers,r3_search2,https://zebra.wd501.myworkdayjobs.com/Zebra_careers/job/Bengaluru-India/Software-Engineer-II_111398 [high]
 Zoom Video,ZM,,lever,zoom,r3_search2,https://jobs.lever.co/zoom/8a76f470-da4d-4e90-a341-8efd7de62878 [high]
 ZoomInfo,ZI,,greenhouse,https://www.zoominfo.com/careers/faqs,,manual curl+search: official FAQ references Greenhouse autofill; job URLs carry gh_jid params (boards.greenhouse.io not fetchable via curl)
