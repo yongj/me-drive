@@ -1,0 +1,1055 @@
+index,ticker,company,sector,sub_industry,domain,ats_platform,note
+SP500,MMM,3M,Industrials,Industrial Conglomerates,,workday,tenant=3m|site=Search; multiple job URLs on 3m.wd1.myworkdayjobs.com | https://3m.wd1.myworkdayjobs.com/Search
+SP500,AOS,A. O. Smith,Industrials,Building Products,,none,targeted searches found no ATS signal
+SP500,ABT,Abbott Laboratories,Health Care,Health Care Equipment,,phenom,cdn.phenompeople.com assets embedded on jobs.abbott | https://www.jobs.abbott/us/en/job/ABLAUS31075179ENUSEXTERNAL/IQA-Inspector?utm_source=directemployers&utm_medium=phenom-feeds
+SP500,ABBV,AbbVie,Health Care,Biotechnology,,smartrecruiters,careers.smartrecruiters.com board slug=AbbVie | https://careers.smartrecruiters.com/AbbVie?search=&page=14
+SP500,AES,AES Corporation,Utilities,Independent Power Producers & Energy Traders,,custom,job postings hosted on aes.com own domain | https://www.aes.com/about-us/careers/search-jobs/privacy
+SP500,A,Agilent Technologies,Health Care,Life Sciences Tools & Services,,workday,tenant=agilent site=agilent_careers | https://agilent.wd5.myworkdayjobs.com/agilent_careers/job/india-manesar/remote-engineer_4035859
+SP500,APD,Air Products,Materials,Industrial Gases,,none,only aggregators (Indeed/Glassdoor/LinkedIn) in results; no ATS domain found
+SP500,ABNB,Airbnb,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",,greenhouse,third-party job-search repo lists boards.greenhouse.io/airbnb as live Greenhouse board; official careers portal self-hosted at careers.airbnb.com | https://github.com/tdhopeshwar/autoapply-job-search/blob/HEAD/prompts.md
+SP500,ALB,Albemarle Corporation,Materials,Specialty Chemicals,,custom,"careers page at albemarle.com/careers, no third-party ATS domain found | https://dialcustomerservice.com/albemarle-corporation"
+SP500,ARE,Alexandria Real Estate Equities,Real Estate,Office REITs,,none,no careers site or ATS domain found in search results
+SP500,ALGN,Align Technology,Health Care,Health Care Supplies,,greenhouse,apply links point to boards.greenhouse.io/align | https://boards.greenhouse.io/align/jobs/8235666002
+SP500,ALLE,Allegion,Industrials,Building Products,,workday,tenant=allegion; site=careers | https://allegion.wd5.myworkdayjobs.com/careers/job/
+SP500,LNT,Alliant Energy,Utilities,Electric Utilities,,custom,official careers on company subdomain; no third-party ATS seen | https://careers.alliantenergy.com
+SP500,GOOGL,Alphabet Inc. (Class A),Communication Services,Interactive Media & Services,,custom,Google 自有招聘系统（google.com/about/careers 域名下），Alphabet 用 Google careers | https://www.google.com/about/careers/applications/jobs/results/119465541615133382-open-career-opportunities-gfiber
+SP500,GOOG,Alphabet Inc. (Class C),Communication Services,Interactive Media & Services,,custom,Google self-built careers portal (L1 library note: 'Google self-built careers') | careers.google.com
+SP500,MO,Altria,Consumer Staples,Tobacco,,custom,company-hosted careers.altria.com; no third-party ATS domain | https://careers.altria.com/job/Instrument-Electrician-%28Chester%2C-Virginia%29/2962-en_US/
+SP500,AMZN,Amazon,Consumer Discretionary,Broadline Retail,,custom,self-built global career site on amazon.jobs | https://amazon.jobs/
+SP500,AMCR,Amcor,Materials,Paper & Plastic Packaging Products & Materials,,custom,job ads point to www.amcor.com/careers; no third-party ATS URL | https://asq-foxvalley.org/images/downloads/Placement_2022/amcor_qa_lead.pdf
+SP500,AEE,Ameren,Utilities,Multi-Utilities,,none,only aggregators in results; no ATS domain found
+SP500,AEP,American Electric Power,Utilities,Electric Utilities,,workday,tenant=aep|site=AEPCareerSite | https://github.com/notifyyouinc/2026-data-analyst-jobs/blob/HEAD/jobs/american-electric-power-wholesalethird-party-settlements-analyst-associate-commercial-operations-invoici.md
+SP500,AMT,American Tower,Real Estate,Telecom Tower REITs,,custom,公司招聘页在 americantower.com/us/careers；未看到任何 ATS 域名 | https://www.americantower.com/us/careers
+SP500,AWK,American Water Works,Utilities,Water Utilities,,custom,official careers on amwater.com/careers + jobs.amwater.com; no third-party ATS domain | https://www.amwater.com/press-room/press-releases/kentucky/kentucky-american-water-announces-remote-job-opportunities-for-lexington-and-surrounding-areas
+SP500,AME,Ametek,Industrials,Electrical Components & Equipment,,custom,job postings on jobs.ametek.com own subdomain (/go/ path pattern) | https://jobs.ametek.com/
+SP500,AMGN,Amgen,Health Care,Biotechnology,,custom,own portal careers.amgen.com; no third-party ATS domain seen | https://pharmajobspost.in/job/amgen-hiring-2026-central-monitor-senior-associate-jobs-in-hyderabad-4-years-experience/
+SP500,APA,APA Corporation,Energy,Oil & Gas Exploration & Production,,none,no results from targeted search
+SP500,APP,AppLovin,Communication Services,Advertising,,greenhouse,board=applovin | https://job-boards.greenhouse.io/applovin/jobs/4705313006
+SP500,APTV,Aptiv,Consumer Discretionary,Automotive Parts & Equipment,,workday,tenant=aptiv|site=APTIV_CAREERS | https://sg.joblum.com/job/material-control-planner/4157471
+SP500,ADM,Archer Daniels Midland,Consumer Staples,Agricultural Products & Services,,custom,careers page on adm.com/careers (company-hosted); no ATS domain | http://collegegrad.com/topemployers/company/archer-daniels-midland
+SP500,T,AT&T,Communication Services,Integrated Telecommunication Services,,none,no clear ATS signal in search results
+SP500,ATO,Atmos Energy,Utilities,Gas Utilities,,none,no ATS signal; own careers pages only | https://www.atmosenergy.com/careers/working-atmos-energy/
+SP500,ADP,Automatic Data Processing,Industrials,Human Resource & Employment Services,,custom,jobs.adp.com company domain; multiple postings | https://jobs.adp.com
+SP500,AZO,AutoZone,Consumer Discretionary,Automotive Retail,,custom,official application portal referenced as careers.autozone.com (company domain); no third-party ATS identified | https://www.careeronestop.org/Toolkit/Jobs/find-jobs-details.aspx?fc=No&jvid=20c67d64444d4381b70c660b984eb3c28003&detailpage=true
+SP500,AVY,Avery Dennison,Materials,Paper & Plastic Packaging Products & Materials,,smartrecruiters,careers.smartrecruiters.com/AveryDennison | https://careers.smartrecruiters.com/AveryDennison
+SP500,AXON,Axon Enterprise,Industrials,Aerospace & Defense,,greenhouse,board slug=axon | https://job-boards.greenhouse.io/axon/jobs/7986324003
+SP500,BKR,Baker Hughes,Energy,Oil & Gas Equipment & Services,,custom,job postings on careers.bakerhughes.com own domain | https://careers.bakerhughes.com/global/en/job/R167598/ARMO-Tech-Equip-II
+SP500,BALL,Ball Corporation,Materials,"Metal, Glass & Plastic Containers",,custom,company-run careers portal at jobs.ball.com; no ATS domain observed | https://jobs.ball.com/
+SP500,BAX,Baxter International,Health Care,Health Care Equipment,,workday,tenant=baxter|site=baxter; job URLs on baxter.wd1.myworkdayjobs.com | https://baxter.wd1.myworkdayjobs.com/baxter
+SP500,BDX,Becton Dickinson,Health Care,Health Care Equipment,,workday,第三方 ATS 映射表（GitHub）标注 workday，未见直接 URL；tenant 未知 | https://github.com/susanchapas/ux-internships/blob/HEAD/files/RESOLVE_TARGETS.md
+SP500,BBY,Best Buy,Consumer Discretionary,Computer & Electronics Retail,,custom,"own-domain careers site; careers.smartrecruiters.com/BestBuy2 also exists but suspected third-party, not counted | bestbuy-jobs.com"
+SP500,TECH,Bio-Techne,Health Care,Life Sciences Tools & Services,,none,no ATS domain found; careers page on bio-techne.com
+SP500,BIIB,Biogen,Health Care,Biotechnology,,workday,official careers page states hiring portal is Workday | https://www.biogen.com/careers/how-we-hire.html
+SP500,BE,Bloom Energy,Industrials,Electrical Components & Equipment,,taleo,direct Taleo URL tbe.taleo.net/NA11/ats/careers/jobSearch.jsp?org=BLOOMENERGY quoted | https://media-index.kochava.com/buyers/bloom-energy
+SP500,BA,Boeing,Industrials,Aerospace & Defense,,workday,tenant=boeing|site=EXTERNAL_CAREERS | https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS
+SP500,BKNG,Booking Holdings,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",,custom,"job listings on own domain, no ATS domain seen | https://www.bookingholdings.com/careers-listing/analyst-enterprise-risk-management/"
+SP500,BSX,Boston Scientific,Health Care,Health Care Equipment,,eightfold,"官网明确指引：To search and apply for open positions, visit bostonscientific.eightfold.ai/careers | https://bostonscientific.eightfold.ai/careers"
+SP500,BMY,Bristol Myers Squibb,Health Care,Pharmaceuticals,,custom,company subdomain jobs.bms.com; no third-party ATS domain (Phenom not confirmed) | https://jobs.bms.com/careers?pid=137462572794
+SP500,BR,Broadridge Financial Solutions,Industrials,Data Processing & Outsourced Services,,none,no clear ATS signal; only aggregator listings found
+SP500,BF.B,Brown–Forman,Consumer Staples,Distillers & Vintners,,workday,multiple job postings reference 'Careers icon on the Workday portal'; no direct myworkdayjobs URL seen | https://work180.com/en-us/for-women/employer/brown-forman/job/436668/temporary-supply-chain-analyst--jack-daniels
+SP500,BG,Bunge Global,Consumer Staples,Agricultural Products & Services,,none,only aggregators in results; no ATS domain found
+SP500,BXP,"BXP, Inc.",Real Estate,Office REITs,,none,targeted searches found no ATS signal
+SP500,CHRW,C.H. Robinson,Industrials,Air Freight & Logistics,,custom,company-hosted portal jobs.chrobinson.com/chr-careers | https://huntr.co/job/5dfd7ddb9e416f00565e6ff8
+SP500,CPT,Camden Property Trust,Real Estate,Multi-Family Residential REITs,,oracle,"third-party profile states careers portal on Oracle Cloud; no direct oraclecloud.com URL surfaced | https://www.jasminedirectory.com/regional/north-america/united-states/real-estate/detail,31146587,camden-property-trust.html"
+SP500,CAH,Cardinal Health,Health Care,Health Care Distributors,,workday,tenant=cardinalhealth|site=EXT | https://cardinalhealth.wd1.myworkdayjobs.com/EXT
+SP500,CCL,Carnival Corporation,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",,none,postings on own-domain jobs.carnivalcorp.com / jobs.carnival.com; no ATS domain identified | https://jobs.carnivalcorp.com/job/miami/analyst-consumer-ai/8858/99144451824
+SP500,CARR,Carrier Global,Industrials,Building Products,,workday,tenant=carrier|site=jobs; EU subsidiary uses iCIMS | https://carrier.wd5.myworkdayjobs.com/jobs
+SP500,CVNA,Carvana,Consumer Discretionary,Automotive Retail,,greenhouse,careers apply URLs on carvana.com carry ?gh_jid= parameter (Greenhouse job ID); no direct boards.greenhouse.io URL seen | https://www.carvana.com/careers/apply/?gh_jid=8130917
+SP500,CASY,Casey's,Consumer Staples,Food Retail,,custom,"careers page at caseys.com/careers, no third-party ATS domain found | https://github.com/api-evangelist/caseys-general-stores"
+SP500,CAT,Caterpillar Inc.,Industrials,Construction Machinery & Heavy Transportation Equipment,,workday,tenant=cat site=CaterpillarCareers | https://cat.wd5.myworkdayjobs.com/CaterpillarCareers/job/Mossville-Illinois/Automation-Engineer_R0000396217?utm_source=Greater+Peoria%2C+IL+job+board&utm_medium=getro.com&gh_src=Greater+Peoria%2C+IL+job+board
+SP500,CBRE,CBRE Group,Real Estate,Real Estate Services,,none,no clear ATS signal; only aggregator listings
+SP500,COR,Cencora,Health Care,Health Care Distributors,,custom,company-run careers portal at careers.cencora.com; no ATS domain observed | https://careers.cencora.com/
+SP500,CNC,Centene Corporation,Health Care,Managed Health Care,,workday,tenant=centene|site=centene_external | https://centene.wd5.myworkdayjobs.com/centene_external
+SP500,CNP,CenterPoint Energy,Utilities,Multi-Utilities,,none,官方 career center 在 centerpointenergy.com，无 ATS 直接证据 | https://www.centerpointenergy.com/en-us/corp/pages/career-center.aspx
+SP500,CF,CF Industries,Materials,Fertilizers & Agricultural Chemicals,,custom,own-domain careers portal | careers.cfindustries.com
+SP500,CRL,Charles River Laboratories,Health Care,Life Sciences Tools & Services,,none,no ATS domain found; careers on criver.com
+SP500,CHTR,Charter Communications,Communication Services,Cable & Satellite,,custom,careers on jobs.spectrum.com own domain (Spectrum brand) | https://jobs.spectrum.com/
+SP500,CVX,Chevron Corporation,Energy,Integrated Oil & Gas,,custom,careers.chevron.com only | https://gmcjob.com/chevron-careers-usa/
+SP500,CMG,Chipotle Mexican Grill,Consumer Discretionary,Restaurants,,custom,company-owned jobs site | https://jobs.chipotle.com
+SP500,CHD,Church & Dwight,Consumer Staples,Household Products,,workday,tenant=churchdwight|site=chdcareers | https://github.com/api-evangelist/api-pulse/blob/HEAD/_companies/church-and-dwight.md
+SP500,CI,Cigna,Health Care,Health Care Services,,phenom,招聘站 jobs.thecignagroup.com；Phenom 常见托管形态（jobs.<company>.com），无 ATS 域名直接证据 | https://jobs.thecignagroup.com/us/en/faqs
+SP500,CTAS,Cintas,Industrials,Diversified Support Services,,custom,company-hosted careers.cintas.com; no third-party ATS domain | https://careers.cintas.com/?utm_source=CorpSite&utm_medium=careers&utm_campaign=morethananemployeevideo&_gl=1%2Aqc2i6d%2A_gcl_au%2ANDk0NjA0NjAwLjE3OTA2MjExMjg
+SP500,CLX,Clorox,Consumer Staples,Household Products,,none,no clear ATS signal; only aggregator listings
+SP500,CMS,CMS Energy,Utilities,Multi-Utilities,,none,no ATS signal in search results
+SP500,KO,Coca-Cola Company (The),Consumer Staples,Soft Drinks & Non-alcoholic Beverages,,none,only aggregators in results; no ATS domain found
+SP500,CL,Colgate-Palmolive,Consumer Staples,Household Products,,successfactors,third-party crawler verdict: SuccessFactors global feed at jobs.colgate.com; company HRIS is SuccessFactors | https://jobs.colgate.com/job/Sr-HRIS-Specialist-(SuccessFactors-Recruiting-and-Onboarding)/171907-en_US/
+SP500,CMCSA,Comcast,Communication Services,Cable & Satellite,,none,
+SP500,FIX,Comfort Systems USA,Industrials,Construction & Engineering,,none,no corporate ATS; decentralized subsidiaries use own sites (e.g. csusamidatlantic.acquiretm.com)
+SP500,COP,ConocoPhillips,Energy,Oil & Gas Exploration & Production,,custom,job postings on careers.conocophillips.com own domain | https://careers.conocophillips.com/locations/united-states/
+SP500,ED,Consolidated Edison,Utilities,Multi-Utilities,,oracle,only one secondary source says apply at the Oracle CX_1033 careers site | https://www.extern.com/post/consolidated-edison-internship-guide
+SP500,STZ,Constellation Brands,Consumer Staples,Distillers & Vintners,,none,only aggregators/indeed in results; no ATS domain found
+SP500,CEG,Constellation Energy,Utilities,Electric Utilities,,none,no deterministic ATS evidence from search; aggregators (glassdoor/indeed/jobs2careers) only
+SP500,COO,Cooper Companies (The),Health Care,Health Care Supplies,,none,no careers-page or ATS signal found in search results | https://www.indeed.com/cmp/Coopercompanies
+SP500,CPRT,Copart,Industrials,Diversified Support Services,,workday,tenant=copart site=Copart (copart.wd12.myworkdayjobs.com); per third-party scraper research | https://github.com/axm0/jobwatcher/blob/HEAD/research/copart.md
+SP500,CTVA,Corteva,Materials,Fertilizers & Agricultural Chemicals,,none,no clear ATS signal; ag job boards only
+SP500,CSGP,CoStar Group,Real Estate,Real Estate Services,,none,no clear ATS signal found in search results
+SP500,COST,Costco,Consumer Staples,Consumer Staples Merchandise Retail,,none,"uses Cadient Talent (cta.cadienttalent.com), not in ATS list"
+SP500,CRH,CRH plc,Materials,Construction Materials,,custom,职位列表在 jobs.crh.com 自有域名下，未见第三方 ATS 域名痕迹 | https://jobs.crh.com/job/Technology-Solutions-Manager/528186-en_US/
+SP500,CCI,Crown Castle,Real Estate,Telecom Tower REITs,,custom,own-domain careers page | crowncastle.com/careers
+SP500,CSX,CSX Corporation,Industrials,Rail Transportation,,none,no ATS domain found; apply via csx.com
+SP500,CMI,Cummins,Industrials,Construction Machinery & Heavy Transportation Equipment,,custom,apply links go to cummins.jobs own domain | https://cummins.jobs/
+SP500,CVS,CVS Health,Health Care,Health Care Services,,custom,jobs.cvshealth.com; Phenom Market text seen but no phenompeople.com URL | https://jobs.cvshealth.com/us/en/inclusionandbelonging
+SP500,DHR,Danaher Corporation,Health Care,Life Sciences Tools & Services,,workday,tenant=danaher|site=DanaherJobs | https://danaher.wd1.myworkdayjobs.com/en-US/DanaherJobs
+SP500,DRI,Darden Restaurants,Consumer Discretionary,Restaurants,,none,
+SP500,DVA,DaVita,Health Care,Health Care Services,,phenom,主站 careers.davita.com/job/... 为 Phenom 形态；但部分职位链接到 davita.wd1.myworkdayjobs.com/DKC_External，信号混合 | https://careers.davita.com/job/R0278044/Registered-Nurse-ICHD
+SP500,DECK,Deckers Brands,Consumer Discretionary,Footwear,,custom,careers page at deckers.com/careers (company-hosted); no ATS domain | https://www.northernsteelvic.com.au/d-corporate-office/deckers-brands-corporate-office.html
+SP500,DE,Deere & Company,Industrials,Agricultural & Farm Machinery,,eightfold,jobs.deere.com URLs use /eightfold/ paths (Eightfold) | https://jobs.deere.com/eightfold/job/
+SP500,DAL,Delta Air Lines,Industrials,Passenger Airlines,,custom,own portal delta.com/careers; no third-party ATS domain seen | https://www.jobzmall.com/delta-air-lines/faqs/how-do-i-apply-for-a-job-with-delta-air-lines
+SP500,DVN,Devon Energy,Energy,Oil & Gas Exploration & Production,,workday,Workday board per extern.com guide; devonenergy.com/careers routes there | https://wd5.myworkdaysite.com
+SP500,DXCM,Dexcom,Health Care,Health Care Equipment,,eightfold,Eightfold-hosted careers (dexcom-sandbox.eightfold.ai); Eightfold case study confirms Talent Intelligence Platform in use | https://dexcom-sandbox.eightfold.ai/careers/job/41211737-director-operational-excellence-and-pmo-mesa-arizona?domain=dexcom-sandbox.com
+SP500,FANG,Diamondback Energy,Energy,Oil & Gas Exploration & Production,,none,
+SP500,DLR,Digital Realty,Real Estate,Data Center REITs,,custom,company-hosted careers.digitalrealty.com; no third-party ATS domain | https://www.glassdoor.co.uk/Updates/Digital-Realty-Company-Updates-E36929.htm
+SP500,DG,Dollar General,Consumer Staples,Consumer Staples Merchandise Retail,,custom,careers.dollargeneral.com own domain with Olivia text-to-apply assistant | https://careers.dollargeneral.com/retail
+SP500,DLTR,Dollar Tree,Consumer Staples,Consumer Staples Merchandise Retail,,jobsnet,dollartree.jobs.net (third-party ATS not on standard list) | https://dollartree.jobs.net/
+SP500,D,Dominion Energy,Utilities,Multi-Utilities,,none,only aggregators in results; no ATS domain found
+SP500,DPZ,Domino's,Consumer Discretionary,Restaurants,,custom,official careers site referenced as jobs.dominos.com/us/ (company domain); no third-party ATS identified | https://jobs.kepolirik.com/assistant-manager-dominos-pizza-oxnard-ca/
+SP500,DASH,DoorDash,Consumer Discretionary,Specialized Consumer Services,,greenhouse,board=doordash* | https://boards.greenhouse.io/doordashusa/jobs/4522583
+SP500,DOV,Dover Corporation,Industrials,Industrial Machinery & Supplies & Components,,custom,official site careers.dovercorporation.com; no third-party ATS domain | https://my.joblum.com/job/technical-service-engineer/1656870
+SP500,DOW,Dow Inc.,Materials,Commodity Chemicals,,custom,job pages under corporate.dow.com own domain | https://corporate.dow.com/en-us/careers/jobs/position.R2068788.html
+SP500,DHI,D. R. Horton,Consumer Discretionary,Homebuilding,,none,no clear ATS signal found in search results
+SP500,DTE,DTE Energy,Utilities,Multi-Utilities,,custom,company-owned careers portal (careers.dteenergy.com) | https://careers.dteenergy.com
+SP500,DUK,Duke Energy,Utilities,Electric Utilities,,workday,招聘帖链接为 dukeenergy.wd1.myworkdayjobs.com/en-US/Search；tenant=dukeenergy|site=Search | https://github.com/trakkerhq/data-ai-jobs
+SP500,DD,DuPont,Industrials,Industrial Conglomerates,,custom,own-domain careers page | dupont.com/careers
+SP500,ETN,Eaton Corporation,Industrials,Electrical Components & Equipment,,eightfold,Eightfold 托管站 eaton.eightfold.ai（多条结果一致） | https://eaton.eightfold.ai/careers?pid=687219619847
+SP500,EBAY,eBay Inc.,Consumer Discretionary,Broadline Retail,,phenom,jobs.ebayinc.com/us/en/job/ URL pattern (Phenom-style) | https://jobs.ebayinc.com/us/en/job/R0052824/DoD-SkillBridge-Apprenticeship-Program-Honor-Role
+SP500,ECHO,EchoStar,Communication Services,Wireless Telecommunication Services,,none,no careers page or ATS URL found | https://www.glassdoor.com/Jobs/EchoStar-Jobs-E100329.htm
+SP500,ECL,Ecolab,Materials,Specialty Chemicals,,custom,company-owned jobs site (jobs.ecolab.com) | https://jobs.ecolab.com
+SP500,EIX,Edison International,Utilities,Electric Utilities,,none,
+SP500,EW,Edwards Lifesciences,Health Care,Health Care Equipment,,none,仅在 Glassdoor/Indeed 等第三方找到职位；未发现招聘站或 ATS 域名 | https://www.jobzmall.com/edwards-lifesciences/faqs/how-can-i-apply-for-a-job-at-edwards-lifesciences
+SP500,ELV,Elevance Health,Health Care,Managed Health Care,,custom,官网招聘站 careers.elevancehealth.com（公司域名） | https://careers.elevancehealth.com/customer-care-representative-ii/job/A7C242EB2E59EC03C037AC0E594A5250
+SP500,EME,Emcor,Industrials,Construction & Engineering,,none,no clear ATS signal; LinkedIn/Indeed/Adzuna only
+SP500,EMR,Emerson Electric,Industrials,Electrical Components & Equipment,,none,no ATS signal in search results
+SP500,ETR,Entergy,Utilities,Electric Utilities,,custom,jobs.entergy.com company-owned; mentioned in LinkedIn recruiter post | https://www.linkedin.com/posts/jake-courville-a5a693149_jobs-at-entergy-activity-7407149291502309376-LcP2
+SP500,EOG,EOG Resources,Energy,Oil & Gas Exploration & Production,,smartsearch,SmartSearch Online hosted board (jobs.smartsearchonline.com/eogresources) | https://jobs.smartsearchonline.com/eogresources/
+SP500,EQT,EQT Corporation,Energy,Oil & Gas Exploration & Production,,greenhouse,board=eqtcorporation | https://www.remoterocketship.com/company/eqt/jobs/senior-accounting-analyst-operations-united-states-remote/
+SP500,EFX,Equifax,Industrials,Research & Consulting Services,,custom,官网自建招聘页；第三方调研（jobwatcher）称其 SPA 无已知 ATS 指纹 | https://careers.equifax.com/en/jobs/
+SP500,EQIX,Equinix,Real Estate,Data Center REITs,,custom,job pages on careers.equinix.com own domain | https://careers.equinix.com/software-engineering-jobs
+SP500,ESS,Essex Property Trust,Real Estate,Multi-Family Residential REITs,,none,no ATS signal after 1-2 searches
+SP500,EL,Estée Lauder Companies (The),Consumer Staples,Personal Care Products,,custom,company-owned careers (elcompanies.com/careers) | https://www.elcompanies.com/en/careers/brand-jobs
+SP500,EVRG,Evergy,Utilities,Electric Utilities,,custom,careers hosted at evergy.com/careers (company domain); no third-party ATS identified | https://www.evergy.com/careers/careers-and-internships
+SP500,ES,Eversource Energy,Utilities,Electric Utilities,,none,no careers-page or ATS signal found in search results | https://www.glassdoor.com/Jobs/Eversource-Energy-Jobs-E970297.htm
+SP500,EXC,Exelon,Utilities,Electric Utilities,,custom,官网招聘页 jobs.exeloncorp.com（公司域名，无第三方 ATS 信号） | https://jobs.exeloncorp.com/
+SP500,EXE,Expand Energy,Energy,Oil & Gas Exploration & Production,,none,"aggregators only, no ATS domain visible"
+SP500,EXPE,Expedia Group,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",,custom,company-run careers site at careers.expediagroup.com; no ATS domain observed | https://www.expediagroup.com/careers/
+SP500,EXPD,Expeditors International,Industrials,Air Freight & Logistics,,none,only aggregators in results; no ATS domain found
+SP500,EXR,Extra Space Storage,Real Estate,Self-Storage REITs,,workday,"职位描述提到内部 ""Find Internal Career Openings"" 在 Workday（内部证据），未见外部 tenant URL | https://aikanjobs.com/job/extra-space-storage-hiring-for-assistant-store-manager-at-madison-wisconsin/"
+SP500,XOM,ExxonMobil,Energy,Integrated Oil & Gas,,custom,multiple sources point to official careers site jobs.exxonmobil.com; no recognizable ATS slug | https://britishvisa.com.ng/exxonmobil-careers-login-jobs-exxonmobil-com-2024-jobs-for/
+SP500,FAST,Fastenal,Industrials,Trading Companies & Distributors,,custom,官网招聘页 jobs.fastenal.com（公司域名） | https://jobs.fastenal.com/jobs
+SP500,FRT,Federal Realty Investment Trust,Real Estate,Retail REITs,,custom,job pages under federalrealty.com own domain | https://www.federalrealty.com/about/careers/
+SP500,FDX,FedEx,Industrials,Air Freight & Logistics,,custom,careers.fedex.com job URLs | https://aikanjobs.com/job/fedex-express-hiring-for-warehouse-worker-am-shift-part-time-hiring-event-at-lincoln-ca/
+SP500,FDXF,FedEx Freight,Industrials,Cargo Ground Transportation,,custom,careers.fedexfreight.com/jobs per job posting text | https://www.indeed.com/q-fedex-freight-l-colorado-jobs.html
+SP500,FERG,Ferguson Enterprises,Industrials,Trading Companies & Distributors,,workday,tenant=ferguson|site=Ferguson_Experienced | https://www.theinjobs.com/hiring-now-customer-service-representative-monday-to-friday-full-time-job-in-dallas-tx-view-1569e04078b33540
+SP500,FE,FirstEnergy,Utilities,Electric Utilities,,custom,职位描述要求在 www.firstenergycorp.com 了解并应聘；未看到 ATS 域名 | https://www.firstenergycorp.com
+SP500,F,Ford Motor Company,Consumer Discretionary,Automobile Manufacturers,,custom,官网招聘页 careers.ford.com（公司域名，无第三方 ATS 信号） | https://corporate.ford.com/careers.html
+SP500,FTV,Fortive,Industrials,Industrial Machinery & Supplies & Components,,oracle,apply links go to ejta.fa.us6.oraclecloud.com (Oracle HCM) | https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8557
+SP500,FOXA,Fox Corporation (Class A),Communication Services,Broadcasting,,custom,own portal foxcareers.com; no third-party ATS domain seen | https://www.foxcareers.com/Search/JobDetail/R50033997/spring-2027-fox-corporation-internship-program-new-york-ny-fox-corporation
+SP500,FOX,Fox Corporation (Class B),Communication Services,Broadcasting,,custom,FOX Careers (foxcareers.com) company-owned | https://www.foxcareers.com/internships
+SP500,FCX,Freeport-McMoRan,Materials,Copper,,eightfold,career nav links point to fcx.eightfold.ai/careers; internal employees use SuccessFactors | http://talent.fmjobs.com/careers?location=any&triggerGoButton=false
+SP500,GRMN,Garmin,Consumer Discretionary,Consumer Electronics,,custom,company-hosted careers.garmin.com | http://careers.garmin.com/careers-home/jobs?page=2
+SP500,GE,GE Aerospace,Industrials,Aerospace & Defense,,custom,官网招聘站 jobs.gecareers.com（公司域名；URL 含 /global/en 结构疑似 Phenom 前台，待验证） | https://jobs.gecareers.com/aerospace/global/en
+SP500,GEHC,GE HealthCare,Health Care,Health Care Equipment,,none,no clear ATS signal in results; mostly regional job boards
+SP500,GEV,GE Vernova,Industrials,Heavy Electrical Equipment,,custom,company-owned careers.gevernova.com portal; no third-party ATS domain | https://careers.gevernova.com/jobs?filter[city][0]=Schenectady&keyword=gas%20+%20power
+SP500,GNRC,Generac,Industrials,Heavy Electrical Equipment,,workday,tenant=generac|site=External; job URLs on generac.wd5.myworkdayjobs.com | https://generac.wd5.myworkdayjobs.com/External/job/Eagle/Senior-Quality-Engineering-Specialist_JR233
+SP500,GD,General Dynamics,Industrials,Aerospace & Defense,,icims,iCIMS portal at careers-gdbiw.icims.com - General Dynamics Bath Iron Works division; parent-company-level platform not confirmed by search | https://careers-gdbiw.icims.com/jobs/intro?mobile=true&needsRedirect=false
+SP500,GIS,General Mills,Consumer Staples,Packaged Foods & Meats,,custom,"careers.generalmills.com, no third-party ATS domain found | https://careers.generalmills.com/careers/jobs?location=Kansas+city+&stretch=25&stretchUnit=MILES&page=1"
+SP500,GM,General Motors,Consumer Discretionary,Automobile Manufacturers,,phenom,Phenom 官方称 GM 招聘站 search-careers.gm.com 由 Phenom People 驱动；博客另称 ATS 为 Taleo（未核实）；另有 generalmotors.wd5.myworkdayjobs.com/careers_gm（制造类招聘） | https://www.phenom.com/blog/check-out-general-motors-new-career-site-powered-by-phenom-people?~%40~%5D=
+SP500,GPC,Genuine Parts Company,Consumer Discretionary,Distributors,,custom,talent community and applications on jobs.genpt.com own domain | https://jobs.genpt.com/
+SP500,GILD,Gilead Sciences,Health Care,Biotechnology,,workday,official careers page states portal is operated by Workday; no direct myworkdayjobs URL seen | https://www.gilead.com/careers/opportunities
+SP500,HAL,Halliburton,Energy,Oil & Gas Equipment & Services,,custom,careers.halliburton.com company-owned | https://careers.halliburton.com/job/abu-dhabi/intern-and-entry-level-graduates/543/100976776080
+SP500,HAS,Hasbro,Consumer Discretionary,Leisure Products,,greenhouse,board slug=hasbro | https://job-boards.greenhouse.io/hasbro/jobs/4337612009
+SP500,HCA,HCA Healthcare,Health Care,Health Care Facilities,,custom,dedicated careers domain careers.hcahealthcare.com with job families and apply flow; no recognizable ATS slug visible | http://careers.hcahealthcare.com/pages/our-job-families
+SP500,DOC,Healthpeak Properties,Real Estate,Health Care REITs,,custom,公司 LinkedIn 官方说明招聘仅发布于官网 healthpeak.com/careers | https://www.healthpeak.com/careers/
+SP500,HSIC,Henry Schein,Health Care,Health Care Distributors,,workday,apply link henryschein.wd1.myworkdayjobs.com (tenant=henryschein | https://henryschein.wd1.myworkdayjobs.com/external_careers/job/united-kingdom---remote/content-creator_r130450
+SP500,HSY,Hershey Company (The),Consumer Staples,Packaged Foods & Meats,,custom,mfgjobpreview.hersheys.com own subdomain; icims mentions were for separate Hershey Entertainment & Resorts | https://www.indeed.com/q-hershey-plant-jobs.html
+SP500,HLT,Hilton Worldwide,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",,taleo,hilton.taleo.net Taleo login | https://hilton.taleo.net/careersection/iam/accessmanagement/login.jsf
+SP500,HD,Home Depot (The),Consumer Discretionary,Home Improvement Retail,,custom,"job links on company subdomain 4careers.homedepot.com, careers.homedepot.com referenced | https://www.youtube.com/watch?v=AVfIQNyieMQ"
+SP500,HONA,Honeywell Aerospace,Industrials,Aerospace & Defense,,custom,多源指向 careers.honeywell.com；未看到 ATS 域名 | https://careers.honeywell.com
+SP500,HON,Honeywell Technologies,Industrials,Industrial Conglomerates,,custom,官网招聘站 careers.honeywell.com（公司域名，无第三方 ATS 信号） | https://careers.honeywell.com/
+SP500,HRL,Hormel Foods,Consumer Staples,Packaged Foods & Meats,,custom,multiple job ads direct apply at hormelfoods.com/careers own domain | https://www.hormelfoods.com/careers
+SP500,HST,Host Hotels & Resorts,Real Estate,Hotel & Resort REITs,,custom,official careers page on hosthotels.com; no third-party ATS domain seen | https://www.hosthotels.com/Our-Company/Careers
+SP500,HWM,Howmet Aerospace,Industrials,Aerospace & Defense,,none,only aggregators in results; no ATS domain found
+SP500,HUBB,Hubbell Incorporated,Industrials,Industrial Machinery & Supplies & Components,,successfactors,/go/ path = SuccessFactors RMK pattern; Hubbell HRIS confirmed as SuccessFactors in job postings | https://careers.hubbell.com/go/All-Jobs/9100800/
+SP500,HUM,Humana,Health Care,Managed Health Care,,phenom,Phenom-style /us/en/search-results path on careers.humana.com; no phenompeople.com domain seen | https://careers.humana.com/us/en/search-results?keyword=Internship
+SP500,HII,Huntington Ingalls Industries,Industrials,Aerospace & Defense,,custom,官网招聘站 careers.huntingtoningalls.com；内部招聘门户称 HII-Recruiting-SF（疑 SuccessFactors，未经外部证实） | https://careers.huntingtoningalls.com/
+SP500,IEX,IDEX Corporation,Industrials,Industrial Machinery & Supplies & Components,,custom,idexcorporation.jobs cited as official careers portal (own domain) | https://idexcorporation.jobs/
+SP500,IDXX,Idexx Laboratories,Health Care,Health Care Equipment,,workday,idexx.wd1.myworkdayjobs.com/en-US/IDEXX (tenant=idexx site=IDEXX); single source | https://github.com/aprameyak/2027-tech-jobs/issues/1001
+SP500,ITW,Illinois Tool Works,Industrials,Industrial Machinery & Supplies & Components,,workday,tenant=itw|site=External | https://itw.wd5.myworkdayjobs.com/External/job/Richton-Park---60471/Design-Engineer_JR6943
+SP500,ILMN,"Illumina, Inc.",Health Care,Life Sciences Tools & Services,,none,no deterministic ATS evidence from search; aggregators (glassdoor/indeed/echojobs) only
+SP500,INCY,Incyte,Health Care,Biotechnology,,none,no careers-page or ATS signal found in search results | https://www.linkedin.com/jobs/incyte-jobs?trk=public_jobs_linkster_link
+SP500,IR,Ingersoll Rand,Industrials,Industrial Machinery & Supplies & Components,,custom,官网招聘页 careers.irco.com；另有 ir-jobs.dzconnex.com 申请站（未知平台） | https://careers.irco.com
+SP500,PODD,Insulet Corporation,Health Care,Health Care Equipment,,none,ads say apply on Insulet Careers site but no ATS domain visible
+SP500,IFF,International Flavors & Fragrances,Materials,Specialty Chemicals,,custom,company-run careers portal at careers.iff.com; no ATS domain observed | https://careers.iff.com/
+SP500,IP,International Paper,Materials,Paper & Plastic Packaging Products & Materials,,custom,jobs.internationalpaper.com per job posting text | https://aikanjobs.com/job/international-paper-hiring-for-production-worker-at-schenectady-ny/
+SP500,ISRG,Intuitive Surgical,Health Care,Health Care Equipment,,none,无 ATS 信号
+SP500,INVH,Invitation Homes,Real Estate,Single-Family Residential REITs,,custom,own-domain careers portal | careers.invitationhomes.com/jobs
+SP500,IQV,IQVIA,Health Care,Life Sciences Tools & Services,,custom,官网招聘站 jobs.iqvia.com（公司域名，多条职位描述一致指向） | https://jobs.iqvia.com
+SP500,IRM,Iron Mountain,Real Estate,Other Specialized REITs,,none,no clear ATS signal; aggregators only
+SP500,JBHT,J.B. Hunt,Industrials,Cargo Ground Transportation,,custom,job boards point to DriveJBHunt.com own domain | https://jooble.org/jdp/7377807594100197510
+SP500,J,Jacobs Solutions,Industrials,Construction & Engineering,,none,only aggregators/glassdoor in results; no ATS domain found
+SP500,JNJ,Johnson & Johnson,Health Care,Pharmaceuticals,,workday,tenant=jj|site=JJ; front end jobs.jnj.com | https://github.com/notifyyouinc/2026-data-analyst-jobs/blob/HEAD/jobs/johnson-johnson-innovative-medicine-analyst-operational-quality-group-quality-operations-dept-ma.md
+SP500,JCI,Johnson Controls,Industrials,Building Products,,custom,招聘站 jobs.johnsoncontrols.com；未看到 ATS 域名 | https://jobs.johnsoncontrols.com/about-us
+SP500,KVUE,Kenvue,Consumer Staples,Personal Care Products,,custom,官网招聘站 jobs.kenvue.com（公司域名） | https://jobs.kenvue.com
+SP500,KDP,Keurig Dr Pepper,Consumer Staples,Soft Drinks & Non-alcoholic Beverages,,none,no clear ATS signal; Indeed/GrabJobs/Jobsora only
+SP500,KMB,Kimberly-Clark,Consumer Staples,Household Products,,custom,own portal CareersAtKC.com; no third-party ATS domain seen | https://mckelveyconnect.washu.edu/companies/kimberly-clark/jobs/
+SP500,KIM,Kimco Realty,Real Estate,Retail REITs,,none,only aggregators in results; no ATS domain found
+SP500,KMI,Kinder Morgan,Energy,Oil & Gas Storage & Transportation,,custom,own-domain careers site; no ATS host identified | https://careers.kindermorgan.com/careers-home
+SP500,KHC,Kraft Heinz,Consumer Staples,Packaged Foods & Meats,,eightfold,kraftheinz.eightfold.ai/careers; alternate Workday tenant heinz.wd1.myworkdayjobs.com/KraftHeinz_Careers exists | https://github.com/colophon-group/jobseek/pull/9071
+SP500,KR,Kroger,Consumer Staples,Food Retail,,oracle,URL 结构 /en/sites/CX_2001 为 Oracle Cloud HCM Candidate Experience 典型特征（site=CX_2001） | https://www.krogerfamilycareers.com/en/sites/CX_2001/jobs?lastSelectedFacet=CATEGORIES&selectedCategoriesFacet=300000188373724
+SP500,LHX,L3Harris,Industrials,Aerospace & Defense,,phenom,-Accounting-(SOX | https://jobs.l3harris.com/job/Melbourne-Senior-Associate
+SP500,LH,Labcorp,Health Care,Health Care Services,,workday,labcorp.wd1.myworkdayjobs.com/External (tenant=labcorp site=External) per posting apply link | https://pharmastuff.org/job/sample-handling-assistant-i-fresher-labcorp
+SP500,LVS,Las Vegas Sands,Consumer Discretionary,Casinos & Gaming,,custom,sands.com/careers per jobzmall; company-owned | https://www.jobzmall.com/las-vegas-sands/faqs/how-do-i-search-for-available-jobs-at-las-vegas-sands
+SP500,LDOS,Leidos,Industrials,Diversified Support Services,,none,no deterministic ATS evidence from search; aggregators (linkedin/glassdoor/jobs2careers) only
+SP500,LEN,Lennar,Consumer Discretionary,Homebuilding,,custom,"careers.lennar.com, no third-party ATS domain found | https://careers.lennar.com/en-US/search?facetcitystate=birmingham%2Cal"
+SP500,LII,Lennox International,Industrials,Building Products,,custom,官网招聘页 lennoxintl.com/careers（公司域名；信号较弱） | http://www.lennoxintl.com/careers
+SP500,LLY,Lilly (Eli),Health Care,Pharmaceuticals,,custom,multiple job ads direct apply at jobsearch.lilly.com own domain | https://jobsearch.lilly.com/
+SP500,LIN,Linde plc,Materials,Industrial Gases,,custom,company-run careers site; no ATS domain observed | https://lindecareers.com/
+SP500,LYV,Live Nation Entertainment,Communication Services,Movies & Entertainment,,workday,tenant=livenation|site=LNExternalSite | https://livenation.wd503.myworkdayjobs.com/en-US/LNExternalSite/job/Dallas-TX-USA/Barback---Foundation-Room-House-of-Blues-Dallas_JR-77371
+SP500,LMT,Lockheed Martin,Industrials,Aerospace & Defense,,eightfold,招聘帖链接为 lockheedmartin.eightfold.ai/careers/job/996476952941 | https://github.com/trakkerhq/data-ai-jobs
+SP500,LOW,Lowe's,Consumer Discretionary,Home Improvement Retail,,custom,own-domain talent portal | talent.lowes.com
+SP500,LULU,Lululemon Athletica,Consumer Discretionary,"Apparel, Accessories & Luxury Goods",,custom,官网招聘站 careers.lululemon.com（公司域名） | https://careers.lululemon.com/en_US/careers/SearchCareer/?jobRecordsPerPage=10&jobOffset=180
+SP500,LYB,LyondellBasell,Materials,Specialty Chemicals,,custom,job search on careers.lyondellbasell.com own domain | https://careers.lyondellbasell.com/search?locale=en_US
+SP500,MPC,Marathon Petroleum,Energy,Oil & Gas Refining & Marketing,,none,only aggregators; no careers URL/ATS | https://directlyapply.com/employer/marathon-petroleum?jobId=69a1b390a8dea2786d31c613&lat=41.400871&lng=-83.491257
+SP500,MAR,Marriott International,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",,custom,careers.marriott.com company-owned | https://careers.marriott.com/jobs
+SP500,MLM,Martin Marietta Materials,Materials,Construction Materials,,jobvite,jobs hosted on jobs.jobvite.com/martinmarietta (jobvite not in standard mapping) | https://jobs.jobvite.com/martinmarietta/job/ouTIAfwp
+SP500,MAS,Masco,Industrials,Building Products,,workday,tenant=masco|site=masco | https://masco.wd1.myworkdayjobs.com/masco/job/us---indiana---indianapolis/credit-and-collections-analyst_req51849
+SP500,MKC,McCormick & Company,Consumer Staples,Packaged Foods & Meats,,custom,官网招聘站 careers.mccormick.com（公司域名） | https://careers.mccormick.com/?locale=en_US
+SP500,MCD,McDonald's,Consumer Discretionary,Restaurants,,custom,store hiring on jobs.mchire.com (McHire proprietary platform) | https://jobs.mchire.com/jobs/page/224
+SP500,MCK,McKesson Corporation,Health Care,Health Care Distributors,,none,no ATS signal in search results
+SP500,MDT,Medtronic,Health Care,Health Care Equipment,,workday,tenant=medtronic|site=MedtronicCareers; medtronic.wd1.myworkdayjobs.com | https://www.extern.com/post/medtronic-internship-guide
+SP500,MRK,Merck & Co.,Health Care,Pharmaceuticals,,phenom,Phenom inventory confirmed for jobs.merck.com and jobs.msd.com (colophon-group/jobseek PR #7655); employees use Workday Jobs Hub | https://jobs.merck.com/us/en
+SP500,META,Meta Platforms,Communication Services,Interactive Media & Services,,custom,official career portal metacareers.com (company-owned) | https://www.ipaddress.com/website/metacareers.com/
+SP500,MTD,Mettler Toledo,Health Care,Life Sciences Tools & Services,,custom,company-owned portals jobs.mt.com and careers.mt.com; no third-party ATS domain seen | https://jobs.mt.com/en
+SP500,MGM,MGM Resorts,Consumer Discretionary,Casinos & Gaming,,phenom,careers.mgmresorts.com category URL pattern (Phenom-style) | https://careers.mgmresorts.com/global/en/c/casino-jobs
+SP500,MAA,Mid-America Apartment Communities,Real Estate,Multi-Family Residential REITs,,custom,company-owned careers.maac.com; Phenom-style UI but no phenompeople.com domain confirmed | https://careers.maac.com
+SP500,MRNA,Moderna,Health Care,Biotechnology,,none,only aggregators in results; no ATS domain found
+SP500,MDLZ,Mondelez International,Consumer Staples,Packaged Foods & Meats,,custom,hourly careers site hosted on company subdomain hourlyjobs-us.mondelezinternational.com (chatbot 'Monde' apply flow); no third-party ATS identified | https://hourlyjobs-us.mondelezinternational.com/sales-jobs
+SP500,MNST,Monster Beverage,Consumer Staples,Soft Drinks & Non-alcoholic Beverages,,none,no careers-page or ATS signal found in search results | https://www.indeed.com/cmp/Monster-Brewing-Company
+SP500,MOS,Mosaic Company (The),Materials,Fertilizers & Agricultural Chemicals,,custom,careers page on company domain www.mosaicco.com; no third-party ATS domain seen | http://www.mosaicco.com/careers
+SP500,NFLX,Netflix,Communication Services,Movies & Entertainment,,custom,jobs.netflix.com cited as official careers page (self-built) | https://jobs.netflix.com/
+SP500,NEM,Newmont,Materials,Gold,,custom,company-run careers portal at jobs.newmont.com; no ATS domain observed | https://jobs.newmont.com/
+SP500,NWSA,News Corp (Class A),Communication Services,Publishing,,none,only aggregators; newscorpaustralia.com/careers is AU subsidiary
+SP500,NWS,News Corp (Class B),Communication Services,Publishing,,none,无 ATS 信号
+SP500,NEE,NextEra Energy,Utilities,Multi-Utilities,,custom,own-domain jobs portal | jobs.nexteraenergy.com
+SP500,NKE,"Nike, Inc.",Consumer Discretionary,"Apparel, Accessories & Luxury Goods",,taleo,tecdud job-portal directory lists Nike Careers Taleo at nike.taleo.net/careersection | https://nike.taleo.net/careersection/10020/jobdetail.ftl
+SP500,NI,NiSource,Utilities,Multi-Utilities,,none,no clear ATS signal; aggregators only
+SP500,NDSN,Nordson Corporation,Industrials,Industrial Machinery & Supplies & Components,,workday,"tenant=nordsonhcm, site=nordsoncareers (nordsonhcm.wd5.myworkdayjobs.com) | https://www.remoterocketship.com/company/nordson-2/jobs/total-rewards-manager-united-states-remote/"
+SP500,NSC,Norfolk Southern,Industrials,Rail Transportation,,successfactors,jobs.nscorp.com is SAP SuccessFactors ATS per extern.com | https://www.extern.com/post/norfolk-southern-internship-guide
+SP500,NOC,Northrop Grumman,Industrials,Aerospace & Defense,,workday,tenant=ngc|site=Northrop_Grumman_External_Site | https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-San-Diego/Principal-Sr-Principal-Engineer-Software---Payloads---Tasking-Applications--San-Diego-CA-_R10231413-1
+SP500,NCLH,Norwegian Cruise Line Holdings,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",,workday,careers.ncl.com 官方公告：2026-04-06 起从 PeopleSoft 迁移到 Workday 招聘站；tenant/site 未确认 | https://careers.ncl.com/careers_maintenance_signin.html
+SP500,NRG,NRG Energy,Utilities,Independent Power Producers & Energy Traders,,successfactors,NRG recruiting-coordinator job posting states candidate records maintained in SuccessFactors ATS | https://www.dreamhire.io/jobs/nrg-energy-inc/senior-recruiting-coordinator
+SP500,NUE,Nucor,Materials,Steel,,custom,job pages on jobs.nucor.com own domain | https://jobs.nucor.com/go/Production_Operation/9426500/
+SP500,NVR,"NVR, Inc.",Consumer Discretionary,Homebuilding,,custom,"own portal nvrcareers.com referenced in job posts; no third-party ATS domain seen | https://us.cmhprod.indeed.com/q-nvr,-inc-l-fayetteville,-nc-jobs.html"
+SP500,ORLY,O'Reilly Automotive,Consumer Discretionary,Automotive Retail,,none,only aggregators in results; no ATS domain found
+SP500,OXY,Occidental Petroleum,Energy,Oil & Gas Exploration & Production,,workday,tenant=oxy|site=en-US|board=Corporate | https://oxy.wd5.myworkdayjobs.com/en-US/Corporate/job/Oman-Field/Drilling-HSE-Specialist_JR103886-1?src=CWS-10001
+SP500,ODFL,Old Dominion,Industrials,Cargo Ground Transportation,,custom,careers portal at odfl.com/Careers per company LinkedIn | https://www.linkedin.com/company/old-dominion-freight-line
+SP500,OMC,Omnicom Group,Communication Services,Advertising,,none,no clear ATS or careers-portal signal in search results
+SP500,OKE,Oneok,Energy,Oil & Gas Storage & Transportation,,custom,job ads direct apply at oneok.com careers page (own domain) | https://www.oneok.com/
+SP500,OTIS,Otis Worldwide,Industrials,Industrial Machinery & Supplies & Components,,none,no ATS signal after 1-2 searches
+SP500,PCAR,Paccar,Industrials,Construction Machinery & Heavy Transportation Equipment,,none,only aggregators in results; no ATS domain found
+SP500,PKG,Packaging Corporation of America,Materials,Paper & Plastic Packaging Products & Materials,,custom,job postings direct applicants to careers.packagingcorp.com (company domain); no third-party ATS identified | https://grabjobs.co/us/job/full-time/retail/general-labor-start-immediately-17905924
+SP500,PSKY,Paramount Skydance Corporation,Communication Services,Movies & Entertainment,,none,"post-merger, no careers-page or ATS signal found in search results | https://www.glassdoor.com/Jobs/Skydance-production-assistant-Los-Angeles-Jobs-EI_IE1289290.0,8_KO9,29_IL.30,41_IC1146821.htm"
+SP500,PH,Parker Hannifin,Industrials,Industrial Machinery & Supplies & Components,,custom,branded company portal parkercareers.ttcportals.com; no known ATS domain seen | https://parkercareers.ttcportals.com
+SP500,PAYX,Paychex,Industrials,Human Resource & Employment Services,,custom,job search on careers.paychex.com own domain | https://careers.paychex.com/careers/jobs?page=1
+SP500,PNR,Pentair,Industrials,Industrial Machinery & Supplies & Components,,none,no clear ATS signal; one weak blog mentions Phenom People/Workday but unconfirmed
+SP500,PEP,PepsiCo,Consumer Staples,Soft Drinks & Non-alcoholic Beverages,,custom,pepsicojobs.com company-owned careers portal | https://www.pepsicojobs.com/main/jobs
+SP500,PFE,Pfizer,Health Care,Pharmaceuticals,,workday,多个第三方 ATS 映射表一致标注 workday，未见直接 tenant URL；tenant 未知 | https://github.com/datascry/openroles/blob/HEAD/docs/audits/2026-05-14-brand-coverage-validation.md
+SP500,PCG,PG&E Corporation,Utilities,Multi-Utilities,,custom,own-domain careers portal | careers.pge.com
+SP500,PM,Philip Morris International,Consumer Staples,Tobacco,,custom,careers hosted on company domain pmi.com/careers | https://www.pmi.com/careers
+SP500,PSX,Phillips 66,Energy,Oil & Gas Refining & Marketing,,phenom,careers.phillips66.com/job/ URL pattern (Phenom-style) | https://careers.phillips66.com/job/Houston-2027-University-New-Hire-Marketing-TX-77042/1418698200/
+SP500,PNW,Pinnacle West Capital,Utilities,Multi-Utilities,,none,only stale 2014 PeopleSoft URL; no current ATS | http://www.nedsjotw.com/2014/07/31/jotw-cant-wait-priority-job-listing-pinnacle-west-capital-corporation/
+SP500,PPG,PPG Industries,Materials,Specialty Chemicals,,custom,careers.ppg.com per job posting text | https://dailyremote.com/remote-job/senior-data-scientist-4740593
+SP500,PPL,PPL Corporation,Utilities,Electric Utilities,,custom,careers on company-owned careers.pplweb.com | https://careers.pplweb.com/
+SP500,PG,Procter & Gamble,Consumer Staples,Personal Care Products,,custom,全球招聘站 pgcareers.com；未看到 ATS 域名 | https://www.pgcareers.com/global/en/greater-china-hong-kong-sar
+SP500,PLD,Prologis,Real Estate,Industrial REITs,,none,no clear ATS or careers-portal signal in search results
+SP500,PEG,Public Service Enterprise Group,Utilities,Electric Utilities,,custom,multiple sources direct apply at pseg.com careers (own domain) | https://www.pseg.com/
+SP500,PSA,Public Storage,Real Estate,Self-Storage REITs,,custom,own portal publicstorage.com/careers; no third-party ATS domain seen | https://www.jobzmall.com/public-storage/faqs/how-do-i-apply-for-a-job-at-public-storage
+SP500,PHM,PulteGroup,Consumer Discretionary,Homebuilding,,none,only aggregators in results; no ATS domain found
+SP500,PWR,Quanta Services,Industrials,Construction & Engineering,,none,careers on own domain (quantaservices.com/careers); no ATS signal
+SP500,DGX,Quest Diagnostics,Health Care,Health Care Services,,custom,company-hosted careers.questdiagnostics.com | https://www.jobzmall.com/quest-diagnostics/faqs/how-do-i-apply-for-a-job-at-quest-diagnostics
+SP500,RL,Ralph Lauren Corporation,Consumer Discretionary,"Apparel, Accessories & Luxury Goods",,custom,company-owned careers.ralphlauren.com; applications via RL.com | https://careers.ralphlauren.com
+SP500,RDDT,Reddit,Communication Services,Interactive Media & Services,,greenhouse,job blog cites Greenhouse job ID 8023563 for a Reddit posting | https://selfmadesuccess.com/reddit-wfh/
+SP500,RTX,RTX Corporation,Industrials,Aerospace & Defense,,phenom,careers assets served from cdn.phenompeople.com; careers.rtx.com portal pattern | https://cdn.phenompeople.com/CareerConnectResources/prod/RAYTGLOBAL/documents/RTXCandidateTroubleshooting_4.16.24-1713292102715.pdf
+SP500,O,Realty Income,Real Estate,Retail REITs,,none,only aggregators in results; no ATS domain found
+SP500,REG,Regency Centers,Real Estate,Retail REITs,,none,no deterministic ATS evidence from search; aggregators (hiringcafe/diversityjobs/indeed) only
+SP500,REGN,Regeneron Pharmaceuticals,Health Care,Biotechnology,,custom,"careers.regeneron.com with REGEA job codes, no third-party ATS domain found | https://careers.regeneron.com/job/REGEA0026305697/Senior-Director-Project-Management-Engineering-Design-Construction"
+SP500,RSG,Republic Services,Industrials,Environmental & Facilities Services,,custom,company-owned republicservices.jobs; no known ATS domain seen | https://republicservices.jobs
+SP500,RMD,ResMed|,Health Care,Health Care Equipment,,workday,named as official ResMed Workday domain resmed.wd3.myworkdayjobs.com | https://resmed.wd3.myworkdayjobs.com/
+SP500,RVTY,Revvity,Health Care,Health Care Equipment,,workday,tenant=revvity; site=external | https://revvity.wd103.myworkdayjobs.com/external/job/
+SP500,ROK,Rockwell Automation,Industrials,Electrical Components & Equipment,,workday,tenant=rockwellautomation|site=External_Rockwell_Automation; rockwellautomation.wd1.myworkdayjobs.com | https://github.com/notifyyouinc/2026-software-engineer-jobs/blob/HEAD/jobs/rockwell-automation-spring-2027-co-op-embedded-software-engineer-january-2027-august-2027.md
+SP500,ROL,"Rollins, Inc.",Industrials,Environmental & Facilities Services,,none,无 ATS 信号
+SP500,ROST,Ross Stores,Consumer Discretionary,Apparel Retail,,taleo,Taleo disclosure page on rossstores.taleo.net | rossstores.taleo.net/careersection/rstrcs1.1_mobile/mysubmissions.ftl?lang=en
+SP500,RCL,Royal Caribbean Group,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",,custom,company-owned careers portal (LinkedIn company page links it); no known ATS domain seen | https://careers.royalcaribbeangroup.com
+SP500,SBAC,SBA Communications,Real Estate,Telecom Tower REITs,,none,no clear ATS signal; aggregators only
+SP500,SLB,Schlumberger,Energy,Oil & Gas Equipment & Services,,custom,careers.slb.com across sources | https://www.jobzmall.com/schlumberger/faqs/how-do-i-apply-for-a-job-with-schlumberger
+SP500,SRE,Sempra,Utilities,Multi-Utilities,,custom,sempra.com/careers per jobzmall; company-owned | https://www.jobzmall.com/sempra-energy/faqs/how-can-i-apply-for-a-position-at-sempra-energy
+SP500,SHW,Sherwin-Williams,Materials,Specialty Chemicals,,custom,self-built careers portal on own domain jobsearch.sherwin.com | https://jobsearch.sherwin.com/
+SP500,SPG,Simon Property Group,Real Estate,Retail REITs,,none,仅第三方聚合页；未发现招聘站或 ATS 域名 | https://www.grabjobs.co/us/companies/simon-property-group-inc-3423078/careers
+SP500,SJM,J.M. Smucker Company (The),Consumer Staples,Packaged Foods & Meats,,workday,myworkdayjobs.com; tenant=smucker site=US_External_Careers | https://smucker.wd5.myworkdayjobs.com/en-US/US_External_Careers
+SP500,SW,Smurfit Westrock,Materials,Paper & Plastic Packaging Products & Materials,,custom,"apply at Smurfit Westrock External Careers (own portal), no ATS domain visible | https://www.theladders.com/job/mgr-ii-pricing-est-smurfit-westrock-company-virtual-travel_88304531"
+SP500,SNA,Snap-on,Industrials,Industrial Machinery & Supplies & Components,,custom,own portal snapon.com for corporate roles; franchise locations use hireology (not corporate) | https://www.indeed.com/cmp/Snap--on
+SP500,SOLV,Solventum,Health Care,Health Care Technology,,workday,healthcare.wd1.myworkdayjobs.com (legacy 3M healthcare Workday) | https://www.remoterocketship.com/company/solventum/jobs/senior-manager-it-mergers-acquisitions-transitional-services-united-states-remote/
+SP500,SO,Southern Company,Utilities,Electric Utilities,,none,only aggregator listings found; no ATS signal
+SP500,LUV,Southwest Airlines,Industrials,Passenger Airlines,,phenom,cdn.phenompeople.com assets embedded on careers.southwestair.com | https://careers.southwestair.com/us/en/job/R-2026-67599/Software-Engineer
+SP500,SWK,Stanley Black & Decker,Industrials,Industrial Machinery & Supplies & Components,,custom,company-owned careers.stanleyblackanddecker.com; no known ATS domain seen | https://careers.stanleyblackanddecker.com/internships
+SP500,SBUX,Starbucks,Consumer Discretionary,Restaurants,,taleo,job search on starbucks.taleo.net (Taleo) | https://starbucks.taleo.net/careersection/1000222/jobsearch.ftl
+SP500,STLD,Steel Dynamics,Materials,Steel,,none,no ATS signal after 1-2 searches
+SP500,STE,Steris,Health Care,Health Care Equipment,,custom,careers.steris.com per LinkedIn; company-owned | https://www.linkedin.com/company/steris-corporation/
+SP500,SYK,Stryker Corporation,Health Care,Health Care Equipment,,custom,job listings hosted on company subdomain careers.stryker.com; no third-party ATS identified | https://careers.stryker.com/jobs?location_name=Costa%20Rica&location_type=4
+SP500,SYY,Sysco,Consumer Staples,Food Distributors,,custom,"careers.sysco.com, no third-party ATS domain found | https://careers.sysco.com/en/hiringprocess"
+SP500,TMUS,T-Mobile US,Communication Services,Wireless Telecommunication Services,,custom,company-owned careers.t-mobile.com; no known ATS domain seen | https://careers.t-mobile.com/jobs
+SP500,TTWO,Take-Two Interactive,Communication Services,Interactive Home Entertainment,,greenhouse,internship guide cites careers.take2games.com/jobs as Greenhouse board | https://careers.take2games.com/jobs
+SP500,TPR,"Tapestry, Inc.",Consumer Discretionary,"Apparel, Accessories & Luxury Goods",,none,no clear ATS signal found in search results
+SP500,TRGP,Targa Resources,Energy,Oil & Gas Storage & Transportation,,none,"uses Oracle SelectMinds (targaresources.referrals.selectminds.com), not in ATS list"
+SP500,TGT,Target Corporation,Consumer Staples,Consumer Staples Merchandise Retail,,workday,"Target 官方招聘页明确声明 ""Workday, our applicant tracking system""；未见具体 tenant URL | https://corporate.target.com/careers//career-areas/corporate/human-resources?ref=tgt_soc_0000065282&afid=FB_br&cpng=Other_Other_GR&fndsrc="
+SP500,TSLA,"Tesla, Inc.",Consumer Discretionary,Automobile Manufacturers,,custom,apply form hosted on tesla.com | tesla.com/careers
+SP500,TPL,Texas Pacific Land Corporation,Energy,Oil & Gas Exploration & Production,,other,TPL job postings hosted on recruiting.paylocity.com (Paylocity recruiting) | https://recruiting.paylocity.com/Recruiting/Jobs/Details/4513966
+SP500,TXT,Textron,Industrials,Aerospace & Defense,,taleo,Textron Taleo Net applicant portal referenced across multiple sources (Oracle Taleo)
+SP500,TMO,Thermo Fisher Scientific,Health Care,Life Sciences Tools & Services,,custom,jobs.thermofisher.com | https://pharmajobspost.in/job/thermo-fisher-scientific-hiring-2026-associate-medical-writer-job-in-mumbai/
+SP500,TJX,TJX Companies,Consumer Discretionary,Apparel Retail,,custom,tjx.com careers; company-owned domain | https://cee-trust.org/portal/tjx-careers-login/
+SP500,TKO,TKO Group Holdings,Communication Services,Movies & Entertainment,,workday,tenant=wwecorp|site=zuffaboxing (legacy WWE tenant hosting TKO jobs) | https://wwecorp.wd5.myworkdayjobs.com/en-US/zuffaboxing/job/Stamford-CT--WWE-Headquarters/VP--Recruiting_R0008465-1
+SP500,TSCO,Tractor Supply,Consumer Discretionary,Other Specialty Retail,,none,"仅第三方职位页；未发现招聘站或 ATS 域名 14_IL.15 | https://www.glassdoor.com/Jobs/Tractor-Supply-Seymour-Jobs-EI_IE2602.0,22_IC1145259.htm"
+SP500,TT,Trane Technologies,Industrials,Building Products,,custom,company-owned careers.tranetechnologies.com (upgraded 2026-04); referral domain selectminds.com | https://careers.tranetechnologies.com
+SP500,TDG,TransDigm Group,Industrials,Aerospace & Defense,,custom,apply form on transdigm.com own domain | https://www.transdigm.com/jmo-program/
+SP500,TSN,Tyson Foods,Consumer Staples,Packaged Foods & Meats,,custom,"own portal tysonfoods.com/careers; no third-party ATS domain seen | https://www.indeed.com/q-tyson-l-morton,-ms-jobs.html"
+SP500,UBER,Uber,Industrials,Passenger Ground Transportation,,custom,official recruitment portal reported at www.uber.com; no ATS domain found | https://allvacancies.co.za/uber-vacancy-za/
+SP500,UDR,"UDR, Inc.",Real Estate,Multi-Family Residential REITs,,custom,job listings on own domain; all legitimate openings posted at udr.com/careers | http://udr.com/careers/
+SP500,ULTA,Ulta Beauty,Consumer Discretionary,Other Specialty Retail,,custom,company-hosted portal careers.ulta.com | https://careers.ulta.com/careers/jobs?location=39503
+SP500,UNP,Union Pacific Corporation,Industrials,Rail Transportation,,custom,apply via www.uprr.com Careers tab per jobzmall; no ATS signal seen | https://www.uprr.com
+SP500,UAL,United Airlines Holdings,Industrials,Passenger Airlines,,custom,guide says hiring runs through United's own careers site | https://cabincrew24.com/united-airlines-flight-attendant-recruitment-process/
+SP500,UPS,United Parcel Service,Industrials,Air Freight & Logistics,,custom,apply via company-owned www.upsjobs.com; no third-party ATS domain | https://www.indeed.com/q-ups-united-parcel-service-jobs.html
+SP500,URI,United Rentals,Industrials,Trading Companies & Distributors,,none,careers portal referenced but no ATS domain found
+SP500,UNH,UnitedHealth Group,Health Care,Managed Health Care,,custom,official careers portal at careers.unitedhealthgroup.com (company domain); no third-party ATS identified | https://www.linkedin.com/company/unitedhealth-group?trk=public_profile__posts-text
+SP500,UHS,Universal Health Services,Health Care,Health Care Facilities,,none,no careers-page or ATS signal found in search results | https://www.indeed.com/cmp/Universal-Health-Services-Inc.
+SP500,VLO,Valero Energy,Energy,Oil & Gas Refining & Marketing,,custom,careers on valero.com domain; applicant tracking system accessed via Valero Careers site | https://www.valero.com/careers
+SP500,VEEV,Veeva Systems,Health Care,Health Care Technology,,lever,apply links go to jobs.lever.co/veeva (Lever) | https://jobs.lever.co/veeva/e06febde-5762-42a4-803e-19655abeb0f3
+SP500,VTR,Ventas,Real Estate,Health Care REITs,,none,no clear ATS signal found in search results
+SP500,VLTO,Veralto,Industrials,Environmental & Facilities Services,,workday,"tenant=veralto|site=videojetjobs (also eskojobs,hachjobs,veraltocorporatejobs) | https://www.remoterocketship.com/company/veralto/jobs/account-manager-slovakia-remote/"
+SP500,VRSK,Verisk Analytics,Industrials,Research & Consulting Services,,none,无 ATS 信号
+SP500,VZ,Verizon,Communication Services,Integrated Telecommunication Services,,workday,tenant=verizon|site=verizon-careers; L1 library listed this as high but 2026-10-07 site: probes returned nothing so downgraded to medium | verizon.wd12.myworkdayjobs.com/verizon-careers
+SP500,VRTX,Vertex Pharmaceuticals,Health Care,Biotechnology,,none,2次搜索未发现明确ATS信号；careers在vrtx.com站内
+SP500,VRT,Vertiv,Industrials,Electrical Components & Equipment,,none,no clear ATS signal; aggregators only
+SP500,VTRS,Viatris,Health Care,Pharmaceuticals,,custom,viatris.com/careers regional sites | https://www.viatris.co.za/en-za/careers/career-faq
+SP500,VICI,Vici Properties,Real Estate,Hotel & Resort REITs,,none,no ATS signal in search results
+SP500,VST,Vistra Corp.,Utilities,Electric Utilities,,workday,tenant=vst|site=vistra_careers | https://www.myntxjobs.com/vistra-corp
+SP500,VMRK,Vivmark Residential,Real Estate,Multi-Family Residential REITs,,custom,招聘站 jobs.vivmarkresidential.com（AvalonBay + Equity Residential 2026-08 合并后新站）；未看到 ATS 域名 | http://jobs.vivmarkresidential.com/career-areas
+SP500,VMC,Vulcan Materials Company,Materials,Construction Materials,,custom,招聘门户在公司域名 jobs.vulcanmaterials.com，未见第三方ATS域名 | https://jobs.vulcanmaterials.com/
+SP500,GWW,W. W. Grainger,Industrials,Industrial Machinery & Supplies & Components,,none,no clear ATS signal; university career postings only
+SP500,WAB,Wabtec,Industrials,Construction Machinery & Heavy Transportation Equipment,,none,no ATS signal in search results
+SP500,WMT,Walmart,Consumer Staples,Consumer Staples Merchandise Retail,,custom,-ma-jobs.html | https://www.indeed.com/q-walmart-careers-l-boston
+SP500,DIS,Walt Disney Company (The),Communication Services,Movies & Entertainment,,workday,tenant=disney (disney.wd5.myworkdayjobs.com listed as apply host); jobs.disneycareers.com is branded front | https://github.com/godlydonuts/keryx/blob/HEAD/internships/fall-2026.md
+SP500,WBD,Warner Bros. Discovery,Communication Services,Broadcasting,,custom,official careers link careers.wbd.com/global/en per company LinkedIn | https://www.linkedin.com/company/warner-bros-discovery?trk=public_jobs_jserp-result_job-search-card-subtitle
+SP500,WM,Waste Management,Industrials,Environmental & Facilities Services,,none,2次搜索未发现明确ATS信号（wm.com招聘页未被检索到）
+SP500,WAT,Waters Corporation,Health Care,Life Sciences Tools & Services,,none,no clear ATS signal; aggregators only
+SP500,WEC,WEC Energy Group,Utilities,Electric Utilities,,successfactors,careers.wecenergygroup.com/go/... path suggests SuccessFactors RMK but no successfactors.com URL confirmed | https://careers.wecenergygroup.com/go/Customer-service/8693900/
+SP500,WELL,Welltower,Real Estate,Health Care REITs,,custom,job ads point to welltower.com/newsroom/careers/; no ATS domain seen | https://www.adzuna.co.uk/jobs/details/5436975558
+SP500,WST,West Pharmaceutical Services,Health Care,Health Care Supplies,,custom,job postings link to careers.westpharma.com (company domain); no third-party ATS identified | https://www.remoterocketship.com/company/westpharma-2/jobs/business-development-manager-united-states-remote/
+SP500,WY,Weyerhaeuser,Real Estate,Timber REITs,,custom,"weyerhaeuser.com/careers, no third-party ATS domain found | https://www.weyerhaeuser.com/careers/search-jobs/application-tips/"
+SP500,WSM,"Williams-Sonoma, Inc.",Consumer Discretionary,Homefurnishing Retail,,oracle,Oracle HCM Candidate Experience，host=ehac.fa.us6.oraclecloud.com，site=CX_1；另有supply chain的applicantstack子站 | https://ehac.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1
+SP500,WMB,Williams Companies,Energy,Oil & Gas Storage & Transportation,,none,no clear ATS signal; cluttered results (Williams International
+SP500,WYNN,Wynn Resorts,Consumer Discretionary,Casinos & Gaming,,custom,company-run careers site at wynnjobs.com; no ATS domain observed | https://www.wynnjobs.com/
+SP500,XEL,Xcel Energy,Utilities,Multi-Utilities,,custom,jobs hosted on jobs.xcelenergy.com; no ATS domain visible | https://jobs.xcelenergy.com/energy-programs-strategy-analytics-intern-mn/job/E0612440DB75B22E17B9E7C4DE8BC085
+SP500,XYL,Xylem Inc.,Industrials,Industrial Machinery & Supplies & Components,,none,仅有 HR 职位描述提到 Workday 为 HRIS，无招聘 ATS 证据
+SP500,YUM,Yum! Brands,Consumer Discretionary,Restaurants,,custom,own-domain jobs portal | jobs.yum.com
+SP500,ZBH,Zimmer Biomet,Health Care,Health Care Equipment,,phenom,"招聘页 careers.zimmerbiomet.com 标注""Career Site Powered by Phenom""，多个职位页一致 | https://careers.zimmerbiomet.com/us/en/job/12002/Senior-Specialist-Clinical-Strategy?utm_source=linkedin&utm_medium=phenom-feeds"
+SP500,ZTS,Zoetis,Health Care,Pharmaceuticals,,workday,apply links on zoetis.wd5.myworkdayjobs.com (tenant=zoetis) | https://zoetis.wd5.myworkdayjobs.com/broadbean_external/job/kalamazoo---downtown-portage-street/global-pharmacovigilance-medical-manager_jr00019117
+SP400,AA,Alcoa,Materials,Aluminum,,workday,Alcoa of Australia posting instructs to create a Workday account; single region-specific source | https://www.careerone.com.au/pdf/jobview/56c72262-6e14-11f1-8719-0231708ce3cd?timezone=UTC
+SP400,AAL,American Airlines Group,Industrials,Passenger Airlines,,custom,official careers at careers.aa.com / jobs.aa.com; no ATS domain seen | https://www.jobzmall.com/american-airlines/faqs/how-do-i-apply-for-a-position-at-american-airlines
+SP400,AAON,AAON,Industrials,Building Products,,none,
+SP400,ACI,Albertsons,Consumer Staples,Food Retail,,none,多源仅说去公司官网 Careers 页申请；未发现 ATS 域名 | https://www.hiredphilippines.com/albertsons-online-application/
+SP400,ACM,AECOM,Industrials,Construction & Engineering,,none,2次搜索未发现明确ATS信号（仅aecom.jobs等官网入口）
+SP400,ADC,Agree Realty,Real Estate,Retail REITs,,custom,job ads direct apply to ADP Workforce Now portal | https://agreerealty.com/wp-content/uploads/2026/06/Director-of-Property-Management-Job-Description-Dec-2025.pdf
+SP400,AGCO,AGCO,Industrials,Agricultural & Farm Machinery,,custom,own portal careers.agcocorp.com; no third-party ATS domain seen | https://www.recruit.net/job/maintenance-electrician-pl-jobs/137F59FEC067AD7F
+SP400,AHR,American Healthcare REIT,Real Estate,Health Care REITs,,custom,official careers page on company site; no ATS domain seen | https://americanhealthcarereit.com/careers/
+SP400,AIT,Applied Industrial Technologies,Industrials,Trading Companies & Distributors,,none,only aggregator listings found; no ATS signal
+SP400,ALK,Alaska Air Group,Industrials,Passenger Airlines,,custom,company-hosted careers.alaskaair.com | https://careers.alaskaair.com/jobs/?location=United
+SP400,ALSN,Allison Transmission,Industrials,Construction Machinery & Heavy Transportation Equipment,,none,2次搜索未发现明确ATS信号
+SP400,ALV,Autoliv,Consumer Discretionary,Automotive Parts & Equipment,,custom,careers via regional autoliv.com portals | https://www.autoliv.com/careers
+SP400,AM,Antero Midstream,Energy,Oil & Gas Storage & Transportation,,none,no ATS signal; job-boards.greenhouse.io/anteristech is Anteris Technologies not Antero Midstream
+SP400,AMH,American Homes 4 Rent,Real Estate,Single-Family Residential REITs,,custom,job ads direct applicants to amh.com/careers; no ATS domain seen | https://www.jobtransparency.com/job/product-owner-remote-2453
+SP400,AN,AutoNation,Consumer Discretionary,Automotive Retail,,custom,official careers portal referenced as jobs.autonation.com (company domain); no third-party ATS identified | https://tecdud.com/autonation-careers/
+SP400,ANF,Abercrombie & Fitch,Consumer Discretionary,Apparel Retail,,none,no careers-page or ATS signal found in search results | https://www.indeed.com/cmp/Abercrombie-&-Fitch/locations/CA/Arcadia
+SP400,APG,APi Group,Industrials,Construction & Engineering,,custom,职位板托管在 talenthub.jobs（非已知ATS列表厂商），按规则记custom | https://apigroup.talenthub.jobs/en/jobs?page=2
+SP400,AR,Antero Resources,Energy,Oil & Gas Exploration & Production,,none,aggregators only
+SP400,ARMK,Aramark,Consumer Discretionary,Distributors,,custom,company-run careers portal at careers.aramark.com; no ATS domain observed | https://careers.aramark.com/
+SP400,ARWR,Arrowhead Pharmaceuticals,Health Care,Biotechnology,,none,no ATS domain in search results
+SP400,ASH,Ashland Global,Materials,Diversified Chemicals,,none,HR Systems Analyst 职位提到 Workday HCM，但无招聘 ATS 直接证据
+SP400,ATI,ATI Inc.,Industrials,Aerospace & Defense,,none,search results mixed with unrelated ATI companies; no official careers page found
+SP400,ATR,AptarGroup,Materials,"Metal, Glass & Plastic Containers",,successfactors,SuccessFactors EU数据中心，company=aptarprod | https://career5.successfactors.eu/career?company=aptarprod
+SP400,AVAV,AeroVironment,Industrials,Aerospace & Defense,,custom,jobs sourced from avinc.com official careers page | https://echojobs.io/company/avinc.com?page=5
+SP400,AVNT,Avient,Materials,Specialty Chemicals,,none,only aggregators | https://www.indeed.com/cmp/Avient-2/locations/TN/Vonore
+SP400,AVTR,Avantor,Health Care,Life Sciences Tools & Services,,workday,tenant=vwr|site=avantorjobs; apply links on vwr.wd1.myworkdayjobs.com | https://www.remoterocketship.com/company/avantorsciences/jobs/director-strategic-partners-united-states-remote/
+SP400,AXTA,Axalta,Materials,Specialty Chemicals,,workday,tenant=axalta|site=axalta | https://axalta.wd1.myworkdayjobs.com/axalta/job/br-pr-remote/operador-i---cascavel-pr_2025-16176
+SP400,AYI,Acuity Brands,Industrials,Electrical Components & Equipment,,taleo,招聘站 careers.acuityinc.com/go/... URL 形态为 Taleo Business Edition 特征；无 taleo.net 直接证据 | https://careers.acuityinc.com/go/Human-Resources/7676000/
+SP400,BAH,Booz Allen Hamilton,Industrials,Research & Consulting Services,,custom,招聘在自建子域 careers.boozallen.com（/jobs/JobDetail/...），未见第三方ATS域名 | https://careers.boozallen.com/
+SP400,BBWI,"Bath & Body Works, Inc.",Consumer Discretionary,Other Specialty Retail,,custom,careers on careers.bathandbodyworks.com own domain | https://careers.bathandbodyworks.com/job-areas
+SP400,BC,Brunswick,Consumer Discretionary,Leisure Products,,workday,official careers FAQ: 'Job seekers must apply through our Careers site via Workday' | https://www.brunswick.com/careers/applicants
+SP400,BCO,Brink's,Industrials,Security & Alarm Services,,none,no ATS domain in search results; job IDs like R58xxx | https://www.careerbliss.com/brinks/
+SP400,BIO,Bio-Rad Laboratories,Health Care,Life Sciences Tools & Services,,none,only aggregator listings found; no ATS signal
+SP400,BJ,BJ's Wholesale Club,Consumer Staples,Consumer Staples Merchandise Retail,,custom,company-hosted careers.bjs.com | https://careers.bjs.com/
+SP400,BKH,Black Hills Corporation,Utilities,Multi-Utilities,,custom,招聘门户 careers.blackhillsenergy.com（Job ID查询风格），未见第三方ATS域名 | https://careers.blackhillsenergy.com/search/jobs/in/cheyenne-wy-wyoming
+SP400,BMRN,BioMarin Pharmaceutical,Health Care,Biotechnology,,custom,careers on biomarin.com | https://www.biomarin.com/company/careers/
+SP400,BRKR,Bruker,Health Care,Health Care Equipment,,none,no ATS signal after 1-2 searches
+SP400,BROS,Dutch Bros Inc.,Consumer Discretionary,Restaurants,,custom,official careers site at careers.dutchbros.com; company-owned | https://dbmenuss.com/all-about-dutch-bros-jobs-application/
+SP400,BRX,Brixmor Property Group,Real Estate,Retail REITs,,none,no deterministic ATS evidence from search; aggregators (recruit.net/theorg/ladders) only
+SP400,BTSG,BrightSpring Health Services,Health Care,Health Care Services,,icims,careers-brightspring.icims.com | https://careers-brightspring.icims.com/jobs/186055/direct-support-professional/job
+SP400,BURL,Burlington Stores,Consumer Discretionary,Apparel Retail,,custom,招聘在自建域 burlingtonstores.jobs；wd5.myworkday.com/burlington 仅为员工自助入口，非候选人ATS | https://burlingtonstores.jobs/stores/
+SP400,BWA,BorgWarner,Consumer Discretionary,Automotive Parts & Equipment,,custom,careers on borgwarner.com own domain | https://www.borgwarner.com/careers
+SP400,BWXT,BWX Technologies,Industrials,Aerospace & Defense,,none,no clear ATS signal found in search results
+SP400,BYD,Boyd Gaming,Consumer Discretionary,Casinos & Gaming,,none,no ATS domain in search results | https://www.linkedin.com/jobs/boyd-gaming-jobs?trk=public_jobs_linkster_link
+SP400,CACI,CACI International,Industrials,Diversified Support Services,,none,无 ATS 信号
+SP400,CAR,Avis Budget Group,Industrials,Passenger Ground Transportation,,smartrecruiters,board=AvisBudgetGroup3 | careers.smartrecruiters.com/AvisBudgetGroup3
+SP400,CART,Maplebear Inc.,Consumer Staples,Food Retail,,custom,自建招聘门户 careers.instacart.com（/www.instacart.com/careers），未见第三方ATS域名 | https://careers.instacart.com
+SP400,CAVA,Cava Group,Consumer Discretionary,Restaurants,,custom,careers at cava.com/careers (store postings also on Harri) | https://cava.com/careers
+SP400,CBT,Cabot Corp,Materials,Diversified Chemicals,,none,no ATS URL; Workday-style req IDs on jooble are not evidence | https://jooble.org/jobs-cabot-corporation?comp
+SP400,CCK,Crown Holdings,Materials,Paper & Plastic Packaging Products & Materials,,none,14_IL.15 | https://www.glassdoor.com/Jobs/Crown-Holdings-Alsip-Jobs-EI_IE186.0
+SP400,CDE,Coeur Mining,Materials,Gold,,custom,self-built careers pages on own domain coeur.com | https://www.coeur.com/company/careers
+SP400,CDP,COPT Defense Properties,Real Estate,Office REITs,,none,仅第三方职位页；未发现招聘站或 ATS 域名 | https://www.recruit.net/company-copt-defense-properties-jobs
+SP400,CELH,Celsius Holdings,Consumer Staples,Soft Drinks & Non-alcoholic Beverages,,custom,未见明确ATS信号；招聘联系邮箱 careers@celsius.com
+SP400,CHDN,Churchill Downs Inc.,Consumer Discretionary,Casinos & Gaming,,none,aggregators only
+SP400,CHE,Chemed Corp.,Health Care,Health Care Services,,none,"holding company; hiring via subsidiaries (VITAS, Roto-Rooter); no ATS signal for parent"
+SP400,CHH,Choice Hotels,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",,none,no ATS domain in search results; apply via company site | https://www.jobzmall.com/choice-hotels-international/faqs/how-do-i-apply-for-a-job-at-choice-hotels-international
+SP400,CHRD,Chord Energy,Energy,Oil & Gas Exploration & Production,,none,only aggregator listings found; no ATS signal
+SP400,CHWY,Chewy,Consumer Discretionary,Other Specialty Retail,,phenom,two independent ATS-detection notes list careers.chewy.com as a verified Phenom host (also jiaxuan030331/applyloop platform_notes.md) | https://github.com/ggambhirdev/shelf/blob/HEAD/docs/discovery.md
+SP400,CLF,Cleveland-Cliffs,Materials,Steel,,custom,招聘门户 careers.clevelandcliffs.com（公司域名），未见第三方ATS域名 | https://www.clevelandcliffs.com/careers
+SP400,CLH,Clean Harbors,Industrials,Environmental & Facilities Services,,custom,careers on careers.cleanharbors.com own domain | https://careers.cleanharbors.com/
+SP400,CMC,Commercial Metals,Materials,Steel,,workday,CMC dataset record jobUrl points to georgetown.wd1.myworkdayjobs.com/en-us/georgetown_admin_careers (tenant=georgetown site=georgetown_admin_careers); single weak source
+SP400,CNH,CNH Industrial,Industrials,Agricultural & Farm Machinery,,none,no ATS domain in search results; careers portal on company site | https://www.jobzmall.com/cnh-industrial/faqs/how-do-i-search-and-apply-for-jobs-at-cnh-industrial
+SP400,CNM,Core & Main,Industrials,Trading Companies & Distributors,,custom,careers site hosted on company subdomain jobs.coreandmain.com (/p/coreandmain/jobs path); no third-party ATS identified | https://jobs.coreandmain.com/p/coreandmain/jobs
+SP400,CNX,CNX Resources,Energy,Oil & Gas Exploration & Production,,none,no careers-page or ATS signal found in search results | https://www.indeed.com/cmp/Cnx
+SP400,COKE,Coca-Cola Consolidated,Consumer Staples,Soft Drinks & Non-alcoholic Beverages,,custom,招聘门户 careers.cokeconsolidated.com（公司子域），未见第三方ATS域名 | https://careers.cokeconsolidated.com/job/Beckley-Part-Time-Merchandiser-WV-25801/561054900/?utm_campaign=Manpower
+SP400,COLM,Columbia Sportswear,Consumer Discretionary,"Apparel, Accessories & Luxury Goods",,custom,careers tab on columbia.com | https://www.columbia.com/
+SP400,CORT,Corcept Therapeutics,Health Care,Pharmaceuticals,,greenhouse,board slug=corcepttherapeutics | https://boards.greenhouse.io/corcepttherapeutics/jobs/5372085004
+SP400,CR,Crane,Industrials,Industrial Machinery & Supplies & Components,,none,no ATS domain in search results | https://www.indeed.com/cmp/Crane-6d335e97?from=mobviewjob&tk=1icn0kjcsgbl880c&fromjk=073507e26c2854d9&attributionid=mobvjcmp
+SP400,CROX,Crocs,Consumer Discretionary,Footwear,,none,无 ATS 信号
+SP400,CRS,Carpenter Technology,Industrials,Industrial Machinery & Supplies & Components,,custom,own-domain careers page | carpentertechnology.com/careers
+SP400,CSL,Carlisle Companies,Industrials,Industrial Conglomerates,,custom,招聘在 careers.carlisle.com（公司域名），未见第三方ATS域名 | https://www.carlisle.com/careers/default.aspx
+SP400,CTRE,CareTrust REIT,Real Estate,Health Care REITs,,none,no careers/ATS signal
+SP400,CUBE,CubeSmart,Real Estate,Industrial REITs,,none,only aggregators | https://lensa.com/cubesmart/jobs/c/384808b6256f6646abddd84fe12325a424b97ca8
+SP400,CUZ,Cousins Properties,Real Estate,Office REITs,,none,no ATS domain in search results | https://www.indeed.com/cmp/Cousins-Properties
+SP400,CW,Curtiss-Wright,Industrials,Aerospace & Defense,,custom,self-built careers portal on own domain careers.curtisswright.com | https://careers.curtisswright.com/en/who-we-are/
+SP400,CYTK,Cytokinetics,Health Care,Biotechnology,,none,仅第三方职位页（Lensa 引用公司 careers 页但无 ATS 域名）；未发现 ATS 域名 | https://www.indeed.com/cmp/Cytokinetics?from=mobviewjob&tk=1ial1kgptiuf7800&fromjk=1da38d7897dd1683&attributionid=mobvjcmp
+SP400,DAR,Darling Ingredients,Consumer Staples,Agricultural Products & Services,,custom,招聘在 darlingii.com 站内，未见第三方ATS域名 | https://www.darlingii.com/en/rousselot/careers
+SP400,DCI,Donaldson Company,Industrials,Industrial Machinery & Supplies & Components,,custom,careers on donaldson.com | https://www.donaldson.com/en-us/about-us/careers
+SP400,DINO,HF Sinclair,Energy,Oil & Gas Refining & Marketing,,custom,own portal careers.hfsinclair.com; no third-party ATS domain seen | https://www.recruit.net/job/erp-business-analyst-jobs/D9327D0798D335AC
+SP400,DKS,Dick's Sporting Goods,Consumer Discretionary,Specialty Stores,,custom,LinkedIn company page lists DicksSportingGoods.jobs and dicks.com/jobs; company-owned | https://www.linkedin.com/company/dick's-sporting-goods?trk=public_jobs_similar-jobs_main-jobs-card-subtitle
+SP400,DOCS,Doximity,Health Care,Health Care Technology,,custom,own-domain job cards (doximity.com/careers/job_cards/); no ATS host identified
+SP400,DTM,DT Midstream,Energy,Oil & Gas Storage & Transportation,,none,
+SP400,DUOL,Duolingo,Consumer Discretionary,Education Services,,greenhouse,Greenhouse-backed; jobs proxied at careers.duolingo.com/jobs/<id>?gh_jid=<id> | https://careers.duolingo.com/jobs/8628670002
+SP400,DY,Dycom Industries,Industrials,Construction & Engineering,,custom,apply via dycomind.com job portal | https://www.dycomind.com/careers
+SP400,EAT,Brinker International,Consumer Discretionary,Restaurants,,none,no ATS signal after 1-2 searches
+SP400,EGP,EastGroup Properties,Real Estate,Industrial REITs,,none,no ATS domain in search results | https://www.glassdoor.com/Jobs/EastGroup-Properties-Jobs-E849.htm
+SP400,EHC,Encompass Health,Health Care,Health Care Facilities,,custom,careers hosted on company subdomain careers.encompasshealth.com; no third-party ATS identified | https://careers.encompasshealth.com/?_gl=1*1ymg6xr*_gcl_au*MjMyMjEwMTM1LjE3MzA5NjE5MDg.&pk_vid=9a45855e396faf74173096191743c1dc
+SP400,ELAN,Elanco,Health Care,Pharmaceuticals,,workday,tenant=elanco|site=external_career | https://www.remoterocketship.com/company/elanco/jobs/national-account-director-group-purchasing-organizations-united-states-remote/
+SP400,ELF,e.l.f. Beauty,Consumer Staples,Personal Care Products,,lever,"Lever board slug=elfbeauty (seen in third-party job posting, not on official site) | https://jobs.lever.co/elfbeauty/f7a56c72-88ec-428c-bc13-ed6332ce517d"
+SP400,ELS,Equity Lifestyle Properties,Real Estate,Single-Family Residential REITs,,custom,careers via equitylifestyleproperties.com own site | https://www.equitylifestyleproperties.com/
+SP400,ENS,EnerSys,Industrials,Electrical Components & Equipment,,custom,company-run careers portal at jobs.enersys.com; no ATS domain observed | https://jobs.enersys.com/
+SP400,ENSG,Ensign Group,Health Care,Health Care Facilities,,none,16_KO17 | https://www.glassdoor.com/Jobs/The-Ensign-Group-clinical-resource-nurse-Jobs-EI_IE42610.0
+SP400,EPR,EPR Properties,Real Estate,Other Specialized REITs,,bamboohr,"Visualping 监控摘要提到 ""BambooHR job page""；单一弱信号 | https://visualping.io/pages/epr-properties-job-board-alerts-4874396"
+SP400,ESAB,ESAB,Industrials,Industrial Machinery & Supplies & Components,,custom,own-domain careers page | esab.com/us/nam_en/about/careers/
+SP400,EXEL,Exelixis,Health Care,Biotechnology,,custom,self-hosted job board on exelixis.com/careers; no third-party ATS domain seen | https://www.exelixis.com/careers/commercial/job-openings/?department=Commercial
+SP400,EXLS,EXL Service,Industrials,Data Processing & Outsourced Services,,none,applications via email and job boards
+SP400,EXP,Eagle Materials,Materials,Construction Materials,,none,searches surfaced only other 'Eagle' companies | https://www.jobs2careers.com:443/Jobs/q-Wind-Farm-Technician-l-Austin-TX/
+SP400,EXPO,"Exponent, Inc.",Industrials,Research & Consulting Services,,none,no ATS domain in search results | http://www.indeed.com/cmp/Exponent?from=SERP&campaignid=bottomhiring
+SP400,FBIN,Fortune Brands Innovations,Industrials,Building Products,,smartrecruiters,board slug FortuneBrands; official careers at fbin.com/careers via SmartRecruiters | https://jobs.smartrecruiters.com/FortuneBrands/744000151605680-customer-service-representative-troubleshooting-and-support?trid=2d92f286-613b-4daf-9dfa-6340ffbecf73
+SP400,FCN,FTI Consulting,Industrials,Research & Consulting Services,,none,仅发现 SelectMinds 内部推荐门户 fticonsult.referrals.selectminds.com；主应聘平台未识别 | https://fticonsult.referrals.selectminds.com/info/help
+SP400,FIVE,Five Below,Consumer Discretionary,Specialty Stores,,custom,careers page links to Vibe HCM portal (fivebelow-careers.vibehcm.com); not a standard ATS | https://www.fivebelow.com/info/careers
+SP400,FLR,Fluor,Industrials,Construction & Engineering,,custom,jobs via official Fluor careers page | https://www.fluor.com/careers
+SP400,FLS,Flowserve,Industrials,Industrial Machinery & Supplies & Components,,none,no ATS signal in search results
+SP400,FND,Floor & Decor,Consumer Discretionary,Home Improvement Retail,,custom,careers page at flooranddecor.com/careers; no ATS domain seen | https://www.coohom.com/article/exploring-career-opportunities-at-floor-and-decor
+SP400,FR,First Industrial Realty Trust,Real Estate,Industrial REITs,,none,only aggregator listings found; no ATS signal
+SP400,FTI,TechnipFMC,Energy,Oil & Gas Equipment & Services,,none,
+SP400,G,Genpact,Industrials,Data Processing & Outsourced Services,,workday,"tenant=genpact (wd108.myworkdayjobs.com), site=External_Careers | https://genpact.wd108.myworkdayjobs.com/en-US/External_Careers"
+SP400,GAP,Gap Inc.,Consumer Discretionary,Apparel Retail,,custom,apply at Jobs.gap.com own domain | https://jobs.gap.com
+SP400,GATX,GATX,Industrials,Construction Machinery & Heavy Transportation Equipment,,custom,US careers at gatx.com/careers; EU rail unit posts via onlyfy.jobs; no recognized ATS | https://www.gatx.com/careers/career-opportunities/
+SP400,GEF,"Greif, Inc.",Materials,"Metal, Glass & Plastic Containers",,none,no ATS domain in search results | https://www.indeed.com/cmp/Greif?from=mobviewjob&tk=1hq43a1iog2f3801&fromjk=b141c25b794b0bc3&attributionid=mobvjcmp
+SP400,GGG,Graco Inc.,Industrials,Industrial Machinery & Supplies & Components,,none,no deterministic ATS evidence from search; aggregators (glassdoor/linkedin/jobzmall) only
+SP400,GHC,Graham Holdings,Consumer Discretionary,Education Services,,none,"holding company, no careers-page or ATS signal found in search results | https://builtin.com/company/graham-holdings-company"
+SP400,GLPI,Gaming and Leisure Properties,Real Estate,Other Specialized REITs,,none,"no careers/ATS signal; applicantpro results belong to a lessee (Miami Valley Gaming), not GLPI"
+SP400,GME,GameStop,Consumer Discretionary,Computer & Electronics Retail,,custom,apply via careers.gamestop.com portal | https://careers.gamestop.com/
+SP400,GMED,Globus Medical,Health Care,Health Care Equipment,,none,no clear ATS signal found in search results
+SP400,GNTX,Gentex,Consumer Discretionary,Automotive Parts & Equipment,,none,-nh-jobs.html | https://www.indeed.com/q-gentex-corp-l-manchester
+SP400,GPK,Graphic Packaging,Materials,Paper & Plastic Packaging Products & Materials,,none,无 ATS 信号
+SP400,GXO,GXO Logistics,Industrials,Air Freight & Logistics,,custom,own-domain jobs portal | jobs.gxo.com
+SP400,H,Hyatt,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",,custom,official careers portal on own domain; no third-party ATS domain observed | https://careers.hyatt.com/en-US/careers
+SP400,HAE,Haemonetics,Health Care,Health Care Supplies,,none,aggregators only
+SP400,HALO,Halozyme,Health Care,Biotechnology,,workday,"tenant=halozyme, site=halozymecareers (halozyme.wd115.myworkdayjobs.com quoted on official page) | https://halozyme.com/careers/"
+SP400,HGV,Hilton Grand Vacations,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",,none,33.htm | https://www.glassdoor.com/Overview/Working-at-Hilton-Grand-Vacations-EI_IE33469.11
+SP400,HIMS,Hims & Hers Health,Health Care,Health Care Services,,none,
+SP400,HL,Hecla Mining,Materials,Silver,,custom,多个职位描述要求在 hecla.com/careers 申请；未看到 ATS 域名 | https://mike.kardow.com/companies/hecla-mining-company/jobs/sr-exploration-geologist-fifo-from-western-canada-276ddd8d6cbf436a8534d8eb41f93161
+SP400,HOG,Harley-Davidson,Consumer Discretionary,Motorcycle Manufacturers,,custom,LinkedIn lists jobs.harley-davidson.com as career site; no third-party ATS domain seen | https://www.linkedin.com/company/harley-davidson-motor-company
+SP400,HQY,HealthEquity,Health Care,Managed Health Care,,icims,careers portal on careers-healthequity.icims.com | https://careers-healthequity.icims.com/jobs/8140/application-integration-specialist/job
+SP400,HR,Healthcare Realty Trust,Real Estate,Health Care REITs,,none,no ATS signal in search results
+SP400,HRB,H&R Block,Consumer Discretionary,Specialized Consumer Services,,custom,apply via careers.hrblock.com/careers-home (company subdomain); no ATS domain visible | https://careers.utpb.edu/jobs/hr-block-income-tax-course/
+SP400,HXL,Hexcel,Industrials,Aerospace & Defense,,none,only aggregator listings found; no ATS signal
+SP400,IDA,Idacorp,Utilities,Electric Utilities,,none,
+SP400,IESC,IES Holdings,Industrials,Construction & Engineering,,custom,"subsidiary-level recruiting: IES Commercial posts via jobs.ourcareerpages.com, IES Residential at iesresidentialinc.com/jobs; no single corporate ATS | https://jobs.ourcareerpages.com/job/997963"
+SP400,INGR,Ingredion,Consumer Staples,Agricultural Products & Services,,none,aggregators only
+SP400,IRT,Independence Realty Trust,Real Estate,Multi-Family Residential REITs,,none,no ATS signal; postings via aggregators only | https://builtin.com/company/independence-realty-trust-inc/jobs
+SP400,ITT,ITT Inc.,Industrials,Industrial Machinery & Supplies & Components,,icims,"apply links on *.icims.com (careersita-itt-inc, careerscze-itt-inc, careerspol-itt-inc) | https://www.remoterocketship.com/company/itt-inc-6/jobs/sales-manager-defense-industry-netherlands-remote/"
+SP400,JAZZ,Jazz Pharmaceuticals,Health Care,Pharmaceuticals,,custom,job listings hosted on company subdomain careers.jazzpharma.com; no third-party ATS identified | https://careers.jazzpharma.com/job/1121/associate-director-omnichannel-and-patient-marketing-oncology-remote-commercial-us-pa-philadelphia/
+SP400,JLL,Jones Lang LaSalle,Real Estate,Real Estate Services,,none,"careers at jll.com/careers, no ATS domain found in search results | https://www.glassdoor.com/Jobs/Jones-Lang-LaSalle-entry-level-Jobs-EI_IE5779.0,18_KO19,30.htm"
+SP400,KBH,KB Home,Consumer Discretionary,Homebuilding,,custom,careers page on own domain; no third-party ATS domain observed | https://www.kbhome.com/careers
+SP400,KBR,"KBR, Inc.",Industrials,Diversified Support Services,,workday,apply link to kbr.wd5.myworkdayjobs.com (tenant=kbr) | https://kbr.wd5.myworkdayjobs.com/kbr_careers/job/remote---us/principal-account-representative--business-development_r2117435
+SP400,KEX,Kirby Corporation,Industrials,Marine Transportation,,icims,multiple Kirby portals on icims.com (stewartstevenson-kirbycorp; marinesystems-kirbycorp; maritimecareers-kirbycorp) | https://stewartstevenson-kirbycorp.icims.com/jobs/
+SP400,KNF,Knife River Corporation,Materials,Construction Materials,,custom,job ads direct applicants to jobs.kniferiver.com (company subdomain); no ATS domain visible | https://diversityjobs.com/career/7151837/Project-Engineer-Oregon-Medford
+SP400,KNX,Knight-Swift,Industrials,Cargo Ground Transportation,,jobvite,jobs.jobvite.com/swifttrans，页面注 Powered by Jobvite | https://jobs.jobvite.com/swifttrans/jobs/pitcrew?c=Shop
+SP400,KRC,Kilroy Realty Corp,Real Estate,Office REITs,,none,only apply-via-email found; no careers portal
+SP400,KRG,Kite Realty Group Trust,Real Estate,Retail REITs,,none,no careers/ATS signal found in search results
+SP400,KRYS,Krystal Biotech,Health Care,Biotechnology,,none,aggregators only
+SP400,KTOS,Kratos Defense & Security Solutions,Industrials,Aerospace & Defense,,none,only aggregators | https://www.glassdoor.com/Jobs/Kratos-Defense-and-Security-Solutions-Jobs-E9734.htm
+SP400,LAD,Lithia Motors,Consumer Discretionary,Automotive Retail,,custom,company careers site lithiacareers.com (company domain); no ATS domain visible | https://simplify.jobs/p/f64197f8-d422-4ea2-95f8-fea19c4afbf3/Sales-Representative
+SP400,LAMR,Lamar Advertising Company,Real Estate,Other Specialized REITs,,none,
+SP400,LEA,Lear,Consumer Discretionary,Automotive Parts & Equipment,,custom,官网说明 Apply at jobs.lear.com；未看到 ATS 域名 | http://www.lear.com/Site/Careers
+SP400,LECO,Lincoln Electric,Industrials,Industrial Machinery & Supplies & Components,,custom,own-domain job portal jobs.lincolnelectric.com; no third-party ATS domain seen | https://jobs.lincolnelectric.com/
+SP400,LIVN,LivaNova,Health Care,Health Care Equipment,,workday,apply link to livanova.wd5.myworkdayjobs.com (tenant=livanova) | https://livanova.wd5.myworkdayjobs.com/search/job/us_remote/senior-director--venture-investments_jr-13990
+SP400,LNTH,Lantheus Holdings,Health Care,Health Care Supplies,,custom,own careers page lantheus.com/careers; no third-party ATS domain seen | https://www.lantheus.com/careers/
+SP400,LOPE,Grand Canyon Education,Consumer Discretionary,Education Services,,none,only aggregators; no ATS domain found | https://www.indeed.com/cmp/Grand-Canyon-Education
+SP400,LPX,Louisiana-Pacific,Industrials,Building Products,,oracle,/job/<title>/<reqid>-en_US/ matches Oracle Recruiting Cloud branded pattern (also consistent with SuccessFactors) | https://jobs.lpcorp.com/job/Utility-Worker/11959-en_US/
+SP400,LSTR,Landstar System,Industrials,Cargo Ground Transportation,,none,
+SP400,M,Macy's,Consumer Discretionary,Broadline Retail,,oracle,macysjobs.com redirects to an Oracle Cloud-based application portal (per site profile summary) | https://www.macysjobs.com/
+SP400,MAT,Mattel,Consumer Discretionary,Leisure Products,,custom,apply at www.mattel.com/careers | https://www.mattel.com/careers
+SP400,MEDP,Medpace,Health Care,Life Sciences Tools & Services,,icims,classified as iCIMS; 2026 posting apply link on international-medpace.icims.com; two independent sources | https://github.com/aprameyak/2027-tech-jobs/blob/HEAD/not-covered.md
+SP400,MIDD,Middleby,Industrials,Industrial Machinery & Supplies & Components,,none,"Middleby subsidiaries (National Sales, Refrigeration) post on recruiting.paylocity.com (off-list third-party ATS) | https://recruiting.paylocity.com/recruiting/jobs/All/854f4857-ff86-4865-9f8a-ed85e6b8bb4f/Middleby-National-Sales-LLC"
+SP400,MLI,Mueller Industries,Industrials,Industrial Machinery & Supplies & Components,,none,no deterministic ATS evidence from search; aggregators (indeed/recruit.net/nexxt) only
+SP400,MMS,Maximus Inc.,Industrials,Data Processing & Outsourced Services,,avature,maximus.avature.net | https://maximus.avature.net/careers/ApplicationMethods?folderId=42241
+SP400,MOG.A,Moog Inc.,Industrials,Aerospace & Defense,,custom,own-domain portal careers.moog.com; no third-party ATS domain seen | https://careers.moog.com/jobs/senior-motor-design-engineer-8708
+SP400,MOH,Molina Healthcare,Health Care,Managed Health Care,,none,aggregators only
+SP400,MP,MP Materials,Materials,Diversified Metals & Mining,,none,no clear ATS signal found in search results
+SP400,MSA,MSA Safety,Industrials,Office Services & Supplies,,none,only aggregators; no ATS domain found | https://www.linkedin.com/jobs/msa-the-safety-company-jobs
+SP400,MSM,MSC Industrial Direct,Industrials,Trading Companies & Distributors,,none,无 ATS 信号
+SP400,MTDR,Matador Resources,Energy,Oil & Gas Exploration & Production,,none,LinkedIn post: email resume to careers@matadorresources.com; no portal found
+SP400,MTN,Vail Resorts,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",,successfactors,jobs.vailresortscareers.com identified as SuccessFactors tenant | https://jobs.vailresortscareers.com/
+SP400,MTZ,MasTec,Industrials,Construction & Engineering,,icims,official LinkedIn posts say recruiter emails come from @talent.icims.com | https://careers.mastec.com/corporate/jobs
+SP400,MUR,Murphy Oil,Energy,Oil & Gas Exploration & Production,,none,results conflated Murphy USA (separate company); no ATS for Murphy Oil Corp | https://lensa.com/murphy-oil/jobs/c/ad78672ed0529373bd6dabf23972ff30f6a54692
+SP400,MUSA,Murphy USA,Consumer Discretionary,Automotive Retail,,none,only indeed aggregators; no ATS domain found | https://www.indeed.com/cmp/Murphy-USA?campaignid=mobvjcmp&from=mobviewjob&tk=1i20l72r2mi3280b&fromjk=511cc13ff4bd566f
+SP400,MZTI,The Marzetti Company,Consumer Staples,Packaged Foods & Meats,,none,
+SP400,NBIX,Neurocrine Biosciences,Health Care,Biotechnology,,none,仅第三方职位页；未发现招聘站或 ATS 域名 | https://www.glassdoor.com/Jobs/Neurocrine-Biosciences-Jobs-E5932.htm
+SP400,NEU,NewMarket Corporation,Materials,Specialty Chemicals,,custom,own-domain careers page; no third-party ATS domain observed | https://www.newmarket.com/careers/
+SP400,NFG,National Fuel Gas,Utilities,Gas Utilities,,custom,careers on nationalfuel.com | https://www.nationalfuel.com/careers
+SP400,NJR,New Jersey Resources,Utilities,Gas Utilities,,none,no ATS signal in search results (two search rounds)
+SP400,NNN,NNN Reit,Real Estate,Retail REITs,,none,only aggregators; no ATS domain found | https://www.indeed.com/cmp/National-Retail-Properties
+SP400,NOV,NOV Inc.,Energy,Oil & Gas Equipment & Services,,none,only aggregator listings found; no ATS signal
+SP400,NVST,Envista Holdings,Health Care,Health Care Supplies,,none,
+SP400,NVT,nVent Electric plc,Industrials,Electrical Components & Equipment,,none,no careers-page/ATS signal in search results
+SP400,NWE,NorthWestern Energy,Utilities,Multi-Utilities,,custom,apply at northwesternenergy.com | https://www.northwesternenergy.com
+SP400,NXST,Nexstar Media Group,Communication Services,Broadcasting,,workday,tenant=nexstar site=nexstar | https://nexstar.wd5.myworkdayjobs.com/nexstar
+SP400,NXT,Nextpower,Industrials,Electrical Components & Equipment,,none,only news/aggregators; no ATS domain found | https://career.io/job/global-sales-enablement-manager-fremont-nextracker-inc-045545001f2a3f5fd34140a4d4c21926
+SP400,NYT,New York Times Company,Communication Services,Publishing,,greenhouse,job posting 'How to Apply' links to job-boards.greenhouse.io/thenewyorktimes/jobs/4548916005; board slug=thenewyorktimes | https://www.spd.org/job-board/design-director-the-new-york-times-opinion
+SP400,OC,Owens Corning,Industrials,Building Products,,none,no careers-page or ATS signal found in search results | https://www.indeed.com/cmp/Owens-Corning/jobs
+SP400,OGE,OGE Energy,Utilities,Multi-Utilities,,none,no careers-page/ATS signal in search results
+SP400,OGS,One Gas,Utilities,Gas Utilities,,custom,"own portal jobs.onegas.com, no ATS domain visible | https://jobs.onegas.com"
+SP400,OHI,Omega Healthcare Investors,Real Estate,Health Care REITs,,custom,careers page at omegahealthcare.com/careers with apply-by-email; no ATS domain observed | https://www.omegahealthcare.com/careers/
+SP400,OLLI,Ollie's Bargain Outlet,Consumer Discretionary,Broadline Retail,,custom,company press release directs applicants to ollies.com/pages/careers; no ATS domain visible | https://twelvedata.com/markets/216512/stock/nasdaq/olli
+SP400,OLN,Olin Corporation,Materials,Diversified Chemicals,,none,无 ATS 信号
+SP400,OPCH,Option Care Health,Health Care,Health Care Facilities,,workday,tenant=optioncare|site=OptionCare | optioncare.wd1.myworkdayjobs.com/OptionCare
+SP400,ORA,Ormat Technologies,Utilities,Renewable Electricity,,custom,自建招聘域 careers.ormat.com 无第三方ATS域名 | https://www.ormat.com/en/company/careers/veterans/
+SP400,OSK,Oshkosh,Industrials,Construction Machinery & Heavy Transportation Equipment,,phenom,Phenom-style URL pattern (/us/en/...) on own careers domain | https://careers.oshkoshcorp.com/us/en/home/search-results
+SP400,OVV,Ovintiv,Energy,Oil & Gas Exploration & Production,,none,"icims URLs were for Ovintiv Events Centre venue, not the energy company | https://www.energyjobshop.com/company/ovintiv-inc/"
+SP400,PAG,Penske Automotive Group,Consumer Discretionary,Automotive Retail,,custom,job board on company domain pagjobs.com; no ATS domain visible | https://pagjobs.com/clovis-ca/honda-north-future-employment-opportunities/B3B85C41D9A2480BAAE2489332169590/job/
+SP400,PBF,PBF Energy,Energy,Oil & Gas Refining & Marketing,,none,
+SP400,PCTY,Paylocity,Industrials,Human Resource & Employment Services,,custom,招聘页 paylocity.com/company/careers（.job.<id> 形态）；未看到 ATS 域名 | https://www.paylocity.com/company/careers/all-listings.job.46949/
+SP400,PEN,"Penumbra, Inc.",Health Care,Health Care Equipment,,none,两轮搜索无明确ATS信号
+SP400,PFGC,Performance Food Group,Consumer Staples,Food Distributors,,custom,jobs at jobs.performancefoodservice.com own domain | https://jobs.performancefoodservice.com/job-search-results/
+SP400,PII,Polaris,Consumer Discretionary,Leisure Products,,custom,"own careers site polaris.com/en-us/careers; no third-party ATS domain seen | https://www.indeed.com/q-polaris-l-canton,-mi-jobs.html"
+SP400,PINS,Pinterest,Communication Services,Interactive Home Entertainment,,none,only aggregators (flexjobs/glassdoor/linkedin/jobsora); no ATS domain found | https://www.linkedin.com/company/pinterest/jobs
+SP400,PK,Park Hotels & Resorts,Real Estate,Hotel & Resort REITs,,none,only aggregator listings found; no ATS signal
+SP400,PLNT,Planet Fitness,Consumer Discretionary,Leisure Facilities,,none,
+SP400,POR,Portland General Electric,Utilities,Electric Utilities,,custom,自有域名 portlandgeneral.com/careers 无第三方ATS域名 | https://portlandgeneral.com/about/careers/find-your-career-at-pge/career-paths
+SP400,POST,Post Holdings,Consumer Staples,Packaged Foods & Meats,,custom,"own portal jobs.postholdings.com, no ATS domain visible | https://jobs.postholdings.com/postconsumerbrands-home"
+SP400,PPC,Pilgrim's Pride,Consumer Staples,Packaged Foods & Meats,,custom,apply via JBS group site jbssa.com/careers and pilgrims.com; no third-party ATS domain | https://www.monster.com/job-openings/production-hourly-elkhart-in--8fe2a971-09b8-472b-81d0-ab8a660d3d19
+SP400,PR,Permian Resources,Energy,Oil & Gas Exploration & Production,,none,only aggregators (grabjobs/dice/recruit.net/indeed); no ATS domain found | https://www.indeed.com/q-permian-resources-jobs.html
+SP400,PSN,Parsons Corporation,Industrials,Aerospace & Defense,,none,no deterministic ATS evidence from search; aggregators (glassdoor/linkedin/indeed) only
+SP400,PVH,PVH Corp.,Consumer Discretionary,"Apparel, Accessories & Luxury Goods",,custom,"careers at pvh.com/careers, no third-party ATS domain found | https://www.jobzmall.com/pvh-corp/faqs/how-do-i-apply-for-a-job-at-pvh-corp"
+SP400,R,Ryder,Industrials,Cargo Ground Transportation,,custom,"-tx-jobs.html,多条职位描述指向自有招聘域 jobs.ryder.com 无第三方ATS域名 | https://www.indeed.com/q-ryder-system-l-fort-worth"
+SP400,RBA,RB Global,Industrials,Diversified Support Services,,custom,"own portal careers.rbglobal.com (RB Global), no ATS domain visible | https://careers.rbglobal.com"
+SP400,RBC,RBC Bearings,Industrials,Industrial Machinery & Supplies & Components,,custom,careers page at rbcbearings.com/careers; no ATS domain observed | https://www.rbcbearings.com/careers/
+SP400,REXR,Rexford Industrial Realty,Real Estate,Industrial REITs,,none,only aggregators; no ATS domain found | https://www.builtinla.com/company/rexford-industrial/jobs
+SP400,RGEN,Repligen,Health Care,Biotechnology,,icims,careers-repligen.icims.com | https://careers-repligen.icims.com/jobs/5073/bioprocess-account-manager-remote-md-pa/job?in_iframe=1
+SP400,RGLD,Royal Gold,Materials,Gold,,none,no careers page found
+SP400,RH,RH,Consumer Discretionary,Homefurnishing Retail,,none,两轮搜索无明确ATS信号
+SP400,ROIV,Roivant Sciences,Health Care,Biotechnology,,none,no careers page/ATS signal found in search
+SP400,ROKU,"Roku, Inc.",Communication Services,Movies & Entertainment,,none,no ATS URL | https://wellfound.com/company/roku/jobs
+SP400,RPM,RPM International,Materials,Specialty Chemicals,,none,only aggregators/unrelated firms; no ATS domain found | https://www.indeed.com/cmp/Rpm-International-Inc.
+SP400,RRC,Range Resources,Energy,Oil & Gas Exploration & Production,,custom,self-built careers pages on own domain rangeresources.com | https://www.rangeresources.com/production/
+SP400,RRX,Regal Rexnord,Industrials,Electrical Components & Equipment,,workday,tenant=regalrexnord|site=careers | https://regalrexnord.wd1.myworkdayjobs.com/careers/job/bideford-devon-united-kingdom/senior-manager--human-resources_r25_05226
+SP400,RS,"Reliance, Inc.",Materials,Steel,,workday,tenant=mcw site=ExternalCareers; mcw.wd503.myworkdayjobs.com/en-US/ExternalCareers | https://github.com/api-evangelist/api-pulse/blob/HEAD/_companies/reliance.md
+SP400,RYN,Rayonier,Real Estate,Timber REITs,,custom,"careers page on corporate own site, no ATS domain visible | http://www.rayonier.com/careers"
+SP400,SAIA,Saia,Industrials,Cargo Ground Transportation,,none,no ATS signal in search results
+SP400,SAIC,Science Applications Intl Corp,Industrials,Diversified Support Services,,none,only aggregators (flexjobs/linkedin/glassdoor); no ATS domain found | https://www.linkedin.com/jobs/saic-jobs?trk=public_jobs_linkster_link
+SP400,SARO,StandardAero,Industrials,Aerospace & Defense,,none,only aggregator listings found; no ATS signal
+SP400,SBRA,Sabra Health Care REIT,Real Estate,Health Care REITs,,none,
+SP400,SCI,Service Corp Intl,Consumer Discretionary,Specialized Consumer Services,,workday,职位描述提及内部员工通过Workday My Career申请; 未见外部ATS域名 | https://grabjobs.co/us/job/full-time/others/bilingual-inside-sales-professional-spanish-108296604
+SP400,SFM,Sprouts Farmers Market,Consumer Staples,Food Retail,,none,"jobs on aggregators only, no ATS domain visible"
+SP400,SGI,Somnigroup International,Consumer Discretionary,Home Furnishings,,none,no ATS signal after 1-2 searches
+SP400,SHC,Sotera Health,Health Care,Health Care Services,,none,only aggregators/unrelated firms; no ATS domain found | https://www.tealhq.com/job/manager-eh-s_d6695d46-987a-40eb-9924-3ec184a4cdbb
+SP400,SIRI,SiriusXM,Communication Services,Broadcasting,,custom,"job postings direct applicants to www.siriusxm.com/careers (company domain); no third-party ATS identified | https://www.indeed.com/q-siriusxm-l-dallas,-tx-jobs.html"
+SP400,SLGN,Silgan Holdings,Materials,"Metal, Glass & Plastic Containers",,none,no careers-page or ATS signal found in search results | https://jooble.org/jdp/2948215642482297878
+SP400,SMG,Scotts Miracle-Gro Company,Materials,Fertilizers & Agricultural Chemicals,,custom,自建招聘页 scottsmiraclegro.com/careers 无第三方ATS域名 | https://www.indeed.com/cmp/Scotts-Miracle--gro-08925e95/about
+SP400,SN,SharkNinja,Consumer Discretionary,Household Appliances,,custom,"careers on own site, no ATS domain visible | https://www.sanmina.com/en/careers/"
+SP400,SOLS,Solstice Advanced Materials,Materials,Specialty Chemicals,,none,no clear ATS signal found in search results
+SP400,SON,Sonoco,Materials,Paper & Plastic Packaging Products & Materials,,none,only aggregators; no ATS domain found | https://www.indeed.com/cmp/Sonoco
+SP400,SPXC,SPX Technologies,Industrials,Industrial Machinery & Supplies & Components,,custom,职位链接为 careers.spx.com/job-invite/*（自有域名），未识别出第三方 ATS | https://www.glassdoor.ca/Updates/SPX-Technologies-Company-Updates-E580.htm
+SP400,SR,Spire,Utilities,Gas Utilities,,custom,own-domain jobs portal | jobs.spireenergy.com
+SP400,SSD,Simpson Manufacturing,Industrials,Building Products,,none,两轮搜索无明确ATS信号
+SP400,ST,Sensata Technologies,Industrials,Electrical Components & Equipment,,custom,"postings say apply on company website; employees directed to Workday intranet (internal only, external ATS unconfirmed) | https://www.careerjet.com/jobad/us8dbefba0de2bf357a27658c47d6495e5"
+SP400,STAG,STAG Industrial,Real Estate,Industrial REITs,,none,only aggregators | https://www.indeed.com/cmp/Stag-Industrial/locations/MA/Boston
+SP400,STRL,Sterling Infrastructure,Industrials,Construction & Engineering,,none,search surfaced unrelated Sterling firms only; no ATS domain found | https://www.indeed.com/cmp/Sterling-Group-5?from=mobvjcmp&fromjk=da141075e198751f&attributionid=mobvjcmp
+SP400,SUI,Sun Communities,Real Estate,Single-Family Residential REITs,,custom,self-built careers portal on own domain careers.suncommunities.com | https://careers.suncommunities.com/
+SP400,SWX,Southwest Gas Corp,Utilities,Gas Utilities,,custom,说明在 southwestgas.com 点 Careers 申请；未看到 ATS 域名 | https://www.jobzmall.com/southwest-gas/faqs/how-can-i-apply-for-a-job-at-southwest-gas
+SP400,TEX,Terex,Industrials,Construction Machinery & Heavy Transportation Equipment,,custom,多条职位描述指向自有招聘域 jobs.terex.com 无第三方ATS域名 | http://jobs.buildsubmarines.com/jobs/563684774-manufacturing-engineer-ii-at-terex-corporation
+SP400,THC,Tenet Health,Health Care,Health Care Facilities,,oracle,"Tenet job apply URL on oraclecloud.com (eodr.fa.us2.oraclecloud.com, Oracle Cloud Recruiting), via third-party listing | https://www.remoterocketship.com/company/tenethealth/jobs/financial-advocate-representative-united-states-remote/"
+SP400,THO,Thor Industries,Consumer Discretionary,Leisure Products,,none,no ATS signal in search results
+SP400,TKR,Timken,Industrials,Industrial Machinery & Supplies & Components,,custom,job ads direct applicants to careers.timken.com; no ATS domain visible | https://www.indeed.com/viewjob?from=social_facebook&jk=bcb84da67ead3141
+SP400,TLN,Talen Energy,Utilities,Independent Power Producers & Energy Traders,,none,only aggregator listings found; no ATS signal
+SP400,TNL,Travel + Leisure Co.,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",,custom,company-hosted careers.travelandleisureco.com | https://careers.travelandleisureco.com/jobs/search?page=6&query=maintenance
+SP400,TOL,Toll Brothers,Consumer Discretionary,Homebuilding,,none,两轮搜索无明确ATS信号
+SP400,TREX,Trex,Industrials,Building Products,,none,"jobs on aggregators only, no ATS domain visible"
+SP400,TRU,TransUnion,Industrials,Research & Consulting Services,,workday,tenant=transunion site=transunion | https://transunion.wd5.myworkdayjobs.com/transunion/job/lagunilla-de-heredia/accounts-payable-rep-i_19038067
+SP400,TTC,Toro,Industrials,Agricultural & Farm Machinery,,workday,"tenant=ttc|site=AUS1 (ttc.wd1.myworkdayjobs.com/AUS1, AU site) | https://grabjobs.co/australia/job/full-time/others/customer-support-specialist-irrigation-150662748"
+SP400,TTEK,Tetra Tech,Industrials,Construction & Engineering,,selectminds,careers hosted on company-branded Oracle SelectMinds referral portal tetratech.referrals.selectminds.com | https://tetratech.referrals.selectminds.com/jobs/gis-specialist-23688
+SP400,TXNM,TXNM Energy,Utilities,Electric Utilities,,custom,"careers.txnmenergy.com, no third-party ATS domain found | https://careers.txnmenergy.com/search/public-service-co-of-nm/jobs?ns_category=search-pnm-jobs-jobs-content"
+SP400,TXRH,Texas Roadhouse,Consumer Discretionary,Restaurants,,custom,自有品牌招聘域 careers.becomearoadie.com 无第三方ATS域名 | https://careers.becomearoadie.com/us/en/
+SP400,UFPI,UFP Industries,Industrials,Building Products,,custom,"careers on own site UFPI.com/careers, no ATS domain visible | https://ufpi.com/careers/career-paths/"
+SP400,UGI,UGI Corp,Utilities,Gas Utilities,,custom,company-run careers portal at careers.ugicorp.com; no ATS domain observed | https://careers.ugicorp.com/
+SP400,ULS,UL Solutions,Industrials,Research & Consulting Services,,none,only aggregators; no ATS domain found | https://www.indeed.com/cmp/Ul-Solutions-1?from=mobviewjob&tk=1ic259aavh71l801&fromjk=eaaa3a6e0f71a995&attributionid=mobvjcmp
+SP400,USFD,US Foods,Consumer Staples,Food Distributors,,workday,职位描述普遍提到 internal Workday career site (myworkday.com/usfoods)；第三方申请记录标注 Workday；未见外部 tenant URL | https://github.com/emmawoods36/amberjacksoncareersearch2026/blob/HEAD/Applications_Report_Sep_12-13_2026.md
+SP400,UTHR,United Therapeutics,Health Care,Biotechnology,,workday,tenant=vhr-unither|site=External | vhr-unither.wd5.myworkdayjobs.com/External
+SP400,VAL,Valaris,Energy,Oil & Gas Drilling,,custom,自建招聘页 valaris.com/careers 无第三方ATS域名 | https://www.valaris.com/careers/default.aspx
+SP400,VC,Visteon,Consumer Discretionary,Automotive Parts & Equipment,,lever,jobs.lever.co/veeva apply URLs in Veeva job listings | https://jobs.lever.co/veeva/b01593db-4887-4e05-bca6-451e9bed4b2a
+SP400,VFC,VF Corporation,Consumer Discretionary,"Apparel, Accessories & Luxury Goods",,custom,apply links point to VF careers; no third-party ATS URL | https://echojobs.io/job/vf-corporation-graphic-designer-dz6of
+SP400,VICR,Vicor Corporation,Industrials,Electrical Components & Equipment,,none,only aggregators; no ATS domain found | https://www.indeed.com/cmp/Vicor-Corporation
+SP400,VMI,Valmont Industries,Industrials,Industrial Machinery & Supplies & Components,,workday,tenant=valmont|site=valmontcareers | https://valmont.wd1.myworkdayjobs.com/valmontcareers/job/remote-tx/project-engineer_r25608
+SP400,VNO,Vornado Realty Trust,Real Estate,Office REITs,,custom,招聘页 vno.com/careers；未看到 ATS 域名 | http://www.vno.com/careers/overview
+SP400,VNOM,Viper Energy,Energy,Oil & Gas Storage & Transportation,,none,为Diamondback Energy子公司 未见自有ATS
+SP400,VVV,Valvoline,Consumer Discretionary,Automotive Retail,,none,aggregators only; no ATS domain visible | https://www.indeed.com/cmp/Valvoline-Instant-Oil-Change
+SP400,WCC,WESCO International,Industrials,Trading Companies & Distributors,,none,no ATS signal in search results
+SP400,WFRD,Weatherford International,Energy,Oil & Gas Equipment & Services,,none,"search results only job boards/indeed/grabjobs, no careers portal or ATS domain found | https://offshorejobvacancy.com/job/weatherford-drilling-jobs/"
+SP400,WH,Wyndham Hotels & Resorts,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",,successfactors,/go/ path = SuccessFactors RMK pattern | https://careers.wyndhamhotels.com/go/Canada-Careers/9354900/
+SP400,WHR,Whirlpool Corporation,Consumer Discretionary,Household Appliances,,phenom,Phenom-exclusive apply URL pattern ?domain=whirlpool.com&pid= on jobs.whirlpool.com (seen in job posting text) | https://iccreativity.com/jobs/whirlpool-global-consumer-design-associate-product-design-industrial-designer
+SP400,WING,Wingstop,Consumer Discretionary,Restaurants,,custom,企业招聘页 wingstop.com/careers 为自建; 加盟店招聘使用 workstream.us | https://www.linkedin.com/company/wingstop-restaurants-inc-?trk=similar-pages
+SP400,WLK,Westlake Corporation,Materials,Specialty Chemicals,,workday,job posting says apply via Jobs Hub in Workday; external Workday board unconfirmed | https://www.flexjobs.com/gjw/westlake_corporation/technical-sales-represntative/publicjobs?id=2be94cf0-7375-4e12-b659-d7a51990477c
+SP400,WMG,Warner Music Group,Communication Services,Movies & Entertainment,,workday,multiple WMG postings cite Workday as the ATS; no direct myworkdayjobs.com URL seen | https://www.showbizjobs.com/jobs/warner-music-group-talent-acquisition-coordinator-in-new-york/jid-r731j8
+SP400,WMS,Advanced Drainage Systems,Industrials,Building Products,,none,"search results only indeed/jobsora listings, no careers portal or ATS domain found | https://www.indeed.com/cmp/Advanced-Drainage-Systems?campaignid=mobvjcmp&from=mobviewjob&tk=1hvi50k7b3ioq00r&fromjk=e7ec724b6c2ca2aa"
+SP400,WPC,W. P. Carey,Real Estate,Diversified REITs,,jobvite,careers portal on Jobvite at jobs.jobvite.com/wpccareers | https://jobs.jobvite.com/wpccareers/jobs
+SP400,WSO,Watsco,Industrials,Trading Companies & Distributors,,none,no careers-page or ATS signal found in search results | https://grabjobs.co/us/companies/watsco-inc-3045876/careers
+SP400,WTRG,Essential Utilities,Utilities,Water Utilities,,none,两轮搜索无明确ATS信号
+SP400,WTS,Watts Water Technologies,Industrials,Building Products,,custom,"careers on own site watts.com/careers, no ATS domain visible | http://www.watts.com/careers"
+SP400,WWD,"Woodward, Inc.",Industrials,Electrical Components & Equipment,,none,no clear ATS signal found in search results
+SP400,XPO,"XPO, Inc.",Industrials,Cargo Ground Transportation,,custom,self-hosted careers portal on company domain (jobs.xpo.com); underlying platform not identified | https://jobs.xpo.com/go/Drivers/2520400/?gad_source=5&gclid=EAIaIQobChMI6t7PhuyWiwMVeZbuAR0WpzHTEAAYASACEgIa5vD_BwE
+SP400,XRAY,Dentsply Sirona,Health Care,Health Care Supplies,,none,无 ATS 信号
+SP400,YETI,Yeti Holdings,Consumer Discretionary,Leisure Products,,custom,own-domain careers page | yeti.com/yeti-careers.html
+SP600,AAP,"Advance Auto Parts, Inc.",Consumer Discretionary,Automotive Retail,,custom,自有招聘域 jobs.advanceautoparts.com 无第三方ATS域名 | https://workinvirtual.com/advance-auto-parts-careers-remote-jobs-guide/
+SP600,AAT,American Assets Trust,Real Estate,Diversified REITs,,none,"jobs on aggregators only, no ATS domain visible"
+SP600,ABG,Asbury Automotive Group,Consumer Discretionary,Automotive Retail,,smartrecruiters,board=asburyautomotivegroup; legacy careers-asburyauto.icims.com URL quoted inside one posting | https://jobs.smartrecruiters.com/asburyautomotivegroup/78600069
+SP600,ABM,"ABM Industries, Inc.",Industrials,Environmental & Facilities Services,,none,no ATS domain in search results | https://migratemate.co/companies-that-sponsor/abm-industries/technician
+SP600,ACA,"Arcosa, Inc.",Industrials,Construction & Engineering,,custom,self-built careers portal on own domain arcosa.com/jobs | https://arcosa.com/jobs/
+SP600,ACAD,Acadia Pharmaceuticals,Health Care,Pharmaceuticals,,custom,职位 Apply Now 指向公司站；仅发现 acadia-pharm.com/careers 自建页，无 ATS 域名 | https://www.RemoteRocketship.com/company/acadia-pharmaceuticals-inc/jobs/long-term-care-sales-specialist-united-states-remote
+SP600,ACHC,Acadia Healthcare,Health Care,Health Care Facilities,,icims,3个iCIMS门户 careers/facilityjobs/physicians-acadiahealthcare.icims.com; 页脚 Powered by iCIMS | http://physicians-acadiahealthcare.icims.com/jobs/intro?mobile=true&needsRedirect=false
+SP600,ADAM,"Adamas Trust, Inc.",Real Estate,Mortgage REITs,,none,"jobs on aggregators (biospace, indeed) only, no ATS domain visible"
+SP600,ADMA,"ADMA Biologics, Inc.",Health Care,Biotechnology,,none,no ATS signal in search results
+SP600,ADNT,Adient,Consumer Discretionary,Automotive Parts & Equipment,,none,only aggregators; no ATS domain found | https://www.indeed.com/cmp/Adient?campaignid=mobvjcmp&from=mobviewjob&tk=1i1d1spenih61801&fromjk=9924c6fb0bcb4d20
+SP600,ADT,ADT Inc.,Consumer Discretionary,Specialized Consumer Services,,custom,careers site at own domain jobs.adt.com (job URLs jobs.adt.com/job/<id>/); no ATS host identified | https://newsroom.adt.com/stories/adt-makes-your-job-search-easier-with-new-careers-site
+SP600,ADUS,Addus HomeCare Corp.,Health Care,Health Care Services,,custom,company-hosted addusjobs.com | http://addusjobs.com/jobs/us-al/
+SP600,AEO,American Eagle Outfitters,Consumer Discretionary,Apparel Retail,,custom,branded careers portal aeo.jobs; no third-party ATS domain seen | https://aeo.jobs/
+SP600,AESI,"Atlas Energy Solutions, Inc.",Energy,Oil & Gas Equipment & Services,,none,"jobs on aggregators only, no ATS domain visible"
+SP600,AGNT,"eXp World Holdings, Inc.",Real Estate,Real Estate Services,,none,careers portal at unrecognized host jobs.jvistg2.com with zero current jobs; no ATS identified | https://jobs.jvistg2.com/careers/exprealty/jobs?error=404
+SP600,AGX,"Argan, Inc.",Industrials,Construction & Engineering,,none,-Inc | https://www.indeed.com/cmp/Agx
+SP600,AHCO,AdaptHealth Corp.,Health Care,Health Care Equipment,,none,no deterministic ATS evidence from search; aggregators (glassdoor/indeed/grabjobs) only
+SP600,AIN,Albany International Corp.,Industrials,Industrial Machinery & Supplies & Components,,none,no careers-page or ATS signal found in search results | https://www.indeed.com/cmp/Albany-International-Corp.
+SP600,AIR,AAR Corp.,Industrials,Aerospace & Defense,,custom,company-domain careers section; no third-party ATS domain seen | https://aarcorp.com/en/careers/working-at-aar/military-veterans/
+SP600,AKR,Acadia Realty Trust,Real Estate,Retail REITs,,custom,"company profiles state job openings posted on own website acadiarealty.com, no ATS domain visible | https://app.joinhandshake.com/employers/acadia-realty-trust-20672"
+SP600,ALG,Alamo Group,Industrials,Construction Machinery & Heavy Transportation Equipment,,custom,careers page at alamo-group.com/careers; no ATS domain observed | https://www.alamo-group.com/careers/
+SP600,ALGT,Allegiant Travel Company,Industrials,Passenger Airlines,,custom,job ads reference allegiantair.jobs (company domain); no ATS domain visible | https://www.tealhq.com/job/flight-attendant-sfb_79238b79-6a2b-481e-bf62-2f4421d543c0
+SP600,ALHC,"Alignment Healthcare, Inc.",Health Care,Health Care Services,,none,无 ATS 信号
+SP600,ALKS,Alkermes plc,Health Care,Pharmaceuticals,,custom,own-domain careers page | alkermes.com/careers
+SP600,AMN,"Amn Healthcare Services, Inc.",Health Care,Health Care Services,,custom,company-domain job board (own staffing platform); no third-party ATS domain seen | https://www.amnhealthcare.com/jobs/c/Allied/
+SP600,AMPH,"Amphstar Pharmaceuticals, Inc.",Health Care,Pharmaceuticals,,custom,"careers postings at amphastar.com/careers.html (own site), no ATS domain visible | http://www.thelabrat.com/jobs/companies/Amphastar.shtml"
+SP600,AMR,"Alpha Metallurgical Resources, Inc.",Materials,Steel,,custom,internship flyer says apply via email (CorpHR@AlphaMetResources.com); no ATS | https://alphametresources.com/wp-content/uploads/2026/02/2026-Summer-Internship-Flyer-2.16.26.pdf
+SP600,AMRX,Amneal Pharmaceuticals,Health Care,Pharmaceuticals,,oracle,-ny-jobs.html | https://www.indeed.com/q-amneal-pharmaceuticals-l-melville
+SP600,AMTM,Amentum,Industrials,Diversified Support Services,,custom,"job postings point to own domain www.amentumcareers.com; self-built | https://www.indeed.com/q-amentum-l-bethesda,-md-jobs.html"
+SP600,ANDE,"The Andersons, Inc.",Consumer Staples,Food Distributors,,custom,招聘页 andersonsinc.com/careers；未看到 ATS 域名 | http://www.andersonsinc.com/careers/
+SP600,ANIP,"ANI Pharmaceuticals, Inc.",Health Care,Pharmaceuticals,,custom,careers.anipharmaceuticals.com; no third-party ATS domain seen | https://careers.anipharmaceuticals.com/
+SP600,AORT,Artivion,Health Care,Health Care Equipment,,custom,"job postings say apply via online system on artivion.com, no ATS domain visible | https://fuchsjobs.de/job/stellenangebote--process-engineer-iii-mwd-hechingen-artivion-emea-07ba3a"
+SP600,APLE,"Apple Hospitality REIT, Inc.",Real Estate,Hotel & Resort REITs,,none,tiny REIT; no careers ATS signal
+SP600,APOG,"Apogee Enterprises, Inc.",Industrials,Building Products,,none,only aggregators; no ATS domain found | https://www.indeed.com/cmp/Apogee-Enterprises-1?campaignid=mobvjcmp&from=mobviewjob&tk=1hvkooaq7kcli802&fromjk=cc88a8331cb53806
+SP600,ARCB,ArcBest Corp.,Industrials,Cargo Ground Transportation,,custom,own-domain careersmarketplace portal (careers.arcb.com/careersmarketplace/OpenPositions/); vendor not identifiable
+SP600,AROC,"Archrock, Inc.",Energy,Oil & Gas Equipment & Services,,hirebridge,recruit.hirebridge.com ATS (not in task enum list; value recorded as hirebridge) | https://recruit.hirebridge.com/v3/Jobs/list.aspx?cid=7592
+SP600,ARR,Armour Residential REIT,Real Estate,Mortgage REITs,,none,externally managed REIT; no careers site found after 2 searches
+SP600,ASO,Academy Sports + Outdoors,Consumer Discretionary,Specialty Stores,,custom,"careers at academy.com/careers (own site), no ATS domain visible | https://corporate.academy.com/academy-sports-outdoors-opens-new-store-in-rolla-mo/index.html"
+SP600,ASTE,"Astec Industries, Inc.",Industrials,Construction Machinery & Heavy Transportation Equipment,,none,no ATS signal after 1-2 searches
+SP600,ASTH,"Astrana Health, Inc.",Health Care,Health Care Facilities,,none,only aggregators; careers portal mentioned but no ATS domain found | https://www.indeed.com/cmp/Astrana-Health-1?from=mobviewjob&tk=1iccs72s8geep800&fromjk=8f27675e80b4a7df&attributionid=mobvjcmp
+SP600,ATMU,Atmus Filtration Technologies Inc.,Industrials,Industrial Machinery & Supplies & Components,,none,no deterministic ATS evidence from search; aggregators (recruit.net/nexxt/builtin) only
+SP600,AVA,Avista Corporation,Utilities,Multi-Utilities,,none,no careers-page or ATS signal found in search results | https://www.indeed.com/cmp/Avista-Corporation
+SP600,AWI,"Armstrong World Industries, Inc.",Industrials,Building Products,,none,no company careers page surfaced after 2 searches
+SP600,AWR,American States Water Company,Utilities,Water Utilities,,custom,careers on aswater.com (company site | https://www.aswater.com/
+SP600,AZTA,"Azenta, Inc.",Health Care,Life Sciences Tools & Services,,workday,tenant=azenta; site=azentajobs | https://azenta.wd1.myworkdayjobs.com/azentajobs/job/
+SP600,AZZ,"AZZ, Inc.",Industrials,Heavy Electrical Equipment,,none,no ATS domain in search results | https://www.glassdoor.com/Jobs/AZZ-Jobs-E1158.htm
+SP600,BCC,Boise Cascade,Industrials,Building Products,,none,无 ATS 信号
+SP600,BCPC,Balchem Corporation,Materials,Specialty Chemicals,,none,apply links point to balchem.hrmdirect.com (HRMDirect is a real ATS but outside the classification taxonomy)
+SP600,BFAM,Bright Horizons Family Solutions Inc.,Consumer Discretionary,Specialized Consumer Services,,custom,"careers.brighthorizons.com (white-label, Phenom-style but unconfirmed); no third-party ATS domain seen | https://careers.brighthorizons.com/us/en/health-and-wellness"
+SP600,BFS,"Saul Centers, Inc.",Real Estate,Retail REITs,,none,postings point to email application (corporate.resumes@bfsaul.com); no careers portal found | https://cagdasozgur.com.tr/apply/job/lead-concierge-hampden-house-at-saul-centers-inc-bethesda-md-bnB4UDAzRkRXeHhqejRZTUl3NWxrSFdLU2c9PQ==
+SP600,BJRI,"BJ's Restaurants, Inc.",Consumer Discretionary,Restaurants,,custom,apply via Careers page on company website; no ATS URL | https://www.jobzmall.com/bj-s-restaurants/faqs/is-there-an-online-application-process-for-bj-s-restaurants-jobs
+SP600,BKE,"The Buckle, Inc.",Consumer Discretionary,Apparel Retail,,custom,official careers site on corporate.buckle.com; company-built | https://corporate.buckle.com/careers/stores/default.aspx
+SP600,BLFS,"BioLife Solutions, Inc.",Health Care,Health Care Supplies,,none,"no ATS evidence found; do not confuse with BioLife Plasma (jobs.biolifeplasma.com, Takeda unit)"
+SP600,BNL,"Broadstone Net Lease, Inc.",Real Estate,Industrial REITs,,none,使用 broadstone.hrmdirect.com（ClearCompany HRM Direct），不在平台分类体系内 | https://broadstone.hrmdirect.com/employment/job-openings.php?search=true
+SP600,BOOT,"Boot Barn Holdings, Inc.",Consumer Discretionary,Apparel Retail,,custom,company careers domain cited in LinkedIn posts; no third-party ATS domain seen | careers.bootbarn.com
+SP600,BRC,Brady Corporation,Industrials,Commercial Printing,,none,"postings reference internal career site; aggregators only, no ATS domain visible | https://www.tealhq.com/job/employee-benefits-consultant_7ea1afbc1fb4d530598d7c8cb27ec15659dd3"
+SP600,BTU,"Peabody Energy, Inc.",Energy,Coal & Consumable Fuels,,custom,'Peabody Jobs' own portal on peabodyenergy.com; no third-party ATS domain seen | https://www.recruit.net/job/tyre-fitter-jobs/00A5546B6CC0AF3A
+SP600,CAG,Conagra Brands,Consumer Staples,Packaged Foods & Meats,,none,14_IL.15 | https://www.glassdoor.com/Jobs/Conagra-Brands-Waseca-Jobs-EI_IE172.0
+SP600,CAKE,"The Cheesecake Factory, Inc.",Consumer Discretionary,Restaurants,,phenom,board=cakecareers.com; stretchUnit/stretch params = Phenom pattern | https://www.cakecareers.com/main/jobs?stretchUnit=MILES&stretch=25&location=charlotte&utm_source=Facebook&trk=cUigrJq8Lssy
+SP600,CALM,"Cal-Maine Foods, Inc.",Consumer Staples,Packaged Foods & Meats,,none,
+SP600,CALY,Callaway Golf Company,Consumer Discretionary,Leisure Products,,custom,main-domain careers page; no third-party ATS domain seen | https://www.callawaygolf.com/careers/
+SP600,CARG,CarGurus,Communication Services,Interactive Media & Services,,workday,tenant=cars site=cars (cars.wd12.myworkdayjobs.com) | https://cars.wd12.myworkdayjobs.com/cars/job/remote---illinois/lead-sr-software-engineer_jr10985
+SP600,CBRL,Cracker Barrel,Consumer Discretionary,Restaurants,,custom,company-owned careers.crackerbarrel.com; no third-party ATS domain | https://careers.crackerbarrel.com/jobs/?searchlocation=rocklin%2C+CA
+SP600,CC,Chemours,Materials,Diversified Chemicals,,none,8_IL.9 | https://www.glassdoor.com/Jobs/Chemours-Fayetteville-Jobs-EI_IE1022084.0
+SP600,CCOI,"Cogent Communications Holdings, Inc.",Communication Services,Alternative Carriers,,none,no ATS platform found; job postings instruct applicants to email resumes to careers@cogentco.com; no online application portal identified
+SP600,CCS,"Century Communities, Inc.",Consumer Discretionary,Homebuilding,,none,no careers-page or ATS signal found in search results | https://www.indeed.com/cmp/Century-Communities
+SP600,CE,Celanese,Materials,Specialty Chemicals,,custom,careers.celanese.com; no third-party ATS domain seen | https://careers.celanese.com
+SP600,CENT,Central Garden & Pet Company,Consumer Staples,Household Products,,custom,"postings say apply online at careers page on central.com (own site), no ATS domain visible | https://www.theladders.com/job/national-sales-representative-canada-companion-animal-products-centralgardenpet-guelph-on_88298661"
+SP600,CENTA,Central Garden & Pet Company (Class A),Consumer Staples,Household Products,,ttcportals,single direct URL on ttcportals.com (vendor not in standard list) | https://centralgardenandpet.ttcportals.com/
+SP600,CENX,Century Aluminum Company,Materials,Aluminum,,none,no ATS domain in search results | https://www.indeed.com/cmp/Century-Aluminum
+SP600,CERT,"Certara, Inc.",Health Care,Health Care Technology,,icims,第三方 ATS 映射表（GitHub）标注 iCIMS (careers.certara.com)；单一弱信号 | https://github.com/delos001/job_monitor
+SP600,CHEF,"Chefs' Warehouse, Inc.",Consumer Staples,Food Distributors,,none,no official careers page found
+SP600,CNK,"Cinemark Holdings, Inc.",Communication Services,Movies & Entertainment,,custom,careers.cinemark.com; no third-party ATS domain seen | https://careers.cinemark.com
+SP600,CNMD,CONMED Corporation,Health Care,Health Care Equipment,,custom,"postings reference careers.conmed.com (own site), no ATS domain visible | https://www.glassdoor.ie/Job/united-states-conmed-jobs-SRCH_IL.0,13_IN1_KO14,20.htm"
+SP600,CNR,"Core Natural Resources, Inc.",Energy,Coal & Consumable Fuels,,custom,official careers page on corenaturalresources.com; no third-party ATS URL | http://corenaturalresources.com/careers/
+SP600,CNXC,Concentrix,Industrials,Data Processing & Outsourced Services,,none,10_KO11 | https://www.glassdoor.com/Jobs/Concentrix-home-office-Jobs-EI_IE31549.0
+SP600,COCO,The Vita Coco Company,Consumer Staples,Soft Drinks & Non-alcoholic Beverages,,none,
+SP600,COLL,"Collegium Pharmaceutical, Inc.",Health Care,Pharmaceuticals,,greenhouse,board=collegiumpharma | https://job-boards.greenhouse.io/collegiumpharma?error=true
+SP600,CON,"Concentra Group Holdings Parent, Inc.",Health Care,Health Care Services,,custom,company-domain careers page; no third-party ATS domain seen | concentra.com/careers
+SP600,COTY,Coty,Consumer Staples,Personal Care Products,,none,"aggregators only; no ATS domain visible | https://www.glassdoor.com/Jobs/Coty-philosophy-cosmetics-Jobs-EI_IE7654.0,4_KO5,25.htm"
+SP600,CPB,The Campbell's Company,Consumer Staples,Packaged Foods & Meats,,custom,own branded careers site careers.thecampbellscompany.com | https://careers.thecampbellscompany.com/jobs
+SP600,CPK,Chesapeake Utilities Corp.,Utilities,Gas Utilities,,none,no ATS domain in search results | https://www.indeed.com/q-chesapeake-utilities-jobs.html
+SP600,CRC,California Resources Corporation,Energy,Oil & Gas Exploration & Production,,none,only aggregator listings found; no ATS signal
+SP600,CRGY,Crescent Energy Company,Energy,Oil & Gas Exploration & Production,,none,
+SP600,CRI,"Carter's, Inc.",Consumer Discretionary,"Apparel, Accessories & Luxury Goods",,custom,careers.carters.com; no third-party ATS domain seen | https://careers.carters.com/wholesale-planner/job/P1-6585993-0
+SP600,CRK,"Comstock Resources, Inc.",Energy,Oil & Gas Exploration & Production,,none,search returned different company (Comstock Companies real estate); no careers site found | https://www.indeed.com/cmp/Comstock-Companies
+SP600,CRVL,CorVel Corporation,Health Care,Health Care Services,,none,no ATS signal after 1-2 searches
+SP600,CSR,Centerspace Trust,Real Estate,Multi-Family Residential REITs,,none,no ATS domain in search results | https://www.indeed.com/cmp/Centerspace-1?from=mobviewjob&tk=1iei4d77m24sm002&fromjk=271b7d30c1c2c9dd&attributionid=mobvjcmp
+SP600,CSW,"CSW Industrials, Inc.",Industrials,Industrial Conglomerates,,none,no deterministic ATS evidence from search; aggregators (glassdoor/nexxt/recruit.net/theladders) only
+SP600,CURB,Curbline Properties Corp.,Real Estate,Retail REITs,,paylocity,recruiting.paylocity.com job board | https://recruiting.paylocity.com/recruiting/jobs/All/1ffc176c-0900-470c-b90c-ffef0d84a0d8/Curbline-Properties
+SP600,CVCO,"Cavco Industries, Inc.",Consumer Discretionary,Homebuilding,,custom,careers.cavco.com; no third-party ATS domain seen | https://careers.cavco.com/benefits/
+SP600,CVI,"CVR Energy, Inc.",Energy,Oil & Gas Refining & Marketing,,none,aggregators only; no ATS domain visible | https://www.dreamhire.io/jobs/cvr-energy/environmental-engineer-i
+SP600,CVSA,Covista Inc.,Consumer Discretionary,Education Services,,none,no clear ATS signal found in search results
+SP600,CWEN,"Clearway Energy, Inc. (Class C)",Utilities,Renewable Electricity,,greenhouse,board slug=clearwayjobs | http://job-boards.greenhouse.io/clearwayjobs
+SP600,CWEN.A,"Clearway Energy, Inc. (Class A)",Utilities,Renewable Electricity,,greenhouse,board slug=clearwayjobs | https://job-boards.greenhouse.io/clearwayjobs/jobs/5235205007
+SP600,CWK,Cushman & Wakefield plc,Real Estate,Real Estate Services,,custom,own-domain careers portal | careers.cushmanwakefield.com
+SP600,CWST,"Casella Waste Systems, Inc.",Industrials,Environmental & Facilities Services,,icims,iCIMS careers center (careers-casella.icims.com) | https://careers-casella.icims.com/jobs/intro?hashed=-625979088&mobile=true&width=414&height=608&bga=true&needsRedirect=false&jan1offset=0&jun1offset=0
+SP600,CWT,California Water Service Group,Utilities,Water Utilities,,none,"search returned state water agencies, not the company; no careers signal found | https://www.acwa.com/careers/utility-service-worker-i-ii-2/"
+SP600,CXW,CoreCivic,Industrials,Diversified Support Services,,custom,postings quote apply links at jobs.corecivic.com (self-hosted) | http://careers.ohpsych.org/jobs/education/doctorate
+SP600,CZR,Caesars Entertainment,Consumer Discretionary,Casinos & Gaming,,none,no ATS domain in search results | https://www.indeed.com/cmp/Caesars-Entertainment?from=mobviewjob&tk=1iclc5c7p22rr004&fromjk=883a75e510325c8b&attributionid=mobvjcmp
+SP600,DAN,Dana Incorporated,Consumer Discretionary,Automotive Parts & Equipment,,custom,self-built job portal on own domain jobs.dana.com (per Built In profile) | https://jobs.dana.com
+SP600,DCH,Dauch Corporation,Consumer Discretionary,Automotive Parts & Equipment,,custom,招聘站 careers.dauch.com（招聘联系邮箱已并入 @aam.com，即 American Axle 收购后）；未看到 ATS 域名 | https://careers.dauch.com/en/business/job_type/temporary/44944/5
+SP600,DEA,"Easterly Government Properties, Inc.",Real Estate,Office REITs,,none,no careers page found after 2 searches
+SP600,DEI,Douglas Emmett,Real Estate,Office REITs,,none,aggregators (indeed/seasoned) only; no ATS domain visible | https://www.seasoned.co/job/cook-dickeys-barbecue-pit-fort-worth-tx_b0a87621-b69e-4d27-afc9-7cc40c05c125
+SP600,DFH,"Dream Finders Homes, Inc.",Consumer Discretionary,Homebuilding,,none,no ATS signal in search results
+SP600,DLX,Deluxe Corporation,Industrials,Commercial Printing,,custom,company press release directs applicants to jobs.deluxe.com; no ATS domain seen | https://www.nasdaq.com/press-release/deluxe-seeking-employees-for-remittance-processing-in-chicago-2021-04-16
+SP600,DMC,Del Monte Corporation,Consumer Staples,Packaged Foods & Meats,,custom,self-built careers portal on own domain delmontefoods.com/careers | https://www.delmontefoods.com/careers
+SP600,DNOW,NOW Inc,Industrials,Trading Companies & Distributors,,none,
+SP600,DORM,"Dorman Products, Inc.",Consumer Discretionary,Automotive Parts & Equipment,,none,no company careers page found after 2 searches (text-to-apply only)
+SP600,DRH,DiamondRock Hospitality Company,Real Estate,Hotel & Resort REITs,,none,small REIT; no careers ATS signal found | https://theorg.com/org/diamondrock-hospitality/offices/hq
+SP600,DV,DoubleVerify Holdings Inc.,Communication Services,Advertising,,greenhouse,board slug=doubleverify | https://boards.greenhouse.io/doubleverify/jobs/8060784002
+SP600,DXPE,"DXP Enterprises, Inc.",Industrials,Trading Companies & Distributors,,none,no ATS domain in search results | https://www.indeed.com/cmp/Dxp-Enterprises?campaignid=mobvjcmp&from=mobviewjob&tk=1i178jhhoirpe802&fromjk=dd2c5fc82b4db61d
+SP600,ECG,"Everus Construction Group, Inc.",Industrials,Construction & Engineering,,none,no deterministic ATS evidence from search; aggregators (grabjobs/monster/ohiomeansjobs) only
+SP600,EMN,Eastman Chemical Company,Materials,Specialty Chemicals,,none,no careers-page or ATS signal found in search results | https://www.indeed.com/cmp/Eastman-Chemical?campaignid=mobvjcmp&from=mobviewjob&tk=1ie5b0uelk3eb801&fromjk=5ab3161e8c879c99&attributionid=mobvjcmp
+SP600,ENOV,Enovis,Health Care,Health Care Equipment,,workday,tenant=enovis; site=enovis | https://enovis.wd5.myworkdayjobs.com/enovis/job/enovis-united-states-remote/client-service-associate_r0031633
+SP600,ENR,Energizer,Consumer Staples,Household Products,,none,aggregators only; no ATS domain visible | https://www.glassdoor.com/Jobs/Energizer-Holdings-Jobs-E9406.htm
+SP600,EPAC,Enerpac Tool Group,Industrials,Industrial Machinery & Supplies & Components,,none,no clear ATS signal found in search results
+SP600,EPC,Edgewell Personal Care,Consumer Staples,Household Products,,none,22_IL.23 | https://www.glassdoor.com/Jobs/Edgewell-Personal-Care-Saint-Louis-Jobs-EI_IE1028523.0
+SP600,EPRT,"Essential Properties Realty Trust, Inc.",Real Estate,Diversified REITs,,custom,官方招聘页在自有域名下直接挂载职位列表 | https://essentialproperties.com/career/
+SP600,ESE,ESCO Technologies Inc.,Industrials,Industrial Machinery & Supplies & Components,,custom,site map lists a Careers section; no portal or ATS slug observed | https://www.escotechnologies.com/site-map/
+SP600,ESI,Element Solutions,Materials,Specialty Chemicals,,custom,careers page on own domain; no third-party ATS signal found | https://www.elementsolutionsinc.com/careers
+SP600,ETSY,Etsy,Consumer Discretionary,Broadline Retail,,custom,"careers at etsy.com/careers (own site), no ATS domain visible | https://github.com/root-happy-jack/remote-jobs/blob/HEAD/src/companies/etsy.md"
+SP600,EYE,National Vision Holdings,Consumer Discretionary,Specialty Stores,,smartrecruiters,board=NationalVision1 | https://jobs.smartrecruiters.com/NationalVision1/744000120250177-sales-associate-optical-part-time
+SP600,FA,First Advantage Corporation,Industrials,Human Resource & Employment Services,,none,no ATS domain in search results | https://www.flexjobs.com/gjw/first_advantage/bilingual-operations-specialist/publicjobs?id=688d26a6-ac8f-471e-a499-f1003770f5e8
+SP600,FBRT,"Franklin BSP Realty Trust, Inc.",Real Estate,Mortgage REITs,,none,
+SP600,FCPT,"Four Corners Property Trust, Inc.",Real Estate,Other Specialized REITs,,none,公司仅 11-50 人；未发现招聘站或 ATS 域名 | https://theorg.com/org/four-corners-property-trust/org-chart/jack-todd
+SP600,FELE,Franklin Electric,Industrials,Industrial Machinery & Supplies & Components,,pinpoint,careers hosted on Pinpoint ATS (pinpointhq.com) | https://franklin-electric.pinpointhq.com/fr/postings/d9e6dc76-ffc6-4e7f-9a27-9936432a86f4
+SP600,FIZZ,National Beverage Corp.,Consumer Staples,Soft Drinks & Non-alcoholic Beverages,,none,aggregators only; no ATS domain visible | https://www.indeed.com/cmp/Tootsie-Roll-Industries/jobs
+SP600,FLO,Flowers Foods,Consumer Staples,Packaged Foods & Meats,,custom,own portal careers.flowersfoods.com; no third-party ATS domain seen | https://www.remoterocketship.com/company/flowersfoods/jobs/vp-of-r-d-united-states-remote/
+SP600,FMC,FMC Corporation,Materials,Fertilizers & Agricultural Chemicals,,none,no ATS domain in search results | https://www.indeed.com/cmp/Fmc-Corporation
+SP600,FOXF,Fox Factory,Consumer Discretionary,Automotive Parts & Equipment,,none,only aggregator listings found; no ATS signal
+SP600,FRPT,Freshpet,Consumer Staples,Packaged Foods & Meats,,smartrecruiters,| https://jobs.smartrecruiters.com/Freshpet/71375852-packing-machine-operator
+SP600,FSS,Federal Signal Corporation,Industrials,Construction Machinery & Heavy Transportation Equipment,,none,no careers-site/ATS signal in search results
+SP600,FTDR,"Frontdoor, Inc.",Consumer Discretionary,Specialized Consumer Services,,none,aggregators only; no ATS domain visible | https://grabjobs.co/us/companies/frontdoor-inc-3308940/jobs
+SP600,FTRE,Fortrea,Health Care,Biotechnology,,workday,tenant=fortrea site=Fortrea | https://fortrea.wd1.myworkdayjobs.com/Fortrea/job/Bangalore/Central-Monitor-I_265447
+SP600,FUL,H.B. Fuller Company,Materials,Specialty Chemicals,,custom,jobs hosted on company subdomain jobs.hbfuller.com; no ATS domain visible | http://jobs.hbfuller.com/location/mexico-jobs/541/3996063/2
+SP600,FUN,Six Flags,Consumer Discretionary,Leisure Facilities,,custom,official apply site referenced as jobs.sixflags.com (company domain); no third-party ATS identified | https://fox5atlanta.com/news/casting-call-alligator-six-flags-over-georgia
+SP600,GBX,"The Greenbrier Companies, Inc.",Industrials,Construction Machinery & Heavy Transportation Equipment,,none,no careers-page or ATS signal found in search results | https://www.jobs2careers.com:443/Jobs/q-Retail-l-Greenbrier-AR/
+SP600,GEO,"GEO Group, Inc.",Industrials,Environmental & Facilities Services,,custom,own careers subdomain (jobs.geogroup.com); no third-party ATS signal | https://www.jobs.geogroup.com
+SP600,GFF,Griffon Corporation,Industrials,Building Products,,none,search results mostly about Griffon Aerospace (different company); no ATS signal | https://www.glassdoor.co.nz/Jobs/Griffon-Corporation-Jobs-E2278.htm
+SP600,GIII,"G-III Apparel Group, Ltd.",Consumer Discretionary,"Apparel, Accessories & Luxury Goods",,none,no clear ATS signal found in search results
+SP600,GKOS,Glaukos Corp.,Health Care,Health Care Equipment,,custom,Glaukos operates its own Careers Site; no ATS domain visible | https://www.glaukos.com/talent-acquisition-privacy-policy/
+SP600,GNL,"Global Net Lease, Inc.",Real Estate,Diversified REITs,,none,无 ATS 信号
+SP600,GO,Grocery Outlet,Consumer Staples,Food Retail,,custom,"own-domain careers page; corporate JDs route to recruiting.ultipro.com (UKG, outside taxonomy) | https://groceryoutlet.com/careers/work-in-a-store"
+SP600,GOLF,Acushnet Company,Consumer Discretionary,Leisure Products,,custom,job postings point to own employment.acushnetgolf.com; no third-party ATS signal | https://employment.acushnetgolf.com/
+SP600,GPI,"Group 1 Automotive, Inc.",Consumer Discretionary,Automotive Retail,,custom,branded job opportunities page powered by Paylocity recruiting | https://recruiting.paylocity.com/recruiting/jobs/All/2c41597c-3be3-43da-8e1c-480fe8db695c/GRANITE-POINT-MORTGAGE-TRUST-INC
+SP600,GPOR,Gulfport Energy Corporation,Energy,Oil & Gas Exploration & Production,,none,only aggregators | https://builtin.com/company/gulfport-energy-corporation/jobs
+SP600,GRBK,"Green Brick Partners, Inc.",Consumer Discretionary,Homebuilding,,none,only aggregators (indeed/builtin/monster); no official careers ATS domain found | https://www.indeed.com/cmp/Green-Brick-Partners?from=mobviewjob&tk=1ht63fcr1k62b800&fromjk=dc44f5f7c01ebc9f&attributionid=mobvjcmp
+SP600,GT,Goodyear Tire and Rubber Company,Consumer Discretionary,Tires & Rubber,,other,PeopleScout RPO site goodyear.greatjob.net; recruiters goodyearteam@peoplescout.com | https://goodyear.greatjob.net/
+SP600,GTES,Gates Corporation,Industrials,Industrial Machinery & Supplies & Components,,custom,官方视频指向 careers.gates.com（及 gates.com/careers）；未看到 ATS 域名 | https://www.youtube.com/watch?v=KYUr_IZjMuc
+SP600,GTM,ZoomInfo,Communication Services,Interactive Media & Services,,greenhouse,careers FAQ mentions Greenhouse autofill; board slug not visible from search | https://www.zoominfo.com/careers/faqs
+SP600,GTY,Getty Realty Corp.,Real Estate,Retail REITs,,none,"iCIMS results (jobs-getty.icims.com) belong to J. Paul Getty Trust museum, not Getty Realty Corp; no ATS signal for the REIT | https://www.linkedin.com/company/getty-realty-corp?trk=organization_guest_main-feed-card-text"
+SP600,GVA,"Granite Construction, Inc.",Industrials,Construction & Engineering,,none,no ATS signal (taleo URL found belonged to different company Granite Rock)
+SP600,HAYW,"Hayward Holdings, Inc.",Industrials,Electrical Components & Equipment,,custom,careers page on company domain; no ATS domain visible | https://au.hayward.com/company/careers
+SP600,HCC,"Warrior Met Coal, Inc.",Materials,Steel,,custom,own-domain careers page (warriormetcoal.com/careers) per recruiter LinkedIn post; no ATS host identified
+SP600,HCSG,"Healthcare Services Group, Inc.",Industrials,Environmental & Facilities Services,,icims,careers-hcsgcorp.icims.com | https://skowhegan.us.expertini.com/job/cook-skowhegan-healthcare-services-group-inc-7ea22ac927504aaa94ac0eddd4b16746105/
+SP600,HE,"Hawaiian Electric Industries, Inc.",Utilities,Electric Utilities,,custom,own careers page at hawaiianelectric.com/careers; no third-party ATS signal | https://www.hawaiianelectric.com/a/7586
+SP600,HIW,Highwoods Properties,Real Estate,Office REITs,,custom,"careers page at highwoods.com/careers (own site), no ATS domain visible | https://www.quidditch.info/h-office/highwoods-properties-corporate-headquarters.html"
+SP600,HLX,"Helix Energy Solutions Group, Inc.",Energy,Oil & Gas Equipment & Services,,none,no ATS signal after 1-2 searches
+SP600,HNI,HNI Corporation,Industrials,Office Services & Supplies,,none,w-blue+grass | https://www.snagajob.com/find-jobs/c-hni+corporation
+SP600,HP,"Helmerich & Payne, Inc.",Energy,Oil & Gas Drilling,,workday,job posting links H&P careers site to hpinc.wd5.myworkdayjobs.com/hpinc; tenant=hpinc|site=hpinc | https://careers.utpb.edu/jobs/helmerich-payne-inc-field-engineering-intern/
+SP600,HRMY,"Harmony Biosciences Holdings, Inc.",Health Care,Biotechnology,,none,no careers-page or ATS signal found in search results | https://www.recruit.net/company-harmony-biosciences-jobs
+SP600,HSTM,"HealthStream, Inc.",Health Care,Health Care Technology,,paycom,job posting apply link goes to paycomonline.net ATS | https://jobs.code4lib.org/employers/healthstream-inc
+SP600,HTLD,"Heartland Express, Inc.",Industrials,Cargo Ground Transportation,,none,aggregators only; no ATS domain visible | https://directlyapply.com/employer/heartland-express?jobId=69bc6098853e483e6ccdd4fc&lat=41.548641&lng=-88.128502
+SP600,HTO,H2O America,Utilities,Water Utilities,,none,no clear ATS signal found in search results
+SP600,HUBG,"Hub Group, Inc.",Industrials,Air Freight & Logistics,,none,9_IL.10 | https://www.glassdoor.com/Jobs/Hub-Group-Garland-Jobs-EI_IE3675.0
+SP600,HWKN,"Hawkins, Inc.",Materials,Commodity Chemicals,,ukg,"Hawkins 官方 LinkedIn 发帖 ""Careers with Hawkins - Apply Now! recruiting.ultipro.com""（UKG/Ultipro 前身） | https://www.linkedin.com/posts/hawkins-inc-_careers-with-hawkins-apply-now-activity-7501278058616614912-0oUn"
+SP600,HZO,"MarineMax, Inc.",Consumer Discretionary,Specialty Stores,,custom,"own-domain careers pages; apply links route to recruiting.ultipro.com (UKG, outside taxonomy) | http://www.marinemax.com/employment.aspx"
+SP600,IART,Integra Lifesciences Holdings,Health Care,Health Care Equipment,,none,no careers ATS signal; Workday referenced only for internal HR analytics
+SP600,IBP,"Installed Building Products, Inc.",Consumer Discretionary,Homebuilding,,custom,subsidiary careers pages link to recruiting.ultipro.com (UKG) job board | https://www.ibpwestpalm.com/careers/
+SP600,ICUI,ICU Medical,Health Care,Health Care Supplies,,oracle,single AI-generated third-party page quoting eduu.fa.us2.oraclecloud.com CX link; an HR-tech posting says ICU Medical is implementing Workday HCM - needs verification | https://www.marketingmonk.so/jobboard/jobs/intern-marketing-at-icu-med-careers-ew3vf5
+SP600,IIPR,"Innovative Industrial Properties, Inc.",Real Estate,Industrial REITs,,none,search surfaced unrelated companies only; no ATS domain for IIPR | https://www.indeed.com/cmp/Innovative-Resources-For-Independence-2?campaignid=mobvjcmp&from=mobviewjob&tk=1i27t5n38i415800&fromjk=fd995dd4192b1dd9
+SP600,INDV,Indivior,Health Care,Pharmaceuticals,,workday,tenant=indivior|site=indivior | https://indivior.wd3.myworkdayjobs.com/indivior/job/remote-nc/account-director--criminal-justice-systems--southeast-_r2803-1
+SP600,INSP,"Inspire Medical Systems, Inc.",Health Care,Health Care Equipment,,none,仅第三方职位页；未发现招聘站或 ATS 域名 | https://www.glassdoor.com/Jobs/Inspire-Medical-Systems-Jobs-E837302.htm
+SP600,INSW,"International Seaways, Inc.",Energy,Oil & Gas Storage & Transportation,,none,no careers-site/ATS signal in search results
+SP600,INVA,"Innoviva, Inc.",Health Care,Pharmaceuticals,,none,"aggregators only; no ATS domain visible | https://www.indeed.com/q-investors-title-$40,000-jobs.html"
+SP600,INVX,"Innovex International, Inc.",Energy,Oil & Gas Equipment & Services,,none,ambiguous search results (unrelated 'Innovex' companies); no ATS signal
+SP600,IOSP,"Innospec, Inc.",Materials,Specialty Chemicals,,none,only aggregators (indeed/glassdoor/lensa/linkedin); no ATS domain found | https://www.indeed.com/cmp/Innospec-Inc.
+SP600,IPAR,"Inter Parfums, Inc.",Consumer Staples,Household Products,,none,only aggregator listings found; no ATS signal
+SP600,IRDM,Iridium Communications,Communication Services,Alternative Carriers,,none,
+SP600,ITGR,Integer Holdings Corporation,Health Care,Health Care Equipment,,workday,integer.wd1.myworkdayjobs.com; tenant=integer site=External | https://www.wayup.com/i-Manufacturing-j-Integer-Holdings-Corporation-163220080580734/
+SP600,IVT,InvenTrust Properties,Real Estate,Retail REITs,,none,search returned unrelated companies; no careers signal found | https://www.indeed.com/cmp/Innovative-Industries/job-titles
+SP600,JBGS,JBG Smith,Real Estate,Office REITs,,none,no ATS signal after 1-2 searches
+SP600,JBLU,JetBlue,Industrials,Passenger Airlines,,none,only aggregators; no ATS domain found | https://www.indeed.com/cmp/Jetblue?from=serpCompanyHeaderLogo
+SP600,JBSS,"John B. Sanfilippo & Son, Inc.",Consumer Staples,Packaged Foods & Meats,,none,no deterministic ATS evidence from search; aggregators (indeed/glassdoor/nexxt) only
+SP600,JBTM,JBT Marel Corporation,Industrials,Industrial Machinery & Supplies & Components,,none,no careers-page or ATS signal found in search results | https://us.cmhprod.indeed.com/cmp/Jbt-Marel-1?campaignid=mobvjcmp&from=mobviewjob&tk=1jv937kafg7ef800&fromjk=bc4c55b2a28594e8
+SP600,JJSF,J&J Snack Foods Corp.,Consumer Staples,Packaged Foods & Meats,,custom,own careers page with listings tools; no third-party ATS signal | http://www.jjsnack.com/careers/
+SP600,JOE,St. Joe Company,Real Estate,Real Estate Development,,none,aggregators only; no ATS domain visible | https://www.indeed.com/cmp/The-St.-Joe-Company-2?campaignid=mobvjcmp&from=mobviewjob&tk=1i2k3rha1lhev802&fromjk=9959238c9d03655d
+SP600,KAI,Kadant Inc.,Industrials,Industrial Machinery & Supplies & Components,,none,no clear ATS signal found in search results
+SP600,KALU,Kaiser Aluminum Corporation,Materials,Aluminum,,none,only aggregators; no ATS domain found | https://www.indeed.com/cmp/Kaiser-Aluminum-4
+SP600,KFY,Korn/Ferry International,Industrials,Human Resource & Employment Services,,none,无 ATS 信号
+SP600,KGS,"Kodiak Gas Services, Inc.",Energy,Oil & Gas Equipment & Services,,custom,official recruiting video links apply to careers.kodiakgas.com; no ATS slug observed | https://www.youtube.com/watch?v=0tUmVplBmbE
+SP600,KMT,Kennametal,Industrials,Industrial Machinery & Supplies & Components,,smartrecruiters,careers.smartrecruiters.com; company=Kennametal1 | https://careers.smartrecruiters.com/Kennametal1
+SP600,KMX,"CarMax, Inc.",Consumer Discretionary,Automotive Retail,,custom,"careers at careers.carmax.com (own site), no ATS domain visible | https://careers.carmax.com/jobs?filter%5Bcategory%5D%5B0%5D=Merchandising"
+SP600,KNTK,"Kinetik Holdings, Inc.",Energy,Oil & Gas Storage & Transportation,,none,results conflated Kinetic startup/PLC/Group; no ATS for Kinetik Holdings | https://www.indeed.com/cmp/Kinetik
+SP600,KOP,"Koppers Holdings, Inc.",Materials,Commodity Chemicals,,none,only aggregators; no ATS domain found | https://www.indeed.com/cmp/Koppers-Inc.
+SP600,KRMN,Karman Holdings,Industrials,Aerospace & Defense,,none,
+SP600,KSS,Kohl's Corp.,Consumer Discretionary,Broadline Retail,,none,"仅第三方职位页；未发现招聘站或 ATS 域名 6_IL.7 | https://www.glassdoor.com/Jobs/Kohl-s-Janesville-Jobs-EI_IE592.0,17_IC1133435.htm"
+SP600,KTB,Kontoor Brands,Consumer Discretionary,"Apparel, Accessories & Luxury Goods",,none,no careers-site/ATS signal in search results
+SP600,KWR,Quaker Chemical Corporation,Materials,Specialty Chemicals,,none,aggregators only; no ATS domain visible | https://www.glassdoor.sg/Jobs/Kewaunee-Scientific-Jobs-E1565.htm
+SP600,LAUR,"Laureate Education, Inc.",Consumer Discretionary,Education Services,,none,no ATS signal in search results
+SP600,LBRT,"Liberty Energy, Inc.",Energy,Oil & Gas Equipment & Services,,custom,application pages on company domain libertyenergy.com; no ATS domain visible | https://libertyenergy.com/about/working-at-liberty/canada-application/
+SP600,LCII,LCI Industries,Consumer Discretionary,Automotive Parts & Equipment,,phenom,careers.lippert.com/careers-home/jobs?stretchUnit=MILES params = Phenom pattern
+SP600,LEG,Leggett & Platt,Consumer Discretionary,Home Furnishings,,custom,company-hosted careers.leggett.com | https://careers.leggett.com/search/
+SP600,LEU,Centrus Energy Corp.,Energy,Coal & Consumable Fuels,,custom,LinkedIn post points to own centrusenergy.com/careers; no third-party ATS signal | https://centrusenergy.com/careers
+SP600,LFST,Lifestance Health,Health Care,Health Care Services,,custom,"postings point to careers.lifestance.com (own site), no ATS domain visible | https://www.indeed.com/q-lifestance-health-l-gladstone,-or-jobs.html"
+SP600,LGIH,LGI Homes,Consumer Discretionary,Homebuilding,,none,no ATS signal after 1-2 searches
+SP600,LGND,"Ligand Pharmaceuticals, Inc.",Health Care,Biotechnology,,none,"career page listed as ligand.submit4jobs.com (third-party, off-list ATS) per sdbn.org directory | https://sdbn.org/directory-7/ligand-pharmaceuticals/"
+SP600,LKQ,LKQ Corporation,Consumer Discretionary,Distributors,,none,no deterministic ATS evidence from search; aggregators (glassdoor/linkedin/indeed/recruit.net) only
+SP600,LMAT,LeMaitre Vascular,Health Care,Health Care Equipment,,none,no careers-page or ATS signal found in search results | https://www.indeed.com/cmp/Lemaitre-Vascular/job-titles/Manufacturing-Associate
+SP600,LNN,Lindsay Corporation,Materials,Agricultural & Farm Machinery,,custom,own careers subdomain; no third-party ATS signal | https://careers.lindsay.com/
+SP600,LPG,Dorian LPG Ltd.,Energy,Oil & Gas Storage & Transportation,,none,crew jobs via maritime recruiters; no company careers ATS found | https://magsaysaycareers.com/Partners/8/Profile
+SP600,LQDA,Liquidia Corporation,Health Care,Pharmaceuticals,,none,no clear ATS signal found in search results
+SP600,LQDT,"Liquidity Services, Inc.",Industrials,Diversified Support Services,,oracle,job posting Apply link goes to ebwi.fa.us2.oraclecloud.com (Oracle HCM candidate experience) | https://www.remoterocketship.com/company/liquidity-services/jobs/accounting-manager-united-states-remote/
+SP600,LRN,"Stride, Inc.",Consumer Discretionary,Education Services,,none,无 ATS 信号
+SP600,LTC,"LTC Properties, Inc.",Real Estate,Health Care REITs,,none,no careers portal found; small REIT (~23 employees per 10-K)
+SP600,LTH,"Life Time Group Holdings, Inc.",Consumer Discretionary,Leisure Facilities,,custom,company press points to own careers.lifetime.life; no third-party ATS signal | https://careers.lifetime.life
+SP600,LUMN,Lumen Technologies,Communication Services,Alternative Carriers,,successfactors,internal jobs site directs applicants to SuccessFactors Home -> Careers | https://internaljobs.centurylink.com/
+SP600,LW,Lamb Weston,Consumer Staples,Packaged Foods & Meats,,custom,hiring page says apply 'in Workday' but no myworkdayjobs.com URL; portal self-hosted at careers.lambweston.com | https://careers.lambweston.com/hiring-process#step-1
+SP600,LXP,Lexington Realty Trust,Real Estate,Diversified REITs,,none,"search results only theorg.com and employment verification sites, no careers portal or ATS domain found | https://theorg.com/org/lexington-realty-trust/teams/accounting-and-finance"
+SP600,LYFT,"Lyft, Inc.",Industrials,Passenger Ground Transportation,,custom,current portal lyft.com/careers is self-built; historic jobs.lever.co/lyft board exists (2018) but no current evidence | https://www.lyft.com/careers/life-at-lyft
+SP600,LZ,"LegalZoom.com, Inc.",Industrials,Research & Consulting Services,,jobvite,招聘站 jobs.jobvite.com/legalzoom（Jobvite 不在分类体系内，如实记录） | https://jobs.jobvite.com/legalzoom/jobs
+SP600,LZB,"La-Z-Boy, Inc.",Consumer Discretionary,Home Furnishings,,none,no careers-site/ATS signal in search results
+SP600,MAC,Macerich,Real Estate,Retail REITs,,custom,"careers at macerich.com/careers (own site), no ATS domain visible | https://www.macerich.com/careers"
+SP600,MAN,ManpowerGroup,Industrials,Human Resource & Employment Services,,custom,own portal manpower.com / My Manpower app | https://www.manpower.com/en/for-job-seekers/my-manpower-app
+SP600,MATW,Matthews International Corporation,Consumer Discretionary,Specialized Consumer Services,,none,"search results only glassdoor/indeed/mitewp job listings, no careers portal or ATS domain found | https://www.indeed.com/cmp/Matthews-International?campaignid=mobvjcmp&from=mobviewjob&tk=1hvllbjvljm2m801&fromjk=d133b684ba78f943"
+SP600,MATX,"Matson, Inc.",Industrials,Marine Transportation,,none,only aggregator listings found; no ATS signal
+SP600,MBC,"MasterBrand, Inc.",Industrials,Building Products,,icims,careers-masterbrand.icims.com | https://www.manta.com/c/mbyrcps/masterbrand-cabinets-inc
+SP600,MBGL,"Mobility Global, Inc.",Industrials,Data Processing & Outsourced Services,,none,搜索仅返回聚合站职位（builtin/jobright/techcareers），未找到公司官网招聘页
+SP600,MCRI,"Monarch Casino & Resort, Inc.",Consumer Discretionary,Casinos & Gaming,,custom,"branded job board at jobs.monarchblackhawk.com (own domain), no ATS domain visible | https://jobs.monarchblackhawk.com/jobs/page/6"
+SP600,MD,Pediatrix Medical Group,Health Care,Health Care Services,,custom,postings direct applicants to www.pediatrix.com/careers; no third-party ATS domain | https://careers.apha.org/jobs/level/experienced/type/full-time/discipline/physicians-surgeons?page=3
+SP600,MDU,"MDU Resources Group, Inc.",Utilities,Multi-Utilities,,custom,self-built portal referenced in job posts: jobs.mdu.com and mdu.com/careers; underlying platform not identified | https://www.indeed.com/q-mdu-resources-group-jobs.html
+SP600,MFP,"Midera Food Processing, Inc.",Industrials,Industrial Machinery & Supplies & Components,,none,no deterministic ATS evidence from search; aggregators (linkedin/indeed) only
+SP600,MGEE,"MGE Energy, Inc.",Utilities,Electric Utilities,,none,"no careers-page or ATS signal found in search results | https://www.glassdoor.com/Overview/Working-at-MGE-Energy-EI_IE1610.11,21.htm"
+SP600,MGY,"Magnolia Oil & Gas, Corp.",Energy,Oil & Gas Exploration & Production,,custom,自建招聘页在官网域名下，无第三方ATS域名 | https://www.magnoliaoilgas.com/careers
+SP600,MHK,Mohawk Industries,Consumer Discretionary,Home Furnishings,,custom,"official job posting directs applicants to careers.mohawkind.com (own site), no ATS domain visible | https://www.youtube.com/watch?v=hmwDfIkjwN0"
+SP600,MHO,"M/I Homes, Inc.",Consumer Discretionary,Homebuilding,,none,no clear ATS signal found in search results
+SP600,MLKN,"MillerKnoll, Inc.",Industrials,Office Services & Supplies,,none,"search results only indeed/glassdoor/grabjobs listings, no careers portal or ATS domain found | https://www.indeed.com/cmp/Millerknoll-2?from=mobviewjob&tk=1ij89rqjah72n800&fromjk=38e4468a285cc1de&attributionid=mobvjcmp"
+SP600,MMI,"Marcus & Millichap, Inc.",Real Estate,Real Estate Services,,none,无 ATS 信号
+SP600,MMSI,"Merit Medical Systems, Inc.",Health Care,Health Care Supplies,,workday,tenant=merit|site=Merit | merit.wd503.myworkdayjobs.com/Merit
+SP600,MPT,Medical Properties Trust,Real Estate,Health Care REITs,,custom,官网招聘页，无第三方ATS域名 | https://medicalpropertiestrust.com/careers/
+SP600,MRCY,Mercury Systems,Industrials,Electrical Components & Equipment,,none,aggregators only; no ATS domain visible | https://www.indeed.com/cmp/Mercury-Systems-3
+SP600,MRP,"Millrose Properties, Inc.",Real Estate,Single-Family Residential REITs,,none,"results all for similarly-named different companies (Milrose Consultants, Mill-Rose) | https://www.indeed.com/cmp/Milrose-Consultants?campaignid=mobvjcmp&from=mobviewjob&tk=1i0pbtencj45r801&fromjk=63ec550323a4d8d9"
+SP600,MRTN,"Marten Transport, Ltd.",Industrials,Cargo Ground Transportation,,none,"search results only thetrucker.com job board listings, no careers portal or ATS domain found | https://jobs.thetrucker.com/truck-driving-jobs/wa/pasco/cdl-a-otr-owner-operator-truck-driver-refrigerated-over-the-road-12450466"
+SP600,MSEX,Middlesex Water Company,Utilities,Water Utilities,,clearcompany,footer: Applicant Tracking System Powered by ClearCompany HRM (clearcompany not in standard mapping) | https://middlesexwater.hrmdirect.com/employment/job-openings.php?sort=sd&&search=true&jbsrc=1031
+SP600,MSGS,Madison Square Garden Sports Corp.,Communication Services,Movies & Entertainment,,greenhouse,msgsports.com 职位 URL 含 gh_jid/gh_src 参数，后端为 Greenhouse；无 greenhouse.io 直接域名 | https://www.msgsports.com/jobs/hockey-program-instructor-new-york-city-ny/?gh_jid=5126623007&gh_src=a11e2a797us
+SP600,MTCH,Match Group,Communication Services,Interactive Media & Services,,custom,官网招聘页mtch.com/careers，无第三方ATS域名 | https://mtch.com/careers/
+SP600,MTH,Meritage Homes Corporation,Consumer Discretionary,Homebuilding,,none,aggregators only; no ATS domain visible | https://www.indeed.com/cmp/Meritage-Homes
+SP600,MTRN,Materion Corp.,Materials,Diversified Metals & Mining,,none,no ATS signal in search results
+SP600,MTUS,Metallus Inc,Materials,Steel,,custom,"self-hosted careers portal on company domain (careers.metallus.com, also referenced via metallus.com/careers); underlying platform not identified | https://careers.metallus.com/Metallus/"
+SP600,MTX,Minerals Technologies,Materials,Specialty Chemicals,,none,only aggregator listings found; no ATS signal
+SP600,MWA,Mueller Water Products,Industrials,Industrial Machinery & Supplies & Components,,custom,company-hosted muellerwaterproducts.com/careers | https://muellerwaterproducts.com/careers
+SP600,MYRG,"MYR Group, Inc.",Industrials,Construction & Engineering,,custom,子公司共用careers.myrenergyservices.com；无第三方ATS域名，具体平台未明 | https://careers.myrenergyservices.com/
+SP600,NE,Noble Corporation,Energy,Oil & Gas Drilling,,workday,tenant=noblecorp site=noblecorp (noblecorp.wd1.myworkdayjobs.com) | https://noblecorp.wd1.myworkdayjobs.com/en-US/noblecorp
+SP600,NEO,"NeoGenomics Laboratories, Inc.",Health Care,Health Care Services,,none,no ATS signal after 1-2 searches | https://www.indeed.com/q-neogenomics-laboratories-jobs.html
+SP600,NEOG,Neogen,Health Care,Health Care Supplies,,none,-ky-jobs.html | https://www.indeed.com/q-neogen-l-montgomery-county
+SP600,NGVT,"Ingevity, Corp.",Materials,Specialty Chemicals,,none,no deterministic ATS evidence from search; aggregators (glassdoor/indeed/grabjobs) only
+SP600,NHC,"National Healthcare, Corp.",Health Care,Health Care Facilities,,none,no careers-page or ATS signal found in search results | https://www.indeed.com/cmp/National-Healthcare-Corporation
+SP600,NHI,"National Health Investors, Inc.",Real Estate,Health Care REITs,,none,未找到官网招聘页
+SP600,NOG,"Northern Oil and Gas, Inc.",Energy,Oil & Gas Exploration & Production,,none,no careers signal found; only financial data results | https://finnhub.io/?q=%22NOG%22
+SP600,NPK,"National Presto Industries, Inc.",Industrials,Aerospace & Defense,,custom,careers page at gopresto.com/careers; no ATS domain observed | https://www.gopresto.com/careers/
+SP600,NPO,"EnPro Industries, Inc.",Industrials,Industrial Machinery & Supplies & Components,,none,"jobs hosted on careers.pageuppeople.com (PageUp, third-party off-list ATS); careers.enpro.com is the public job listing page | https://careers.pageuppeople.com/1050/cw/en-us/listing/?jobnotfound=true"
+SP600,NSIT,"Insight Enterprises, Inc.",Industrials,Technology Distributors,,none,无招聘 ATS 证据（提到 SAP→Workday 转型是 ERP，非招聘系统）
+SP600,NSP,Insperity,Industrials,Human Resource & Employment Services,,custom,"own-domain careers job board; apply links route to insperity.avature.net (Avature, outside taxonomy) | https://careers.insperity.com/jobs/?search_keywords"
+SP600,NTST,NETSTREIT Corp.,Real Estate,Retail REITs,,none,未找到官网招聘页；搜索多返回同名错误公司（Next Street）
+SP600,NWL,Newell Brands,Consumer Discretionary,Housewares & Specialties,,custom,"apply URLs on jobs.newellbrands.com (own domain), no ATS vendor visible | https://jobs.designengine.com/jobs/associate-technical-product-development/"
+SP600,NWN,NW Natural,Utilities,Gas Utilities,,custom,self-hosted careers.nwnatural.com; appone.com link seen only for NW Natural Water subsidiary job | https://careers.nwnatural.com/search/
+SP600,NX,Quanex Building Products Corporation,Industrials,Building Products,,none,-mn-jobs.html | https://www.indeed.com/q-quanex-l-saint-cloud
+SP600,NXRT,"NexPoint Residential Trust, Inc.",Real Estate,Multi-Family Residential REITs,,none,
+SP600,OGN,Organon & Co.,Health Care,Pharmaceuticals,,workday,tenant=organon|site=searchjobs | https://organon.wd5.myworkdayjobs.com/searchjobs/job/usa---pennsylvania---plymouth-meeting/regional-director--field-medical_r536458-3
+SP600,OI,"O-I Glass, Inc.",Materials,"Metal, Glass & Plastic Containers",,smartrecruiters,SmartRecruiters官方域名careers.smartrecruiters.com/o-i | https://careers.smartrecruiters.com/o-i
+SP600,OII,"Oceaneering International, Inc.",Energy,Oil & Gas Equipment & Services,,phenom,Phenom URL pattern on own domain (careers.oceaneering.com/global/en/); no phenompeople.com domain seen | https://careers.oceaneering.com/global/en/job/OCINGLOBAL7400/Production-Maintenance-Technician
+SP600,OMCL,Omnicell,Health Care,Health Care Technology,,none,no ATS signal in search results
+SP600,OPLN,"OPENLANE, Inc.",Industrials,Diversified Support Services,,custom,company blog post directs applicants to openlanedev.wpenginepowered.com/careers (official application channel on company domain); underlying platform not identified | https://openlanedev.corporate.openlane.com/?s
+SP600,OSW,OneSpaWorld Holdings Limited,Consumer Discretionary,Leisure Facilities,,none,only aggregator listings found; no ATS signal
+SP600,OTTR,Otter Tail Corporation,Utilities,Electric Utilities,,custom,company-hosted ottertail.com/careers | https://www.ottertail.com/careers/
+SP600,OUT,Outfront Media,Real Estate,Other Specialized REITs,,none,仅聚合站结果，未找到公司官网招聘页
+SP600,PAHC,Phibro Animal Health,Health Care,Pharmaceuticals,,none,aggregators only; no ATS domain visible | https://www.indeed.com/cmp/Phibro-Animal-Health-Corporation/jobs
+SP600,PARR,"Par Pacific Holdings, Inc.",Energy,Oil & Gas Refining & Marketing,,none,no ATS signal after 1-2 searches
+SP600,PAYC,Paycom,Industrials,Human Resource & Employment Services,,none,"search results only glassdoor/indeed listings, no careers portal or ATS domain found | https://www.glassdoor.com/Jobs/Paycom-Payroll-Llc-Jobs-E136736.htm"
+SP600,PATK,"Patrick Industries, Inc.",Consumer Discretionary,Automotive Parts & Equipment,,none,no deterministic ATS evidence from search; aggregators (indeed/glassdoor/jobs2careers) only
+SP600,PBH,Prestige Consumer Healthcare,Health Care,Pharmaceuticals,,none,no careers-page or ATS signal found in search results | https://www.indeed.com/cmp/Prestige-Consumer-Healthcare?from=mobviewjob&tk=1icdn1sf3kuqs800&fromjk=5ab3161e8c879c99&attributionid=mobvjcmp
+SP600,PBI,"Pitney Bowes, Inc.",Industrials,Office Services & Supplies,,custom,自建招聘页careers.pitneybowes.com，无第三方ATS域名 | https://careers.pitneybowes.com/global/en
+SP600,PCRX,"Pacira BioSciences, Inc.",Health Care,Pharmaceuticals,,none,"aggregators only; no ATS domain visible | https://www.indeed.com/cmp/Pacira-Biosciences,-Inc."
+SP600,PEB,Pebblebrook Hotel Trust,Real Estate,Hotel & Resort REITs,,paylocity,platform not in standard list but directly observed | https://recruiting.paylocity.com/recruiting/jobs/All/Pebblebrook-Hotel-Trust/
+SP600,PECO,Phillips Edison & Company,Real Estate,Retail REITs,,none,-OH | https://www.indeed.com/cmp/Phillips-Edison-&-Company/jobs/l-Cincinnati
+SP600,PENN,Penn Entertainment,Consumer Discretionary,Casinos & Gaming,,none,无 ATS 信号
+SP600,PGNY,"Progyny, Inc.",Health Care,Health Care Services,,custom,official careers page on own domain; no ATS slug observed | https://progyny.com/careers/
+SP600,PHIN,"PHINIA, Inc.",Consumer Discretionary,Automotive Retail,,workday,tenant=phinia；site=PHINIA_Careers；招聘贴引用该Workday域名 | https://phinia.wd5.myworkdayjobs.com/
+SP600,PMT,PennyMac Mortgage Investment Trust,Real Estate,Mortgage REITs,,none,"results are for Pennymac lender (PFSI), not the REIT; no ATS signal found | https://www.indeed.com/cmp/Pennymac-2dd02824"
+SP600,POOL,Pool Corporation,Consumer Discretionary,Distributors,,none,only aggregators; no careers portal/ATS URL | https://www.glassdoor.com/Jobs/POOLCORP-Jobs-E486524.htm
+SP600,POWL,"Powell Industries, Inc.",Industrials,Electrical Components & Equipment,,none,"search results only indeed/bebee listings, no careers portal or ATS domain found | http://ca.indeed.com/cmp/Powell---Cdn?tk=199lhvdp70nih73a"
+SP600,PPLI,People Inc.,Communication Services,Interactive Media & Services,,jobvite,People Inc. Careers powered by Jobvite under 'dotdash' employer key | https://jobs.jobvite.com/dotdash/job/ooKmtfwH
+SP600,PRDO,Perdoceo Education Corp.,Consumer Discretionary,Education Services,,custom,招聘页 perdoceoed.com/Jobs-at-Perdoceo-Education；未看到 ATS 域名 | https://www.perdoceoed.com/Jobs-at-Perdoceo-Education
+SP600,PRGO,Perrigo,Health Care,Pharmaceuticals,,custom,自建招聘页careers.perrigo.com，无第三方ATS域名 | https://careers.perrigo.com/search/
+SP600,PRIM,Primoris Services Corporation,Industrials,Construction & Engineering,,custom,"careers at prim.com/careers (own site), no ATS domain visible | http://www.prim.com/careers"
+SP600,PRKS,United Parks & Resorts,Consumer Discretionary,Leisure Facilities,,custom,official press release: apply at Careers.SeaWorldParks.com | https://www.unitedparksinvestors.com/news-releases/news-release-details/2024/United-Parks--Resorts-Kicks-Off-Nationwide-Recruitment-Week-for-5000-Positions-Coast-to-Coast-Across-All-Parks/default.aspx
+SP600,PRLB,Protolabs,Industrials,Industrial Machinery & Supplies & Components,,none,-Inc. | http://www.indeed.com/cmp/Proto-Labs
+SP600,PRSU,"Pursuit Attractions & Hospitality, Inc.",Consumer Discretionary,"Hotels, Resorts & Cruise Lines",,custom,careers on own domain pursuitcollection.com (self-built) | https://www.pursuitcollection.com/
+SP600,PRVA,"Privia Health Group, Inc.",Health Care,Health Care Services,,custom,company-hosted priviahealth.com/careers | http://www.priviahealth.com/careers/
+SP600,PSMT,PriceSmart,Consumer Staples,Consumer Staples Merchandise Retail,,custom,官网careers页；申请多为邮件投递各国HR，无第三方ATS域名 | https://www.pricesmart.com/en-cr/careers
+SP600,PTCT,"PTC Therapeutics, Inc.",Health Care,Pharmaceuticals,,custom,"postings direct applicants to careers page at ptcbio.com/en/careers (own site), no ATS domain visible | https://dailyremote.com/remote-job/scientific-engagement-specialist-4741317"
+SP600,PTEN,"Patterson-UTI Energy, Inc.",Energy,Oil & Gas Drilling,,custom,apply at patenergy.com/careers per official LinkedIn; no third-party ATS domain | https://www.linkedin.com/company/patterson-uti
+SP600,PTGX,"Protagonist Therapeutics, Inc.",Health Care,Biotechnology,,none,"search results only indeed/jooble/bebee/wellfound/theorg, no careers portal or ATS domain found | https://www.indeed.com/cmp/Protagonist-Therapeutics?from=mobviewjob&tk=1iduc78pbi9ej801&fromjk=b1cd3a7619abcfc5&attributionid=mobvjcmp"
+SP600,PTON,"Peloton Interactive, Inc.",Consumer Discretionary,Leisure Products,,custom,official careers site at careers.onepeloton.com (company domain); no third-party ATS identified | https://theclipout.com/peloton-jobs/
+SP600,PZZA,Papa John's Pizza,Consumer Discretionary,Restaurants,,none,no corporate ATS signal found in search results | https://www.indeed.com/cmp/Papa-John's/locations/VA/Norfolk
+SP600,QDEL,QuidelOrtho,Health Care,Health Care Supplies,,workday,旧Ortho Clinical租户tenant=orthoclinical（wd1）出现在招聘贴；当前招聘页为自建careers.quidelortho.com | https://orthoclinical.wd1.myworkdayjobs.com/search/job/us---ny---work-from-home/senior-business-analyst_r0015560
+SP600,QNST,"QuinStreet, Inc.",Communication Services,Interactive Media & Services,,none,aggregators only; no ATS domain visible | https://echojobs.io/company/quinstreet.com
+SP600,RCUS,"Arcus Biosciences, Inc.",Health Care,Biotechnology,,jobvite,platform not in standard list but directly observed | https://jobs.jobvite.com/arcusbiosciencescareers/jobs
+SP600,RDNT,"RadNet, Inc.",Health Care,Health Care Services,,none,"search results only directlyapply/indeed listings, no careers portal or ATS domain found | https://directlyapply.com/employer/radnet"
+SP600,RES,"RPC, Inc.",Energy,Oil & Gas Equipment & Services,,none,无 ATS 信号
+SP600,REYN,Reynolds Consumer Products,Consumer Staples,Household Products,,none,no official careers page found; JDs only reference the website and an email address
+SP600,REX,REX American Resources Corporation,Energy,Oil & Gas Refining & Marketing,,none,未找到官网招聘页；rex.com为另一家不同公司
+SP600,REZI,"Resideo Technologies, Inc.",Industrials,Trading Companies & Distributors,,custom,"careers at resideo.com/careers (own site), no ATS domain visible | https://www.resideo.com/us/en/corporate/about/careers/"
+SP600,RHI,Robert Half,Industrials,Human Resource & Employment Services,,none,only aggregators; 'official job portal' mentioned without URL | https://www.indeed.com/cmp/Robert-Half/locations/NY/New%20York
+SP600,RHP,Ryman Hospitality Properties,Real Estate,Hotel & Resort REITs,,custom,official employer profile directs applicants to www.rhpcareers.com (company-owned careers portal); underlying platform not identified | https://diversityjobs.com/employer/company/1459/Ryman-Hospitality-Properties-Inc
+SP600,ROAD,"Construction Partners, Inc.",Industrials,Construction & Engineering,,custom,self-built careers portal on own domain constructionpartners.net/careers | https://constructionpartners.net/careers
+SP600,ROCK,"Gibraltar Industries, Inc.",Industrials,Building Products,,custom,招聘页 gibraltar1.com/careers；未看到 ATS 域名 | https://www.gibraltar1.com/careers/
+SP600,RRR,"Red Rock Resorts, Inc.",Consumer Discretionary,Casinos & Gaming,,none,未找到RRR自身招聘页；旗下Station Casinos在聚合页出现过Taleo字样但无可验证ATS域名
+SP600,RSI,"Rush Street Interactive, Inc.",Consumer Discretionary,Casinos & Gaming,,none,aggregators only; no ATS domain visible | https://www.indeed.com/cmp/Rush-Street-Interactive
+SP600,RUN,Sunrun,Industrials,Building Products,,none,no ATS signal in search results
+SP600,RUSHA,Rush Enterprises,Industrials,Construction Machinery & Heavy Transportation Equipment,,none,"search results only indeed listings, no careers portal or ATS domain found | https://www.indeed.com/cmp/Rush-Enterprises?campaignid=mobvjcmp&from=mobviewjob&tk=1hvsl2rua2ape001&fromjk=d6bc301d60b6ba5a"
+SP600,RXO,"RXO, Inc.",Industrials,Cargo Ground Transportation,,none,only aggregator listings found; no ATS signal
+SP600,SAFE,"Safehold, Inc.",Real Estate,Other Specialized REITs,,custom,company-hosted safeholdinc.com/careers | https://www.safeholdinc.com/careers/co/new/
+SP600,SABR,Sabre,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",,custom,招聘页careers.sabre.com（聚合站标注），无第三方ATS域名 | https://careers.sabre.com
+SP600,SAH,"Sonic Automotive, Inc.",Consumer Discretionary,Automotive Retail,,none,aggregators only; no ATS domain visible | https://charlottesights.com/2153/charlotte-employer-profile-sonic-automotive/
+SP600,SBH,"Sally Beauty Holdings, Inc.",Consumer Discretionary,Specialty Stores,,none,11409934.html; no ATS signal; postings via aggregators only | https://us.fashionjobs.com/job/sally-beauty-corporate/01001-inside-sales
+SP600,SCHL,Scholastic Corporation,Consumer Discretionary,Publishing,,none,"search results only glassdoor/indeed/jobcase/lensa/unstop; Scholastic Canada takes resumes by email (schol.ca), no ATS domain found | https://www.glassdoor.com/Jobs/Scholastic-Jobs-E2142.htm"
+SP600,SCL,Stepan Company,Materials,Specialty Chemicals,,none,no deterministic ATS evidence from search; aggregators (grabjobs/linkedin/glassdoor/lensa) only
+SP600,SDGR,"Schrödinger, Inc.",Health Care,Health Care Services,,none,no careers-page or ATS signal found in search results | https://www.indeed.com/cmp/Schr%C3%B6dinger-1/locations/NY/New%20York
+SP600,SEI,"Solaris Energy Infrastructure, Inc.",Energy,Oil & Gas Equipment & Services,,none,未找到招聘页；仅聚合站职位
+SP600,SHAK,"Shake Shack, Inc.",Consumer Discretionary,Restaurants,,custom,"apply via careers.shakeshack.com (own domain), no ATS domain visible | https://www.linkedin.com/posts/shakeshack_ready-for-a-new-gig-were-hiring-along-the-activity-7445477652884480000-rWBo"
+SP600,SHEN,Shenandoah Telecommunications Co,Communication Services,Wireless Telecommunication Services,,none,no clear ATS signal found in search results
+SP600,SHO,"Sunstone Hotel Investors, Inc.",Real Estate,Hotel & Resort REITs,,none,"search results only hcareers/theorg/refer.me/selectleaders, no careers portal or ATS domain found | https://www.hcareers.com/sunstone-hotel-investors-inc"
+SP600,SHOO,"Steven Madden, Ltd.",Consumer Discretionary,Footwear,,none,无 ATS 信号
+SP600,SIG,Signet Jewelers,Consumer Discretionary,Specialty Stores,,workday,tenant=signetjewelers | signetjewelers.wd1.myworkdayjobs.com
+SP600,SKT,"Tanger Factory Outlet Centers, Inc.",Real Estate,Retail REITs,,custom,官网自建招聘页（第三方页面引述）；未见第三方ATS域名 | http://www.tangeroutlet.com/company/careers.aspx
+SP600,SKY,"Champion Homes, Inc.",Consumer Discretionary,Homebuilding,,custom,careers at championhomes.applicantpro.com powered by ApplicantPro recruiting (naming vendor) | https://www.businesswire.com/news/home/20211110005449/en/Skyline-Champion-Opening-Two-Plant-Campus-Creating-Over-250-Jobs
+SP600,SKYW,"SkyWest, Inc.",Industrials,Passenger Airlines,,custom,self-hosted jobs.skywest.com | https://jobs.skywest.com/skywest-airlines/jobs/locations/state/Oregon
+SP600,SLG,SL Green Realty,Real Estate,Office REITs,,none,search results only lensa/simplyhired/university job boards and a careers@slgreen.com email; no careers portal or ATS domain found | https://lensa.com/sl-green-realty/jobs/c/cbb5dbc9813e8dbeaf4b2a700d379d66d83b5482
+SP600,SLVM,Sylvamo Corp.,Materials,Paper Products,,none,"aggregators only, no ATS evidence found"
+SP600,SM,SM Energy Company,Energy,Oil & Gas Exploration & Production,,custom,"-CO-jobs.html | http://www.indeed.com/q-Sm-Energy-l-Denver,职位描述指向 sm-energy.com 的 Careers 页；未发现 ATS 域名"
+SP600,SMP,"Standard Motor Products, Inc.",Consumer Discretionary,Automotive Parts & Equipment,,none,两次搜索无明确ATS信号
+SP600,SMPL,Simply Good Foods Company,Consumer Staples,Packaged Foods & Meats,,none,"aggregators only; results are mostly unrelated companies (Simply Foods UK, Goodfood) | https://www.indeed.com/q-simply-foods-l-indianapolis,-in-jobs.html"
+SP600,SNDR,Schneider National,Industrials,Cargo Ground Transportation,,custom,own recruiting site SchneiderJobs.com / schneider.com careers | https://www.fleetowner.com/news/1011044
+SP600,SONO,"Sonos, Inc.",Consumer Discretionary,Consumer Electronics,,none,5_IL.6 | https://www.glassdoor.com/Jobs/Sonos-Santa-Barbara-Jobs-EI_IE259049.0
+SP600,SPHR,Sphere Entertainment,Communication Services,Movies & Entertainment,,greenhouse,gh_jid= param on own-domain jobs pages = Greenhouse signal; board slug not visible
+SP600,SRPT,Sarepta Therapeutics,Health Care,Biotechnology,,none,
+SP600,STAA,STAAR Surgical Company,Health Care,Health Care Equipment,,none,两次搜索无明确ATS信号
+SP600,STRA,"Strategic Education, Inc.",Consumer Discretionary,Education Services,,workday,"myworkdayjobs.com; tenant=strayer, site=sei | https://strayer.wd1.myworkdayjobs.com/sei/job/remote/site-based-learning-specialist_r29045"
+SP600,SUPN,"Supernus Pharmaceuticals, Inc.",Health Care,Pharmaceuticals,,none,no ATS signal after 1-2 searches
+SP600,SXI,Standex International Corporation,Industrials,Industrial Machinery & Supplies & Components,,custom,FAQ site states the careers page is at https://www.standex.com/careers/ (company domain); underlying platform not identified | https://www.jobzmall.com/standex-international/faqs
+SP600,SXT,Sensient Technologies,Materials,Specialty Chemicals,,custom,"job listings hosted on company subdomain careers.sensient.com; no third-party ATS identified | https://careers.sensient.com/en/search-jobs?acm=ALL&alrpm=ALL&ascf=[%7B%22key%22:%22custom_fields.Group%22,%22value%22:%22Colors%22%7D]"
+SP600,TALO,"Talos Energy, Inc.",Energy,Oil & Gas Exploration & Production,,none,no careers-page or ATS signal found in search results | https://lensa.com/talos-energy/jobs/c/b6bd0f949583d3785ee3a4ff441d8ded9578e9d3?initiator=company-job-pile
+SP600,TDS,"Telephone and Data Systems, Inc.",Communication Services,Integrated Telecommunication Services,,custom,官网域名tdstelecom.com招聘页（招聘宣传材料提及）；未见第三方ATS域名 | https://www.tdstelecom.com/careers
+SP600,TDW,"Tidewater, Inc.",Energy,Oil & Gas Equipment & Services,,none,"taleo.net hit (phh.tbe.taleo.net) belongs to Tidewater Terminal Co. (tidewater.com, Vancouver WA), a different company; TDW is Tidewater Inc. offshore vessels — no ATS signal | https://phh.tbe.taleo.net/phh03/ats/careers/v2/viewRequisition?org=TIDETRANS&cws=40&rid=370"
+SP600,TFX,Teleflex,Health Care,Health Care Equipment,,custom,company-run careers portal at careers.teleflex.com; no ATS domain observed | https://careers.teleflex.com/
+SP600,TGTX,"TG Therapeutics, Inc.",Health Care,Biotechnology,,custom,"official careers page on company domain (tgtherapeutics.com/about-us/join-us) with job descriptions on site, applications by email; underlying platform not identified | https://www.tgtherapeutics.com/about-us/join-us/"
+SP600,THRM,Gentherm Incorporated,Consumer Discretionary,Automotive Parts & Equipment,,none,无 ATS 信号
+SP600,TILE,"Interface, Inc.",Industrials,Office Services & Supplies,,custom,own-domain careers page on interface.com; no ATS slug observed | https://www.interface.com/US/en-US/more-from-interface/careers
+SP600,TMDX,"TransMedics Group, Inc.",Health Care,Health Care Equipment,,custom,官网自建招聘页；未见第三方ATS域名 | https://www.transmedics.com/careers/
+SP600,TNC,Tennant Company,Industrials,Industrial Machinery & Supplies & Components,,custom,"jobs.tennantco.com (own domain), no ATS domain visible | https://jobs.tennantco.com/go/Operations-Jobs/1323200/"
+SP600,TNDM,Tandem Diabetes Care,Health Care,Health Care Equipment,,custom,apply links go to Tandem Diabetes Care official careers page; no ATS URL | https://echojobs.io/company/tandemdiabetes.com
+SP600,TPC,Tutor Perini Corporation,Industrials,Construction & Engineering,,none,"search results only indeed/glassdoor/grabjobs/tietalent listings, no careers portal or ATS domain found | https://us.cmhprod.indeed.com/cmp/Tutor-Perini-Corporation?campaignid=mobvjcmp&from=mobviewjob&tk=1k1252itugrsl800&fromjk=44130cb572be4fda"
+SP600,TR,"Tootsie Roll Industries, Inc.",Consumer Staples,Packaged Foods & Meats,,none,"aggregators only, no ATS evidence found"
+SP600,TRIP,TripAdvisor,Communication Services,Interactive Media & Services,,greenhouse,board=tripadvisor | http://job-boards.greenhouse.io/tripadvisor/jobs/4936629
+SP600,TRN,"Trinity Industries, Inc.",Industrials,Construction Machinery & Heavy Transportation Equipment,,none,使用SelectMinds平台(trinity.upgrade.selectminds.com / trinity.referrals.selectminds.com)，不在目标ATS分类内
+SP600,TRNO,Terreno Realty Corporation,Real Estate,Industrial REITs,,none,aggregators only; small internally-managed REIT with no public careers ATS | https://craft.co/terreno-realty-corporation
+SP600,UA,Under Armour (Class C),Consumer Discretionary,"Apparel, Accessories & Luxury Goods",,successfactors,Under Armour job postings link to internal career site performancemanager8.successfactors.com (bplte_company=ua) | https://joblink.delaware.gov/jobs/1470277
+SP600,UAA,Under Armour (Class A),Consumer Discretionary,"Apparel, Accessories & Luxury Goods",,successfactors,job descriptions link to performancemanager8.successfactors.com/sf/careers/jobsearch (SAP SuccessFactors internal career site); public careers page at www.underarmour.com | https://joblink.delaware.gov/jobs/1470277
+SP600,UE,Urban Edge Properties,Real Estate,Retail REITs,,custom,job postings on own domain (uedge.com/job/...) | http://uedge.com/careers
+SP600,UFPT,"UFP Technologies, Inc.",Health Care,Health Care Equipment,,none,
+SP600,UNF,UniFirst Corporation,Industrials,Diversified Support Services,,custom,"官网自建招聘门户jobs.unifirst.com；未见第三方ATS域名 | https://jobs.unifirst.com/search-jobs?orgIds=7729&acm=44229,44233,44234,44235,44236,44237"
+SP600,UNFI,United Natural Foods Inc,Consumer Staples,Food Retail,,custom,"careers at unfi.com/careers / jobs.unfi.com (own domains), no ATS domain visible | https://www.unfi.com/careers"
+SP600,UNIT,Uniti Group,Communication Services,Alternative Carriers,,none,no ATS signal; do not confuse with Australian Uniti Group Limited using elmotalent.com.au
+SP600,UPBD,"Upbound Group, Inc.",Consumer Discretionary,Computer & Electronics Retail,,none,"results dominated by other companies named Upbound (AI infra startup, Seattle 11-50 firm); Rent-A-Center careers link in AI-generated enhancement note not reliable evidence | https://www.marketingmonk.so/jobboard/jobs/customer-account-rep-fr0011-at-upbound-group-inc-e2kp4q"
+SP600,UPWK,"Upwork, Inc.",Industrials,Human Resource & Employment Services,,custom,official careers site at careers.upwork.com/jobs/search (company domain); no third-party ATS identified | https://github.com/remoteintech/remote-jobs/blob/HEAD/src/companies/upwork-pro.md
+SP600,URBN,"Urban Outfitters, Inc.",Consumer Discretionary,Apparel Retail,,none,no careers-page or ATS signal found in search results | https://www.indeed.com/cmp/Urban-Outfitters-7e13a49d
+SP600,USLM,"United States Lime & Minerals, Inc.",Materials,Construction Materials,,none,两次搜索无明确ATS信号
+SP600,USPH,"U.S. Physical Therapy, Inc.",Health Care,Health Care Facilities,,none,aggregators/job boards only; no company ATS signal | https://jobs.apta.org/jobs/view//
+SP600,UTI,Universal Technical Institute,Consumer Discretionary,Education Services,,icims,careers portal on icims.com (careers-uti) | https://careers-uti.icims.com/jobs/
+SP600,UTL,Unitil Corporation,Utilities,Electric Utilities,,custom,official Careers page on company domain (unitil.com) with online Career Portal; underlying platform not identified | http://unitil.com/our-company/careers
+SP600,UVV,Universal Corporation,Consumer Staples,Tobacco,,none,无 ATS 信号
+SP600,VAC,Marriott Vacations Worldwide,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",,workday,tenant=mymvw|site=MVW | mymvw.wd5.myworkdayjobs.com/MVW
+SP600,VCEL,Vericel,Health Care,Biotechnology,,custom,官网自建招聘页；未见第三方ATS域名 | https://www.vcel.com/careers/
+SP600,VCYT,"Veracyte, Inc.",Health Care,Health Care Services,,greenhouse,boards.greenhouse.io; board slug=veracyte | https://boards.greenhouse.io/veracyte/jobs/5063148007
+SP600,VGNT,Versigent PLC,Consumer Discretionary,Other Specialty Retail,,none,results all for similarly-named Verigent/Varicent/Verisign; no signal for Versigent PLC | https://www.linkedin.com/jobs/verigent-jobs?trk=public_jobs_linkster_link
+SP600,VIR,"Vir Biotechnology, Inc.",Health Care,Biotechnology,,custom,official careers portal on company domain (vir.bio/careers/jobs); underlying platform not identified | https://www.vir.bio/careers/jobs/
+SP600,VRRM,Verra Mobility Corporation,Industrials,Data Processing & Outsourced Services,,greenhouse,board=verramobility | https://boards.greenhouse.io/verramobility/jobs/4618441006
+SP600,VSEC,VSE Corporation,Industrials,Aerospace & Defense,,custom,未发现 ATS 域名；注意 vse.com 的招聘页实为 Valley Services Electronics（另一家 VSE），VSE Corp 自身无明确信号 | https://vse.com/job-listings/
+SP600,VSNT,"Versant Media Group, Inc.",Communication Services,Cable & Satellite,,smartrecruiters,SmartRecruiters job board slug=Versant3；careers.versantmedia.com为官方招聘页入口 | https://jobs.smartrecruiters.com/Versant3/744000149053320-broadcast-engineer-distribution-engineering?trid=162ef3c2-cdcc-47a9-8327-c69d95269302
+SP600,VSTS,Vestis,Industrials,Diversified Support Services,,custom,"apply via Careers page at vestis.com (own site), no ATS domain visible | https://www.vestis.com/our-locations/vestis-castroville"
+SP600,VSXY,Victoria's Secret,Consumer Discretionary,Apparel Retail,,custom,official careers portal victoriassecret.com/careers | https://jobapplicationreview.com/store-applications/fashion-store-job-applications/victoria-secret-application-career-guide/
+SP600,VTOL,Bristow Group Inc.,Energy,Oil & Gas Equipment & Services,,workday,tenant=bristow|site=Careers (explicit myworkdayjobs.com careers URL in recruitment document) | https://docs.helispot.eu/logboek/netherlands_sar_nurse.pdf
+SP600,VVX,"V2X, Inc.",Industrials,Aerospace & Defense,,none,only aggregator listings found; no ATS signal
+SP600,WAY,Waystar Holding Corp,Health Care,Health Care Technology,,none,
+SP600,WDFC,WD-40 Company,Consumer Staples,Household Products,,icims,iCIMS portal=careers-wd40company | https://careers-wd40company.icims.com/jobs/1720/sales-manager%2c-northeast/job?in_iframe=1
+SP600,WEN,The Wendy's Company,Consumer Discretionary,Restaurants,,custom,"apply via official careers site wendys-careers.com (own domain), no ATS domain visible | https://wendy-menus.com/wendys-jobs-careers-and-how-to-apply/"
+SP600,WERN,Werner Enterprises,Industrials,Cargo Ground Transportation,,none,no ATS signal after 1-2 searches
+SP600,WGO,"Winnebago Industries, Inc.",Consumer Discretionary,Automobile Manufacturers,,none,-Inc.?fromjk=ef1f53c0c11973a6&from=serp-more&campaignid=serp-more&jcid=8f0090217cd7d6a9 | http://www.indeed.com/cmp/Winnebago-Industries
+SP600,WHD,"Cactus, Inc.",Energy,Oil & Gas Equipment & Services,,none,no deterministic ATS evidence from search; aggregators (glassdoor/indeed/energyjobshop) only; Cactus Wellhead-branded results contain no careers ATS URL
+SP600,WINA,Winmark,Consumer Discretionary,Other Specialty Retail,,custom,"winmarkcorporation.com/careers, no third-party ATS domain found | https://winmarkcorporation.com/careers/"
+SP600,WKC,World Kinect Corporation,Energy,Oil & Gas Refining & Marketing,,custom,官网自建招聘页（world-kinect.com/careers下）；未见第三方ATS域名 | https://www.world-kinect.com/careers/information-technology-jobs
+SP600,WLY,John Wiley & Sons,Communication Services,Publishing,,none,aggregators only; no ATS domain visible | https://www.flexjobs.com/gjw/wiley-john_wiley_sons/account-manager/publicjobs?id=4ca429fc-cd7c-4458-ab2f-15fb0d39a78f
+SP600,WOR,Worthington Enterprises,Industrials,Building Products,,none,no clear ATS signal found in search results
+SP600,WRBY,Warby Parker,Consumer Discretionary,"Apparel, Accessories & Luxury Goods",,none,"search results only indeed/university job boards, no careers portal or ATS domain found | https://www.indeed.com/cmp/Warby-Parker?from=mobviewjob&tk=1id8486he20rc004&fromjk=d06f904566aa75d3&attributionid=mobvjcmp"
+SP600,WS,Worthington Steel,Materials,Steel,,none,无 ATS 信号
+SP600,WSC,WillScot Holdings Corp.,Industrials,Office Services & Supplies,,custom,official press release directs applicants to careers.willscot.com; no ATS slug observed | https://crweworld.com/article/news-provided-by-globenewswire/3827453/willscot-recognized-as-great-place-to-work-for-fourth-consecutive-year
+SP600,WWW,"Wolverine World Wide, Inc.",Consumer Discretionary,Footwear,,icims,iCIMS portal=careers-wolverineworldwide；官方入口careers.wolverineworldwide.com | https://careers-wolverineworldwide.icims.com/
+SP600,XHR,"Xenia Hotels & Resorts, Inc.",Real Estate,Hotel & Resort REITs,,none,aggregators only; small lodging REIT with no public careers ATS | https://theorg.com/org/xenia-hotels-resorts/teams/leadership-team
+SP600,XNCR,Xencor Inc,Health Care,Biotechnology,,none,only aggregators | https://hiringcafe.com/org/xencor.com
+SP600,XPEL,"XPEL, Inc.",Consumer Discretionary,Automotive Parts & Equipment,,workday,tenant=xpel|site=xpel_careers (Apply links go to xpel.wd5.myworkdayjobs.com/xpel_careers) | https://www.remoterocketship.com/company/xpel/jobs/territory-manager-china-remote/
+SP600,YELP,"Yelp, Inc.",Communication Services,Interactive Media & Services,,lever,board=yelp | https://jobs.lever.co/yelp/76e31e20-4aa2-425a-91de-a53bf03cd1de
+SP600,ZD,Ziff Davis,Communication Services,Advertising,,jobvite,招聘站 jobs.jobvite.com/ziffdavis（Jobvite 不在分类体系内，如实记录） | https://jobs.jobvite.com/ziffdavis/job/o5ADyfwA
+SP600,ZWS,Zurn Elkay Water Solutions Corp.,Industrials,Industrial Machinery & Supplies & Components,,none,两次搜索无明确ATS信号
