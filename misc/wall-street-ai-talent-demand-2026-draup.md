@@ -13,6 +13,7 @@ tags: [AI 人才需求, 招聘数据, Draup, Agent 编排, forward-deployed engi
 - 原文：https://www.wenxuecity.com/news/2026/10/05/126795757.html
 - 发布：2026-10-05；浏览约 4350+
 - 数据来源：**Draup**（企业招聘数据公司）独家提供给 CNBC 的分析，基于抓取 LinkedIn 等平台公开招聘信息；引用 Draup CEO Vijay Swaminathan 及摩根大通 CEO 杰米·戴蒙表述；涉及摩根大通、花旗、Capital One 等银行
+- 说明：Draup 未公开发布原始报告（2026-10-08 核查：其官网 draup.com 无此报告公开版，数据为独家提供给 CNBC；CNBC 2026-10-02 原文为 primary source）。数据最全的转述版本（含 2025 vs 2026 完整技能对照表）：https://techstartups.com/2026/10/02/wall-streets-hottest-ai-skill-surges-1721-as-banks-race-to-deploy-ai-agents/
 
 ## 核心数据
 
