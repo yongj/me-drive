@@ -1,0 +1,633 @@
+company,valuation,date,industry,country,ats_platform,note
+Anthropic,965,May 2026 (2026-05),Artificial Intelligence,United States,greenhouse,board slug=anthropic; Greenhouse board API also confirmed via boards-api.greenhouse.io/v1/boards/anthropic/jobs
+OpenAI,852,March 2026 (2026-03),Artificial intelligence,United States,ashby,"board=openai per multiple ATS probes (dev.to, jobhunter-agent); careers front-end custom-built on openai.com/careers"
+ByteDance,600,April 2026,Internet,China,custom,官方申请页为bytedance.com自建（结果页文本提及bytedance.com/en/job/）
+Databricks,190,August 2026 (2026-08),Software,United States,greenhouse,board slug=databricks，第三方 job-tracker 仓库标注 live board
+Tether,189,October 2026,Cryptocurrency,El Salvador,none,"no ATS domain found in search results; jobs only appear on aggregators (wellfound, crypto-careers, adzuna, grabjobs); official careers page not surfaced"
+Binance,80–90,September 2021 (2021-09),Cryptocurrency,Canada,custom,Self-built careers board on binance.com; no third-party ATS domain seen
+Revolut,75,November 2025 (2025-11),Financial technology,United Kingdom,none,revolut.com 招聘页；无 ATS 域名信号
+Anduril Industries,61,May 2026,Defense technology,United States,greenhouse,board slug=andurilindustries
+Cognition AI,48,September 2026 (2026-09),Artificial Intelligence,United States,ashby,"board slug=cognition; ""Cognition Jobs"" board on Ashby careers domain"
+Canva,42,October 2024 (2024-10),Graphic design,Australia,custom,Careers page is canva.com/careers (own domain); no Greenhouse/Lever/Ashby/Workday signal found
+Prometheus,41,June 2026 (2026-06),Artificial Intelligence,United States,none,Search results only surfaced unrelated companies named Prometheus; no identifiable ATS for the AI company
+Figure AI,39,September 2025 (2025-09),Humanoid robotics,United States,greenhouse,board slug=figureai
+Ramp,32,November 2025,Financial technology,United States,ashby,org slug=ramp; direct ashby job URLs in search results
+Safe Superintelligence,32,April 2025,Artificial Intelligence,United States and  Israel,ashby,"board=ssi; SSI site Apply link -> jobs.ashbyhq.com/ssi, single Ashby HQ board"
+VAST Data,30,March 2026 (2026-03),Artificial Intelligence,United States,custom,Comeet ATS (non-enumerated); careers on comeet.com/jobs/vastdata
+Telegram,30,January 2021 (2021-01),Internet,United Arab Emirates,none,No ATS domain found; hires via telegram.org/in-app; no public careers board
+Scale AI,29,June 2025,Artificial intelligence,United States,greenhouse,board slug=scaleai; live postings at job-boards.greenhouse.io/scaleai (Sep 2026); supersedes stale reference jobs.ashbyhq.com/scaleai
+Fanatics,27,June 2022 (2022-06),E-commerce,United States,custom,JDs point applicants to fanaticsinc.com/careers; Greenhouse slug 'fanatics' probed 404 by ever-jobs (no Greenhouse)
+Epic Games,22.5,February 2024 (2024-02),Video games,United States,workday,tenant=epicgames|site=Epic_Games（URL: epicgames.wd5.myworkdayjobs.com/en-US/Epic_Games）
+ElevenLabs,22,September 2026 (2026-09),AI Audio technologies,Poland,ashby,board slug=elevenlabs
+Kalshi,22,May 2026,Finance,United States,greenhouse,live Greenhouse board; board slug=kalshi
+Etched,21,August 2026 (2026-08),Artificial intelligence,United States,custom,Job postings direct candidates to etched.com/careers; no ATS vendor domain found
+Perplexity AI,20,September 2025 (2025-09),Artificial Intelligence,United States,ashby,ATS 抓取文章将 Perplexity 列入 Ashby 组；无 verbatim ashbyhq URL
+Chobani,20,October 2025,Consumer staples,United States,none,仅招聘聚合站（indeed/glassdoor），未见 ATS 域名
+Groq,20,Dec 2025,Artificial intelligence,United States,ashby,task-provided known reference jobs.ashbyhq.com/groq; not independently confirmed via search results; one third-party scraper doc lists Groq careers as custom ATS
+Rippling,16.8,May 2025,Workforce management,United States,custom,Official careers at rippling.com/careers; HR company uses its own recruiting product (ats.rippling.com appears only for other companies' boards)
+Harvey,15.5,September 2026 (2026-09),Artificial intelligence,United States,none,No ATS domain found in search results
+Helion Energy,15.5,June 2026,Fusion power,United States,none,No ATS domain found in search results (only Indeed/LinkedIn/remotefront aggregates).
+Yuanfudao,15.5,October 2020 (2020-10),Educational technology,China,none,Chinese edtech (猿辅导); no ATS-domain signal in search results
+Discord,15,September 2021 (2021-09),Software,United States,greenhouse,board=Discord
+DJI,15,September 2016 (2016-09),Technology,China,none,no ATS signal in search results
+GoPuff,15,July 2021 (2021-07),E-commerce,United States,lever,board slug=gopuff; also listed as Lever in drift.jobs ATS SOURCES.md
+Nscale,14.6,March 2026,Artificial Intelligence,United Kingdom,greenhouse,"board=nscaleoperationsukltd per freehire PR (validated live, 216 open roles, EU-hosted board); no direct ATS board URL in search results"
+Mistral AI,14,September 2025 (2025-09),Artificial Intelligence,France,custom,JDs point to mistral.ai/careers; no ATS domain seen in search results
+Xiaohongshu,14,September 2023 (2023-09),E-commerce,China,none,搜索结果均为第三方招聘站，无ATS信号
+Helsing,14,September 2025 (2025-09),Defense,Germany,greenhouse,自建页 helsing.ai/jobs 嵌入 Greenhouse，URL 带 gh_jid 参数
+Skild AI,14,January 2026,Robotics,United States,greenhouse,board slug=skildai-careers; multiple Skild AI job pages on boards.greenhouse.io/job-boards.greenhouse.io
+Plaid,13.4,April 2021 (2021-04),Financial technology,United States,lever,slug=plaid (jobs.lever.co/plaid apply link seen on result page)
+Lovable,13.3,August 2026 (2026-08),Artificial intelligence,Sweden,ashby,board=lovable；api.ashbyhq.com/posting-api/job-board/lovable 多源佐证
+OpenSea,13.3,August 2025,Financial Technology,United States,custom,自建招聘页 opensea.io/jobs，无第三方 ATS 信号
+Superhuman,13,November 2021 (2021-11),Collaborative software,Ukraine/ United States,ashby,Own Ashby board 'superhuman' after Grammarly rebrand/acquisition (Grammarly retired shared Greenhouse board); no direct jobs.ashbyhq.com/superhuman URL surfaced in search results
+Shield AI,12.6,March 2026,Defense Technology,United States,lever,slug=shieldai; subsidiary Aechelon Technology separately on Greenhouse board=aechelontechnology
+Devoted Health,12.6,October 2021 (2021-10),Healthcare,United States,none,No ATS domain found in search results
+Faire,12.59,November 2021 (2021-11),E-commerce,United States,none,No ATS domain found in search results (only Indeed/Wellfound/aggregators).
+Labs Companies,12.5,April 2025 (2025-04),"Frontier Intelligences, Superintelligence, Human-enhancement AI",United States,none,company identity ambiguous; no identifiable careers page or ATS signal found
+NinjaOne,12.3,June 2026,Software,United States,jobvite,"board=ninjaone (Jobvite ATS, not in standard mapping)"
+Cyera,12,June 2026,Cybersecurity,United States and  Israel,custom,Comeet ATS (non-enumerated); careers on comeet.com/jobs/cyera
+Thinking Machines Lab,12,July 2025,Artificial intelligence,United States,none,No ATS domain found; postings on investor job boards and LinkedIn only; earlier weak Ashby claim not re-verifiable
+OpenEvidence,12,January 2026,Health Technology,United States,none,"no ATS signal; jobs only seen on aggregators (Built In, startup.jobs, theladders)"
+Biosplice Therapeutics,12,April 2021,Health,United States,none,no hiring/ATS signal found
+Bitmain,12,June 2018,Cryptocurrency,China,none,搜索结果均为第三方招聘站，无ATS信号
+GoodLeap,12,October 2021,Financial technology,United States,lever,内含 jobs.lever.co/goodleap/... 链接；slug=goodleap
+Checkout.com,12,September 2025,Financial technology,United Kingdom,ashby,listed as Ashby in techjobsnl SUPPORTED_COMPANIES.md (single secondary source; no direct board URL surfaced)
+Whatnot,11.5,November 2025,E-Commerce,United States,ashby,board=whatnot (ashbygraphql 'whatnot' discovered via ATS apply-URL harvesting)
+Celonis,11,June 2021,Software,Germany,greenhouse,board=celonis
+ZongMu Technology,11,June 2021,Self-driving cars,China,none,无有效招聘信号
+Bilt Rewards,10.75,July 2025,Financial Technology,United States,none,-ny-jobs.html
+Colossal Biosciences,10.2,January 2025,Biotechnology,United States,greenhouse,board=colossalbiosciences
+Alchemy,10.2,January 2022,Blockchain,United States,lever,"Wellfound company profile links careers to jobs.lever.co/alchemy (board=alchemy), single source"
+WHOOP,10.1,March 2026 (2026-03),Wearable technology,United States,ashby,board slug=whoop; open role linked at jobs.ashbyhq.com/whoop; older guide mentioned jobs.lever.co/whoop (may have migrated)
+Chehaoduo,10,July 2021,Marketplace,China,none,Chinese used-car marketplace (瓜子二手车); no ATS-domain signal in search results
+Digital Currency Group,10,November 2021,Venture capital,United States,greenhouse,board=digitalcurrencygroup
+Gusto,10,August 2021,Software,United States,none,no ATS signal in search results
+Instinct,10,September 2026 (2026-09),Artificial Intelligence,United States,none,Only aggregators/wellfound; no ATS domain found (stale JazzHR posting rejected as old)
+KuCoin,10,May 2022,Cryptocurrency,Seychelles,none,no ATS domain found; postings only on LinkedIn/job aggregators
+Lalamove,10,January 2021,Supply chain management,Hong Kong /  China,lever,slug=lalamove; multiple jobs.lever.co/lalamove postings in results
+Mercor,10,October 2025,Artificial Intelligence,United States,custom,职位申请页在mercor.com/careers下，自建
+Notion Labs,10,October 2021,Productivity software,United States,ashby,多源一致（dipeshk47/jobradar、devstorage/bigtech-career-tracker），未见直接 jobs.ashbyhq.com/notion URL
+Polygon Technology,10,February 2022,"Blockchain, Web3",India /  Cayman Islands,smartrecruiters,"official careers board careers.smartrecruiters.com/PolygonTechnology (Dhaka, Bangladesh IT firm)"
+Ripple,10,December 2019,Cryptocurrency,United States,custom,Self-built careers on ripple.com; ats.rippling.com results belong to Rippling (different company)
+Talkdesk,10,August 2021,Software as a service,Portugal /  United States,greenhouse,该 repo 的 ATS 配置把 Talkdesk 列在 Greenhouse 下
+Oyo,9.6,August 2021,Hospitality,India,none,搜索结果被尼日利亚 Oyo 州招聘噪音淹没，未见 ATS 信号
+OutSystems,9.5,February 2021,Software development,Portugal /  United States,none,No ATS signal found in search results
+Vercel,9.3,September 2025,Cloud computing / AI,United States,greenhouse,board=vercel; job postings shown at job-boards.greenhouse.io/vercel per video description
+HeyTea,9.3,July 2021,Retail,China,none,No ATS domain found in search results
+Neuralink,9,May 2025,Neurotechnology,United States,greenhouse,board slug=neuralink
+Replit,9,March 2026 (2026-03),Artificial Intelligence,United States,ashby,multiple third-party job pages cite jobs.ashbyhq.com/replit/<uuid> postings
+Tanium,9,June 2020,Cybersecurity,United States,greenhouse,board=tanium
+Kavak,8.7,October 2021,Marketplace,Mexico,none,no ATS signal in search results
+Rapyd,8.7,August 2021,Financial technology,United Kingdom,none,Careers on rapyd.net; a Comeet URL exists but Comeet is not in the classification enum
+Nuro,8.6,November 2021,Robotics,United States,greenhouse,board slug=nuro per two independent ATS-registry sources; direct board URL not observed in search results
+Snyk,8.5,September 2021,Application security,United Kingdom,workday,third-party probe note: live board on Workday (Ashby board empty); tenant/site unverified
+Bolt,8.4,January 2022,Transportation,Estonia,none,爱沙尼亚Bolt（Transportation）无明确ATS信号；搜索结果多为其他同名公司
+Together AI,8.3,July 2026 (2026-07),Artificial Intelligence,United States,greenhouse,board slug=togetherai
+Dream11,8,November 2021,Fantasy sports,India,trakstar,jobs hosted on Trakstar ATS (hire.trakstar.com); not in the greenhouse/lever/ashby list so kept as platform=trakstar
+Flexport,8,February 2022,Logistics,United States,greenhouse,board=flexport
+Airwallex,8,December 2025,Financial services,Australia /  Hong Kong,none,careers.airwallex.com；无 ATS 域名信号
+StarkWare Industries,8,May 2022,Blockchain,Israel,none,仅加密行业招聘聚合站（cryptojobslist 等），未见 ATS 域名
+Dapper Labs,7.6,September 2021,NFT,Canada,none,"careers hosted at careers.kula.ai/dapperlabs (Kula AI recruiting tool, not in ATS taxonomy); no standard ATS domain"
+Zipline,7.6,January 2026,Logistics,United States,greenhouse,"board=flyzipline (drone-delivery Zipline, flyzipline.com)"
+AlphaSense,7.5,June 2026,Software,United States (formerly  Finland),greenhouse,board=alphasense
+Razorpay,7.5,December 2021,Financial technology,India,greenhouse,board slug=razorpaysoftwareprivatelimited (apply link boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4412452005)
+Carta,7.4,August 2021,Software,United States,greenhouse,"multiple boards.greenhouse.io/carta results; board slug=carta; note: earlier known as Lever user, now on Greenhouse"
+Ola Consumer,7.3,December 2021,Transportation,India,custom,3rd-party ATS research lists Ola among companies with custom/proprietary career portals
+Gong,4.5,November 2025,June 2021,Artificial intelligence,greenhouse,board=gongio
+PsiQuantum,7,March 2025,Quantum computing,United States,none,psiquantum.com/jobs is company-owned but ATS unknown; aggregators only
+Automation Anywhere,6.8,November 2019,Robotic process automation,United States,smartrecruiters,company id=AutomationAnywhere1
+1Password,6.8,July 2021,Password manager,Canada,ashby,board=1password; apply link jobs.ashbyhq.com/1password/... in posting
+WeDoctor,6.8,February 2021,Healthcare,China,none,搜索结果多为同名无关公司，无ATS信号
+Cohere,6.8,August 2025,Artificial intelligence,Canada,ashby,board slug=cohere
+Yanolja,6.7,July 2021,Hospitality,South Korea,none,no ATS domain found; jobs via indeed/linkedin/aggregators only; Korean HQ (Yanolja Group / Yanolja Cloud Solution)
+Ziroom,6.6,March 2020,Real estate technology,China,none,"No ATS signal; domestic China company (Ziroom/自如), likely uses local portals"
+Mollie,6.5,June 2021,Financial technology,Netherlands,custom,自建招聘页 jobs.mollie.com
+CRED,6.4,June 2022,Financial technology,India,custom,自建招聘门户 careers.cred.club/allJob
+DataRobot,6.3,July 2021,Artificial intelligence,United States,workday,tenant=datarobot|site=datarobot_external_careers (job URL datarobot.wd1.myworkdayjobs.com/datarobot_external_careers/...)
+Personio,6.3,October 2021,Software,Germany,custom,Careers on own domain incl. personio.jobs.personio.de (Personio's own recruiting product); no third-party ATS
+Doctolib,6.2,August 2022,Healthcare,France,none,No ATS domain found in search results
+iCapital,6,2022,Financial services,United States,greenhouse,board slug=icapitalnetwork
+Xingsheng Youxuan,6,January 2021,Retail,China,none,Chinese company; no ATS signal found in search results
+SandboxAQ,5.6,December 2024,"Quantum technology, Artificial intelligence",United States,greenhouse,apply links -> boards.greenhouse.io/sandboxaq; board=sandboxaq
+Back Market,5.8,August 2022,Marketplace,France,none,no ATS signal in search results
+The Boring Company,5.7,April 2022,Construction,United States,custom,company-owned careers page; earlier Lever URL claim could not be re-verified
+Relex,5.68,February 2022,Supply Chain Automation,Finland,greenhouse,Greenhouse embedded via ?gh_jid= params on relexsolutions.com careers pages
+Contentsquare,5.6,August 2022,Software as a service,France,lever,slug=contentsquare; apply links jobs.lever.co/contentsquare/... in postings
+Fivetran,5.6,September 2021,Data infrastructure,United States,none,无明确ATS域名出现
+Legora,5.6,April 2026,Artificial intelligence,Sweden,ashby,board slug=legora；双源一致（2026-08-19 经 HTTP 验证）
+Postman,5.6,August 2021,Software as a service,India /  United States,greenhouse,live Greenhouse board with jobs (board slug=postman); conflicts with task brief note that said jobs.ashbyhq.com/postman — Greenhouse evidence is stronger (multiple live postings + 3 third-party sources)
+PhonePe,5.5,December 2020,Financial technology,India,greenhouse,board=phonepe (historical); GitHub trackers report boards-api.greenhouse.io/v1/boards/phonepe/jobs 404 as of 2026-09-18 — may have migrated off Greenhouse
+Viva Republica (Toss),5.48,June 2021,Financial technology,South Korea,none,toss.im 招聘页；无 ATS 域名信号
+Higgsfield,5.4,August 2026,Artificial Intelligence,United States,none,仅聚合站和 linkedin 招聘帖，未见 ATS 域名
+Trade Republic,5.3,May 2021,Financial technology,Germany,greenhouse,board slug=traderepublicbank; direct Greenhouse board URL in search results; job-boards.greenhouse.io/traderepublicbank also live (39 jobs)
+Rappi,5.25,July 2021,Transportation,Colombia,none,No careers ATS found; postings appear on LinkedIn only
+Oura Health,5.2,December 2024,Wearables,Finland,none,No ATS domain found in search results
+Blockchain.com,5.2,March 2021,Cryptocurrency,United Kingdom,greenhouse,board slug=blockchain
+Ineffable Intelligence,5.1,April 2026 (2026-04),Artificial intelligence,United Kingdom,none,London AI startup (launched 2026); no ATS-domain signal in search results
+OneTrust,5.1,December 2020,Cybersecurity,United Kingdom /  United States,greenhouse,board=onetrust; TCV job board confirms ATS=Greenhouse
+SambaNova,5.1,April 2021,Artificial intelligence,United States,greenhouse,board=sambanovasystems; Greenhouse API verified by multiple job-trackers
+Collibra,5+,January 2019,Data governance,Belgium,none,No ATS domain found
+CloudKitchens,5,November 2019,Ghost kitchen,United States,none,no ATS domain found; aggregators scrape official careers page only
+Hello TransTech,5,March 2021,Transportation,China,none,Chinese company (哈啰); no ATS signal
+Hopper,5,August 2021,Travel,Canada,none,无明确ATS域名出现
+OfBusiness,5,December 2021,B2B e-commerce,India,custom,自建招聘门户（ofbcareers.com）
+Qonto,5,August 2022,Finance,France,lever,apply links jobs.lever.co/qonto/<uuid>/apply seen in multiple Qonto job postings on huntr.co; company slug=qonto
+River AI,5,August 2026,Artificial intelligence,United States,none,Company identity ambiguous (no identifiable $5B US AI company 'River AI'); results dominated by River Financial/riverstep
+Ro,5,March 2021,Health technology,United States,none,搜索结果无 ATS 信号
+Wonderful,5,September 2026 (2026-09),Artificial intelligence,Israel/ Netherlands,none,聚合站指向 wonderful.ai，未见 ATS 域名
+Zepz,5,August 2021,Financial technology,United Kingdom,none,No ATS signal found in search results
+Animoca Brands,5,January 2022,Blockchain gaming,Hong Kong,custom,Branded own-domain job board careers.animocabrands.com; no vendor ATS detected
+Octopus Energy,5,December 2021,Energy supply,United Kingdom,none,No ATS domain found in search results
+Pleo,4.7,December 2021,Financial technology,Denmark,greenhouse,board slug=pleo (apply link boards.greenhouse.io/pleo/jobs/7528504003)
+Checkr,4.6,August 2021,Human resource management,United States,greenhouse,board slug=checkr; known ref said lever but current live postings are on Greenhouse
+Dataiku,4.6,August 2021,Artificial intelligence,France /  United States,greenhouse,apply links -> boards.greenhouse.io/dataiku; board=dataiku
+GetBlock,4.6,June 2020,Blockchain,Georgia,custom,"careers hosted on getblock.bamboohr.com (BambooHR, non-enumerated)"
+Sorare,4.6,August 2022,Fantasy sports,France,none,No ATS signal; aggregators only (cryptojobslist/builtin/wellfound); no careers ATS page found
+Magic Leap,4.5,February 2016,Augmented reality,United States,custom,self-hosted careers at magicleap.com/careers; no ATS domain detected
+Socure,4.5,November 2021,Identity management,United States,none,no ATS signal
+Vinted,4.5,May 2021,Marketplace,Lithuania,custom,自建招聘页careers.vinted.com
+Quince,4.5,July 2025,Enterprise Technology,United States,greenhouse,sourced via Greenhouse for at least some applications
+Outreach,4.4,June 2021,Sales,United States,greenhouse,careers page is JS-rendered so no ATS link visible in static text; board boards.greenhouse.io/outreach per task brief known reference — not re-confirmed via search
+Arctic Wolf Networks,4.3,July 2021,Cybersecurity,United States,workday,tenant=arcticwolf|site=external (apply link arcticwolf.wd1.myworkdayjobs.com/external/... seen on result page)
+Chainalysis,4.2,June 2021,Blockchain,United States,none,旧 Greenhouse board 已移除（2026-09 New-Grad-Jobs 清理）；转 Ashby 的说法无后续验证
+Relativity Space,4.2,June 2021,Aerospace,United States,greenhouse,board slug=relativity
+Bitpanda,4.1,August 2021,Cryptocurrency,Austria,custom,apply links go to Bitpanda's own careers site (bitpanda.com/career); no ATS domain found; self-hosted careers page
+Dataminr,4.1,March 2021,Data analytics,United States,workday,tenant=dataminr|site=dataminr; apply links point to dataminr.wd12.myworkdayjobs.com/dataminr
+Yello Mobile,4.05,November 2016,Software industry,South Korea,none,No ATS domain found in search results
+Abnormal Security,4,May 2022,Cybersecurity,United States,greenhouse,board slug=abnormalsecurity (fresh board 'Jobs at Abnormal' crawled recently); abnormal.ai careers page wraps Greenhouse
+Branch Metrics,4,February 2022,Marketing,United States,none,jobs only appear on VC aggregator boards (jobs.madrona.com
+BrowserStack,4,June 2021,Software,India,workday,tenant=browserstack|site=External (browserstack.wd3.myworkdayjobs.com/External); one 3rd-party source claims Ashby - conflicting
+Clubhouse,4,April 2021,Messaging,United States,none,no ATS signal in search results
+EliseAI,4,September 2026 (2026-09),Artificial intelligence,United States,custom,company-owned careers page; no third-party ATS domain visible
+Houzz,4,June 2017,Interior design,United States,none,no ATS domain found; only aggregator listings
+Megvii,4,May 2019,Technology,China,none,no ATS signal
+Melio,4,September 2021,Financial technology,Israel,greenhouse,board=melio
+Patreon,4,April 2021,Online membership service,United States,none,两轮搜索均无 ATS 信号
+PointClickCare,4,January 2021,Software,Canada,lever,apply link jobs.lever.co/pointclickcare/<uuid> in posting; company slug=pointclickcare
+QuintoAndar,4,May 2021,Real estate,Brazil,none,Brazilian real estate; no ATS domain found
+Niantic,3.95,January 2019,Video games,United States,none,搜索结果无 ATS 信号
+StockX,3.8,April 2021,E-commerce,United States,greenhouse,board slug=stockx
+Articulate,3.75,July 2021,Educational technology,United States,lever,board slug=articulate; articulate.com careers page references noreply@hire.lever.co email addresses
+Cohesity,3.7,March 2021,Software,United States,none,No ATS signal found (jobs on LinkedIn/Wellfound only)
+Noom,3.7,May 2021,Healthcare,United States,none,No ATS domain found in search results
+PAPAYA Global,3.7,September 2021,Workforce management,Israel /  United States,none,No ATS domain found in search results (only Glassdoor/Indeed/GrabJobs).
+ShareChat,3.7,December 2021,Social network,India,none,own careers page sharechat.com/careers; no ATS platform signal found
+Shouqi,3.55,December 2016,Transportation,China,none,no ATS signal found (Chinese ride-hailing; no careers portal identified)
+Coalition,3.5,September 2021,Cybersecurity,United States,none,no ATS signal in search results
+Commure,3.5,September 2021,Health technology,United States,ashby,company's own job description names Ashby as its ATS
+Mirakl,3.5,September 2021,Marketplace,France,greenhouse,board slug=mirakl (also mirakllabs)
+N26,3.5,July 2019,Financial services,Germany,custom,self-hosted careers on n26.com/en-eu/careers
+Preferred Networks,3.33,September 2019,Artificial intelligence,Japan,custom,自建招聘页preferred.jp
+CARS24,3.3,December 2021,Marketplace,India,none,无 ATS 域名
+Kurly,3.3,July 2021,E-commerce,South Korea,none,no ATS signal found (Korean grocery unicorn; searches hit unrelated Kurly/KurlyTails domains)
+Youxia Motors,3.3,October 2018,Electric vehicles,China,none,"Defunct (factory project ended 2020, land acquired by Huzhou government); no active careers"
+MoonPay,3.4,November 2021,Cryptocurrency,United States,lever,board=moonpay；多条 jobs.lever.co/moonpay 链接佐证
+Upstox,3.4,November 2021,Financial technology,India,none,招聘页在 upstox.darwinbox.in（Darwinbox，不在标准 ATS 列表内）
+Plus.ai,3.3,May 2021,Self-driving trucks,United States,lever,plus.ai job page states 'Apply on Lever'; Lever board slug not visible in search results
+Starburst Data,3.3,February 2022,Data analytics,United States,greenhouse,board=starburst
+Thumbtack,3.2,June 2021,Software,United States,greenhouse,board=thumbtack; jobera.com employer page also names Greenhouse as its ATS
+ApplyBoard,3.2,June 2021,Educational technology,Canada,none,No ATS domain found in search results (only Indeed/GrabJobs).
+Blockstream,3.2,August 2021,Blockchain,Canada,ashby,apply link in listing points to jobs.ashbyhq.com/blockstream/3463a18e-85f6-4622-a100-933b16eba261; single third-party source
+ConsenSys,3.2,November 2021,Blockchain,United States,greenhouse,board=consensys
+Flutterwave,3.2,June 2026 (2026-06),Financial technology,Nigeria /  United States,custom,self-built vacancies page on flutterwave.com; no ATS domain found
+Verkada,3.2,September 2022,Physical security,United States,greenhouse,board slug=verkada; many postings via Greenhouse API
+Eruditus,3.2,August 2021,Educational technology,India,none,no ATS domain found; only aggregator listings
+SpotOn,3.15,September 2021,Financial technology,United States,custom,jobs pulled from spoton.com careers page; no ATS domain seen
+TiendaNube,3.1,August 2021,E-commerce,Argentina,none,搜索结果多为其他Nube公司，无ATS信号
+Udaan,3.1,January 2021,B2B e-commerce,India,none,无 ATS 信号
+Wildlife,3+,August 2020,Mobile gaming,Brazil,none,"Wildlife Studios (mobile games, Brazil); no ATS board domain found; listings only via aggregators (startup.jobs, wellfound, getonbrd)"
+CMR Surgical,3,January 2021,Robotics,United Kingdom,none,No ATS domain found in search results
+Traveloka,3,January 2017,Travel,Indonesia,none,搜索结果无 ATS 信号
+ActiveCampaign,3,April 2021,Marketing,United States,none,仅聚合站，未见 ATS 域名
+"Age of Learning, Inc.",3,June 2021,Education,United States,none,No ATS signal found in search results
+Automattic,3,September 2019,Internet,United States,custom,Careers page at automattic.com/work-with-us (own domain); no ATS vendor
+Calendly,3,January 2021,Software,United States,greenhouse,board=calendly
+Contentful,3,July 2021,Content management system,Germany,greenhouse,board slug=contentful (apply link boards.greenhouse.io/contentful/jobs/7259676)
+Forter,3,May 2021,Software,Israel /  United States,greenhouse,board slug=forter; direct greenhouse board URLs in search results
+Grafana Labs,3,August 2021,Software,United States,greenhouse,JD links -> job-boards.greenhouse.io/grafanalabs; board=grafanalabs
+Lucid Software,3,June 2021,Software,United States,greenhouse,board=lucidsoftware
+MessageBird,3,October 2020,Cloud communications,Netherlands,none,No ATS domain found
+Seismic,3,August 2021,Software,United States,icims,apply links point to careers-seismic.icims.com
+Sky Mavis,3,October 2021,Video games,Vietnam,custom,careers at skymavis.com/careers; no ATS domain seen
+Souche,3,September 2018,Marketplace,China,none,搜索结果均为sous chef等无关内容
+TradingView,3,October 2021,Finance,United Kingdom,none,实际平台为 Teamtailor（tradingview.teamtailor.com），不在分类列表内
+Aiven,3,May 2022,Data infrastructure,Finland,greenhouse,live Greenhouse board; board slug=aiven36
+VANCL,3,February 2014,E-commerce,China,none,"No hiring signal found (declining brand, VANCL/凡客诚品)"
+Veepee,3,August 2022,E-commerce,France,custom,careers.veepee.com 自有域名招聘页
+VIPKID,3,June 2018,Education,China,none,自建申请流程，未见 ATS 域名
+Wefox,3,June 2021,Insurance,Germany,none,no ATS domain found; official careers referenced at wefox.de/en/careers; wefox posts no open jobs on aggregators (post-restructuring)
+Workrise,2.9,May 2021,Workforce management,United States,none,No ATS signal found; postings on startup.jobs
+DriveWealth,2.85,August 2021,Financial technology,United States,none,No ATS domain found in search results
+BharatPe,2.8,August 2021,Financial technology,India,none,No ATS domain found in search results (only Indeed/apna/jobhai).
+Icertis,2.8,March 2021,Software,India /  United States,none,jobs listed on Indeed/Jooble/wellfound; no ATS-domain signal in search results
+OakNorth,2.8,February 2019,Finance,United Kingdom,none,email-based applications (usrecruitment@oaknorth.com); no ATS domain found
+Astranis,2.8,May 2026,Space technology,United States,greenhouse,board=astranis
+Abridge,2.75,May 2025,Healthcare technology and AI,United States,none,No ATS domain found
+Illumio,2.75,June 2021,Cybersecurity,United States,ashby,"migrated greenhouse->ashby per two independent ATS-tracking repos (pertern + job-sentinel, both ~Aug 2026); board slug=illumio; no direct jobs.ashbyhq.com URL in results"
+MasterClass,2.75,May 2021,Educational technology,United States,greenhouse,board=masterclass; third-party HTTP probe returned 200 with 6 jobs
+Dream Games,2.75,January 2022 (2022-01),Gaming,Turkey,custom,自建招聘页dreamgames.com
+Daangn Market,2.7,August 2021,E-commerce,South Korea,none,无 ATS 信号
+Tridge,2.7,August 2022,Software as a service,South Korea,greenhouse,apply link boards.greenhouse.io/tridge/jobs/7616733003 in posting; board slug=tridge
+Nextiva,2.7,September 2021,Software,United States,greenhouse,board=nextiva
+Tradeshift,2.7,March 2021,Financial technology,United States,smartrecruiters,—
+Odoo,2.63,July 2021,CRM,Belgium,custom,自建招聘页 odoo.com/jobs
+AmWINS Group,2.6,October 2016,Insurance,United States,none,Careers pages self-hosted on amwins.com; no ATS domain or markers found
+ManoMano,2.6,July 2021,E-commerce,France,custom,Branded own-domain careers site careers.manomano.jobs; no vendor ATS detected
+Pendo,2.6,July 2021,Software,United States,greenhouse,board=pendo
+Sourcegraph,2.6,July 2021,Developer platform,United States,lever,board slug=sourcegraph (JD cites jobs.lever.co/sourcegraph job link)
+Jumpcloud,2.56,September 2021,Software,United States,lever,org=jumpcloud; direct jobs.lever.co/jumpcloud URLs in search results
+Cato Networks,2.5,October 2021,Cybersecurity,Israel,custom,jobs hosted on own domain catonetworks.com/careers; no ATS vendor seen
+EasyA,2.5,May 2024,Technology,United Kingdom,none,no ATS signal in search results
+Infra.Market,2.5,August 2021,Marketplace,India,none,No ATS domain found
+DriveNets,2.5+,August 2022,"Network operating system, Software-defined networking, Software as a service",Israel,custom,self-hosted careers page + drivenets.com/job/?id= detail pages; no ATS domain detected
+Mews (company),2.5,January 2026,Hospitality management platform,Czech Republic,custom,jobs from mews.com careers page; no ATS domain seen
+Monzo,2.5,June 2019,Financial services,United Kingdom,greenhouse,board=monzo
+Suno,2.45,November 2025,Artificial intelligence,United States,ashby,board slug=suno；多源一致
+Ualá,2.45,November 2019,Personal finance,Argentina,none,no ATS signal found (Argentine fintech; own-site careers
+HoneyBook,2.4,November 2021,Financial services,Israel /  United States,none,No ATS domain found; only aggregator/VC job-board mirrors
+BitSight,2.4,September 2021,Cybersecurity,United States,none,搜索结果无 ATS 信号
+Exabeam,2.4,June 2021,Cybersecurity,United States,none,仅聚合站，未见 ATS 域名
+Paxos,2.4,April 2021,Cryptocurrency,United States,greenhouse,apply links point to boards.greenhouse.io/joinpaxos; board slug=joinpaxos
+Mozido,2.39,October 2014,E-commerce,United States,none,No careers page / open roles found; company appears defunct
+Headway,2.3,July 2024,Healthcare,United States,custom,Official careers page headway.co/careers mentioned in job postings; no third-party ATS domain seen
+Highspot,2.3,February 2021,Sales,United States,none,No ATS domain found in search results (only Uplers/Wellfound/GrabJobs).
+MPL,2.3,September 2021,Mobile gaming,India,none,Mobile Premier League (India gaming); no ATS-domain signal in search results
+Uzum,2.3,March 2026,"E-commerce, Financial technology",Uzbekistan,none,no ATS signal found
+Uptake,2.3,November 2017,Asset performance management,United States,none,no ATS signal in search results
+Algolia,2.25,June 2021,Software,France /  United States,greenhouse,board slug=algolia; live job-boards postings
+KeepTruckin,2.25,June 2021,Logistics,United States,greenhouse,KeepTruckin (now Motive) fully operational on Greenhouse per Greenhouse vendor customer story; no direct board URL found
+Acorns,2.2,May 2021,Financial technology,United States,none,no ATS signal; old Greenhouse/Lever slugs reported dead
+Bitso,2.2,May 2021,Cryptocurrency,Mexico,none,无明确ATS域名出现
+Gympass,2.2,June 2021,Fitness,Brazil /  United States,greenhouse,内含 boards.greenhouse.io/gympass/jobs/8170036002；slug=gympass
+Transmit Security,2.2,June 2021,Cybersecurity,Israel /  United States,greenhouse,apply links boards.greenhouse.io/transmitsecurity/jobs/<id> in multiple postings; board slug=transmitsecurity
+Addepar,2.17,June 2021,Financial technology,United States,greenhouse,board=addepar1 (apply link boards.greenhouse.io/addepar1/jobs/8235954002 seen on result page)
+Eightfold.ai,2.1+,June 2021,Artificial intelligence,United States,eightfold,用自家 eightfold.ai 平台
+Gamma,2.1,November 2025,Artificial intelligence,United States,none,仅聚合站，未见 ATS 域名
+PayFit,2.1,January 2022 (2022-01),Software,France,none,Careers on careers.payfit.com self-hosted subdomain (URL pattern /jobs/{id}-{slug}); underlying ATS platform not identifiable from search results
+6sense,2.1,March 2021,Artificial intelligence,United States,greenhouse,board=6sense
+C6 Bank,2.1,December 2020,Financial services,Brazil,none,No ATS domain found in search results
+Mambu,2.1,January 2021,Financial technology,Germany,icims,iCIMS careers portal (careers-mambu.icims.com); Adzuna listings also tagged iCIMS partner
+Webflow,2.1,January 2021,Web development,United States,greenhouse,board slug=webflow; known ref said ashby but current live board is Greenhouse
+bKash,2+,November 2021,Mobile financial services,Bangladesh,none,jobs via LinkedIn/bdjobs (career@bkash.com); no ATS domain found
+Bought By Many,2+,June 2021,Insurance,United Kingdom,none,no ATS signal in search results
+FlixMobility,2+,August 2019,Transportation,Germany,custom,company-owned careers portal flix.careers; no third-party ATS domain visible
+Tipalti,2+,October 2020,Financial technology,United States /  Israel,none,jobs only seen on aggregators; no ATS signal
+Hive,2,April 2021,Artificial intelligence,United States,lever,"slug=hive; jobs.lever.co/hive postings in results (AI company, SF/Seattle/Delhi)"
+Mural,2,July 2021,Technology,Argentina /  United States,none,无明确ATS域名出现
+AppsFlyer,2,November 2020,Mobile marketing analytics,Israel /  United States,greenhouse,自建子域 careers.appsflyer.com 嵌入 Greenhouse，URL 带 ?gh_jid= 参数
+BlaBlaCar,2,April 2021,Transportation,France,none,no ATS signal found (careers on blablacar.com
+Calm,2,December 2020,Digital health,United States,greenhouse,board=calm (current board; old Lever board jobs.lever.co/calm seen on legacy huntr page — migrated)
+ClickHouse,2,October 2021,Database management,United States,none,证据冲突：aspirova（2026-07-24）称 Greenhouse 已实测，aplyx（2026-09-01）称 Ashby；无法确定
+Clip,2,June 2021,Financial technology,Mexico,none,仅 mx.expertini 聚合站，未见 ATS 域名
+Cockroach Labs,2,January 2021,Database management,United States,lever,task-provided known reference jobs.lever.co/cockroachlabs; not independently confirmed via search results
+Divvy Homes,2,August 2021,Real estate technology,United States,none,No ATS signal found; postings on startup.jobs only
+Druva,2,April 2021,Cloud computing,India /  United States,none,No ATS domain found in search results
+Exotec,2,August 2022,Robotics,France,custom,Own careers portal careers.exotec.com; no ATS vendor visible
+Firstp2p,2,September 2016,Financial services,China,none,company identity ambiguous in search results; no ATS-domain signal
+Formlabs,2,May 2021,3D printing,United States,greenhouse,board=formlabs
+Huimin.cn,2,September 2016,B2B e-commerce,China,none,no ATS signal in search results
+Iterable,2,June 2021,Marketing,United States,greenhouse,board slug=iterable
+Kry,2,April 2021,Healthcare,Sweden,custom,self-hosted careers site on career.kry.se; no known ATS domain
+Meicai.cn,2,June 2016,"Agriculture, E-commerce",China,none,Chinese company (美菜); no ATS signal
+Mynt,2,November 2021,Financial technology,Philippines,none,搜索结果多为同名无关公司（移动美容/沙龙），无ATS信号
+OPay,2,August 2021,Financial technology,Nigeria,none,careers 托管在 BambooHR，不在分类列表内
+PixVerse,2,July 2026 (2026-07),Artificial Intelligence,Singapore,custom,official self-hosted careers page (Join Us) at pixverse.ai; no ATS board domain observed
+Simile,2,July 2026 (2026-07),Artificial Intelligence,United States,none,"Simile AI ($2B, Greenoaks/Index Series B); no ATS signal found"
+Sword Health,2,November 2021,Health,Portugal /  United States,lever,"其 JD 原文""Own end-to-end administration of our ATS (Lever today…)""；job-tracker 记 ats=lever, slug=swordhealth"
+Trendy International Group,2,February 2012,"Fashion, Retail",China /  Hong Kong,none,搜索噪音（Trends International / Trendyol），无有效信号
+Unqork,2,October 2020,Software development,United States,greenhouse,board slug=unqork (job link boards.greenhouse.io/unqork/jobs/7910687002)
+Zerodha,2,May 2021,Financial technology,India,custom,Official careers at careers.zerodha.com (own domain); no ATS vendor
+Instabase,2,June 2023,Software,United States,none,No ATS domain found in search results
+Zilch,2,November 2021,Financial technology,United Kingdom,none,No ATS domain found in search results (only Adzuna/VC job board reposts).
+Akulaku,2,February 2022,Financial technology,Indonesia,none,no ATS signal; jobs only seen on Indeed/Dealls job boards
+Ankorstore,1.98,August 2022,Marketplace,France,ashby,apply links -> jobs.ashbyhq.com/ankorstore; board=ankorstore
+Avant,1.98,September 2015,Consumer finance,United States,none,no ATS signal in search results
+ThoughtSpot,1.95,August 2019,Analytics,United States,none,No ATS domain found
+Sanpower Group,1.93,March 2018,Holding company,China,none,Nanjing conglomerate (Sanbao Group); no careers/ATS signal found
+ZigBang,1.93,June 2022,Property technology,South Korea,none,no ATS signal
+Bunq,1.9,July 2021,Financial services,Netherlands,none,结果页文本提及bunq.recruitee.com（Recruitee ATS，不在目标平台列表中），故记none
+CoinSwitch Kuber,1.9,October 2021,Cryptocurrency,India,none,实际平台为 Recruiterflow（recruiterflow.com/coinswitch/jobs），不在分类列表内
+Dfinity,1.9,August 2018,Cloud computing,Switzerland,none,no ATS signal found (DFINITY Foundation careers
+Prosper Marketplace,1.9,August 2015,Financial technology,United States,none,No ATS signal; Greenhouse results belong to Prosper Health (different company)
+Musinsa,1.89,November 2019,Fashion,South Korea,none,搜索结果无 ATS 信号
+Apus Group,1.85,August 2017,Mobile internet,China,none,搜索被美国 APUS 大学噪音淹没，无有效信号
+MEGAZONE,1.83,Aug 2022,Cloud computing,South Korea,custom,recruitment page self-hosted on megazone.digital; no ATS domain found
+Landa Digital Printing,1.8,June 2018,Printing,Israel,none,No careers ATS found (jobs on Glassdoor/GrabJobs only)
+Lightricks,1.8,September 2021,Software development,Israel,none,No ATS domain found in search results
+NantOmics,1.8,June 2015,Biotechnology,United States,none,No ATS domain found in search results.
+Orca Security,1.8,October 2021,Cybersecurity,Israel,greenhouse,career page URLs carry ?gh_jid= Greenhouse job-id parameter (embedded Greenhouse board); known reference said ashby but current evidence points to Greenhouse
+Quora,1.8,April 2017,Social network,United States,lever,"apply link jobs.lever.co/quora (older posting, Q&A company confirmed); slug=quora"
+Radiant Nuclear,1.8,December 2025,Energy Technology,United States,none,no ATS signal in search results
+Zocdoc,1.8,August 2015,Healthcare,United States,greenhouse,board slug=zocdoc
+L&amp;P Cosmetic,1.78,March 2018,Cosmetics,South Korea,none,no ATS domain found; search results conflated with L&P Aesthetics (different company); Korean cosmetics company likely hires via own site
+Creditas,1.75,December 2020,Financial services,Brazil,greenhouse,careers link is grnh.se shortlink (Greenhouse); board slug unknown
+Spinny,1.75,November 2021,Marketplace,India,none,搜索结果均为第三方招聘站，无ATS信号
+Trulioo,1.75,June 2021,Identity management,Canada,custom,招聘页在自建域 trulioo.com/apply；弱信号
+Productboard,1.725,February 2022,Product management platform,Czech Republic,greenhouse,"multiple Productboard job postings name Greenhouse as their ATS/tech stack (e.g. recruiting coordinator posting manages candidates in Greenhouse); known board slug=productboard per parent reference, not directly seen in results"
+ADVASA,1.7,January 2023,Software,Japan,none,No target-company signal found (Japanese software company; searches returned unrelated ADVASA/ADUSA results)
+Carsome,1.7,Jan 2022,Marketplace,Malaysia,none,搜索结果无 ATS 信号
+Dragos,1.7,October 2021,Cybersecurity,United States,greenhouse,board slug=dragos
+Dutchie.com,1.7,March 2021,Cannabis,United States,greenhouse,board slug=thedutchie; careers embedded via Greenhouse (job pages carry gh job IDs)
+GVE,1.7,January 2023,Software,Japan,none,Could not disambiguate company identity; no identifiable careers presence
+Harness,1.7,June 2021,Software,United States,none,No ATS domain found in search results
+PAX Labs,1.7,April 2019,Cannabis,United States,greenhouse,board slug=paxlabs
+Vestiaire Collective,1.7,September 2021,Marketplace,France,none,no ATS signal found in search results
+Voodoo,1.7,August 2022,Gaming,France,ashby,apply links -> jobs.ashbyhq.com/voodoo; board=voodoo
+Workato,1.7,December 2020,Technology,United States,greenhouse,board=workato
+Alan,1.68,April 2021,Health technology,France,none,No ATS domain found
+Incredible Health,1.65,August 2022,Healthcare Technology,United States,none,"internal roles posted via aggregators only; incrediblehealth.com/jobs hosts nurse marketplace listings (product), not corporate ATS; no ATS signal"
+HiBob,1.65,October 2021,HR technology,Israel /  United States,none,no ATS signal for HiBob's own careers
+Solarisbank,1.65,July 2021,Financial technology,Germany,none,无明确ATS域名出现
+Wayflyer,1.6,Feb 2022,Financial technology,Ireland,ashby,内含 jobs.ashbyhq.com/wayflyer/...；slug=wayflyer
+Aiways,1.6,April 2018,Electric vehicles,China,none,no ATS signal found (EV maker; searches hit EV job boards
+Cresta,1.6,March 2022,Artificial intelligence,United States,greenhouse,board=cresta
+Clari,1.6,March 2021,Software,United States,none,ATS 探测记录（rubix982/scout）称 no ATS marker found
+Clio,1.6,April 2021,Legal technology,Canada,none,仅聚合站（echojobs/builtin），未见 ATS 域名
+Cognite,1.6,May 2021,Software,Norway,lever,apply links point to jobs.lever.co/cognite; board slug=cognite
+HomeLight,1.6,September 2021,Real estate,United States,greenhouse,board=homelight
+Nord Security,1.6,April 2022,VPN service,Lithuania,lever,board=nordsec
+SafetyCulture,1.6,May 2021,Technology,Australia,none,No ATS domain found in search results (only Adzuna/remotefront/GrabJobs).
+SmartHR,1.6,May 2021,HR technology,Japan,none,Japan HR SaaS unicorn; no ATS-domain signal for the company itself (smartrecruiters smartHR1 board appears unrelated)
+Unite Us,1.6,March 2021,Healthcare,United States,none,no ATS signal found (jobs via aggregators only)
+Vanta,1.6,June 2022,Cybersecurity,United States,ashby,multiple job-trackers list Vanta as Ashby board; slug=vanta
+CureFit,1.56,November 2021,,India,none,No ATS domain found
+HeartFlow,1.5+,February 2018,Healthcare,United States,custom,official careers site www.heartflow.com/about/careers/ cited in postings; no known ATS domain found
+KreditBee,1.5,April 2026 (2026-04),Financial technology,India,none,no ATS signal
+Airbyte,1.5,December 2021,Software,United States,none,无明确ATS域名出现
+Andela,1.5,September 2021,Education,Nigeria /  United States,greenhouse,Go to Andela on boards.greenhouse.io；slug=andela
+Culture Amp,1.5,July 2021,Software,Australia,greenhouse,open job links job-boards.greenhouse.io/cultureamp/jobs/<id> listed in au-tech-pulse dataset; note: older reference jobs.lever.co/cultureamp suggests migration from Lever to Greenhouse (slug=cultureamp)
+"Devo, Inc.",1.5,October 2021,Software,Spain,none,No ATS domain found
+Granola,1.5,March 2026,Software,United Kingdom,none,搜索结果无 ATS 信号
+ID.me,1.5,March 2021,Identity verification service,United States,none,自建招聘页 id.me/careers，未见 ATS 域名
+Ledger,1.5,June 2021,Cryptocurrency,France,none,Careers on careers.ledger.com self-hosted subdomain; underlying ATS platform not identifiable from search results
+Matillion,1.5,September 2021,Data analytics,United Kingdom,custom,Careers on own domain (matillion.com); no ATS vendor
+MOLOCO,1.5,August 2021,Advertising technology,United States,none,No ATS domain found in search results
+Molbio Diagnostics,1.5,February 2023,Medical device,India,none,No ATS domain found in search results (only Wellfound/jobhai/biotecnika).
+Mu Sigma,1.5,February 2013,Management consulting,India /  United States,none,no ATS signal found in search results
+NextSilicon,1.5,June 2021,Semiconductors,Israel,custom,careers hosted on own domain nextsilicon.com/careers; no ATS vendor seen
+NotCo,1.5,July 2021,Food technology,Chile,none,no ATS signal; Wellfound profile lists no jobs
+Podium,1.5,August 2019,Software,United States,greenhouse,board slug=podium81
+Remote,1.5,July 2021,Software,Portugal /  United States,greenhouse,board slug=remotecom; migrated from jobs.ashbyhq.com/remote (stale reference)
+Render,1.5,"February 17, 2026 (2026-02-17)",Cloud computing,United States,custom,careers at render.com/careers; no ATS domain seen
+Spring Rain Software,1.5,June 2016,,China,none,搜索结果均为孟加拉同名公司，与独角兽Spring Rain Software无关
+Starling Bank,1.5,March 2021,Financial technology,United Kingdom,none,实际平台为 Workable（apply.workable.com/starling-bank），不在分类列表内
+5ire,1.5+,July 2022,Technology,India,none,no ATS signal found (blockchain company; no company careers ATS surfaced)
+Tujia.com,1.5,October 2017,Justin Luo and Melissa Yang,China,none,Chinese travel/housing (Tujia/途家); no ATS signal in Chinese-language search
+ZBJ.com,1.5,June 2015,,China,none,搜索结果无 ATS 信号
+Ascend Money,1.5,September 2021,Financial technology,Thailand,none,经 workventure/linkedin/邮箱投递，未见 ATS 域名
+Hellobike,1.47,June 2018,,China,none,"no ATS domain found; Chinese company (Hello Travel), careers not surfaced in English search"
+Suning Sports,1.47,July 2018,Holding company,China,none,No careers page or ATS signal found (Suning holding entity)
+Koudai Gouwu,1.45,October 2014,,China,none,No ATS domain found in search results
+M1 Finance,1.45,July 2021,Financial technology,United States,none,"No ATS domain found in search results (only Wellfound; Adzuna hits were UK M1 Manchester roles, not M1 Finance)."
+Odyssey,1.45,June 2026 (2026-06),Artificial intelligence,United States,none,company identity ambiguous in search results; no ATS-domain signal
+Zeta,1.45,May 2021,Financial technology,India,custom,apply links point to self-hosted zeta.tech/in/careers job pages
+Einride,1.44,April 2022,Technology,Sweden,custom,tracked as JobTech (Swedish public job API); careers at einride.tech/careers
+Eucalyptus Health,1.4,2026,Health,Australia,greenhouse,board slug=eucalyptus
+Deliverect,1.4,January 2022,Ordering software for POS,Belgium,none,no ATS domain found; only aggregator listings
+Away,1.4,May 2019,Retail,United States,none,luggage company; no ATS signal
+OneCard,1.4+,July 2022,Financial technology,India,none,无明确ATS域名出现
+Bucketplace,1.4,May 2022,Interior design,South Korea,none,无 ATS 信号
+Cabify,1.4,January 2018,Transportation,Spain,greenhouse,two sources (jobhunter-agent plan + README) list Cabify under Greenhouse ATS; board slug not given in source
+Chargebee,1.4,April 2021,Financial technology,India /  United States,greenhouse,board=chargebee (historical Greenhouse token in ATS tracker; API returned 404 in 2026-08-02 run — may have migrated)
+Epidemic Sound,1.4,March 2021,Music,Sweden,none,搜索结果无 ATS 信号
+Five Star Finance,1.4,March 2021,Financial services,India,none,仅印度招聘聚合站（foundit/jobhai），未见 ATS 域名
+IAD,1.4,Oct 2021,Real estate,France,none,No ATS signal found in search results (iad France immobilier; mostly aggregator noise)
+NetDocuments,1.4,May 2021,Software,United States,greenhouse,board=netdocuments; apply links point to boards.greenhouse.io/netdocuments
+"Panther Labs, Inc.",1.4,December 2021,Computer security,United States,custom,Apply at own careers page runpanther.io/careers; no third-party ATS domain seen
+Pristyn Care,1.4,December 2021,Health technology,India,none,No ATS domain found in search results (only Indeed/jobhai/freshers sites).
+"QOMPLX, Inc.",1.4,March 2021,Computer security,United States,none,no open jobs found; no ATS signal
+Rebel Foods,1.4,October 2021,Ghost kitchen,India,none,careers page instructs applications via careers@rebelfoods.com email; no ATS found
+Slash,1.4,April 2026,Financial technology,United States,none,no ATS signal; Wellfound profiles list no jobs
+Stash,1.4,February 2021,Financial technology,United States,none,No ATS domain found
+Symphony,1.4,June 2019,Software,United States,custom,self-hosted careers on symphony.com; no ATS domain detected
+Voyager,1.4,April 2022,Financial technology,Philippines,none,Philippines fintech; no disambiguated ATS signal
+Yotpo,1.4,March 2021,Marketing,Israel /  United States,greenhouse,board=yotpo
+Miro,1.36,September 2026 (2026-09),Software,United States,greenhouse,board slug=realtimeboardglobal（旧名 RealtimeBoard）；多源 job-tracker 仓库一致确证
+RIDI,1.33,August 2021,E-commerce,South Korea,none,no ATS signal found (Korean webtoon company; no ATS domain surfaced)
+Zetwerk,1.33,August 2021,,India,custom,"Careers on own domain; zetwerk.sensehq.com hosts a few jobs (SenseHQ mirror, significance unclear)"
+GPClub,1.32,December 2018,,South Korea,none,搜索结果无 ATS 信号
+Corgi,1.3,May 2026,Financial technology,United States,none,招聘经 YC job board 发布，未见 ATS 域名
+DistroKid,1.3,August 2021,Music,United States,custom,official careers page on distrokid.com per job aggregators ('Apply directly on DistroKid's careers page'); no ATS domain found
+ETCP,1.3,October 2016,,China,none,Identity ambiguous (multiple same-name companies in results); no ATS signal verifiable
+Feedzai,1.3,March 2021,Artificial intelligence,Portugal /  United States,greenhouse,board=feedzai
+G2,1.3,June 2021,Technology,United States,none,No ATS domain found in search results (own g2.com careers page; no ATS URL).
+Innovaccer,1.3,February 2021,Health care,India /  United States,workable,"apply link points to apply.workable.com/innovaccer-analytics/j/3BD2115EF9; workable not in standard mapping list, single third-party source"
+Konfio,1.3,September 2021,Financial services,Mexico,bamboohr,"apply links -> konfio.bamboohr.com/careers; slug=konfio (BambooHR, not in standard mapping)"
+Kr Space,1.3,June 2018,,China,none,no ATS signal in search results
+Yugabyte,1.3,October 2021,Database management,United States,greenhouse,"board slug=yugabyte; own careers page says ""Submit your resume/CV via Greenhouse"""
+Airtable,1.28,August 2026 (2026-08),Collaborative software,United States,greenhouse,board slug=airtable; also boards.greenhouse.io/airtable/jobs/5094706002
+Cart.com,1.27,June 2023,Commerce and logistics,United States,none,no ATS signal
+Incode,1.25,December 2021,Technology,Mexico,greenhouse,careers页在自有域名上但URL带?gh_jid=参数（Greenhouse职位ID），指向Greenhouse后端
+Applied Intuition,1.25,October 2020,Software,United States,none,无 ATS 信号
+BigID,1.25,May 2018,Cybersecurity,Israel /  United States,none,no ATS domain or careers page found in search results
+Deel,17.3,October 2025,,Israel /  United States,ashby,board=deel (careers_url https://jobs.ashbyhq.com/Deel; explicit jobs.ashbyhq.com/deel/... job URLs seen)
+ezCater,1.25,April 2019,,United States,greenhouse,board=ezcaterinc；多条佐证
+Iwjw,1.25,November 2015,,China,none,公司身份不明，无有效招聘信号
+Marshmallow,1.25,September 2021,Insurance,United Kingdom,none,No ATS signal found in search results; jobs page hosted on marshmallow.com
+Rec Room,1.25,March 2021,Video games,United States,none,No ATS signal found; postings on startup.jobs
+Spiber,1.22,September 2021,Biotechnology,Japan,custom,Applications via own website application form spiber.inc/en/join/form; no third-party ATS domain seen
+Insider,1.22,March 2022,AI-powered SaaS,Turkey,lever,Weak signal: Selenium test for useinsider.com careers notes 'redirects us to Lever Application form page'; search results dominated by Business Insider noise
+Merama,1.2,December 2021,E-commerce,Mexico,none,no ATS signal found; listings on startup.jobs
+Ada,1.2,May 2021,Software,Canada,greenhouse,curated Toronto tech list points Ada careers to boards.greenhouse.io/ada; board=ada
+Alation,1.2,June 2021,Software,United States,none,no ATS signal; Wellfound profile lists no jobs
+Axonius,1.2,March 2021,Cybersecurity,Israel /  United States,greenhouse,board slug=axonius; company-owned pages embed Greenhouse integration
+CarDekho,1.2,October 2021,Marketplace,India,custom,careers hosted on cardekho.com ('careers with us' tab); no ATS domain detected
+Copado,1.2,September 2021,Software,Spain /  United States,none,DevOps software company; no ATS signal
+Dental Monitoring,1.2,October 2021,Healthcare,France,none,无明确ATS域名出现
+Deutsche Health,1.2,August 2020,Biotech/Medical,Germany /  Russia,none,完全无该公司招聘信息
+Droom,1.2,July 2021,Marketplace,India,none,no ATS signal found (Indian auto marketplace; no ATS domain surfaced)
+Fair,1.2,December 2018,,United States,none,"Identity ambiguous: fair.com (car subscription, shut down ~2021), Fairmas GmbH (Berlin), FAIR Consulting Group (SAP/Australia); no $1.2B US unicorn 'Fair' confirmed"
+FloQast,1.2,July 2021,Software,United States,none,搜索结果无 ATS 信号
+Forto,1.2,June 2021,Software,Germany,ashby,board slug=forto（apply 链见搜索结果中的 remoterocketship 页面）
+Intercom,1.2,March 2018,Software,United States,greenhouse,"two job-scraper sources list Intercom as Greenhouse (job-boards.greenhouse.io/intercom, slug=intercom); task note claimed Lever jobs.lever.co/intercom, unconfirmed by search — needs recheck"
+Kyriba,1.2,October 2021,Cloud software,France,none,No ATS signal found; careers on own domain
+Mindtickle,1.2,August 2021,Software as a service,India,none,No ATS domain found in search results
+MyGlamm,1.2,November 2021,E-commerce,India,none,No ATS domain found in search results (only aggregators/recruiting sites).
+Triple-1,1.2,January 2023,Blockchain,Japan,none,Japanese AI-chip startup; no ATS-domain signal in search results
+Rohlik,1.2,June 2021,Retail,Czech Republic,none,no ATS domain found (jobs via aggregators only)
+upGrad,1.2,August 2021,Educational technology,India,none,no ATS signal in search results
+Workhuman,1.2,June 2020,Software,Ireland,none,No ATS domain found
+HappyRobot,1.2,August 2026,Artificial Intelligence,United States,none,no ATS domain found; only aggregator listings
+Sysdig,1.18,April 2021,Cybersecurity,United States,lever,slug=sysdig; apply links jobs.lever.co/sysdig/... in postings
+Starcloud,1.1,March 2026 (2026-03),Orbital Data Centers,United States,none,搜索结果均为新闻/其他同名公司，无ATS信号
+Deputy,1.1,March 2024,Workforce management software,Australia,none,搜索被 deputy 职位词淹没，无 ATS 信号（无可用 verbatim 证据 URL）
+"3DOM Alliance, Inc.",1.1,January 2023,Battery manufacturing,Japan,custom,"official self-hosted careers page at 3dom.co.jp (Yokohama, Japan); page says not currently hiring; no ATS domain observed"
+Acko,1.1,October 2021,Insurance,India,none,"Official careers hosted on careers.kula.ai/acko (Kula AI recruiting platform, not in target ATS list); boards.greenhouse.io/akko result is Akko Group (different company)"
+Apna,1.1,September 2021,,India,none,搜索结果无 ATS 信号
+Carousell,1.1,September 2021,Marketplace,Singapore,smartrecruiters,apply 链为 jobs.smartrecruiters.com/carousellgroup/744000106025299-ios-intern
+CoinDCX,1.1,August 2021,Cryptocurrency,India,none,Careers on careers.coindcx.com self-hosted; underlying ATS platform not identifiable from search results
+Purplle,1.1,June 2022,E-Commerce,India,none,No careers page ATS; applications via Google Forms/email per LinkedIn posts
+GlobalBees,1.1,December 2021,,India,custom,Own careers page globalbees.com/career.html referenced; no third-party ATS domain seen
+Luoji Siwei,1.1,September 2017,,China,none,No ATS domain found in search results (Chinese company; no English careers/ATS signal).
+Nexthink,1.1,February 2021,Technology,Switzerland,smartrecruiters,job page shows Apply link jobs.smartrecruiters.com/nexthink/<id>
+Sisense,1.1,January 2020,Business intelligence,Israel /  United States,none,no ATS domain found
+Drools,1.1,January 2023,Pet food,India,none,hiring via email/LinkedIn posts; no ATS signal
+SmartNews,1.1,August 2019,,Japan,none,No ATS domain found
+Substack,1.1,July 2025,Media and Publishing,United States,ashby,board slug=substack; multiple live postings at jobs.ashbyhq.com/substack
+Trax,1.1,May 2019,,Singapore /  Israel,none,name confusion (TraxNYC/TRAX International/Trax Partners); retail-tech Trax has no ATS signal
+Virta Health,1.1,December 2020,Healthcare,United States,ashby,board=virtahealth
+YouniteD,1.1,December 2022,Financial services,France,none,无 ATS 域名（用 bit.ly 链接）
+Benevity,1.1,December 2020,Software as a service,Canada,none,no ATS signal found (own careers at benevity.com/careers
+Zego,1.1,March 2021,Insurance,United Kingdom,none,UK insurer; only weak signal: old adzuna posting showed a Workable logo (not in target ATS list)
+Substrate,1+,October 2025,Semiconductor,United States,none,两次搜索均被 IC substrate 半导体衬底招聘信息污染，未找到该公司
+Aikido Security,1+,January 2026 (2026-01),Cybersecurity,Belgium,custom,官方招聘页在自有域名 aikido.dev/company/careers
+Character.ai,1+,March 2023 (2023-03),Artificial Intelligence,United States,ashby,board slug=character; multiple sources cite jobs.ashbyhq.com/character postings; task known reference confirmed
+Pentera,1+,January 2022,Cybersecurity,Israel,custom,Careers at pentera.io/careers (own domain); no ATS vendor
+"VectorBuilder, Inc.",1+,"July 26, 2023",Biotechnology,United States,custom,Applications by email on own careers pages; no third-party ATS domain seen
+Emplifi,1+,March 2022,Technology,"United States,  United Kingdom and Europe",none,No ATS domain found in search results (only GrabJobs/remotefront).
+Gymshark,1+,August 2020,Sportswear,United Kingdom,ashby,official board careers.gymshark.com is a custom domain; known board jobs.ashbyhq.com/gymshark; aggregator mirrors (startup.jobs) consistent with Ashby
+Kopi Kenangan,1+,December 2021,Coffee shop,Indonesia,darwinbox,apply portal kopikenangan.darwinbox.com (Darwinbox HRIS/ATS)
+Clara,1+,December 2021,Financial technology,Mexico,greenhouse,board=clara
+ClassDojo,1.25,July 2022,Education Technology,United States,ashby,"community probe live-verified Ashby board slug ""classdojo""; earlier jobs.ashbyhq.com URL could not be re-verified verbatim"
+58 Daojia,1+,October 2015,,China,none,"no ATS signal; Chinese home-services company (58到家, renamed Swan Daojia)"
+Acronis,1+,September 2019,Software,Singapore /   Switzerland,workday,tenant=acronis|site=acronis_careers; acronis.wd3/wd502.myworkdayjobs.com/acronis_careers
+Aircall,1+,October 2021,Cloud,France,none,无明确ATS域名出现
+Ajaib,1+,October 2021,Financial technology,Indonesia,custom,官方 LinkedIn 帖指引到自建域 career.ajaib.co.id；弱信号
+Amber Group,1+,June 2021,Cryptocurrency,Hong Kong,none,"no ATS domain found; careers via email (careers@ambergroup.io); caution: jobs.lever.co/amberelectric is Amber Electric (Australian energy), a different company"
+AppDirect,1+,October 2015,,United States,none,No ATS signal
+Aqua Security,1+,March 2021,Cloud computing,Israel,none,搜索结果无 ATS 信号
+Asia First Media,1+,September 2019,Media,Japan,none,无有效搜索信号
+Assent Compliance,1+,January 2022,Supply chain management,Canada,none,No ATS signal found in search results
+Krutrim,1+,26 January 2024,AI / GPT,India,custom,Applications route to Krutrim's official careers page (own domain); no ATS vendor
+Beibei,1+,June 2016,E-commerce,China,none,No ATS domain found in search results
+Back Market,1+,October 2021,E-commerce,France,none,no ATS signal in search results
+Bluecore,1+,August 2021,E-commerce,United States,lever,job pages show apply links jobs.lever.co/bluecore/<uuid>/apply
+Bringg,1+,June 2021,Logistics,Israel,none,no ATS domain found
+"Cadence Solutions, Inc.",1+,December 2021,Healthcare,United States,greenhouse,board=cadencesolutions
+Carro,1+,June 2021,Marketplace,Singapore,none,No ATS domain found
+Chubao Technology,1+,May 2017,,China,none,Shanghai mobile app company; no careers/ATS signal found
+Dt Dream,1+,June 2017,,China,none,name confusion; no signal for 数梦工场
+Dunamu,1+,July 2021,Financial technology,South Korea,none,搜索结果均为新闻，无ATS信号
+DXY,1+,April 2018,,China,none,无招聘信号
+Earnix,1+,February 2021,Financial technology,Israel,none,no ATS signal found (own careers at earnix.com/our-story/careers
+Ebanx,1+,October 2019,Financial services,Brazil,none,No ATS domain found (official careers page on ebanx.com per echojobs)
+EMPG,1+,June 2020,Real estate technology,United Arab Emirates,none,搜索结果无 ATS 信号
+eSentire,1+,Feb 2022,Cybersecurity,Canada /  United States,none,仅聚合站，未见 ATS 域名
+Flash Express,1+,June 2021,Logistics,Thailand,none,"no ATS domain found; Thai logistics company, jobs only via local boards (joblum); no central ATS signal"
+Flexe,1+,July 2022,Logistics,United States,greenhouse,board=flexe
+FreshBooks,1+,August 2021,Accounting software,Canada,none,No ATS domain found in search results
+FXiaoKe,1+,January 2018,,China,none,No ATS domain found in search results (Chinese company; no ATS signal).
+Gelato,1+,August 2021,,Norway,custom,self-built careers page on gelato.com (candidate pack); no external ATS domain found
+GeoComply,1+,March 2021,Cybersecurity,Canada,custom,jobs hosted on own domain geocomply.com/careers; no ATS vendor seen
+GetYourGuide,1+,May 2019,Travel,Germany,custom,self-built careers on getyourguide.careers; no ATS vendor domain
+Glance,1+,December 2020,Artificial intelligence,India,none,No Glance-specific ATS board; parent InMobi Group uses Greenhouse (job-boards.greenhouse.io/inmobi); glance.com/careers is company-owned
+Go1,1+,July 2021,Education,Australia,none,no ATS domain found; only aggregator listings
+Gousto,1+,November 2020,Meal kit,United Kingdom,smartrecruiters,weak signal: older adzuna Gousto listing carries SmartRecruiters logo/attribution
+Grover,1+,April 2022,E-commerce,Germany,none,无明确ATS域名出现（grover.com tech rental）
+Hailo,1+,June 2021,Electronics,Israel,none,无 ATS 信号；结果混入 hailo.de（德国公司）
+HighRadius,1+,January 2020,Software as a service,India /  United States,none,"no ATS domain found; jobs only on aggregators (lensa, shine, repvue)"
+Flo Health,1+,July 2024,Health Technology,"Lithuania,  Belarus",greenhouse,board=flohealth
+Huikedu Group,1+,May 2018,,China,none,搜索结果无 ATS 信号
+iCarbonX,1+,July 2016,Healthcare,China,custom,自建招聘页，简历投递 hr@icarbonx.com
+IFood,1+,November 2018,Food delivery,Brazil,none,No ATS signal found in search results (careers at carreiras.ifood.com.br)
+IGAWorks,1+,Aug 2021,Advertising technology,South Korea,none,Name collision: only grocery-chain IGA results found; no careers ATS for Korean adtech IGAWorks
+Improbable,1+,May 2017,Cloud computing,United Kingdom,ashby,board=Improbable; ashby domain seen in two independent search snippets
+Infobip,1+,July 2020,Cloud communications,Croatia,none,No ATS domain found in search results (own infobip.com careers page referenced; no ATS URL).
+Injective,1+,April 2021,Financial technology,United States,ashby,job posts use injectivelabs.org/careers?ashby_jid=... (Ashby param)
+InMobi,1+,May 2017,Internet,India,greenhouse,official listings sourced via job-boards.greenhouse.io; board slug unknown
+Ivalua,1+,May 2020,,France,greenhouse,board=ivalua
+Jollychic,1+,May 2018,,China,none,No ATS signal; aggregators only; likely defunct with 0 openings
+JoyTunes,1+,June 2021,Music,Israel,custom,self-hosted careers at joytunes.com/careers; no ATS domain detected
+Just Salad,1+,February 2025,Restaurants,United States,custom,JDs say apply at justsalad.com/careers; no ATS domain seen
+Kendra Scott LLC,1+,December 2016,Jewelery,United States,none,无明确ATS域名出现
+Kitopi,1+,July 2021,Ghost kitchen,United Arab Emirates,none,无 ATS 信号
+Klook,1+,April 2019,,Hong Kong,none,no ATS signal found (no ATS domain surfaced in searches)
+LetsGetChecked,1+,June 2021,Healthcare,Ireland,greenhouse,board=letsgetchecked (SmartRecruiters mirror careers.smartrecruiters.com/LetsGetChecked also seen with 1 Dublin job; Greenhouse board is official)
+Lydia,1+,August 2022,Finance,France,none,搜索结果无 ATS 信号
+LinkSure Network (WiFi Master Key),1+,January 2015,,China,none,无有效招聘信号
+LMAX Group,1+,July 2021,Financial technology,United Kingdom,custom,careers self-hosted on careers.lmax.com; one third-party listing showed apply.workable.com/lmax link (stale/unconfirmed)
+Locus Robotics,1+,February 2021,Robotics,United States,custom,Careers page on own domain locusrobotics.com; no ATS vendor
+Loft Brazil Technology,1+,January 2020,Real estate,Brazil,none,No ATS domain found in search results
+Lunar,1+,July 2021,Financial technology,Denmark,custom,Own careers portal jobs.lunar.app; no known ATS vendor visible
+Loggi,1+,June 2019,Logistics,Brazil,none,Brazilian logistics; no ATS-domain signal in search results
+Lookout,1+,August 2014,Cybersecurity,United States,greenhouse,apply links -> boards.greenhouse.io/lookout|lookoutinc; slug=lookout (3rd-party spec confirms)
+MadeiraMadeira,1+,January 2021,Furniture,Brazil,icims,site=careers-madeiramadeira
+Maimai,1+,August 2018,,China,none,No ATS domain found (Chinese professional network)
+Masterworks,1+,November 2025,Financial Technology,United States,none,no ATS signal for masterworks.io (art investing platform); masterworks.agency results belong to a different company (marketing agency)
+Matrixport,1+,August 2021,Cryptocurrency,Singapore,none,no careers ATS signal
+Meero,1+,June 2019,Internet,France,none,结果中职位托管在careers.flatchr.io（Flatchr ATS，不在目标平台列表中），故记none
+Mensa Brands,1+,November 2021,E-commerce,India,none,无 ATS 信号
+Mia.com,1+,October 2016,,China,none,no ATS domain found; company identity ambiguous (Mia-Platform seen on levels.fyi)
+MindMaze,1+,February 2016,,Switzerland,custom,Applications via own site; no ATS domain seen
+MobileCoin,1+,August 2021,Cryptocurrency,United States,none,搜索结果无 ATS 信号
+Mofang Apartment,1+,April 2016,,China,none,无有效招聘信号
+Moglix,1+,May 2021,E-commerce,India /  Singapore,none,No ATS signal found in search results
+Moka,1+,November 2021,Human resource management,China,none,"Identity ambiguous: China HR unicorn Moka (now Moka AI, itself an ATS vendor) vs Moka POS Indonesia; no verifiable careers page for target"
+Morning Consult,1+,June 2021,,United States,none,No ATS domain found in search results
+Ninja Van,1+,September 2021,Logistics,Singapore,none,No ATS domain found in search results (only Indeed/prosple).
+Nium,1+,July 2021,Financial technology,Singapore,lever,job page shows Apply link jobs.lever.co/nium/<uuid>
+NoBroker,1+,November 2021,,India,none,careers@nobroker.in email applications; no ATS domain found
+Kredivo,1+,January 2022,Financial technology,Indonesia,none,no ATS signal in search results
+OCSiAl,1+,March 2019,Nanotechnology,Luxembourg,custom,company-owned careers page; no third-party ATS domain visible
+Opn (Synqa),1+,May 2022,Financial technology,Japan,none,jobs only seen on aggregators; no ATS signal
+OrCam,1+,February 2018,Health,Israel,none,hires via careers@orcam.com email; no ATS signal
+PandaDoc,1+,September 2021,Software as a service,United States,greenhouse,自有域名careers页多条招聘链接带?gh_jid=参数（Greenhouse职位ID），指向Greenhouse后端
+Pantheon Systems,1+,July 2021,WebOps,United States,none,无 ATS 域名；搜到的 careers 页疑似同名不同公司
+PatSnap,1+,March 2021,Intellectual property,Singapore,none,no ATS signal found (no ATS domain surfaced in searches)
+Picsart,1+,August 2021,Graphic design,Armenia /  United States,none,Aggregator results only; no ATS domain
+Playco,1+,September 2020,Mobile gaming,Japan,none,搜索结果无 ATS 信号
+Redis Labs,1+,August 2020,Software,Israel /  United States,greenhouse,自有域名招聘页但内嵌 Greenhouse（gh_jid 参数）
+REEF Technology,1+,November 2020,Real estate technology,United States,none,"no ATS domain found; jobs only via Indeed/Glassdoor; company heavily downsized, no careers page surfaced"
+Quizlet,1+,May 2020,Educational technology,United States,lever,slug=quizlet-2; apply links point to jobs.lever.co/quizlet-2; Quizlet recruiter JD names Lever as its ATS
+Revolution Precrafted,1+,October 2017,Architecture,Philippines,none,No ATS domain found in search results
+Sennder,1+,January 2021,Logistics,Germany,none,No ATS domain found in search results (only sennder.com/career referenced; no ATS URL).
+Shift Technology,1+,May 2021,Artificial intelligence,France,none,Paris insurance AI; no ATS-domain signal in search results
+Shippo,1+,June 2021,,United States,lever,"apply links jobs.lever.co/shippo (older); 3rd-party PR notes recent Lever->Rippling migration, unverified"
+Sift,1+,April 2021,Fraud prevention,United States,none,no ATS signal in search results
+Slice,1+,November 2021,Financial technology,India,none,No careers/ATS page found; aggregators only
+SmartAsset,1+,June 2021,Financial technology,United States,greenhouse,board slug=smartasset
+SmartMore,1+,June 2021,Artificial intelligence,China,none,no ATS signal (思谋科技)
+Snapdeal,1+,May 2017,E-commerce,India,none,无明确ATS域名出现
+Socket,1+,May 2026,Security software,United States,none,无 ATS 信号
+Spendesk,1+,August 2022,Financial software,France,custom,self-hosted careers on career.spendesk.com subdomain; no third-party ATS domain observed
+Splashtop,1+,January 2021,Software,United States,custom,Own careers page with live listings; no ATS domain
+Staffbase,1.1,March 2022,Software as a service,Germany,custom,staffbase.com/jobs 自有域名招聘页
+Swile,1+,October 2021,Financial services,France,lever,apply 链为 jobs.lever.co/swile/2f33dd7f-1f37-4d73-abd0-8f8fa4c96f7d
+Synthesia,1+,June 2023,Artificial intelligence,United Kingdom,ashby,Weak signal: JD technical-skills list names Ashby; board jobs.ashbyhq.com/synthesia per known reference but no direct Ashby board URL surfaced in search results
+Taxfix,1+,April 2022,Fintech / Tax software,Germany,custom,Open roles link to taxfix.de/en/careers (own domain); no ATS vendor
+Tekion,1+,October 2020,Software as a service,United States,greenhouse,board=tekion; postings also mention Greenhouse Internal Job Board
+Tenstorrent,1+,May 2021,Semiconductors,Canada,greenhouse,board slug=tenstorrent
+Tezign,1+,October 2021,Software,China,none,Chinese company; no ATS signal found in search results
+Thatch,1,September 2026,Individual health benefits,United States,custom,jobs hosted on own domain thatch.com/jobs; no ATS vendor seen
+Tongdun Technology,1+,October 2017,,China,none,no ATS signal in search results
+Tractable,1+,June 2021,Artificial intelligence,United Kingdom,none,No ATS domain found; careers via tractable.ai and investor job boards only
+Tresata,1+,October 2018,,United States,none,jobs only seen on aggregators (Glassdoor/foundit); no ATS signal
+TrueLayer,1+,September 2021,Financial technology,United Kingdom,custom,self-hosted careers page on truelayer.com; no ATS domain seen
+Trustly,1+,June 2020,Financial technology,Sweden,ashby,board=trustly
+Turo,1+,July 2019,Car sharing,United States,none,无 ATS 信号
+Vagaro,1+,November 2021,Software as a service,United States,none,no ATS signal found (careers at sales.vagaro.com/careers
+VerSe Innovation,1+,December 2020,Technology,India,none,"Aggregator results only (internshala, grabjobs); no ATS domain"
+Visier,1+,June 2021,Technology,Canada,greenhouse,board=visiersolutionsinc
+volocopter,1+,March 2021,Transportation,Germany,smartrecruiters,company=VolocopterGmbH
+Vox Media,1+,August 2015,Digital media,United States,greenhouse,board slug=voxmedia; direct Greenhouse job-board URLs in search results (15 jobs on job-boards.greenhouse.io)
+VTS,1+,May 2019,,United States,none,No ATS signal found; postings on startup.jobs
+Wacai.com,1+,July 2018,,China,none,No ATS domain found in search results
+WeLab,1+,December 2019,Financial technology,Hong Kong,none,No ATS domain found in search results (only GrabJobs/joblum).
+Womai,1+,October 2015,,China,none,Chinese online grocery (我买网); no ATS-domain signal in search results
+Xendit,1+,September 2021,Financial technology,Indonesia,greenhouse,official job URL carries gh_jid (Greenhouse job ID) at xendit.co/careers/job-application
+Xiaozhu.com,1+,November 2017,,China,none,no ATS signal in search results
+YH Global,1+,September 2017,Telecommunications,China,none,"Company identity ambiguous (may match ""Yeah! Global"" on careers-page.com); no ATS signal found"
+Yidian Zixun,1+,October 2017,,China,none,no ATS signal; Chinese news aggregator (一点资讯)
+Yitu Technology,1+,July 2018,,China,none,no ATS signal (依图)
+YunQuNa,1+,May 2021,Logistics,China,none,搜索结果多为无关内容，无ATS信号
+Zenoti,1+,December 2020,Software company,India /  United States,none,无 ATS 信号
+Zhuanzhuan,1+,April 2017,,China,none,no careers page or ATS signal found; search returned only unrelated results (Chinese secondhand marketplace 转转）
+Zuoyebang,1+,July 2018,,China,custom,Self-built recruiting portal job.zuoyebang.com per 2021 campus-recruitment PDF; Chinese domestic
+eFishery,1+,May 2023,Aquaculture,Indonesia,none,搜索结果无 ATS 信号
+LINE MAN Wongnai,1+,September 2022,"E-commerce, Food delivery",Thailand,custom,自有招聘页 careers.lmwn.com（jobthai 公司页标注）
+ReliaQuest,1+,December 2021,Cybersecurity,United States,workday,tenant=reliaquest|site=ReliaQuest_Careers
+DANA,1+,September 2022,Financial technology,Indonesia,custom,Careers site career.dana.id (own domain); no ATS vendor
+Nagad,1+,July 2023,Mobile financial services,Bangladesh,none,No ATS domain found in search results
+Ecovadis,1,August 2022,"Environmental, social, and corporate governance",France,smartrecruiters,JD states verbatim 'We use SmartRecruiters as our applicant tracking system'
+Scandit,1,February 2022,Software,Switzerland,none,no ATS signal found in search results
+BlueVoyant,1+,February 2022,Cybersecurity,United States,none,no ATS domain found
+Payhawk,1+,March 2022,Financial technology,Bulgaria,greenhouse,board=payhawkio
+Voi,1+,April 2022,,Sweden,custom,company-owned careers at careers.voi.com; no third-party ATS domain visible
+Neo Financial,1,May 2022,Financial technology,Canada,custom,self-hosted careers on get.neofinancial.com/careers; no ATS domain detected
+Stytch,1,November 2021,Cybersecurity,United States,custom,self-hosted careers.stytch.com; no ATS domain seen
+Epassi,1+,December 2023,Employee benefits platform,Finland,none,无明确ATS域名出现
+HMD Global,1+,August 2020,Mobile Devices,Finland,none,多为第三方聚合页，无 ATS 信号
+IQM,1,July 2022,Quantum Computing,Finland,teamtailor,Teamtailor ATS per eufindwork profile (board https://iqm.teamtailor.com/jobs
+Hostaway,1,December 2024,Vacation rental software platform,Finland,none,hostaway.recruitee.com apply links seen in remoterocketship results; recruitee not in target ATS list — left as none
+Papara,1,July 2023,Fintech,Turkey,none,搜索结果无 ATS 信号
+MNT-Halan,1+,February 2023,Fintech,Egypt,none,无有效搜索信号
