@@ -29,6 +29,8 @@
 
 **Incumbent 案例：Draup（2026-10-06 收录，见 [misc/wall-street-ai-talent-demand-2026-draup.md](../misc/wall-street-ai-talent-demand-2026-draup.md)）**：企业招聘数据公司，抓取 LinkedIn 等平台公开招聘信息，卖人才分析（talent intelligence）——2026-10 独家给 CNBC 提供了华尔街 AI 人才数据（银行 AI 职位 +49%、Agent 编排 +1721%）。这是"招聘上游数据 → B2B 订阅/报告"形态已经跑通的玩家：客户是企业 HR/战略部门而非求职者，客单价和续费逻辑与求职者端完全不同。做同类方向时，Draup 是要正面研究的对标。
 
+**已验证案例：JobRadar（[thread-1190421](../threads/thread-1190421-jobradar.md)，2026-10）**：独立开发者做的免费求职工具，盯数千家公司官网招聘页、每周抓 3.5 万+新职位，1 分钟内推送通知（"经常比求职平台早上一截"），另有 Chrome 插件自动填表 + 简历-JD 匹配度分析。验证了两点：①"头两天投的简历才会被看"是求职者侧最痛的点，"更早知道"本身就是可传播的钩子；②与 jobuzzer 同赛道、仍在免费 Beta，再次确认求职者端适合做流量入口、不做主力变现——两个独立开发者不约而同选了同一形态，说明"监控官网 ATS + 通知"这个 workflow 方向已被重复验证。
+
 ## B. 上游数据源清单 × 客户触达矩阵
 
 *逐类格式：信号 → 谁付费 → 卖什么形态 → 怎么触达 → 最小验证实验。数据源出自 [ai-value-creation.md](ai-value-creation.md) 的"上游数据源清单"。*
