@@ -1,6 +1,6 @@
 # 上游数据的商业化：客户触达（Go-to-Market）
 
-*2026-10-02 整理；2026-10-09 增补 B-11（联邦部委新闻室，DHS 样本）。来源：与用户的讨论（招聘数据 GTM 分析，2026-10-02）+ `ai-value-creation.md` 的上游数据源清单。用途：判断每类上游数据"卖给谁、卖什么形态、怎么触达到人"。*
+*2026-10-02 整理；2026-10-09 增补 B-11（联邦部委新闻室，DHS 样本）、B-12（国会委员会新闻室，中国问题特别委员会样本）。来源：与用户的讨论（招聘数据 GTM 分析，2026-10-02）+ `ai-value-creation.md` 的上游数据源清单。用途：判断每类上游数据"卖给谁、卖什么形态、怎么触达到人"。*
 
 > 定位：这是 [ai-value-creation.md](ai-value-creation.md) 的下游——那篇讲"取水烧水"的方法论，这篇讲"水烧开了卖给谁"。
 
@@ -131,6 +131,17 @@
 - **验证**：往后放；或先做单主题 MVP（如"移民政策 30 天变化简报"）发 10 家律所。
 - **现有渠道 / 成熟度 / 缝隙**：FederalRegister.gov 有 API（法规全文）；FiscalNote / Quorum / Bloomberg Gov（成熟，贵）。部委新闻室层面：无 RSS、无新闻室 API（2026-10-09 实测 dhs.gov/news，直抓 403），只有 GovDelivery 邮件/短信按主题订阅。成熟度低。缝隙：跨部委新闻室聚合＋结构化（DHS / USCIS / DOL / DOE…）；被高价挡住的长尾（小律所、独立顾问）。
 - **抓取注意**：dhs.gov 有反爬（直抓 403），用 GovDelivery 订阅或低频爬 all-news-updates 列表页；内容偏 PR 口径，法律细节以 Federal Register 为准。
+
+### 12. 国会委员会新闻室（样本：中国问题特别委员会，2026-10-09 收录）
+
+- **信号**："政策前置信号"——质询信（letters）和调查报告（reports）经常比立法/制裁早几个月。实例：该委员会 2024-12 致函质询 Webull，2026-10-07 发布《Free Trades, Hidden Ties》报告，当天 BULL 股价跌 18–26%。盯 letters + reports 等于提前看到"下一个被盯上的公司"名单。
+- **谁付费**：①投研 / 做空研究（事件驱动）；②企业合规与 GR（政府关系）团队；③律所（制裁/出口管制业务）；④记者。
+- **卖什么**："委员会动向雷达"——新质询信、新报告、新听证会的即时提醒＋被点名公司/议题的结构化摘要。
+- **触达**：对冲基金研究员、合规负责人（LinkedIn）、制裁业务律所。
+- **验证**：往后放；或先做单委员会 MVP（每周"Select Committee on CCP 本周动向"简报）发 10 家目标机构。
+- **现有渠道 / 成熟度 / 缝隙**：Congress.gov 有 API（法案/听证会元数据）；Bloomberg Gov、Quorum（成熟，贵）。委员会新闻室层面：有 RSS（chinaselectcommittee.house.gov/rss.xml，标准 RSS 2.0，含新闻稿/信函/报告），抓取门槛低；无 API、无 sitemap。成熟度低。缝隙：跨委员会聚合（拨款委员会、金融服务委员会、能源商务委员会等）＋被点名实体抽取；被高价挡住的长尾。
+- **抓取注意**：RSS 可直接订阅；报告 PDF 托管在 Constant Contact（files.constantcontact.com），无本站稳定直链，存档需自抓；注意委员会换过域名（selectcommitteeonccp.house.gov → chinaselectcommittee.house.gov），硬编码域名会失效。
+- **可泛化**：众议院各专门委员会网站多为同构（Drupal），有 press releases / letters / hearings 栏目和 RSS；B-11（部委新闻室）＋ B-12（国会委员会）可合并为"官方政策信号源"大类统一抓取。
 
 ## C. 通用验证实验模板
 
