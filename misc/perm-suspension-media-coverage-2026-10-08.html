@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="color-scheme" content="light dark" />
+  <link rel="icon" href="data:," />
+  <title>PERM 暂停事件媒体报道汇总</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@500;600;700;900&display=swap');
+    :root {
+      color-scheme: light dark;
+      --paper:#f4f1e9;
+      --ink:#191917;
+      --muted:#67645d;
+      --line:#c9c3b8;
+      --rule:#2a2926;
+      --accent:#b32822;
+      --accent-soft:#ead0cc;
+      --panel:#fbfaf5;
+      --chip:#e4dfd4;
+      --warn:#815e13;
+      --warn-bg:#efe2bd;
+      --shadow:0 10px 30px rgba(40,35,27,.08);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --paper:#181917;
+        --ink:#f2efe7;
+        --muted:#aaa69c;
+        --line:#4b4a45;
+        --rule:#ded9cf;
+        --accent:#f07167;
+        --accent-soft:#532d29;
+        --panel:#22231f;
+        --chip:#31322d;
+        --warn:#f2c667;
+        --warn-bg:#493d21;
+        --shadow:0 10px 30px rgba(0,0,0,.22);
+      }
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:var(--paper);color:var(--ink);font-family:"Noto Sans SC",sans-serif;line-height:1.72}
+    a{color:inherit;text-underline-offset:3px}
+    a:hover{color:var(--accent)}
+    button{font:inherit}
+    .page{width:min(1120px,calc(100% - 36px));margin:0 auto;padding:28px 0 72px}
+    .mast{border-top:7px solid var(--rule);border-bottom:1px solid var(--rule);padding:18px 0 14px;display:grid;grid-template-columns:1fr auto;gap:20px;align-items:end}
+    .kicker{font-size:13px;font-weight:700;letter-spacing:.08em;color:var(--accent);margin:0 0 9px}
+    h1{font-family:"Noto Serif SC",serif;font-size:clamp(34px,6vw,72px);line-height:1.05;letter-spacing:-.045em;margin:0;max-width:860px;font-weight:900}
+    .datebox{text-align:right;font-size:12px;color:var(--muted);line-height:1.55;white-space:nowrap}
+    .datebox strong{display:block;color:var(--ink);font-size:14px}
+    .dek{display:grid;grid-template-columns:minmax(0,2fr) minmax(230px,.8fr);gap:34px;padding:24px 0 28px;border-bottom:3px double var(--line)}
+    .lede{font-family:"Noto Serif SC",serif;font-size:clamp(18px,2.5vw,25px);line-height:1.65;margin:0}
+    .brief{border-left:1px solid var(--line);padding-left:24px;font-size:14px;color:var(--muted)}
+    .brief strong{display:block;color:var(--ink);font-size:15px;margin-bottom:5px}
+    .brief p{margin:0 0 12px}
+    .section{padding:38px 0;border-bottom:1px solid var(--line)}
+    .section-head{display:grid;grid-template-columns:170px 1fr;gap:28px;align-items:start;margin-bottom:24px}
+    .num{font-family:"Noto Serif SC",serif;font-size:14px;color:var(--accent);font-weight:700;border-top:2px solid var(--accent);padding-top:8px}
+    h2{font-family:"Noto Serif SC",serif;font-size:clamp(26px,4vw,42px);line-height:1.18;margin:0;letter-spacing:-.03em}
+    h3{font-family:"Noto Serif SC",serif;font-size:21px;line-height:1.35;margin:0 0 9px}
+    .verdict-grid{display:grid;grid-template-columns:1.2fr .8fr .8fr;gap:1px;background:var(--line);border:1px solid var(--line)}
+    .verdict{background:var(--panel);padding:24px}
+    .verdict.big{grid-row:span 2}
+    .verdict .label{font-size:12px;color:var(--accent);font-weight:700;margin-bottom:12px}
+    .verdict p{margin:0;color:var(--muted);font-size:14px}
+    .verdict.big p{font-family:"Noto Serif SC",serif;color:var(--ink);font-size:20px;line-height:1.65}
+    .fact-strip{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);margin-top:30px}
+    .fact{padding:16px 18px;border-right:1px solid var(--line)}
+    .fact:last-child{border-right:0}
+    .fact b{font-family:"Noto Serif SC",serif;font-size:26px;display:block;line-height:1.2}
+    .fact span{font-size:12px;color:var(--muted)}
+    .filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:20px}
+    .filter{border:1px solid var(--line);background:transparent;color:var(--ink);padding:7px 13px;border-radius:999px;cursor:pointer}
+    .filter[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:var(--paper)}
+    .coverage{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+    .story{background:var(--panel);border-top:4px solid var(--rule);padding:21px 22px;box-shadow:var(--shadow);display:flex;flex-direction:column;min-height:240px}
+    .story.hidden{display:none}
+    .story-meta{display:flex;justify-content:space-between;gap:12px;color:var(--muted);font-size:12px;margin-bottom:15px}
+    .story-meta b{color:var(--accent);font-size:13px}
+    .story p{font-size:14px;color:var(--muted);margin:0 0 13px}
+    .story .take{color:var(--ink)}
+    .story a{margin-top:auto;font-size:13px;font-weight:700;text-decoration:none;color:var(--accent)}
+    .story a::after{content:" ↗"}
+    .badge{display:inline-block;background:var(--chip);padding:2px 8px;border-radius:2px;font-size:11px;color:var(--ink);margin-left:6px}
+    .comparison{display:grid;grid-template-columns:1fr 1fr;gap:30px}
+    .compare-list{list-style:none;margin:0;padding:0}
+    .compare-list li{border-top:1px solid var(--line);padding:16px 0;display:grid;grid-template-columns:105px 1fr;gap:18px;font-size:14px}
+    .compare-list b{font-family:"Noto Serif SC",serif}
+    .compare-list span{color:var(--muted)}
+    .warning{background:var(--warn-bg);border-top:4px solid var(--warn);padding:22px 24px}
+    .warning h3{color:var(--warn)}
+    .warning p{margin:0;color:var(--ink);font-size:14px}
+    .quote{border-top:1px solid var(--line);margin-top:18px;padding-top:18px;font-family:"Noto Serif SC",serif;font-size:18px;line-height:1.65}
+    .quote cite{display:block;font-family:"Noto Sans SC",sans-serif;font-size:12px;color:var(--muted);font-style:normal;margin-top:8px}
+    .timeline{display:grid;grid-template-columns:repeat(4,1fr);gap:0;border-top:1px solid var(--rule)}
+    .event{padding:18px 18px 0 0;border-right:1px solid var(--line);margin-right:18px}
+    .event:last-child{border-right:0;margin-right:0}
+    .event time{font-size:12px;color:var(--accent);font-weight:700}
+    .event p{font-size:14px;color:var(--muted);margin:7px 0 0}
+    .open-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .open{border-top:2px solid var(--line);padding-top:12px}
+    .open b{font-family:"Noto Serif SC",serif}
+    .open p{font-size:13px;color:var(--muted);margin:6px 0 0}
+    details{border-top:1px solid var(--line);padding:14px 0}
+    summary{cursor:pointer;font-weight:700;list-style:none;display:flex;justify-content:space-between;gap:20px}
+    summary::-webkit-details-marker{display:none}
+    summary::after{content:"＋";color:var(--accent)}
+    details[open] summary::after{content:"－"}
+    .sources{columns:2;column-gap:32px;margin-top:18px}
+    .source{break-inside:avoid;border-bottom:1px dotted var(--line);padding:8px 0;font-size:12px;color:var(--muted)}
+    .source a{color:var(--ink)}
+    footer{padding-top:22px;color:var(--muted);font-size:12px;display:flex;justify-content:space-between;gap:18px}
+    .toplink{text-decoration:none;font-weight:700;color:var(--accent)}
+    @media(max-width:760px){
+      .page{width:min(100% - 28px,680px);padding-top:18px}
+      .mast{grid-template-columns:1fr}.datebox{text-align:left;display:flex;gap:10px;align-items:center;white-space:normal}.datebox strong{display:inline}
+      .dek,.section-head{grid-template-columns:1fr}.brief{border-left:0;border-top:1px solid var(--line);padding:14px 0 0}.section-head{gap:12px}
+      .verdict-grid{grid-template-columns:1fr}.verdict.big{grid-row:auto}
+      .fact-strip{grid-template-columns:1fr 1fr}.fact:nth-child(2){border-right:0}.fact:nth-child(-n+2){border-bottom:1px solid var(--line)}
+      .coverage,.comparison{grid-template-columns:1fr}.story{min-height:0}
+      .timeline{grid-template-columns:1fr}.event{border-right:0;border-bottom:1px solid var(--line);margin:0;padding:16px 0}.event:last-child{border-bottom:0}
+      .open-grid{grid-template-columns:1fr}.sources{columns:1}
+      footer{flex-direction:column}
+    }
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+  </style>
+</head>
+<body id="top">
+  <main class="page">
+    <header class="mast">
+      <div>
+        <p class="kicker">媒体观察 · 美国就业移民</p>
+        <h1>PERM 暂停：媒体共识、分歧与仍缺失的答案</h1>
+      </div>
+      <div class="datebox"><strong>2026.10.08</strong>研究截点 10:25 AM PT<br>发布会后首轮报道</div>
+    </header>
+
+    <section class="dek" aria-label="摘要">
+      <p class="lede">主流报道对“发生了什么”基本一致：美国劳工部暂停 8 家公司的 PERM 资格，新的申请不再受理，pending 案件不再处理。真正值得注意的差别在于——少数标题误写成 H‑1B 被停，几乎没有媒体独立核验政府引用的数据，也没有任何公司在研究截点前给出回应。</p>
+      <aside class="brief">
+        <strong>一句话结论</strong>
+        <p>这是 PERM 劳工认证环节的公司级暂停，不等同于撤销现有 H‑1B 或绿卡。</p>
+        <strong>涉及公司</strong>
+        <p>Microsoft、Adobe、Cognizant、Infosys、TCS、Wipro、HCL、Capgemini。</p>
+      </aside>
+    </section>
+
+    <section class="section">
+      <div class="section-head"><div class="num">01 / 共同事实</div><h2>各家媒体都确认了什么</h2></div>
+      <div class="verdict-grid">
+        <article class="verdict big">
+          <div class="label">核心共识</div>
+          <p>劳工部长 Keith Sonderling 在白宫发布会上宣布，劳工部将暂停 8 家公司的 PERM 项目资格，“不接受新的，也不处理 pending 的”相关申请。媒体普遍把这描述为围绕签证与劳工认证欺诈指控的执法行动；但目前尚无公开的 DOL 行动文件或 enforcement order。</p>
+        </article>
+        <article class="verdict"><div class="label">不是 H‑1B 禁令</div><p>暂停对象是 PERM，即多数雇佣类绿卡的劳工认证第一步。现有 H‑1B 身份和已获绿卡没有被报道为撤销。</p></article>
+        <article class="verdict"><div class="label">微软数字来自 Vance</div><p>“裁员约 6,000 人、获得 6,300 个 H‑1B 和约 3,000 张绿卡”被多家重复引用，但没有媒体完成独立核验。</p></article>
+        <article class="verdict"><div class="label">期限开放</div><p>CNN 用 “indefinitely”；发布会没有给出 sunset date。更准确的说法是：无限期/开放式暂停，而非已确定永久。</p></article>
+        <article class="verdict"><div class="label">同场大学调查</div><p>九所大学因 J‑1 计划收到传票；CNN 与 AP 列出完整名单，但这与公司 PERM 暂停是并行行动。</p></article>
+      </div>
+      <div class="fact-strip" aria-label="关键数字">
+        <div class="fact"><b>8</b><span>家被暂停 PERM 的公司</span></div>
+        <div class="fact"><b>9</b><span>所被调查 J‑1 计划的大学</span></div>
+        <div class="fact"><b>230k+</b><span>自 2009 年累计 H‑1B 批准，政府口径</span></div>
+        <div class="fact"><b>100k+</b><span>同期 PERM 认证，政府口径</span></div>
+      </div>
+    </section>
+
+    <section class="section" id="coverage">
+      <div class="section-head"><div class="num">02 / 媒体侧写</div><h2>每家媒体增加了什么</h2></div>
+      <div class="filters" role="group" aria-label="按报道类型筛选">
+        <button class="filter" data-filter="all" aria-pressed="true">全部</button>
+        <button class="filter" data-filter="mainstream" aria-pressed="false">综合报道</button>
+        <button class="filter" data-filter="market" aria-pressed="false">市场与影响</button>
+        <button class="filter" data-filter="check" aria-pressed="false">核查与质疑</button>
+      </div>
+      <div class="coverage">
+        <article class="story" data-tags="mainstream"><div class="story-meta"><b>CNN</b><span>Oct 8, 2026</span></div><h3>“无限期”与 Nadella 同日受勋</h3><p class="take">CNN 是首轮报道中最明确使用 “indefinitely” 的媒体，并指出特朗普当天稍晚将向 Satya Nadella 授予国家技术与创新奖章。</p><p>它还完整列出九所大学，并写到 Vance 只给出“改变行为、真正变好”的恢复条件，没有提供正式路径。</p><a href="https://www.cnn.com/2026/10/08/politics/vance-fraud-microsoft-immigrant?cid=external-feeds_iluminar_meta" target="_blank" rel="noopener">查看 CNN 原文</a></article>
+
+        <article class="story" data-tags="mainstream check"><div class="story-meta"><b>Associated Press</b><span>Kim · Santana · Ortutay</span></div><h3>唯一纳入外部专家反驳</h3><p class="take">前 USCIS 高级顾问 Doug Rand 称政策逻辑“incoherent”：绿卡本可让 H‑1B 员工摆脱对雇主的依赖，阻止 PERM 反而加深这种依赖。</p><p>AP 还补充 Microsoft 在 H‑1B 雇主中排第 5，及 2026 年 H‑1B 费用政策的诉讼背景。</p><a href="https://www.lapost.com/content/microsoft-is-being-suspended-from-program-to-apply-for-green-cards-for-h-1b-visa-workers-vance-says" target="_blank" rel="noopener">查看 AP 镜像</a></article>
+
+        <article class="story" data-tags="mainstream"><div class="story-meta"><b>Reuters</b><span>Dan Rosenzweig‑Ziff</span></div><h3>最克制的事实报道</h3><p class="take">路透重点解释 PERM 在雇佣类绿卡流程中的位置，并引用 DOL 监察长对大学传票的 “institutional betrayal” 表述。</p><p>没有额外市场或法律分析，也没有拿到公司回应。</p><a href="https://www.lapost.com/content/us-suspends-microsoft-major-it-firms-from-key-green-card-program" target="_blank" rel="noopener">查看 Reuters 镜像</a></article>
+
+        <article class="story" data-tags="mainstream"><div class="story-meta"><b>New York Post</b><span>Oct 8, 2026</span></div><h3>政治人事与“visa mills”</h3><p class="take">Post 强调前拜登政府副司法部长 Lisa Monaco 现任微软全球事务总裁，并称其是特朗普长期针对的对象。</p><p>报道突出 Sonderling 的 “visa mills” 说法，也提到 Nadella 同日受勋的反差。</p><a href="https://nypost.com/2026/10/08/us-news/trump-admin-cuts-off-microsoft-from-major-visa-program-accuses-tech-giant-of-fraud-and-abuse/" target="_blank" rel="noopener">查看 NY Post 原文</a></article>
+
+        <article class="story" data-tags="market"><div class="story-meta"><b>Barron’s</b><span>Mariapaula Gonzalez</span></div><h3>市场反应与印度人才占比</h3><p class="take">Infosys 当日跌约 2% 至 $10.34，被描述为六年最低收盘位；Microsoft 跌 0.7%，Cognizant 涨 0.8%。</p><p>另引 USCIS/DHS 数据：Infosys、Microsoft、Cognizant 分列 H‑1B 申请方第 3、5、6；FY2025 约 70% 批准流向印度公民。标题误写为 “H‑1B Suspension”，正文则正确说明 PERM。</p><a href="https://www.barrons.com/articles/infosys-stock-microsoft-h1b-workers-289d4aef" target="_blank" rel="noopener">查看 Barron’s 原文</a></article>
+
+        <article class="story" data-tags="check"><div class="story-meta"><b>Newsmax</b><span>Oct 8, 2026</span></div><h3>首轮报道中核查意识最强</h3><p class="take">明确提醒：政府数字没有证明每一张签证或绿卡都对应替代一名被裁美国员工；工资差距说法也未给出研究或数据。</p><p>它还指出 J‑1 的 61% vs 38% 统计缺乏计算口径，并澄清现有 H‑1B 或绿卡并未被撤销。</p><a href="https://www.newsmax.com/politics/jd-vance-visas-fraud/2026/10/08/id/1272133" target="_blank" rel="noopener">查看 Newsmax 原文</a></article>
+
+        <article class="story" data-tags="market check"><div class="story-meta"><b>VisaVerge</b><span>移民行业媒体</span></div><h3>Adobe 的案件早已出现先兆</h3><p class="take">报道称 Adobe 的 215 件 pending PERM 在 9 月 25 日已全部显示 “APPLICATION ON HOLD”，比发布会早约两周。</p><p>该媒体特别提醒：hold 不等于 denial；当时政府没有解释原因，也没有给出时间表。</p><a href="https://www.visaverge.com/greencard/adobes-100-green-card-application-on-hold-for-perm-cases/" target="_blank" rel="noopener">查看 VisaVerge 原文</a></article>
+
+        <article class="story" data-tags="market check"><div class="story-meta"><b>Gulte / 印度媒体</b><span>影响分析</span></div><h3>关注六年上限与在办人群</h3><p class="take">Gulte 指出，230,000 次 H‑1B 批准与 100,000 次 PERM 认证是 17 年累计量，并不等于当前受影响人数。</p><p>其“约 50,000 人受影响”估算没有给出来源；真正的 pending PERM 人数仍未披露。报道同时提示接近 H‑1B 六年上限、依赖 PERM 延期的人风险更高。</p><a href="https://www.gulte.com/news/435596/how-many-h-1b-workers-are-affected/amp" target="_blank" rel="noopener">查看 Gulte 影响分析</a></article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head"><div class="num">03 / 差异校准</div><h2>标题与事实之间的距离</h2></div>
+      <div class="comparison">
+        <ul class="compare-list">
+          <li><b>项目名称</b><span>共识是 PERM；Newsmax、ZeroHedge、Barron’s 的标题把它写成 H‑1B 暂停，正文才纠正。</span></li>
+          <li><b>暂停期限</b><span>CNN 写“无限期”；政府没有 sunset date。Newsmax 称期限未说明。两者可兼容：开放式，但不是已宣布永久。</span></li>
+          <li><b>Pending</b><span>Sonderling 的原话明确覆盖 pending：不再处理。个别报道写“未说明”，与完整引语存在落差。</span></li>
+          <li><b>受影响人数</b><span>没有可靠的 current headcount。历史累计批准量不能直接当作当前受影响员工数。</span></li>
+        </ul>
+        <div>
+          <div class="warning"><h3>最容易被误读的一点</h3><p>PERM 是雇主发起、用于多数雇佣类绿卡的劳工认证。暂停它可能阻断或拖延绿卡路径，但并不自动使员工当前 H‑1B 身份失效，也不等于取消已经获得的绿卡。</p></div>
+          <blockquote class="quote">“The announcement did not establish that each visa or green card represented a new hire replacing a laid-off worker.”<cite>— Newsmax 对 Vance 数字叙事的限定</cite></blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head"><div class="num">04 / 事件脉络</div><h2>这不是突然发生的单点行动</h2></div>
+      <div class="timeline">
+        <div class="event"><time>2026.07.08</time><p>Vance 在 Milwaukee 披露 DOL 已就 H‑1B 滥用调查发出数十份传票。</p></div>
+        <div class="event"><time>2026.09.08</time><p>DOL 监察长 Anthony D’Esposito 称 Cognizant 的 PERM 已因欺诈调查暂停。</p></div>
+        <div class="event"><time>2026.09.25</time><p>VisaVerge 记录 Adobe 215 件 pending PERM 全部转为 “APPLICATION ON HOLD”。</p></div>
+        <div class="event"><time>2026.10.08</time><p>白宫发布会宣布覆盖 8 家公司的公司级暂停，并同步披露九所大学 J‑1 调查。</p></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head"><div class="num">05 / 尚待回答</div><h2>首轮报道没有解决的问题</h2></div>
+      <div class="open-grid">
+        <div class="open"><b>法律文件在哪里？</b><p>研究截点前，没有媒体拿到 DOL 正式行动文件或 enforcement order。</p></div>
+        <div class="open"><b>法律依据与救济路径？</b><p>尚无律师对公司级、开放式暂停的 APA / rulemaking 权限给出系统分析。</p></div>
+        <div class="open"><b>公司会如何回应？</b><p>Microsoft、Adobe、Cognizant、Infosys 均未即时回应；九所大学也未回应 AP。</p></div>
+        <div class="open"><b>到底多少人受影响？</b><p>没有 pending 案件总数；“约 50,000 人”的媒体估算无来源。</p></div>
+        <div class="open"><b>政府数字能否核验？</b><p>6,000 / 6,300 / 3,000 以及工资差距说法均主要来自发布会陈述。</p></div>
+        <div class="open"><b>恢复条件是什么？</b><p>Vance 只给出原则性条件，没有具体标准、时间表或申诉流程。</p></div>
+      </div>
+    </section>
+
+    <section class="section" id="sources">
+      <div class="section-head"><div class="num">06 / 来源索引</div><h2>可追溯报道</h2></div>
+      <details open><summary>核心英文媒体</summary><div class="sources">
+        <div class="source"><a href="https://www.cnn.com/2026/10/08/politics/vance-fraud-microsoft-immigrant?cid=external-feeds_iluminar_meta" target="_blank" rel="noopener">CNN — Trump admin bars Microsoft…</a></div>
+        <div class="source"><a href="https://nypost.com/2026/10/08/us-news/trump-admin-cuts-off-microsoft-from-major-visa-program-accuses-tech-giant-of-fraud-and-abuse/" target="_blank" rel="noopener">New York Post — Trump admin cuts off Microsoft…</a></div>
+        <div class="source"><a href="https://www.lapost.com/content/us-suspends-microsoft-major-it-firms-from-key-green-card-program" target="_blank" rel="noopener">Reuters 镜像 — US suspends Microsoft…</a></div>
+        <div class="source"><a href="https://www.tmj4.com/politics/immigration/trump-administration-accuses-microsoft-of-fraud-bars-it-from-green-card-program" target="_blank" rel="noopener">AP via TMJ4 — Trump administration accuses Microsoft…</a></div>
+        <div class="source"><a href="https://www.lapost.com/content/microsoft-is-being-suspended-from-program-to-apply-for-green-cards-for-h-1b-visa-workers-vance-says" target="_blank" rel="noopener">AP 长文镜像 — Microsoft is being suspended…</a></div>
+        <div class="source"><a href="https://foxbusiness.com/politics/vance-suspends-microsoft-others-from-foreign-workers-applying-green-cards-accuses-company-visa-abuse" target="_blank" rel="noopener">Fox Business — Vance suspends Microsoft…</a></div>
+        <div class="source"><a href="https://www.barrons.com/articles/infosys-stock-microsoft-h1b-workers-289d4aef" target="_blank" rel="noopener">Barron’s — Infosys Stock Drops…</a></div>
+        <div class="source"><a href="https://www.newsmax.com/politics/jd-vance-visas-fraud/2026/10/08/id/1272133" target="_blank" rel="noopener">Newsmax — Vance: US Halts Microsoft’s…</a></div>
+        <div class="source"><a href="https://www.usatoday.com/story/news/politics/2026/10/08/microsoft-harvard-yale-stanford-foreign-labor-trump-crackdown/92151913007/" target="_blank" rel="noopener">USA Today — White House targets Microsoft…</a></div>
+        <div class="source"><a href="https://www.washingtonexaminer.com/news/white-house/4759219/vance-microsoft-fraud-trump-administration-h-1b-visa/" target="_blank" rel="noopener">Washington Examiner — Vance accuses Microsoft…</a></div>
+      </div></details>
+      <details><summary>印度媒体与移民行业报道</summary><div class="sources">
+        <div class="source"><a href="https://www.outlookbusiness.com/corporate/infosys-tata-wipro-microsoft-adobe-suspended-from-us-perm-programme-over-visa-fraud-claims" target="_blank" rel="noopener">Outlook Business — Infosys, Tata, Wipro…</a></div>
+        <div class="source"><a href="https://www.gulte.com/overseas/435571/vance-suspends-microsoft-infosys-tcs-from-green-card-programme" target="_blank" rel="noopener">Gulte — Vance Suspends Microsoft…</a></div>
+        <div class="source"><a href="https://www.gulte.com/news/435596/how-many-h-1b-workers-are-affected/amp" target="_blank" rel="noopener">Gulte — How Many H‑1B Workers…</a></div>
+        <div class="source"><a href="https://www.thedailyjagran.com/world/news/infosys-tata-hcl-microsoft-among-tech-firms-suspended-from-us-green-card-programme-how-indians-likely-to-be-affected-10332062" target="_blank" rel="noopener">Daily Jagran — How Indians likely to be affected</a></div>
+        <div class="source"><a href="https://www.visaverge.com/greencard/adobes-100-green-card-application-on-hold-for-perm-cases/" target="_blank" rel="noopener">VisaVerge — Adobe pending PERM holds</a></div>
+        <div class="source"><a href="https://www.7globe.in/immigration-experts-concerned-over-delays-in-h-1b-extension-for-microsoft-cognizant-infosys-there-has-been-no-clarification/" target="_blank" rel="noopener">7globe — Immigration experts concerned…</a></div>
+      </div></details>
+      <p style="font-size:12px;color:var(--muted);margin:16px 0 0">研究截点前未找到 Axios、Newsweek、WSJ、Bloomberg、Politico、The Hill 的相关报道；CNBC 仅在聚合页出现，未定位到直接链接。此处只列入研究中确认或明确标注为镜像/索引的来源。</p>
+    </section>
+
+    <footer><span>资料范围：发布会后首轮媒体报道；事实与引语均保留原报道的限定条件。</span><a class="toplink" href="#top">回到顶部 ↑</a></footer>
+  </main>
+  <script>
+    (function(){
+      var buttons=document.querySelectorAll('.filter');
+      var cards=document.querySelectorAll('.story');
+      buttons.forEach(function(btn){
+        btn.addEventListener('click',function(){
+          var value=btn.getAttribute('data-filter');
+          buttons.forEach(function(b){b.setAttribute('aria-pressed',String(b===btn));});
+          cards.forEach(function(card){
+            var tags=(card.getAttribute('data-tags')||'').split(' ');
+            card.classList.toggle('hidden',value!=='all'&&tags.indexOf(value)===-1);
+          });
+        });
+      });
+    })();
+  </script>
+</body>
+</html>
