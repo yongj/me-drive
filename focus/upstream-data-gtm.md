@@ -171,9 +171,11 @@
 
 说明：客户主动发布需求 / RFP / 项目的平台。价格信息来自 2026-10-02 公开网页搜索的第三方对比文章（rfphawk.com、cleat.ai、sourceforge 等），非官网实时报价，仅供参考。官网链接 2026-10-11 逐一复核：全部改为标准 Markdown 链接格式（之前裸 URL 套全角括号在 GitHub 上点不开）；两个已下线平台已标注。
 
+标注说明（按 2026-10-11 整理，平台门槛会变，以官网实时为准）：打开即看；列表公开，投标/下单/申请要注册；注册免费，登录后才能看；要过平台审核；有免费版也有付费版；不付费看不到实质内容。
+
 ### 政府采购 / RFP 平台
 
-- [SAM.gov](https://sam.gov)——美国联邦官方招标站，免费，基准线。
+- [SAM.gov](https://sam.gov)——美国联邦官方招标站，基准线。
 - [GovWin IQ](https://www.govwin.com) / Deltek——联邦＋州地方＋预测，企业级，五位数/年。
 - [Bloomberg Government](https://about.bgov.com)——政策＋采购，约 $6,000+/年/席位。
 - [BidNet Direct](https://www.bidnetdirect.com)——州/地方政府招标聚合，约 $1,000–2,000/年。
