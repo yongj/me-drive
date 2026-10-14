@@ -11,7 +11,18 @@ Interview experiences & prep materials collected from [一亩三分地 (1point3a
 - **AI personal use** — AI 能帮你干什么：个人实战清单（求职/工作/学习），区别于 AI value creation 的商业视角
 - **AI-assisted dev** — coding agent 实战（Claude Code 驱动真实软件）与"开源平替主流软件 + 卖服务"的小团队商业模式（[ai-assisted-dev.md](focus/ai-assisted-dev.md)）
 - **Upstream data GTM** — 上游数据的商业化：每类上游数据源卖给谁、卖什么形态、怎么触达客户
-- **Companies**: Google, Meta, OpenAI, Snowflake, Anthropic, Nvidia, … (expanding)
+
+## Companies
+
+按公司查看收录的帖子（[companies/](companies/)，一家公司一个文件，帖子按时间倒序列出；有新帖时把链接追加到对应公司文件即可）：
+
+- [Anthropic](companies/anthropic.md) — 1192987 senior SWE onsite（Pass）、1192970 店面（链接收录）
+- [OpenAI](companies/openai.md) — 1192976 店面 coding（链接收录为主）
+- [Snowflake](companies/snowflake.md) — 1190471 AI Engineer onsite
+- [Harvey AI](companies/harvey-ai.md) — 1190457 AI Engineer onsite
+- [Meta](companies/meta.md) / [Google](companies/google.md) / [Amazon](companies/amazon.md) — 1190956 面试 AI 政策
+- [Apple](companies/apple.md) — 1190004 薪酬统计
+- [Microsoft](companies/microsoft.md) / [Mercor](companies/mercor.md) / [Databricks](companies/databricks.md) — 1183413 求职总结提及
 
 ## Collected threads
 
@@ -27,11 +38,14 @@ Interview experiences & prep materials collected from [一亩三分地 (1point3a
 | 2026-10-03 | [建了个网站，比 LinkedIn 更快看到职位](https://www.1point3acres.com/home/thread/1178300) | 无（自荐 jobuzzer.com） | 上游数据产品化案例（非面经） | 高频监控 7k→9k 家公司官网招聘页、比 LinkedIn 更早；免费搜索 + 付费通知；技术路线：ATS API → 渲染浏览器 → LLM 三级成本控制；1.7w 浏览/316 收藏但收入未覆盖开支；已并入 upstream-data-gtm 作验证案例 |
 | 2026-10-07 | [[求比较] $ Opportunities 小时工，求比较！](https://www.1point3acres.com/home/thread/1192101) | Surge AI / Mercor / Data Annotation 等（数据标注平台） | AI 数据标注小时工市场（非面经） | 打工者视角对比 6 家标注平台；唯一薪资数据点 Surge SWE eval $100+/hr；讨论集中在报税/竞业合规而非平台优劣；"拿 AI 干活"套娃；已并入 ai-value-creation 作人力层案例 |
 | 2026-10-14 | [人类学senior全套面经](https://www.1point3acres.com/home/thread/1192987) | Anthropic | Senior SWE（码农类 General） | 内推→OA(bank system)→店面(图像处理+pillow+multiprocessing)→onsite 5 轮：prompt playground SD / LRU+WAL coding / project deep dive / culture / HM；Pass，Positive/Hard；4 年+YOE 在职跳槽；pool hire 转 match；reference check 前置加速 |
+| 2026-10-14 | [openai店面coding](https://www.1point3acres.com/home/thread/1192976) | OpenAI | SWE（码农类 General） | 店面 coding：kvstore（k,v 按 byte length）+ 按 size 分 chunk 存盘（先拼装再解决）；正文 188 大米 paywall，仅收录链接+回帖拼凑 |
+| 2026-10-14 | [Anthropic 店面 过经](https://www.1point3acres.com/home/thread/1192970) | Anthropic | 码农类（未注明级别） | 店面：chat system（pub/sub 细节 + partition key）；Pass；正文 188 大米 paywall，仅收录链接 |
 
 ## Layout
 
 - `threads/` — one markdown file per thread, with original post link, interview rounds, useful replies, and prep notes.
 - `misc/` — occasional non-interview threads (e.g. compensation stats), one file per thread.
 - `focus/` — per-focus summaries distilled from collected threads.
+- `companies/` — one file per company, listing related threads in reverse chronological order.
 - `drive/` — positions actively being prepared: one file per role with posting link, key facts, and interview prep notes.
 - `data/` — upstream data: company library (L1 500 tech companies with ATS status; no job postings).
