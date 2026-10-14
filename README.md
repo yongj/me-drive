@@ -26,6 +26,7 @@ Interview experiences & prep materials collected from [一亩三分地 (1point3a
 | 2026-10-03 | [🍎苹果2026年度Review数字交流统计贴](https://www.1point3acres.com/home/thread/1190004) | Apple | 薪酬统计（非面经，归 `misc/`） | 仅 3 条完整数据：AIML ICT4 refresh 450K/4y、AIML ICT5 refresh 870K/4y、HWT ICT4 refresh 120K；评论区信号：AIML 内部分化极大、HW/ASE 约为 1/4、org 归属有争议；样本极小勿当基准 |
 | 2026-10-03 | [建了个网站，比 LinkedIn 更快看到职位](https://www.1point3acres.com/home/thread/1178300) | 无（自荐 jobuzzer.com） | 上游数据产品化案例（非面经） | 高频监控 7k→9k 家公司官网招聘页、比 LinkedIn 更早；免费搜索 + 付费通知；技术路线：ATS API → 渲染浏览器 → LLM 三级成本控制；1.7w 浏览/316 收藏但收入未覆盖开支；已并入 upstream-data-gtm 作验证案例 |
 | 2026-10-07 | [[求比较] $ Opportunities 小时工，求比较！](https://www.1point3acres.com/home/thread/1192101) | Surge AI / Mercor / Data Annotation 等（数据标注平台） | AI 数据标注小时工市场（非面经） | 打工者视角对比 6 家标注平台；唯一薪资数据点 Surge SWE eval $100+/hr；讨论集中在报税/竞业合规而非平台优劣；"拿 AI 干活"套娃；已并入 ai-value-creation 作人力层案例 |
+| 2026-10-14 | [人类学senior全套面经](https://www.1point3acres.com/home/thread/1192987) | Anthropic | Senior SWE（码农类 General） | 内推→OA(bank system)→店面(图像处理+pillow+multiprocessing)→onsite 5 轮：prompt playground SD / LRU+WAL coding / project deep dive / culture / HM；Pass，Positive/Hard；4 年+YOE 在职跳槽；pool hire 转 match；reference check 前置加速 |
 
 ## Layout
 
