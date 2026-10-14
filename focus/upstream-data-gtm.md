@@ -1,6 +1,6 @@
 # 上游数据的商业化：客户触达（Go-to-Market）
 
-*2026-10-02 整理；2026-10-09 增补 B-11（联邦部委新闻室，DHS 样本）、B-12（国会委员会新闻室，中国问题特别委员会样本）。来源：与用户的讨论（招聘数据 GTM 分析，2026-10-02）+ `ai-value-creation.md` 的上游数据源清单。用途：判断每类上游数据"卖给谁、卖什么形态、怎么触达到人"。*
+*2026-10-02 整理；2026-10-09 增补 B-11（联邦部委新闻室，DHS 样本）、B-12（国会委员会新闻室，中国问题特别委员会样本）；2026-10-15 增补 B-13（新公司注册 / 企业生死簿）。来源：与用户的讨论（招聘数据 GTM 分析，2026-10-02）+ `ai-value-creation.md` 的上游数据源清单。用途：判断每类上游数据"卖给谁、卖什么形态、怎么触达到人"。*
 
 > 定位：这是 [ai-value-creation.md](ai-value-creation.md) 的下游——那篇讲"取水烧水"的方法论，这篇讲"水烧开了卖给谁"。
 
@@ -142,6 +142,16 @@
 - **现有渠道 / 成熟度 / 缝隙**：Congress.gov 有 API（法案/听证会元数据）；Bloomberg Gov、Quorum（成熟，贵）。委员会新闻室层面：有 RSS（chinaselectcommittee.house.gov/rss.xml，标准 RSS 2.0，含新闻稿/信函/报告），抓取门槛低；无 API、无 sitemap。成熟度低。缝隙：跨委员会聚合（拨款委员会、金融服务委员会、能源商务委员会等）＋被点名实体抽取；被高价挡住的长尾。
 - **抓取注意**：RSS 可直接订阅；报告 PDF 托管在 Constant Contact（files.constantcontact.com），无本站稳定直链，存档需自抓；注意委员会换过域名（selectcommitteeonccp.house.gov → chinaselectcommittee.house.gov），硬编码域名会失效。
 - **可泛化**：众议院各专门委员会网站多为同构（Drupal），有 press releases / letters / hearings 栏目和 RSS；B-11（部委新闻室）＋ B-12（国会委员会）可合并为"官方政策信号源"大类统一抓取。
+
+### 13. 新公司注册 / 企业生死簿（州 SoS、OpenCorporates、破产案卷；2026-10-15 收录）
+
+- **信号**："谁刚成立"（州 Secretary of State 企业注册：公司名、注册时间、注册代理人、地址）＋"谁刚死掉"（破产案卷 PACER / Stretto / Kroll 案件站 ＋ SoS 解散 filing）＝公司生死簿。实例：2026-10-15 整理——Character.AI（Character Technologies，10/12 Chapter 11，特拉华 26-11603，迪士尼 2000 万美元 stalking horse 买 IP 许可，官方案卷 https://cases.stretto.com/chartech）；过去一周另有 The Picklr（10/9 Ch.11，匹克球连锁）、Getty Images（10/12 宣布 Ch.11 私有化）、True Food Kitchen（10/4 Ch.11，关 12 家店）、Access Health Care +27 关联公司（10/11 Ch.11）等 10 例。
+- **谁付费**：①B2B 销售团队（新成立公司＝新预算＋新决策人，最佳 cold outreach 时机；刚破产的＝供应商风险 / 应收账款预警）；②风控 / 合规（KYB——"这家公司存在吗、beneficial owner 是谁"）；③投资人（deal sourcing 早期信号）；④破产律师（案源）。
+- **卖什么**："本周新注册公司雷达"（公司名＋州＋注册时间＋注册代理人＋行业推断），周更订阅；"破产/解散预警"（按行业 / 地区切片）。
+- **触达**：B2B 销售负责人（LinkedIn cold outreach）、KYB / 风控团队、破产律所（公开名录）。
+- **验证**：包 50 家"本周某州新注册公司"样品发 10 个销售负责人；或"本周新破产公司"名单发给应收账款风控负责人。
+- **现有渠道 / 成熟度 / 缝隙**：OpenCorporates（全球聚合，API / bulk 付费）；各州 SoS 官方库（免费但 50 州碎片化）；破产端 PACER（按页收费）＋ Stretto / Kroll 案件站（免费 docket）；Census Business Formation Statistics（只有聚合数字、无公司名，做不了名单）。成熟度中。缝隙：①50 州 SoS 统一抓取＋增量更新的工程成本，没人愿意做全；②Delaware 付费墙（创业公司注册最集中的州）；③"出生 × 死亡"双向生死簿产品少；④Form D / 商标 / 域名三源融合的"新公司可信度评分"。
+- **抓取注意**：SoS 各州反爬不一、节奏控制在"像人"；Delaware 走付费渠道；破产端优先 Stretto / Kroll 免费 docket，PACER 按页收费只做补充；注意"注册≠经营"（空壳多）、"破产≠唯一死法"（更多公司是 SoS 解散 filing，要配 dissolution 数据）；新公司名单有时滞，"每天"实际是 T+几天。
 
 ## C. 通用验证实验模板
 
