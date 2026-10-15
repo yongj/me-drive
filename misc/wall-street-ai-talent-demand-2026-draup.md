@@ -36,3 +36,36 @@ tags: [AI 人才需求, 招聘数据, Draup, Agent 编排, forward-deployed engi
   - 这部分"暗岗位"可能包括：只在官网发布的保密岗、更新滞后的长尾岗、或公司有意不向聚合站同步的岗位
   - 方法：用公司库抓到的职位（req ID + title + 地点）与 LinkedIn/Indeed 等聚合站的同公司职位做匹配，差集即为"官网独有"
   - 价值：如果差集里 AI 岗占比显著高于聚合站口径，说明基于聚合数据的 AI 人才需求统计（如 Draup 这篇）系统性低估了真实需求——这正是自建上游数据相对 Draup 的差异化价值
+
+---
+
+# 华尔街开始为 AI 技能付费：加薪/奖金/晋升挂钩（Selby Jennings 调查）
+
+- 原文（文学城转载）：https://www.wenxuecity.com/news/2026/10/14/126804880.html
+- 发布：2026-10-14 13:40:39；抓取时约 3570 阅读、2 评论；页面标注"文章来源：华尔街见闻"，**未给任何回链**
+- 信源链（三层）：**Reuters 一手**（2026-10-14，Nupur Anand，"Wall Street firms tie bonuses, promotions to AI skills, survey finds"，https://www.reuters.com/business/finance/wall-street-firms-tie-bonuses-promotions-ai-skills-survey-finds-2026-10-14/ ）→ **华尔街见闻二手编译**（自拟标题"想升职加薪走向人生巅峰？在华尔街 你得先懂AI"，"人生巅峰"是编译加的味，路透原标题是中性陈述句）→ **文学城三手转载**
+- 调查方：**Selby Jennings**（金融服务招聘公司，Phaidon International 菲顿国际旗下）；执行方 **Censuswide**，调查时间 2026-08-19 至 08-26（据 yellow.com，路透未写）
+- **样本口径出入**：路透写 "500 executives"，yellow.com 写 "500 finance HR professionals"——无原始报告，对不上
+
+## 核心数据
+
+- 约 **1/4** 机构将 AI 熟练度与加薪/奖金/晋升挂钩
+- **30%** 要求员工在绩效评估中披露 AI 工具使用情况
+- **42%** 引入正式标准评估员工 AI 技能
+- **30%** 组建专门团队/职能角色追踪 AI 投入回报
+- Dylan Gomez（Selby Jennings 执行董事，直接接受路透采访）："企业不再只看员工是否用 AI，而是开始监测其对产出的实际影响"；目前无统一的薪酬挂钩量化标准，预计明年更清晰
+- Jacob Summers（Selby Jennings 技术招聘负责人，据 yellow.com 引述）：该做法在金融科技初创和小公司更普遍，大银行反而保守；**招聘时 AI 技能权重约是大学背景的 4 倍**
+- 横向参照（yellow.com 引 investmentnews.com）：PwC 更大样本调查（1000 名美国金融高管）显示 58% 计划将薪酬与 AI 生产力挂钩，86% 认为 AI 培训比 MBA 更重要，90%+ 已在给有 AI 技能的员工加薪
+
+## 一手报告核查（2026-10-15）
+
+- **结论：无公开发布的原始报告**。selbyjennings.com newsroom（Industry Insights → Newsdesk）最新条目为 2026-06，无此调查；站内搜 "AI skills survey" / "Censuswide" 均为 0 结果；phaidoninternational.com 同样无
+- 媒体拿到的方式是 "seen by Reuters"——定向给媒体的材料，非公开报告
+- 唯一沾边的站内页面："USA AI Talent Pulse Report 2026"（https://www.selbyjennings.com/en-us/industry-insights/market-intelligence/usa-ai-talent-pulse-report-2026 ），但落地页内容未渲染且主题偏"AI 人才招聘"而非"薪酬挂钩"，**不能确认为同一研究**
+- 信息最全的二手版本：yellow.com（https://yellow.com/news/financial-firms-reward-ai-fluency-survey ）——crypto 公司官网新闻板块，企业 SEO 内容农场形态（模板化聚合），但整合了 Semafor 等多信源，细节多于路透
+
+## 收录价值
+
+1. **需求侧→薪酬侧的闭环证据**：上一篇 Draup 讲的是"招什么人"（agent 编排 +1721%），这篇讲的是"怎么考核/付费"（1/4 机构挂钩薪酬）——AI 技能从招聘卖点变成绩效考核项，说明华尔街 AI 落地进入"要 ROI"的第二阶段
+2. **方法论警示**：招聘公司做"AI 技能溢价"调查有立场动机（卖人才生意的），且样本定义在转述中走样（executives vs HR professionals）——引用时需标注信源立场，这正是本系列"溯源"的意义
+3. 英文圈同日跟进：Finimize、fstech.co.uk，均注明 "seen by Reuters" / "told the newswire"，侧面坐实路透为一手
