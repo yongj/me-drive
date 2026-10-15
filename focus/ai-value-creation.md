@@ -93,6 +93,7 @@ AI 商业机会光谱的**灰色端**：不生产一手信息，靠 AI 洗稿 + 
 **生产模式：洗稿**
 - 无一手采访。Intel GPU 一文的信源链：Tom's Hardware、Intel 官方 newsroom、StorageReview、Pulse2 的真实报道 → AI 抓取重写扩写，配对比表格 + 站内文章互链，引用格式做得像模像样
 - 事实骨架是真的（OCP Summit 上 Intel 确实发布了 GPU D-Series），观点分析全是 AI 现编 —— **它是二道贩子，不是信源**
+- **配图也是 AI 生成的**：每篇文章配一张题图，文件名统一为 `{slug}-gen.webp`（如 `north-wales-ai-data-center-protest-24k-signers-2026-gen.webp`，1344×768 webp，2026-10-15 核查）—— `gen` 即 generated，pipeline 里随文章一起自动生成，零版权风险；横构图正好适配 Google Discover 的大图卡片
 
 **流量**（第三方估算，各工具口径打架严重，只看量级；来源 hypestat.com）
 - 月访问：SimilarWeb 口径约 76 万（2026-08，环比 +207%），SEMrush 口径 479 万；此前两月 30 万 → 24 万 —— Discover 赏饭型暴涨暴跌
