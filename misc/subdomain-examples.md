@@ -4,16 +4,16 @@
 
 ## Substack（`xxx.substack.com`）
 
-- `thehyphen.substack.com` —— Emma Gannon 的 The Hyphen，文化/生活方式类
-- `jillschildhouse.substack.com` —— Jill Schildhouse，媒体/自由撰稿人类
+- [thehyphen.substack.com](https://thehyphen.substack.com) —— Emma Gannon 的 The Hyphen，文化/生活方式类
+- [jillschildhouse.substack.com](https://jillschildhouse.substack.com) —— Jill Schildhouse，媒体/自由撰稿人类
 - Lenny's Newsletter —— 产品管理类，50 万+订阅，Substack 上最成功的 newsletter 之一
 - Letters from an American —— Substack 全站阅读量最高的 newsletter 之一
 - Sinocism（Bill Bishop）、Popular Information（Judd Legum）—— 付费订阅标杆，每月 $6–15
 
 ## Blogspot（`xxx.blogspot.com`）
 
-- `joemygod.blogspot.com` —— JoeMyGod，曾进入 Technorati 全球博客 Top 100（第 63 位），至今仍在运营
-- `directorblue.blogspot.com` —— Director Blue，Technorati 第 79 位
+- [joemygod.blogspot.com](https://joemygod.blogspot.com) —— JoeMyGod，曾进入 Technorati 全球博客 Top 100（第 63 位），至今仍在运营
+- [directorblue.blogspot.com](https://directorblue.blogspot.com) —— Director Blue，Technorati 第 79 位
 
 ## WordPress.com（`xxx.wordpress.com`）
 
@@ -23,20 +23,19 @@
 
 ## GitHub Pages（`xxx.github.io`）
 
-以下来自 GitHub 官方 Pages examples 合集（github.com/collections/github-pages-examples），全是真实在跑的：
+以下来自 GitHub 官方 Pages examples 合集（[github.com/collections/github-pages-examples](https://github.com/collections/github-pages-examples)），全是真实在跑的：
 
-- `square.github.io` —— Square 开源项目门户
-- `yelp.github.io` —— Yelp 开源项目展示
-- `artsy.github.io` —— Artsy 工程博客
-- `netflix.github.com` —— Netflix 开源门户
-- `twbs` / `jekyll` 等知名开源项目的文档站也都用 Pages 托管
+- [square.github.io](https://square.github.io) —— Square 开源项目门户
+- [yelp.github.io](https://yelp.github.io) —— Yelp 开源项目展示
+- [artsy.github.io](https://artsy.github.io) —— Artsy 工程博客
+- [netflix.github.com](https://netflix.github.com) —— Netflix 开源门户
 
 定位：纯静态站，适合开发者博客、项目文档、作品集；**不适合内容农场**（无服务端、无 CMS、无 SEO 插件生态）。
 
 ## Vercel（`xxx.vercel.app`）
 
-- `emojidb.vercel.app` —— emoji 数据库小应用（Vercel 社区用户分享）
-- `webskills.vercel.app` —— Web 技能学习站（社区分享）
+- [emojidb.vercel.app](https://emojidb.vercel.app) —— emoji 数据库小应用（Vercel 社区用户分享）
+- [webskills.vercel.app](https://webskills.vercel.app) —— Web 技能学习站（社区分享）
 - **本质是部署 URL**：上面多为个人 demo 和小应用，没有著名的内容型站点。另有一面：`xxx.vercel.app` 常被钓鱼/恶意软件滥用（cyberpress 2025 年报道多起案例），在大众和邮件网关那里的信任度偏低。
 
 ## Netlify / Cloudflare Pages（`xxx.netlify.app` / `xxx.pages.dev`）
