@@ -63,6 +63,8 @@ tags: [AI 人才需求, 招聘数据, Draup, Agent 编排, forward-deployed engi
 - **方法论（一手确认）**：Censuswide 执行，**500 名美国金融业 HR 专业人士**（22–64 岁），2026-08-19 至 08-26。结论：yellow.com 的 "500 HR professionals" 是对的，**路透的 "500 executives" 是宽松写法** —— 样本口径出入至此解决
 - **报告四部分结构**：Part 1 招聘盲区 / Part 2 "AI fluency 是不是新的藤校？" / Part 3 候选人用 AI 作弊 vs HR 反制 / Part 4 AI 技能进绩效。**路透只取了第四部分**（薪酬挂钩，最新闻点）；报告真正的主线是第一部分 —— 招得越快越盲目：AI 岗招聘量 +74%、招聘 spend +70%，但 31% 说内部没人能自信评估候选人，50% 说面到的不合格候选人变多了
 - **发言人**：报告页署名 Ben Hodzic（Managing Director）；路透引的是 Dylan Gomez（Executive Director）—— 媒体通稿给了两个发言人，通稿口径一致
+- **第二部分细化（权重升降）**：重要性下降 —— 过往实习经历 21%、传统技术/建模技能 20%、目标院校学位 13%；重要性上升 —— 有效使用/提示 AI 工具 40%、发现并纠正 AI 生成错误 33%、将 AI 输出转化为商业决策 30%
+- **无 PDF 下载版**：报告为 Foleon 交互式网页，全站无下载入口
 - 信息最全的二手版本仍是 yellow.com（https://yellow.com/news/financial-firms-reward-ai-fluency-survey ），它还整合了 Semafor 的 Jacob Summers 采访（"AI 技能权重约是大学背景 4 倍"，报告公开页未见此句，应为通稿专访口径）
 
 ## 收录价值
