@@ -152,6 +152,27 @@ tech-insider.org 案例的后续。2026-10-15 用户问起 shattered.io 流量�
 
 **这个延伸案例给 focus 补的一块**："买老域名"打法的天花板不是去二手市场淘 2013 年域名，而是**直接拿下有维基外链的知名研究/项目域名借尸还魂**。shattered.io 的权重基础远超 tech-insider.org，起量后天花板可能更高。这也解释了为什么这类运营者要做矩阵：单个域名随时可能被 Google 降权，矩阵 = 风险分散。
 
+### 追问 1：免费二级域名能吃 Google Discover 吗？（2026-10-15）
+
+**先说机制**：Discover 看的是页面，不是域名。门槛是被 Google 索引 + 符合 Discover 内容政策 + 有大图（官方建议 1200px 以上，需 `max-image-preview:large`）。二级域名本身不被排除，但各平台实际差距很大：
+
+- **Blogspot（`xxx.blogspot.com`）✅ 最有实证**：南亚博主圈（巴基斯坦/印度）大量案例，有人专门写教程教 blogspot 博主吃 Discover，单篇爆了 5,000–50,000 访问，Search Console 里有专门的 Discover 报告。但代价是 Google 默认把 blogspot 子域名当 "hobbyist"，信任分起步低、抓取慢，需靠持续日更 + 高质量配图硬拉回来。
+- **Substack（`xxx.substack.com`）⚠️ 搜索流量有，Discover 少见**：有人晒 GSC 证明 substack 子域名能吃到 Google 搜索流量；但 Discover 专门案例很少。结构性原因：Substack 无 schema 标记、sitemap 管理弱、图片控制少，而这些正是 Discover 分发看重的信号 —— 平台为邮件和订阅设计，不是为 Google 排名设计。
+- **WordPress.com 免费版**：理论上可以（能被索引），但没见到 Discover 成功实证；免费版有平台广告、优化手段受限。
+- **GitHub Pages**：技术上具备资格（页面可被索引），但内容类型进不了 Discover 兴趣流 —— dev 博客和项目文档不是 Discover 推的新闻/生活/好奇心类内容。实证：al-folio 主题 demo 站的 marimo 示例页（https://alshedivat.github.io/al-folio/blog/2025/marimo/ ）被索引了但零分发；整站 1.1 万/月流量中搜索仅占 2.5%，76% 直接访问 + 19% 社交，全是来看主题的人。
+- **Vercel / Netlify / Cloudflare Pages**：没戏。上面基本没有内容页可言（全是 demo 和小应用），且 `vercel.app` 类域名曾被钓鱼滥用，在 Google 那里的信任分是负的。
+
+### 追问 2：内容农场是否只有"买域名"一条路？（2026-10-15）
+
+**不是。买域名是整套打法里最便宜的一环**（约 $12/年），根本不是门槛。不买域名的路至少有三条：Blogspot 子域名（上文，有 Discover 实证）、Parasite SEO（直接在 Medium、LinkedIn 文章、Quora 等高权重平台发内容，吃它们的域名信任分）、社交流量（Facebook 页面/群组导流，很多农场根本不靠 Google）。
+
+**真正的变量不是域名，而是 Google 的 spam 政策** —— 这是对上文 shattered.io "借尸还魂天花板"论的重要修正：
+- 2024 年 3 月起，"**过期域名滥用**"（expired domain abuse）和"**规模化内容滥用**"（scaled content abuse）都是 Google 的明文 spam 政策。
+- tech-insider.org（2013 年老域名 repurpose + AI 规模化产文）和 shattered.io（2017 年 Google 自家 SHAttered 项目域名 repurpose）**正好两条全踩**。
+- 所以这套打法的现状是**跟 Google 反垃圾政策对赌**：$12 的域名和 $0 的二级域名，在"会不会被一波核心更新连根拔起"面前没有区别。矩阵站的本质就是风险分散 —— 赌的是"被抓之前先赚一波"。
+
+**给 focus 的结论**：评估这类流量套利形态时，关键问题不是"域名要不要买、买什么样的"，而是"这是长期资产还是赚一波就跑的套利"。域名成本从来不是壁垒，政策风险才是。
+
 ## 上游数据源清单
 
 按领域整理的公开上游数据源。规律：凡是"需要政府批准才能干的事"（雇人、募资、卖药、开诊所、拿合同、游说），背后都有一个强制公示库。✅ 表示已实际拉取验证过。
