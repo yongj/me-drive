@@ -57,12 +57,13 @@ tags: [AI 人才需求, 招聘数据, Draup, Agent 编排, forward-deployed engi
 - Jacob Summers（Selby Jennings 技术招聘负责人，据 yellow.com 引述）：该做法在金融科技初创和小公司更普遍，大银行反而保守；**招聘时 AI 技能权重约是大学背景的 4 倍**
 - 横向参照（yellow.com 引 investmentnews.com）：PwC 更大样本调查（1000 名美国金融高管）显示 58% 计划将薪酬与 AI 生产力挂钩，86% 认为 AI 培训比 MBA 更重要，90%+ 已在给有 AI 技能的员工加薪
 
-## 一手报告核查（2026-10-15）
+## 一手报告核查（2026-10-15 初查；2026-10-16 用户找到公开页，修正）
 
-- **结论：无公开发布的原始报告**。selbyjennings.com newsroom（Industry Insights → Newsdesk）最新条目为 2026-06，无此调查；站内搜 "AI skills survey" / "Censuswide" 均为 0 结果；phaidoninternational.com 同样无
-- 媒体拿到的方式是 "seen by Reuters"——定向给媒体的材料，非公开报告
-- 唯一沾边的站内页面："USA AI Talent Pulse Report 2026"（https://www.selbyjennings.com/en-us/industry-insights/market-intelligence/usa-ai-talent-pulse-report-2026 ），但落地页内容未渲染且主题偏"AI 人才招聘"而非"薪酬挂钩"，**不能确认为同一研究**
-- 信息最全的二手版本：yellow.com（https://yellow.com/news/financial-firms-reward-ai-fluency-survey ）——crypto 公司官网新闻板块，企业 SEO 内容农场形态（模板化聚合），但整合了 Semafor 等多信源，细节多于路透
+- **公开报告地址**：https://www.selbyjennings.com/insights/ai-talent-pulse-report/ （标题 "AI Talent Pulse Report: The AI Fluency Gap"）。此前在 newsroom 路径（/en-us/industry-insights/...）下只找到同名占位页且内容未渲染，系站内多路径问题 —— "无公开发布"的初判不准确，insights 路径下有完整公开页
+- **方法论（一手确认）**：Censuswide 执行，**500 名美国金融业 HR 专业人士**（22–64 岁），2026-08-19 至 08-26。结论：yellow.com 的 "500 HR professionals" 是对的，**路透的 "500 executives" 是宽松写法** —— 样本口径出入至此解决
+- **报告四部分结构**：Part 1 招聘盲区 / Part 2 "AI fluency 是不是新的藤校？" / Part 3 候选人用 AI 作弊 vs HR 反制 / Part 4 AI 技能进绩效。**路透只取了第四部分**（薪酬挂钩，最新闻点）；报告真正的主线是第一部分 —— 招得越快越盲目：AI 岗招聘量 +74%、招聘 spend +70%，但 31% 说内部没人能自信评估候选人，50% 说面到的不合格候选人变多了
+- **发言人**：报告页署名 Ben Hodzic（Managing Director）；路透引的是 Dylan Gomez（Executive Director）—— 媒体通稿给了两个发言人，通稿口径一致
+- 信息最全的二手版本仍是 yellow.com（https://yellow.com/news/financial-firms-reward-ai-fluency-survey ），它还整合了 Semafor 的 Jacob Summers 采访（"AI 技能权重约是大学背景 4 倍"，报告公开页未见此句，应为通稿专访口径）
 
 ## 收录价值
 
