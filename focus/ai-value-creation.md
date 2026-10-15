@@ -130,6 +130,27 @@ AI 商业机会光谱的**灰色端**：不生产一手信息，靠 AI 洗稿 + 
 
 **这个案例给 focus 补的一块**：AI 商业机会光谱的灰色端 —— "AI + 公开信息"的最低形态：不取水（无一手信息）、只烧水（洗稿扩写）、赚推荐流量的注意力差价。与本 focus 提倡的"上游数据 + AI 处理"正道对照看：ATS 案例的数据生产者有动机持续准确公开（公司要招人），内容农场只想套利。理解它有助于识别什么是真正的上游价值 —— **收录为反面教材**。
 
+## 案例延伸：shattered.io（疑似同一运营者的矩阵站）
+
+tech-insider.org 案例的后续。2026-10-15 用户问起 shattered.io 流量时，发现这是**同一套打法在另一个域名上的复刻** —— 而且手法更激进。
+
+**域名背景**：shattered.io 原是 Google 与 CWI Amsterdam 在 2017 年 SHAttered（首次 SHA-1 碰撞演示）项目的官方站点（域名 2017-02-10 注册），密码学史上留名，外链含维基百科与大量安全媒体。约 2026-06-10 被转制为 AI 内容农场（页面标注 Published 2026-06-10，Updated 2026-09-22）。
+
+**转制手法（"借尸还魂"升级版）**
+- 首页保留 SHAttered 原始故事，保住老外链权重；meta 描述改成与 tech-insider.org **一字不差**的模板："Shattered covers AI, cybersecurity, cloud computing, hardware, software, startups, gaming, and mobile technology. In-depth analysis and breaking news…"
+- 过渡话术："These guides pick up where the research leaves off" —— 拿 SHAttered 余威给新内容导权重
+- 站内已批量发布 AI 长文（2026-08/09/10）：SteamDB 被收购（https://shattered.io/steamdb-nexus-mods-acquisition-2026/ ）、Cloudflare Workers vs Vercel Edge（https://shattered.io/cloudflare-workers-vs-vercel-edge-2026/ ）、R6 vs Valorant 排名对比 —— 同一配方：长文 + 对比表 + FAQ + `[2026]` 标题 + 站内互链
+- robots.txt 暴露 9 个多语言子目录 sitemap（/de /fr /it /dk /se /fi /no /at /pt）—— 与 tech-insider.org 的多语言铺量策略一致
+
+**流量**：sitezilla（约 2 个月前数据）：589 独立用户/天 ≈ 1.8 万/月，全球排名 ~125 万 —— 转制仅 3–4 个月，还在起量期；约为 tech-insider.org（76 万/月）的 1/40
+
+**"同一运营者"验证结论：高度疑似，未实锤**（2026-10-15 核查）
+- 支持：meta 描述模板一字不差（最强信号）；多语言组合高度重合（北欧+西欧）；内容配方、WordPress、双站 ads.txt 都是 404，全一致
+- 存疑：WHOIS 仍是 Google 时代旧数据且 registrant 已 redacted，无法比对注册人；robots.txt 风格不同（tech-insider.org 是 RankMath 式详细版，shattered.io 是 WP 默认极简版），可能是不同批次配置差异
+- 实锤还缺：GA/AdSense ID、同一 Cloudflare 账号、HTML 模板指纹 —— 需看网页源码，文本抓取拿不到
+
+**这个延伸案例给 focus 补的一块**："买老域名"打法的天花板不是去二手市场淘 2013 年域名，而是**直接拿下有维基外链的知名研究/项目域名借尸还魂**。shattered.io 的权重基础远超 tech-insider.org，起量后天花板可能更高。这也解释了为什么这类运营者要做矩阵：单个域名随时可能被 Google 降权，矩阵 = 风险分散。
+
 ## 上游数据源清单
 
 按领域整理的公开上游数据源。规律：凡是"需要政府批准才能干的事"（雇人、募资、卖药、开诊所、拿合同、游说），背后都有一个强制公示库。✅ 表示已实际拉取验证过。
