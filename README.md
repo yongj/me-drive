@@ -40,6 +40,7 @@ Interview experiences & prep materials collected from [一亩三分地 (1point3a
 | 2026-10-14 | [人类学senior全套面经](https://www.1point3acres.com/home/thread/1192987) | Anthropic | Senior SWE（码农类 General） | 内推→OA(bank system)→店面(图像处理+pillow+multiprocessing)→onsite 5 轮：prompt playground SD / LRU+WAL coding / project deep dive / culture / HM；Pass，Positive/Hard；4 年+YOE 在职跳槽；pool hire 转 match；reference check 前置加速 |
 | 2026-10-14 | [openai店面coding](https://www.1point3acres.com/home/thread/1192976) | OpenAI | SWE（码农类 General） | 店面 coding：kvstore（k,v 按 byte length）+ 按 size 分 chunk 存盘（先拼装再解决）；正文 188 大米 paywall，仅收录链接+回帖拼凑 |
 | 2026-10-14 | [Anthropic 店面 过经](https://www.1point3acres.com/home/thread/1192970) | Anthropic | 码农类（未注明级别） | 店面：chat system（pub/sub 细节 + partition key）；Pass；正文 188 大米 paywall，仅收录链接 |
+| 2026-10-23 | [加息风雨声，房落知多少？--盘点北美十二城房产的十六年浮沉](https://www.1point3acres.com/home/thread/1193922) | 无（房产数据帖） | 投资/房产数据方法论（非面经） | 数据源全为公开一手：Zillow ZHVI/ZORI 房价租金指数 + BLS CPI 租金回填 2015 年前 + Freddie Mac 30 年期利率 + 标普全收益指数；12 城 2010–2026：全款仅迈阿密跑赢税后标普、30% 首付 11/12 城跑赢、入场时点>选城；回复区纠正持有成本口径 |
 
 ## Layout
 
